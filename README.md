@@ -8,6 +8,7 @@ and demos.
 * [Should Generated Parser Source Be Committed?](questions/should-parser-source-be-committed/README.md)
 * [What ABI Version Should Be Used for `parser.c`?](questions/what-abi-level-should-be-used/README.md)
 * [Are External Scanners Commonly Used?](questions/are-external-scanners-common/README.md)
+* [What Regular Expression Features Are Supported?](questions/what-regex-features-are-supported/README.md)
 
 ## Prerequisites for Demos
 
