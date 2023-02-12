@@ -76,11 +76,12 @@ function).  See
 details if interested.
 
 FWIW, at the time of writing, we found around 20% of the [120 or so of
-tree-sitter grammar repositories](../../ts-grammar-repositories.txt) we
-checked made use of the `RegExp` construct, so it appears others have
-found uses.  We suspect that programmatic creation of regular
-expression objects is likely to be the motivation in most of those
-cases.
+tree-sitter grammar repositories](../../ts-grammar-repositories.txt)
+we checked made use of the `RegExp` construct, so it appears others
+have found uses.  We suspect that [programmatic creation of regular
+expression
+objects](https://github.com/tree-sitter/tree-sitter/discussions/1815)
+is likely to be the motivation in most of those cases.
 
 (See the `count-repos` `Makefile` target for details.)
 
