@@ -30,6 +30,10 @@ that use tree-sitter assume this kind of setup.
 Not doing so probably means that it's less likely for the grammar /
 parser in question to get used as widely.
 
+There appear to what might be considered [compromise
+options](https://github.com/alex-pinkus/tree-sitter-swift/issues/149)
+too.
+
 ## Prerequisites for Demo
 
 See the section of the corresponding name in the [repository
