@@ -16,15 +16,15 @@ How common is this need?
 
 ## Discussion
 
-It might be worth noting that C++ is also an option for implementing
-an external scanner.  Actually, IIUC, as long as one can produce an
-appropriate binary object to be linked, perhaps other languages can be
-used to implement an external scanner.  (We haven't seen an example of
-this, but we didn't go looking either.)
+Note that C++ is also an option for implementing an external scanner.
+IIUC, as long as one can produce an appropriate binary object to be
+linked, perhaps other languages can be used to implement an external
+scanner.  (We haven't seen an example of this, but we didn't go
+looking either.)
 
 As far as how common it is to have an external scanner, based on
 searching locally fetched repositories, we found nearly half of the
-close to the 130 fetched had `src/scanner.c` or `src/scanner.cc`.
+140 or so fetched had `src/scanner.c` or `src/scanner.cc`.
 
 If it's any consolation, if it turns out you need to implement an
 external scanner, there are a fair number of examples to study :)
@@ -47,8 +47,8 @@ README](../../README.md).
 * Observe output that ends like:
 
 ```
-Minimum number of repositories with scanner.*: 60
-Number of repositories: 127
+Minimum number of repositories with scanner.*: 69
+Number of repositories: 145
 ```
 
 ## References

@@ -68,15 +68,15 @@ README](../../README.md).
 ```
 ABI: Count
 
-9: 3
+9: 4
 10: 1
-11: 1
+11: 2
 12: 1
-13: 60
-14: 44
+13: 74
+14: 52
 ```
 
-At least for what was collected about 40% use 13, while about 31% use
+At least for what was collected about 56% use 13, while about 39% use
 14.
 
 Perhaps it's not unreasonable to assume a sufficient sample of
