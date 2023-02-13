@@ -19,7 +19,7 @@ How common is this need?
 Note that C++ is also an option for implementing an external scanner.
 IIUC, as long as one can produce an appropriate binary object to be
 linked, perhaps other languages can be used to implement an external
-scanner.  (We haven't seen an example of this, but we didn't go
+scanner [1].  (We haven't seen an example of this, but we didn't go
 looking either.)
 
 As far as how common it is to have an external scanner, based on
@@ -33,6 +33,13 @@ Although not all repositories have parser source (e.g. `src/parser.c`)
 committed to their repositories, `scanner.(c|cc)` is not typically a
 generated file, so it seems unlikely that of the repositories fetched,
 the above search was undercounting by much.
+
+---
+
+[1] See [here and follow-up
+comment](https://github.com/tree-sitter/tree-sitter/issues/930#issuecomment-986017729).
+
+---
 
 ## Prerequisites for Demo
 
