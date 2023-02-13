@@ -11,13 +11,11 @@ GRAM_JS_STRLIT = $(TS_STRLIT_DIR)/grammar.js
 demo: $(GRAM_JSON_RELIT) $(GRAM_JSON_STRLIT)
 	@printf "Generated grammar.jsons differ\n"
 	@printf "%s\n\n" "------------------------------"
-	@diff -u --label="$(GRAM_JSON_RELIT)" $(GRAM_JSON_RELIT) \
-                 --label="$(GRAM_JSON_STRLIT)" $(GRAM_JSON_STRLIT) || true
+	@TZ=tuc diff -u $(GRAM_JSON_RELIT) $(GRAM_JSON_STRLIT) || true
 
 .PHONY: full-diff
 full-diff: $(GRAM_JSON_RELIT) $(GRAM_JSON_STRLIT)
-	@diff -ur --label="$(TS_RELIT_DIR)" $(TS_RELIT_DIR) \
-                  --label="$(TS_STRLIT_DIR)" $(TS_STRLIT_DIR) || true
+	@TZ=utc diff -ur $(TS_RELIT_DIR) $(TS_STRLIT_DIR) || true
 
 $(GRAM_JSON_RELIT):
 	@cd $(TS_RELIT_DIR) && tree-sitter generate --no-bindings

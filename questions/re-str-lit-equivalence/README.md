@@ -108,8 +108,8 @@ README](../../README.md).
 * Observe output which should end like:
 
 ```diff
---- tree-sitter-relit/src/grammar.json
-+++ tree-sitter-strlit/src/grammar.json
+--- tree-sitter-relit/src/grammar.json	2023-02-13 01:52:10.763105901 +0000
++++ tree-sitter-strlit/src/grammar.json	2023-02-13 01:52:10.799106942 +0000
 @@ -1,9 +1,9 @@
  {
 -  "name": "relit",
