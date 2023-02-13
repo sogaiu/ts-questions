@@ -7,6 +7,7 @@ https://github.com/APerricone/tree-sitter-harbour
 https://github.com/Azganoth/tree-sitter-lua
 https://github.com/BonaBeavis/tree-sitter-sparql
 https://github.com/BonaBeavis/tree-sitter-turtle
+https://github.com/CyberShadow/tree-sitter-d
 https://github.com/Decodetalkers/tree-sitter-meson
 https://github.com/DerekStride/tree-sitter-sql
 https://github.com/FallenAngel97/tree-sitter-rego
@@ -25,8 +26,10 @@ https://github.com/JoranHonig/tree-sitter-solidity
 https://github.com/Julian/tree-sitter-lean
 https://github.com/MDeiml/tree-sitter-markdown
 https://github.com/MichaHoffmann/tree-sitter-hcl
+https://github.com/MunifTanjim/tree-sitter-lua
 https://github.com/ObserverOfTime/tree-sitter-gitattributes
 https://github.com/PowerShell/tree-sitter-PowerShell
+https://github.com/PrestonKnopp/tree-sitter-gdscript
 https://github.com/SystemRDL/tree-sitter-systemrdl
 https://github.com/TravonteD/tree-sitter-fennel
 https://github.com/UserNobody14/tree-sitter-dart
@@ -100,6 +103,7 @@ https://github.com/staysail/tree-sitter-meson
 https://github.com/stsewd/tree-sitter-comment
 https://github.com/stsewd/tree-sitter-rst
 https://github.com/takegue/tree-sitter-sql-bigquery
+https://github.com/the-mikedavis/tree-sitter-diff
 https://github.com/theHamsta/tree-sitter-commonlisp
 https://github.com/theHamsta/tree-sitter-cuda
 https://github.com/theHamsta/tree-sitter-glsl
@@ -107,7 +111,6 @@ https://github.com/tjdevries/tree-sitter-lua
 https://github.com/tjdevries/tree-sitter-sql
 https://github.com/tlaplus-community/tree-sitter-tlaplus
 https://github.com/tpeacock19/tree-sitter-elisp
-https://github.com/travonted/tree-sitter-fennel
 https://github.com/traxys/tree-sitter-lalrpop
 https://github.com/tree-sitter-perl/tree-sitter-perl
 https://github.com/tree-sitter-perl/tree-sitter-pod
