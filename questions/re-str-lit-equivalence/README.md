@@ -1,10 +1,10 @@
-# Can Regular Expression Literals and `RegExp` Be Used Interchangeably?
+# Can Regular Expression Literals and `RegExp()` Be Used Interchangeably?
 
 There are at least 2 common ways to articulate regular expressions in
 JavaScript source code:
 
 * Regular expression literals (e.g. `/[rR]elax/`)
-* String literals used with `RegExp` (e.g. `RegExp("smile")`)
+* String literals used with `RegExp()` (e.g. `RegExp("smile")`)
 
 It seems that the `tree-sitter` cli can generate slightly different
 results (`grammar.json` content) for what seem to be the same intent
@@ -23,7 +23,7 @@ Using regex literal syntax, this might be expressed as:
 
 Note the use of a backslash to escape the forward slash.
 
-Using string literal syntax with `RegExp`, one can express the same
+Using string literal syntax with `RegExp()`, one can express the same
 intent as:
 
 ```js
@@ -69,7 +69,7 @@ names differ, but that is not important for the current exploration.
 ## Why Care?
 
 In our case, we think that comprehension and maintenance will likely
-be significantly improved by using string literals and `RegExp`
+be significantly improved by using string literals and `RegExp()`
 (though it can be even better with the addition of a wrapper
 function).  See
 [here](https://github.com/sogaiu/tree-sitter-clojure/issues/40) for
@@ -77,7 +77,7 @@ details if interested.
 
 FWIW, at the time of writing, we found around 20% of the [140 or so of
 tree-sitter grammar repositories](../../ts-grammar-repositories.txt)
-we checked made use of the `RegExp` construct, so it appears others
+we checked made use of the `RegExp()` construct, so it appears others
 have found uses.  We suspect that [programmatic creation of regular
 expression
 objects](https://github.com/tree-sitter/tree-sitter/discussions/1815)
