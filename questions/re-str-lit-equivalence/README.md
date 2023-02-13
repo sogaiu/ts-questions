@@ -75,7 +75,7 @@ function).  See
 [here](https://github.com/sogaiu/tree-sitter-clojure/issues/40) for
 details if interested.
 
-FWIW, at the time of writing, we found around 20% of the [120 or so of
+FWIW, at the time of writing, we found around 20% of the [140 or so of
 tree-sitter grammar repositories](../../ts-grammar-repositories.txt)
 we checked made use of the `RegExp` construct, so it appears others
 have found uses.  We suspect that [programmatic creation of regular
