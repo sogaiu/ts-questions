@@ -16,7 +16,7 @@ semgrep, etc.) assume the inclusion of these files to varying degrees.
 
 In late 2020, [maxbrunsfeld sketched out a draft
 plan](https://github.com/tree-sitter/tree-sitter/issues/730#issuecomment-736018228)
-to proceed in this direction.  A few months later(?), a form of this
+to move away from doing this.  A few months later(?), a form of this
 was added to the [Tree-sitter 1.0
 Checklist](https://github.com/tree-sitter/tree-sitter/issues/930)
 (search for "Mergeable Git Repos").
