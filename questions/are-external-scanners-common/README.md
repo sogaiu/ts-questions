@@ -24,7 +24,7 @@ looking either.)
 
 As far as how common it is to have an external scanner, based on
 searching locally fetched repositories, we found nearly half of the
-140 or so fetched had `src/scanner.c` or `src/scanner.cc`.
+180 or so fetched had `src/scanner.c` or `src/scanner.cc`.
 
 If it's any consolation, if it turns out you need to implement an
 external scanner, there are a fair number of examples to study :)
@@ -54,8 +54,8 @@ README](../../README.md).
 * Observe output that ends like:
 
 ```
-Minimum number of repositories with scanner.*: 69
-Number of repositories: 145
+Minimum number of repositories with scanner.*: 83
+Number of repositories: 179
 ```
 
 ## References
