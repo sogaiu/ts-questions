@@ -202,9 +202,8 @@ while editing normal JavaScript in an editor or at a JavaScript REPL.
 (We tried things out at a `node` REPL but it's possible there are
 errors.)
 
-However for use with the `tree-sitter` cli, within `grammar.js`, the
-precise expression within `grammar.js` might differ from what one
-might expect.
+However for use with the `tree-sitter` cli, the precise expression
+within `grammar.js` might differ from what one might expect.
 
 For example, it seems that not specifying "flags" such as "u" works in
 places it would not if trying to achieve something similar in `node`.
