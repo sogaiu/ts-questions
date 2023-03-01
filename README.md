@@ -9,6 +9,7 @@ and demos.
 * [What ABI Version Should Be Used for `parser.c`?](questions/what-abi-level-should-be-used/README.md)
 * [Are External Scanners Commonly Used?](questions/are-external-scanners-common/README.md)
 * [What Regular Expression Features Are Supported?](questions/what-regex-features-are-supported/README.md)
+* [Which Version of Emscripten Should be Used for the Playground?](questions/which-version-of-emscripten-should-be-used-for-the-playground/README.md)
 
 ## Prerequisites for Demos
 
