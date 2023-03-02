@@ -30,7 +30,7 @@ that use tree-sitter assume this kind of setup.
 Not doing so probably means that it's less likely for the grammar /
 parser in question to get used as widely.
 
-There appear to what might be considered [compromise
+There appear to be what might be considered [compromise
 options](https://github.com/alex-pinkus/tree-sitter-swift/issues/149)
 too.
 
@@ -47,8 +47,8 @@ README](../../README.md).
 * Observe output that ends like:
 
 ```
-Minimum number of repositories with parser.c: 184
-Number of repositories: 201
+Minimum number of repositories with parser.c: 213
+Number of repositories: 235
 ```
 
 ## References
