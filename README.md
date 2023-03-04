@@ -10,6 +10,7 @@ and demos.
 * [Are External Scanners Commonly Used?](questions/are-external-scanners-common/README.md)
 * [What Regular Expression Features Are Supported?](questions/what-regex-features-are-supported/README.md)
 * [Which Version of Emscripten Should be Used for the Playground?](questions/which-version-of-emscripten-should-be-used-for-the-playground/README.md)
+* [What Are Some Projects That Use Tree-sitter?](questions/what-are-some-projects-that-use-tree-sitter/README.md)
 
 ## Prerequisites for Demos
 
