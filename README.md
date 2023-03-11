@@ -67,6 +67,7 @@ always work, but it's been ok so far.
 ## Credits
 
 * ahlinc
+* amaanq
 * damieng
 * dannyfreeman
 * NoahTheDuke
