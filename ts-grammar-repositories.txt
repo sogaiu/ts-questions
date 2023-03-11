@@ -18,6 +18,7 @@ https://github.com/amaanq/tree-sitter-capnp
 https://github.com/amaanq/tree-sitter-cpon
 https://github.com/amaanq/tree-sitter-func
 https://github.com/amaanq/tree-sitter-go-sum
+https://github.com/amaanq/tree-sitter-hare
 https://github.com/amaanq/tree-sitter-jenkinsfile
 https://github.com/amaanq/tree-sitter-kdl
 https://github.com/amaanq/tree-sitter-luap
@@ -25,7 +26,6 @@ https://github.com/amaanq/tree-sitter-move
 https://github.com/amaanq/tree-sitter-nginx
 https://github.com/amaanq/tree-sitter-rec
 https://github.com/amaanq/tree-sitter-ron
-https://github.com/amaanq/tree-sitter-smali
 https://github.com/amaanq/tree-sitter-squirrel
 https://github.com/amaanq/tree-sitter-starlark
 https://github.com/amaanq/tree-sitter-uxntal
