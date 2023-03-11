@@ -68,17 +68,17 @@ README](../../README.md).
 ```
 ABI: Count
 
-9: 8
+9: 11
 10: 3
 11: 6
 12: 4
-13: 113
-14: 80
+13: 120
+14: 101
 
-Minimum number of repositories with parser.c: 213
+Minimum number of repositories with parser.c: 244
 ```
 
-At least for what was collected about 53% use 13, while about 38% use
+At least for what was collected about 49% use 13, while about 41% use
 14.
 
 Perhaps it's not unreasonable to assume a sufficient sample of

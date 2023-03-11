@@ -47,8 +47,8 @@ README](../../README.md).
 * Observe output that ends like:
 
 ```
-Minimum number of repositories with parser.c: 213
-Number of repositories: 235
+Minimum number of repositories with parser.c: 244
+Number of repositories: 268
 ```
 
 ## References
