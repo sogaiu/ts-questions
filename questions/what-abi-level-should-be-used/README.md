@@ -89,3 +89,47 @@ available and advertised in 2022, it may be that these results may be
 more a reflection of which cli happened to be used rather than a
 conscious decision on the part of individual grammar repository
 maintainers.
+
+Tip: to get a list of which repositories use which ABI version, invoke:
+
+```
+sh ./script/list-parser-c-abi-nums.sh | sort -n
+```
+
+This should produce output that starts something like:
+
+```
+9 tree-sitter-abnf.jmitchell
+9 tree-sitter-clojure.Tavistock
+9 tree-sitter-dhall.jmitchell
+9 tree-sitter-email.maxnordlund
+9 tree-sitter-graphql.dralletje
+9 tree-sitter-qml.rschiang
+9 tree-sitter-todo.Aerijo
+9 tree-sitter-xml.unhammer
+10 tree-sitter-biber.Aerijo
+10 tree-sitter-eno.eno-lang
+10 tree-sitter-sml.stonebuddha
+11 tree-sitter-agda.tree-sitter
+11 tree-sitter-carp.GrayJack
+11 tree-sitter-move.move-hub
+11 tree-sitter-ocamllex.atom-ocaml
+11 tree-sitter-odin.lucypero
+11 tree-sitter-souffle.julienhenry
+12 tree-sitter-diff.vigoux
+12 tree-sitter-sexp.AbstractMachinesLab
+12 tree-sitter-twitchchat.rockerBOO
+12 tree-sitter-xml.dorgnarg
+```
+
+Note that the actual repository name for a result with something like:
+
+```
+tree-sitter-carp.GrayJack
+```
+
+is actually likely to be more like:
+
+```
+https://github.com/GrayJack/tree-sitter-carp
+```
