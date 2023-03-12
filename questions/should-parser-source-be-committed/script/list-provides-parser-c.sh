@@ -13,10 +13,19 @@ for r in "${repos_root}"/repos/tree-sitter-*
 do
     cd "${r}" || exit 1
     n_repos=$((n_repos + 1))
-    # XXX: not quite right in all cases (e.g. typescript)
     if [ -e src/parser.c ]; then
-        printf "%s\n" "$(basename ${r})"
+        printf "%s\n" "$(basename "${r}")"
         n_parser_c=$((n_parser_c + 1))
+    else
+      # handling things like typescript
+      for file in */src/parser.c
+      do
+        if [ -e "$file" ]; then
+          printf "%s\n" "$(basename "${r}")"
+          n_parser_c=$((n_parser_c + 1))
+          break
+        fi
+      done
     fi
     cd "${dir}" || exit 1
 done
