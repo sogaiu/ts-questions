@@ -4,10 +4,10 @@ Some tree-sitter-related questions with discussions and some answers
 and demos.
 
 * [What Files Are Involved in `tree-sitter generate`?](questions/generate-subcommand-files/README.md)
-* [Can Regular Expression Literals and `RegExp()` Be Used Interchangeably?](questions/re-str-lit-equivalence/README.md)
 * [Should Generated Parser Source Be Committed?](questions/should-parser-source-be-committed/README.md)
 * [What ABI Version Should Be Used for `parser.c`?](questions/what-abi-level-should-be-used/README.md)
 * [Are External Scanners Commonly Used?](questions/are-external-scanners-common/README.md)
+* [Can Regular Expression Literals and `RegExp()` Be Used Interchangeably?](questions/re-str-lit-equivalence/README.md)
 * [What Regular Expression Features Are Supported?](questions/what-regex-features-are-supported/README.md)
 * [Which Version of Emscripten Should be Used for the Playground?](questions/which-version-of-emscripten-should-be-used-for-the-playground/README.md)
 * [What Are Some Projects That Use Tree-sitter?](questions/what-are-some-projects-that-use-tree-sitter/README.md)
