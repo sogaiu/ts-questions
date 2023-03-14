@@ -54,9 +54,38 @@ README](../../README.md).
 * Observe output that ends like:
 
 ```
-Minimum number of repositories with scanner.*: 107
-Number of repositories: 268
+Minimum number of repositories with scanner.c: 66
+Minimum number of repositories with scanner.cc: 49
+Number of repositories: 269
 ```
+
+Tip: the output above the summary lines at the end is split into two
+via a single blank line.  Above the line are paths to `scanner.c`,
+while below the line are paths to `scanner.cc`.
+
+For example:
+
+```
+tree-sitter-toml.ikatyang/src/scanner.c
+tree-sitter-typescript.tree-sitter/tsx/src/scanner.c
+tree-sitter-typescript.tree-sitter/typescript/src/scanner.c
+tree-sitter-unifieddiff.monaqa/src/scanner.c
+tree-sitter-uxntal.amaanq/src/scanner.c
+```
+
+and:
+
+```
+tree-sitter-norg2.nvim-neorg/src/scanner.cc
+tree-sitter-ocaml.tree-sitter/interface/src/scanner.cc
+tree-sitter-ocaml.tree-sitter/ocaml/src/scanner.cc
+tree-sitter-ocamllex.atom-ocaml/src/scanner.cc
+tree-sitter-org.milisims/src/scanner.cc
+```
+
+Note that the path to a scanner source file is not always directly
+rooted in the project repository like `src/scanner.*`, it might be one
+level deeper.
 
 ## References
 
