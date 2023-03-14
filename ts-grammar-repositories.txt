@@ -101,6 +101,7 @@ https://github.com/IndianBoy42/tree-sitter-just
 https://github.com/indoorvivants/tree-sitter-smithy
 https://github.com/Isopod/tree-sitter-pascal
 https://github.com/jamestrew/tree-sitter-monkey
+https://github.com/jdidion/tree-sitter-wdl
 https://github.com/jiyee/tree-sitter-objc
 https://github.com/jmitchell/tree-sitter-abnf
 https://github.com/jmitchell/tree-sitter-dhall
