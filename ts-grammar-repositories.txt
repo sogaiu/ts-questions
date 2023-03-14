@@ -24,6 +24,7 @@ https://github.com/amaanq/tree-sitter-kdl
 https://github.com/amaanq/tree-sitter-luap
 https://github.com/amaanq/tree-sitter-move
 https://github.com/amaanq/tree-sitter-nginx
+https://github.com/amaanq/tree-sitter-pony
 https://github.com/amaanq/tree-sitter-rec
 https://github.com/amaanq/tree-sitter-ron
 https://github.com/amaanq/tree-sitter-squirrel
