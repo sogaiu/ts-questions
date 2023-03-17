@@ -93,7 +93,14 @@ Note that this search may not be perfect because:
 
 ## References
 
-* [Store generated files as GH release artifacts instead of checking them into git repositories](https://github.com/tree-sitter/tree-sitter/issues/730)
-* [Include generated files in repo](https://github.com/alex-pinkus/tree-sitter-swift/issues/149)
-* [Where is your `parser.c`?](https://github.com/alex-pinkus/tree-sitter-swift#where-is-your-parserc)
-* [Move `src/parser.c` to git LFS](https://github.com/tree-sitter/tree-sitter-c-sharp/issues/273)
+* [Store generated files as GH release artifacts instead of checking
+  them into git
+  repositories](https://github.com/tree-sitter/tree-sitter/issues/730)
+* [Include generated files in
+  repo](https://github.com/alex-pinkus/tree-sitter-swift/issues/149)
+* [Where is your
+  `parser.c`?](https://github.com/alex-pinkus/tree-sitter-swift#where-is-your-parserc)
+* [Move `src/parser.c` to git
+  LFS](https://github.com/tree-sitter/tree-sitter-c-sharp/issues/273)
+* [Safe parser installation and central parser
+  registry?](https://github.com/tree-sitter/tree-sitter/issues/1641)
