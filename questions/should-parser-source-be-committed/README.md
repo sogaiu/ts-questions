@@ -38,6 +38,10 @@ There appear to be what might be considered compromise options:
 * https://github.com/DerekStride/tree-sitter-sql#notes (related
   [issue](https://github.com/DerekStride/tree-sitter-sql/issues/76))
 
+It's probably worth noting that there are [security
+implications](https://github.com/tree-sitter/tree-sitter/issues/1641)
+for what most folks are doing.
+
 ## Prerequisites for Demo
 
 See the section of the corresponding name in the [repository
