@@ -30,9 +30,13 @@ that use tree-sitter assume this kind of setup.
 Not doing so probably means that it's less likely for the grammar /
 parser in question to get used as widely.
 
-There appear to be what might be considered [compromise
-options](https://github.com/alex-pinkus/tree-sitter-swift/issues/149)
-too.
+There appear to be what might be considered compromise options:
+
+* https://github.com/alex-pinkus/tree-sitter-swift#where-is-your-parserc
+  (related
+  [issue](https://github.com/alex-pinkus/tree-sitter-swift/issues/149))
+* https://github.com/DerekStride/tree-sitter-sql#notes (related
+  [issue](https://github.com/DerekStride/tree-sitter-sql/issues/76))
 
 ## Prerequisites for Demo
 
