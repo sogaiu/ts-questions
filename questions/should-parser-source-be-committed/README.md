@@ -6,8 +6,10 @@ be ok to not commit them to one's grammar / parser repository?
 
 ## Discussion
 
-On at least [one
-occasion](https://github.com/tree-sitter/tree-sitter/issues/447#issuecomment-533303827)
+On a few occasions
+[1](https://github.com/tree-sitter/tree-sitter/issues/240#issuecomment-442184073)
+[2](https://github.com/tree-sitter/tree-sitter-julia/pull/14#issuecomment-689143890)
+[3](https://github.com/tree-sitter/tree-sitter/issues/447#issuecomment-533303827)
 maxbrunsfeld has recommended including generated parse source.
 
 Also, currently, various parties (e.g. nvim-treesitter,
