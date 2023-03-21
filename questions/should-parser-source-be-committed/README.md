@@ -42,7 +42,9 @@ There appear to be what might be considered compromise options:
 
 It's probably worth noting that there are [security
 implications](https://github.com/tree-sitter/tree-sitter/issues/1641)
-for what most folks are doing.
+for what most folks are doing.  (There might be [some related activity
+attempting to address some of the
+concerns](https://github.com/nvim-treesitter/nvim-treesitter/issues/4425#issuecomment-1452507887).)
 
 ## Prerequisites for Demo
 
