@@ -6,6 +6,12 @@ According to the [Tree-sitter 1.0
 Checklist](https://github.com/tree-sitter/tree-sitter/issues/930),
 there is an intention to make one.
 
+[Starting from
+0.20.8](https://github.com/tree-sitter/tree-sitter/discussions/1031#discussioncomment-5639228),
+the description for releases should contain related information.
+[Here](https://github.com/tree-sitter/tree-sitter/releases/tag/v0.20.8)
+is an example.
+
 ## Version Highlights
 
 In the mean time, below are some highlights.
