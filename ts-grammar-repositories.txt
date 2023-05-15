@@ -115,6 +115,7 @@ https://github.com/Julian/tree-sitter-lean
 https://github.com/julienhenry/tree-sitter-souffle
 https://github.com/Jummit/tree-sitter-uxntal
 https://github.com/justinmk/tree-sitter-ini
+https://github.com/jsuarez-chipiron/tree-sitter-apex
 https://github.com/keidax/tree-sitter-crystal
 https://github.com/Kerl13/tree-sitter-menhir
 https://github.com/kevinkeckeis/tree-sitter-helma
@@ -156,7 +157,10 @@ https://github.com/nvim-neorg/tree-sitter-norg
 https://github.com/nvim-neorg/tree-sitter-norg2
 https://github.com/nvim-neorg/tree-sitter-norg-meta
 https://github.com/nvim-treesitter/tree-sitter-query
+https://github.com/ObserverOfTime/tree-sitter-chatito
 https://github.com/ObserverOfTime/tree-sitter-gitattributes
+https://github.com/ObserverOfTime/tree-sitter-poe-filter
+https://github.com/ObserverOfTime/tree-sitter-pymanifest
 https://github.com/omertuc/tree-sitter-go-work
 https://github.com/open-papyrus/tree-sitter-papyrus
 https://github.com/PasiSalenius/tree-sitter-http
