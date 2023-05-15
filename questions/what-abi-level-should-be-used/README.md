@@ -48,6 +48,7 @@ ABI   Version   Release
  13    0.19.0   2021-03
  13    0.20.0   2021-06
  14    0.20.7   2022-09
+ 14    0.20.8   2023-04
 ```
 
 There's a demo below whose purpose is to print out a table of which
@@ -68,17 +69,17 @@ README](../../README.md).
 ```
 ABI: Count
 
-9: 11
+9: 12
 10: 3
 11: 6
 12: 4
-13: 120
-14: 101
+13: 105
+14: 125
 
-Minimum number of repositories with parser.c: 244
+Minimum number of repositories with parser.c: 251
 ```
 
-At least for what was collected about 49% use 13, while about 41% use
+At least for what was collected about 42% use 13, while about 50% use
 14.
 
 Perhaps it's not unreasonable to assume a sufficient sample of
