@@ -53,6 +53,7 @@ tree-sitter  Emscripten
   88fe1d00     3.1.29
    0.20.8      3.1.35
   c4871a26     3.1.35
+  543e9cdc     3.1.37
 ```
 
 The following file histories may be of interest:
