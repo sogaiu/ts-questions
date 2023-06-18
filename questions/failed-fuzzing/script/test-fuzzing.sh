@@ -128,7 +128,7 @@ for r in "${repos_root}"/repos/tree-sitter-*; do
         # run the test script, it should be ./fuzz.sh <language> <time>
         lang=$(basename "${r}" | tr '/' '\n' | grep 'tree-sitter-' | cut -d '-' -f 3- | cut -d '.' -f 1 | tr '-' '_')
         echo "Fuzzing ${lang}..., arg=${fuzz_arg}"
-        echo "Command= ./fuzz.sh ${lang} ${timeout} ${max_total_time} ${fuzz_arg}  "
+        echo "Command= ./fuzz.sh ${lang} ${timeout} ${max_total_time} ${fuzz_arg}"
         if ./fuzz.sh "$lang" "$timeout" "$max_total_time" "$fuzz_arg" ; then
             echo "Fuzzing done for ${lang}"
             successes+=("${lang}")
@@ -159,7 +159,7 @@ for r in "${repos_root}"/repos/tree-sitter-*; do
             # run the test script, it should be ./fuzz.sh <language> <time>
             lang=$(basename "${r}" | tr '/' '\n' | grep 'tree-sitter-' | cut -d '-' -f 3- | cut -d '.' -f 1 | tr '-' '_')
             echo "Fuzzing ${lang}..., arg=${fuzz_arg}"
-            echo "Command= ./fuzz.sh ${lang} ${timeout} ${max_total_time} ${fuzz_arg}  "
+            echo "Command= ./fuzz.sh ${lang} ${timeout} ${max_total_time} ${fuzz_arg}"
             if ./fuzz.sh "$lang" "$timeout" "$max_total_time" "$fuzz_arg" ; then
                 echo "Fuzzing done for ${lang}"
                 successes+=("${lang}")
