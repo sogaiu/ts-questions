@@ -7,8 +7,11 @@ dir=$(pwd)
 n_scanner_c=0
 n_scanner_cc=0
 
+timeout="${1:-1}"
+max_total_time="${2:-1}"
+
 test_script=$(
-	cat <<EOF
+    cat <<EOF
 #!/usr/bin/env sh
 
 set -eu
@@ -16,33 +19,35 @@ set -eu
 ROOT_DIR="fuzzer"
 
 LANG=\$1
-TIME=\$2
-CPP=\$3
+TIMEOUT=\$2
+MAX_TOTAL_TIME=\$3
+CPP=\$4
+
 # if scanner = scanner.cc then XFLAG = c++ else XFLAG = c
 if [ "\$CPP" = "cpp" ]; then
-	SCANNER="scanner.cc"
-	XFLAG="c++"
+    SCANNER="scanner.cc"
+    XFLAG="c++"
 else
-	SCANNER="scanner.c"
-	XFLAG="c"
+    SCANNER="scanner.c"
+    XFLAG="c"
 fi
 
-shift 3
+# XXX: change this if number of positional args changes above
+shift 4
 
-export PATH="/root/.cargo/bin:\$PATH"
 export CFLAGS="\$(pkg-config --cflags --libs tree-sitter) -O0 -g -w"
 
 JQ_FILTER='.. | if .type? == "STRING" or (.type? == "ALIAS" and .named? == false) then .value else null end'
 
 build_dict() {
-	jq "\$JQ_FILTER" <src/grammar.json |
-		grep -v "\\\\\\\\" | grep -v null |
-		iconv -c -f UTF-8 -t ASCII//TRANSLIT |
-		awk '!/^""\$/' >"\$ROOT_DIR/dict"
+    jq "\$JQ_FILTER" <src/grammar.json |
+        grep -v "\\\\\\\\" | grep -v null |
+        iconv -c -f UTF-8 -t ASCII//TRANSLIT |
+        awk '!/^""\$/' >"\$ROOT_DIR/dict"
 }
 
 build_fuzzer() {
-	cat <<END | clang -fsanitize=fuzzer,address \$CFLAGS -lstdc++ -g -x \$XFLAG - src/\$SCANNER src/parser.c \$@ -o \$ROOT_DIR/fuzzer
+    cat <<END | clang -fsanitize=fuzzer,address \$CFLAGS -lstdc++ -g -x \$XFLAG - src/\$SCANNER src/parser.c \$@ -o \$ROOT_DIR/fuzzer
 #include <stdio.h>
 #include <stdlib.h>
 #include <tree_sitter/api.h>
@@ -78,13 +83,13 @@ END
 }
 
 generate_fuzzer() {
-	tree-sitter generate
+    tree-sitter generate
 }
 
 makedirs() {
-	rm -rf "\$ROOT_DIR"
-	mkdir -p "\$ROOT_DIR"
-	mkdir -p "\$ROOT_DIR/out"
+    rm -rf "\$ROOT_DIR"
+    mkdir -p "\$ROOT_DIR"
+    mkdir -p "\$ROOT_DIR/out"
 }
 
 makedirs
@@ -93,7 +98,7 @@ makedirs
 build_dict
 build_fuzzer \$@
 cd "\$ROOT_DIR"
-./fuzzer -dict=dict -timeout=1 -max_total_time=\$TIME out/
+./fuzzer -dict=dict -timeout=\$TIMEOUT -max_total_time=\$MAX_TOTAL_TIME out/
 EOF
 )
 
@@ -101,70 +106,70 @@ successes=()
 fails=()
 
 for r in "${repos_root}"/repos/tree-sitter-*; do
-	cd "${r}" || exit 1
-	file_c=src/scanner.c
-	file_cc=src/scanner.cc
-	if [[ -f "${file_c}" || -f "${file_cc}" ]]; then
-		if [[ -f "${file_c}" ]]; then
-			lc=$(wc -l <"${file_c}")
-			n_scanner_c=$((n_scanner_c + 1))
-			fuzz_arg=c
-			printf "[%d] %s/%s\n" "${lc}" "$(basename "${r}")" "${file_c}"
-		else
-			lc=$(wc -l <"${file_cc}")
-			n_scanner_cc=$((n_scanner_cc + 1))
-			fuzz_arg=cpp
-			printf "[%d] %s/%s\n" "${lc}" "$(basename "${r}")" "${file_cc}"
-		fi
-		# write the test script to fuzz.sh
-		echo "$test_script" >fuzz.sh
-		# make it executable
-		chmod +x fuzz.sh
-		# run the test script, it should be ./fuzz.sh <language> <time>
-		lang=$(basename "${r}" | tr '/' '\n' | grep 'tree-sitter-' | cut -d '-' -f 3- | cut -d '.' -f 1 | tr '-' '_')
-		echo "Fuzzing ${lang}..., arg=${fuzz_arg}"
-		echo "Command= ./fuzz.sh ${lang} 1 ${fuzz_arg}"
-		if ./fuzz.sh "$lang" 1 "$fuzz_arg"; then
-			echo "Fuzzing done for ${lang}"
-			successes+=("${lang}")
-		else
-			echo "Fuzzing failed for ${lang}"
-			fails+=("${lang}")
-		fi
-		cd "${dir}" || exit 1
-	fi
+    cd "${r}" || exit 1
+    file_c=src/scanner.c
+    file_cc=src/scanner.cc
+    if [[ -f "${file_c}" || -f "${file_cc}" ]]; then
+        if [[ -f "${file_c}" ]]; then
+            lc=$(wc -l <"${file_c}")
+            n_scanner_c=$((n_scanner_c + 1))
+            fuzz_arg=c
+            printf "[%d] %s/%s\n" "${lc}" "$(basename "${r}")" "${file_c}"
+        else
+            lc=$(wc -l <"${file_cc}")
+            n_scanner_cc=$((n_scanner_cc + 1))
+            fuzz_arg=cpp
+            printf "[%d] %s/%s\n" "${lc}" "$(basename "${r}")" "${file_cc}"
+        fi
+        # write the test script to fuzz.sh
+        echo "$test_script" >fuzz.sh
+        # make it executable
+        chmod +x fuzz.sh
+        # run the test script, it should be ./fuzz.sh <language> <time>
+        lang=$(basename "${r}" | tr '/' '\n' | grep 'tree-sitter-' | cut -d '-' -f 3- | cut -d '.' -f 1 | tr '-' '_')
+        echo "Fuzzing ${lang}..., arg=${fuzz_arg}"
+        echo "Command= ./fuzz.sh ${lang} ${timeout} ${max_total_time} ${fuzz_arg}  "
+        if ./fuzz.sh "$lang" "$timeout" "$max_total_time" "$fuzz_arg" ; then
+            echo "Fuzzing done for ${lang}"
+            successes+=("${lang}")
+        else
+            echo "Fuzzing failed for ${lang}"
+            fails+=("${lang}")
+        fi
+        cd "${dir}" || exit 1
+    fi
 
-	for _ in */src/scanner.cc; do
-		if [[ -f "${file_c}" || -f "${file_cc}" ]]; then
-			if [[ -f "${file_c}" ]]; then
-				lc=$(wc -l <"${file_c}")
-				n_scanner_c=$((n_scanner_c + 1))
-				fuzz_arg=c
-				printf "[%d] %s/%s\n" "${lc}" "$(basename "${r}")" "${file_c}"
-			else
-				lc=$(wc -l <"${file_cc}")
-				n_scanner_cc=$((n_scanner_cc + 1))
-				fuzz_arg=cpp
-				printf "[%d] %s/%s\n" "${lc}" "$(basename "${r}")" "${file_cc}"
-			fi
-			# write the test script to fuzz.sh
-			echo "$test_script" >fuzz.sh
-			# make it executable
-			chmod +x fuzz.sh
-			# run the test script, it should be ./fuzz.sh <language> <time>
-			lang=$(basename "${r}" | tr '/' '\n' | grep 'tree-sitter-' | cut -d '-' -f 3- | cut -d '.' -f 1 | tr '-' '_')
-			echo "Fuzzing ${lang}..., arg=${fuzz_arg}"
-			echo "Command= ./fuzz.sh ${lang} 1 ${fuzz_arg}"
-			if ./fuzz.sh "$lang" 1 "$fuzz_arg"; then
-				echo "Fuzzing done for ${lang}"
-				successes+=("${lang}")
-			else
-				echo "Fuzzing failed for ${lang}"
-				fails+=("${lang}")
-			fi
-			cd "${dir}" || exit 1
-		fi
-	done
+    for _ in */src/scanner.cc; do
+        if [[ -f "${file_c}" || -f "${file_cc}" ]]; then
+            if [[ -f "${file_c}" ]]; then
+                lc=$(wc -l <"${file_c}")
+                n_scanner_c=$((n_scanner_c + 1))
+                fuzz_arg=c
+                printf "[%d] %s/%s\n" "${lc}" "$(basename "${r}")" "${file_c}"
+            else
+                lc=$(wc -l <"${file_cc}")
+                n_scanner_cc=$((n_scanner_cc + 1))
+                fuzz_arg=cpp
+                printf "[%d] %s/%s\n" "${lc}" "$(basename "${r}")" "${file_cc}"
+            fi
+            # write the test script to fuzz.sh
+            echo "$test_script" >fuzz.sh
+            # make it executable
+            chmod +x fuzz.sh
+            # run the test script, it should be ./fuzz.sh <language> <time>
+            lang=$(basename "${r}" | tr '/' '\n' | grep 'tree-sitter-' | cut -d '-' -f 3- | cut -d '.' -f 1 | tr '-' '_')
+            echo "Fuzzing ${lang}..., arg=${fuzz_arg}"
+            echo "Command= ./fuzz.sh ${lang} ${timeout} ${max_total_time} ${fuzz_arg}  "
+            if ./fuzz.sh "$lang" "$timeout" "$max_total_time" "$fuzz_arg" ; then
+                echo "Fuzzing done for ${lang}"
+                successes+=("${lang}")
+            else
+                echo "Fuzzing failed for ${lang}"
+                fails+=("${lang}")
+            fi
+            cd "${dir}" || exit 1
+        fi
+    done
 done
 
 echo "Successes: ${successes[*]}"
