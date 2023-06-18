@@ -18,10 +18,13 @@ set -eu
 
 ROOT_DIR="fuzzer"
 
+# XXX: ensure shift below is consistent with number of args here
 LANG=\$1
 TIMEOUT=\$2
 MAX_TOTAL_TIME=\$3
 CPP=\$4
+
+shift 4
 
 # if scanner = scanner.cc then XFLAG = c++ else XFLAG = c
 if [ "\$CPP" = "cpp" ]; then
@@ -31,9 +34,6 @@ else
     SCANNER="scanner.c"
     XFLAG="c"
 fi
-
-# XXX: change this if number of positional args changes above
-shift 4
 
 export CFLAGS="\$(pkg-config --cflags --libs tree-sitter) -O0 -g -w"
 
@@ -102,44 +102,15 @@ cd "\$ROOT_DIR"
 EOF
 )
 
-successes=()
-fails=()
+n_success=()
+n_fail=()
 
 for r in "${repos_root}"/repos/tree-sitter-*; do
-    cd "${r}" || exit 1
-    file_c=src/scanner.c
-    file_cc=src/scanner.cc
-    if [[ -f "${file_c}" || -f "${file_cc}" ]]; then
-        if [[ -f "${file_c}" ]]; then
-            lc=$(wc -l <"${file_c}")
-            n_scanner_c=$((n_scanner_c + 1))
-            fuzz_arg=c
-            printf "[%d] %s/%s\n" "${lc}" "$(basename "${r}")" "${file_c}"
-        else
-            lc=$(wc -l <"${file_cc}")
-            n_scanner_cc=$((n_scanner_cc + 1))
-            fuzz_arg=cpp
-            printf "[%d] %s/%s\n" "${lc}" "$(basename "${r}")" "${file_cc}"
-        fi
-        # write the test script to fuzz.sh
-        echo "$test_script" >fuzz.sh
-        # make it executable
-        chmod +x fuzz.sh
-        # run the test script, it should be ./fuzz.sh <language> <time>
-        lang=$(basename "${r}" | tr '/' '\n' | grep 'tree-sitter-' | cut -d '-' -f 3- | cut -d '.' -f 1 | tr '-' '_')
-        echo "Fuzzing ${lang}..., arg=${fuzz_arg}"
-        echo "Command= ./fuzz.sh ${lang} ${timeout} ${max_total_time} ${fuzz_arg}"
-        if ./fuzz.sh "$lang" "$timeout" "$max_total_time" "$fuzz_arg" ; then
-            echo "Fuzzing done for ${lang}"
-            successes+=("${lang}")
-        else
-            echo "Fuzzing failed for ${lang}"
-            fails+=("${lang}")
-        fi
-        cd "${dir}" || exit 1
-    fi
-
-    for _ in */src/scanner.cc; do
+    if [ -d "${r}" ]; then
+        printf "Processing: %s\n" "${r}"
+        cd "${r}" || exit 1
+        file_c=src/scanner.c
+        file_cc=src/scanner.cc
         if [[ -f "${file_c}" || -f "${file_cc}" ]]; then
             if [[ -f "${file_c}" ]]; then
                 lc=$(wc -l <"${file_c}")
@@ -153,24 +124,25 @@ for r in "${repos_root}"/repos/tree-sitter-*; do
                 printf "[%d] %s/%s\n" "${lc}" "$(basename "${r}")" "${file_cc}"
             fi
             # write the test script to fuzz.sh
-            echo "$test_script" >fuzz.sh
+            printf "%s" "$test_script" > fuzz.sh
             # make it executable
             chmod +x fuzz.sh
-            # run the test script, it should be ./fuzz.sh <language> <time>
-            lang=$(basename "${r}" | tr '/' '\n' | grep 'tree-sitter-' | cut -d '-' -f 3- | cut -d '.' -f 1 | tr '-' '_')
-            echo "Fuzzing ${lang}..., arg=${fuzz_arg}"
-            echo "Command= ./fuzz.sh ${lang} ${timeout} ${max_total_time} ${fuzz_arg}"
+            # run script: ./fuzz.sh <lang> <timeout> <max_total_time> <c|cpp>
+            lang=$(basename "${r}" | sed -n 's#tree-sitter-\([^.]\+\)\..*#\1#p' | tr '-' '_')
+            printf "Fuzzing %s..., arg=%s\n" "${lang}" "${fuzz_arg}"
+            printf "Command= ./fuzz.sh %s %s %s %s\n" \
+                "${lang}" "${timeout}" "${max_total_time}" "${fuzz_arg}"
             if ./fuzz.sh "$lang" "$timeout" "$max_total_time" "$fuzz_arg" ; then
-                echo "Fuzzing done for ${lang}"
-                successes+=("${lang}")
+                printf "Fuzzing done for %s\n" "${lang}"
+                n_success+=("${lang}")
             else
-                echo "Fuzzing failed for ${lang}"
-                fails+=("${lang}")
+                printf "Fuzzing failed for %s\n" "${lang}"
+                n_fail+=("${lang}")
             fi
             cd "${dir}" || exit 1
         fi
-    done
+    fi
 done
 
-echo "Successes: ${successes[*]}"
-echo "Fails: ${fails[*]}"
+printf "Succeeded: %s\n" "${n_success[*]}"
+printf "Failed: %s\n" "${n_fail[*]}"
