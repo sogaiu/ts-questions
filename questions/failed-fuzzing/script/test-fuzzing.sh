@@ -28,9 +28,11 @@ shift 4
 
 # if scanner = scanner.cc then XFLAG = c++ else XFLAG = c
 if [ "\$CPP" = "cpp" ]; then
+    COMPILER="clang++"
     SCANNER="scanner.cc"
     XFLAG="c++"
 else
+    COMPILER="clang"
     SCANNER="scanner.c"
     XFLAG="c"
 fi
@@ -47,7 +49,7 @@ build_dict() {
 }
 
 build_fuzzer() {
-    cat <<END | clang -fsanitize=fuzzer,address \$CFLAGS -lstdc++ -g -x \$XFLAG - src/\$SCANNER src/parser.c \$@ -o \$ROOT_DIR/fuzzer
+    cat <<END | \$COMPILER -fsanitize=fuzzer,address,undefined \$CFLAGS -lstdc++ -g -x \$XFLAG - src/\$SCANNER src/parser.c \$@ -o \$ROOT_DIR/fuzzer
 #include <stdio.h>
 #include <stdlib.h>
 #include <tree_sitter/api.h>
