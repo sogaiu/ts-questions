@@ -22,11 +22,14 @@ https://github.com/amaanq/tree-sitter-cpon
 https://github.com/amaanq/tree-sitter-func
 https://github.com/amaanq/tree-sitter-go-sum
 https://github.com/amaanq/tree-sitter-hare
+https://github.com/amaanq/tree-sitter-hlsl
 https://github.com/amaanq/tree-sitter-jenkinsfile
 https://github.com/amaanq/tree-sitter-kdl
 https://github.com/amaanq/tree-sitter-luap
+https://github.com/amaanq/tree-sitter-luau
 https://github.com/amaanq/tree-sitter-move
 https://github.com/amaanq/tree-sitter-nginx
+https://github.com/amaanq/tree-sitter-objc
 https://github.com/amaanq/tree-sitter-pony
 https://github.com/amaanq/tree-sitter-rec
 https://github.com/amaanq/tree-sitter-ron
@@ -53,6 +56,7 @@ https://github.com/bollian/tree-sitter-openscad
 https://github.com/BonaBeavis/tree-sitter-sparql
 https://github.com/BonaBeavis/tree-sitter-turtle
 https://github.com/briot/tree-sitter-ada
+https://github.com/bufbuild/tree-sitter-cel
 https://github.com/camdencheek/tree-sitter-dockerfile
 https://github.com/camdencheek/tree-sitter-go-mod
 https://github.com/cbarrete/tree-sitter-ledger
@@ -60,6 +64,7 @@ https://github.com/charmbracelet/tree-sitter-vhs
 https://github.com/chipsalliance/tree-sitter-firrtl
 https://github.com/ckafi/tree-sitter-elvish
 https://github.com/claytonrcarter/tree-sitter-phpdoc
+https://github.com/ColinKennedy/tree-sitter-usd
 https://github.com/connorlay/tree-sitter-eex
 https://github.com/connorlay/tree-sitter-surface
 https://github.com/cstrahan/tree-sitter-nix
