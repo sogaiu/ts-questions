@@ -11,7 +11,7 @@ timeout="${1:-1}"
 max_total_time="${2:-1}"
 
 test_script=$(
-    cat <<EOF
+	cat <<EOF
 #!/usr/bin/env sh
 
 set -eu
@@ -26,7 +26,6 @@ CPP=\$4
 
 shift 4
 
-# if scanner = scanner.cc then XFLAG = c++ else XFLAG = c
 if [ "\$CPP" = "cpp" ]; then
     COMPILER="clang++"
     SCANNER="scanner.cc"
@@ -37,7 +36,7 @@ else
     XFLAG="c"
 fi
 
-export CFLAGS="\$(pkg-config --cflags --libs tree-sitter) -O0 -g -w"
+export CFLAGS="\$(pkg-config --cflags --libs tree-sitter) -O0 -g -Wall -Wextra -Wshadow -Wno-c99-designator -Wno-unused-parameter -Wno-reorder-init-list"
 
 JQ_FILTER='.. | if .type? == "STRING" or (.type? == "ALIAS" and .named? == false) then .value else null end'
 
@@ -49,7 +48,7 @@ build_dict() {
 }
 
 build_fuzzer() {
-    cat <<END | \$COMPILER -fsanitize=fuzzer,address,undefined \$CFLAGS -lstdc++ -g -x \$XFLAG - src/\$SCANNER src/parser.c \$@ -o \$ROOT_DIR/fuzzer
+    cat <<END | \$COMPILER -fsanitize=fuzzer,address,undefined \$CFLAGS -lstdc++ -Wall -Wextra -Wshadow -g -x \$XFLAG - src/\$SCANNER src/parser.c \$@ -o \$ROOT_DIR/fuzzer
 #include <stdio.h>
 #include <stdlib.h>
 #include <tree_sitter/api.h>
@@ -95,7 +94,7 @@ makedirs() {
 }
 
 makedirs
-# generate_fuzzer
+generate_fuzzer
 
 build_dict
 build_fuzzer \$@
@@ -108,42 +107,74 @@ n_success=()
 n_fail=()
 
 for r in "${repos_root}"/repos/tree-sitter-*; do
-    if [ -d "${r}" ]; then
-        printf "Processing: %s\n" "${r}"
-        cd "${r}" || exit 1
-        file_c=src/scanner.c
-        file_cc=src/scanner.cc
-        if [[ -f "${file_c}" || -f "${file_cc}" ]]; then
-            if [[ -f "${file_c}" ]]; then
-                lc=$(wc -l <"${file_c}")
-                n_scanner_c=$((n_scanner_c + 1))
-                fuzz_arg=c
-                printf "[%d] %s/%s\n" "${lc}" "$(basename "${r}")" "${file_c}"
-            else
-                lc=$(wc -l <"${file_cc}")
-                n_scanner_cc=$((n_scanner_cc + 1))
-                fuzz_arg=cpp
-                printf "[%d] %s/%s\n" "${lc}" "$(basename "${r}")" "${file_cc}"
-            fi
-            # write the test script to fuzz.sh
-            printf "%s" "$test_script" > fuzz.sh
-            # make it executable
-            chmod +x fuzz.sh
-            # run script: ./fuzz.sh <lang> <timeout> <max_total_time> <c|cpp>
-            lang=$(basename "${r}" | sed -n 's#tree-sitter-\([^.]\+\)\..*#\1#p' | tr '-' '_')
-            printf "Fuzzing %s..., arg=%s\n" "${lang}" "${fuzz_arg}"
-            printf "Command= ./fuzz.sh %s %s %s %s\n" \
-                "${lang}" "${timeout}" "${max_total_time}" "${fuzz_arg}"
-            if ./fuzz.sh "$lang" "$timeout" "$max_total_time" "$fuzz_arg" ; then
-                printf "Fuzzing done for %s\n" "${lang}"
-                n_success+=("${lang}")
-            else
-                printf "Fuzzing failed for %s\n" "${lang}"
-                n_fail+=("${lang}")
-            fi
-            cd "${dir}" || exit 1
-        fi
-    fi
+	if [ -d "${r}" ]; then
+		printf "Processing: %s\n" "${r}"
+		cd "${r}" || exit 1
+		file_c=src/scanner.c
+		file_cc=src/scanner.cc
+		if [[ -f "${file_c}" || -f "${file_cc}" ]]; then
+			if [[ -f "${file_c}" ]]; then
+				lc=$(wc -l <"${file_c}")
+				n_scanner_c=$((n_scanner_c + 1))
+				fuzz_arg=c
+				printf "[%d] %s/%s\n" "${lc}" "$(basename "${r}")" "${file_c}"
+			else
+				lc=$(wc -l <"${file_cc}")
+				n_scanner_cc=$((n_scanner_cc + 1))
+				fuzz_arg=cpp
+				printf "[%d] %s/%s\n" "${lc}" "$(basename "${r}")" "${file_cc}"
+			fi
+			# write the test script to fuzz.sh
+			printf "%s" "$test_script" >fuzz.sh
+			# make it executable
+			chmod +x fuzz.sh
+			# run script: ./fuzz.sh <lang> <timeout> <max_total_time> <c|cpp>
+			lang=$(basename "${r}" | sed -n 's#tree-sitter-\([^.]\+\)\..*#\1#p' | tr '-' '_')
+			printf "Fuzzing %s..., arg=%s\n" "${lang}" "${fuzz_arg}"
+			printf "Command= ./fuzz.sh %s %s %s %s\n" \
+				"${lang}" "${timeout}" "${max_total_time}" "${fuzz_arg}"
+			if ./fuzz.sh "$lang" "$timeout" "$max_total_time" "$fuzz_arg"; then
+				printf "Fuzzing done for %s\n" "${lang}"
+				n_success+=("${lang}")
+			else
+				printf "Fuzzing failed for %s\n" "${lang}"
+				n_fail+=("${lang}")
+			fi
+			cd "${dir}" || exit 1
+		fi
+
+		# Look for nested scanner.c/cc files
+		while IFS= read -r -d '' nested_file; do
+			if [ -e "$nested_file" ]; then
+				# Get the directory of the scanner file
+				scanner_dir=$(dirname "$nested_file")
+				# Navigate to the directory above it
+				cd "$scanner_dir/.." || exit 1
+
+				fuzz_arg=$(echo "$nested_file" | grep -q ".cc" && echo "cpp" || echo "c")
+				lc=$(wc -l <"$nested_file")
+
+				# write the test script to fuzz.sh
+				printf "%s" "$test_script" >fuzz.sh
+				# make it executable
+				chmod +x fuzz.sh
+
+				lang=$(grep -Eo "name:\s*['\"]([^'\"]+)['\"]" grammar.js | awk -F"['\"]" '{print $2}' | tr -d '\n')
+				printf "Fuzzing %s..., arg=%s\n" "${lang}" "${fuzz_arg}"
+				printf "Command= ./fuzz.sh %s %s %s %s\n" \
+					"${lang}" "${timeout}" "${max_total_time}" "${fuzz_arg}"
+				if ./fuzz.sh "$lang" "$timeout" "$max_total_time" "$fuzz_arg"; then
+					printf "Fuzzing done for %s\n" "${lang}"
+					n_success+=("${lang}")
+				else
+					printf "Fuzzing failed for %s\n" "${lang}"
+					n_fail+=("${lang}")
+				fi
+
+				cd "${dir}" || exit 1
+			fi
+		done < <(find . \( -name 'scanner.c' -o -name 'scanner.cc' \) -print0)
+	fi
 done
 
 printf "Succeeded: %s\n" "${n_success[*]}"
