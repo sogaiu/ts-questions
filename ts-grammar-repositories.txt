@@ -107,7 +107,9 @@ https://github.com/grantmacken/tree-sitter-xquery
 https://github.com/GrayJack/tree-sitter-carp
 https://github.com/GrayJack/tree-sitter-janet
 https://github.com/GrayJack/tree-sitter-zig
+https://github.com/hhamud/tree-sitter-noir
 https://github.com/Himujjal/tree-sitter-svelte
+https://github.com/Hubro/tree-sitter-robot
 https://github.com/Hubro/tree-sitter-yang
 https://github.com/ikatyang/tree-sitter-markdown
 https://github.com/ikatyang/tree-sitter-toml
@@ -134,6 +136,7 @@ https://github.com/Julian/tree-sitter-lean
 https://github.com/julienhenry/tree-sitter-souffle
 https://github.com/Jummit/tree-sitter-uxntal
 https://github.com/justinmk/tree-sitter-ini
+https://github.com/kaermorchen/tree-sitter-twig
 https://github.com/keidax/tree-sitter-crystal
 https://github.com/Kerl13/tree-sitter-menhir
 https://github.com/kevinkeckeis/tree-sitter-helma
@@ -297,8 +300,10 @@ https://github.com/zeek/tree-sitter-zeek
 https://github.com/Ziemniakoss/tree-sitter-apex
 https://github.com/zweimach/tree-sitter-c3
 https://github.com/zwpaper/tree-sitter-beancount
+https://gitlab.com/btuin2/tree-sitter-bison
 https://gitlab.com/gabmus/tree-sitter-blueprint.git
 https://gitlab.com/jirgn/tree-sitter-fusion.git
 https://gitlab.com/maxnordlund/tree-sitter-email
 https://gitlab.com/WhyNotHugo/tree-sitter-jsonc.git
+https://git.sr.ht/~rockorager/tree-sitter-scfg
 https://git.sr.ht/~yotam/tree-sitter-smali
