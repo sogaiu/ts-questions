@@ -70,16 +70,16 @@ README](../../README.md).
 ABI: Count
 
 9: 12
-10: 3
-11: 6
-12: 4
-13: 105
-14: 125
+10: 5
+11: 4
+12: 5
+13: 93
+14: 171
 
-Minimum number of repositories with parser.c: 251
+Minimum number of repositories with parser.c: 282
 ```
 
-At least for what was collected about 42% use 13, while about 50% use
+At least for what was collected about 30% use 13, while about 60% use
 14.
 
 Perhaps it's not unreasonable to assume a sufficient sample of
@@ -111,10 +111,8 @@ This should produce output that starts something like:
 10 tree-sitter-biber.Aerijo
 10 tree-sitter-eno.eno-lang
 10 tree-sitter-sml.stonebuddha
-11 tree-sitter-agda.tree-sitter
 11 tree-sitter-carp.GrayJack
 11 tree-sitter-move.move-hub
-11 tree-sitter-ocamllex.atom-ocaml
 11 tree-sitter-odin.lucypero
 11 tree-sitter-souffle.julienhenry
 12 tree-sitter-diff.vigoux

@@ -23,7 +23,7 @@ was added to the [Tree-sitter 1.0
 Checklist](https://github.com/tree-sitter/tree-sitter/issues/930)
 (search for "Mergeable Git Repos").
 
-Of the checked repositories, it appears that around 92% have
+Of the checked repositories, it appears that around 93% have
 `src/parser.c` committed.
 
 ATM then, it appears most folks are doing so and numerous projects
@@ -59,8 +59,8 @@ README](../../README.md).
 * Observe output that ends like:
 
 ```
-Minimum number of repositories with parser.c: 255
-Number of repositories: 276
+Minimum number of repositories with parser.c: 287
+Number of repositories: 308
 ```
 
 Tip: to get a list (possibly imperfect) of which repositories do not
@@ -80,7 +80,7 @@ tree-sitter-vcd.wavedrom
 tree-sitter-zeek.zeek
 
 Did not find parser.c in: 21
-Number of repositories: 276
+Number of repositories: 308
 ```
 
 Note that this search may not be perfect because:
