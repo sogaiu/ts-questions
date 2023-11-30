@@ -8,6 +8,7 @@ https://github.com/addcninblue/tree-sitter-cooklang
 https://github.com/Aerijo/tree-sitter-biber
 https://github.com/Aerijo/tree-sitter-todo
 https://github.com/aheber/tree-sitter-sfapex
+https://github.com/airbus-cert/tree-sitter-powershell
 https://github.com/akifoq/tree-sitter-func
 https://github.com/alaviss/tree-sitter-nim
 https://github.com/alemuller/tree-sitter-make
@@ -101,6 +102,7 @@ https://github.com/gbprod/tree-sitter-twig
 https://github.com/gdamore/tree-sitter-d
 https://github.com/glapa-grossklag/tree-sitter-elsa
 https://github.com/gleam-lang/tree-sitter-gleam
+https://github.com/gmlarumbe/verilog-ts-mode
 https://github.com/GoodNotes/tree-sitter-rtf
 https://github.com/grahambates/tree-sitter-m68k
 https://github.com/grantmacken/tree-sitter-xquery
@@ -185,6 +187,7 @@ https://github.com/ObserverOfTime/tree-sitter-chatito
 https://github.com/ObserverOfTime/tree-sitter-gitattributes
 https://github.com/ObserverOfTime/tree-sitter-poe-filter
 https://github.com/ObserverOfTime/tree-sitter-pymanifest
+https://github.com/ObserverOfTime/tree-sitter-xml
 https://github.com/omertuc/tree-sitter-go-work
 https://github.com/open-papyrus/tree-sitter-papyrus
 https://github.com/PasiSalenius/tree-sitter-http
