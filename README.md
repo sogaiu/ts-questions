@@ -68,6 +68,7 @@ always work, but it's been ok so far.
 
 * ahlinc
 * amaanq
+* clason and nvim-treesitter contributors
 * damieng
 * dannyfreeman
 * NoahTheDuke
