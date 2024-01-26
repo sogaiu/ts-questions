@@ -60,14 +60,12 @@ https://github.com/ObserverOfTime/tree-sitter-chatito
 https://github.com/ObserverOfTime/tree-sitter-gitattributes
 https://github.com/ObserverOfTime/tree-sitter-gpg-config
 https://github.com/ObserverOfTime/tree-sitter-poe-filter
-https://github.com/ObserverOfTime/tree-sitter-poe-filter
 https://github.com/ObserverOfTime/tree-sitter-printf
 https://github.com/ObserverOfTime/tree-sitter-properties
 https://github.com/ObserverOfTime/tree-sitter-pymanifest
 https://github.com/ObserverOfTime/tree-sitter-requirements
 https://github.com/ObserverOfTime/tree-sitter-udev
 https://github.com/ObserverOfTime/tree-sitter-xcompose
-https://github.com/ObserverOfTime/tree-sitter-xml
 https://github.com/ObserverOfTime/tree-sitter-xml
 https://github.com/PRQL/tree-sitter-prql
 https://github.com/PasiSalenius/tree-sitter-http
@@ -115,13 +113,10 @@ https://github.com/amaanq/tree-sitter-cairo
 https://github.com/amaanq/tree-sitter-capnp
 https://github.com/amaanq/tree-sitter-cpon
 https://github.com/amaanq/tree-sitter-csv
-https://github.com/amaanq/tree-sitter-csv
-https://github.com/amaanq/tree-sitter-csv
 https://github.com/amaanq/tree-sitter-doxygen
 https://github.com/amaanq/tree-sitter-firrtl
 https://github.com/amaanq/tree-sitter-func
 https://github.com/amaanq/tree-sitter-gn
-https://github.com/amaanq/tree-sitter-go-sum
 https://github.com/amaanq/tree-sitter-go-sum
 https://github.com/amaanq/tree-sitter-hare
 https://github.com/amaanq/tree-sitter-hlsl
@@ -163,7 +158,6 @@ https://github.com/bollian/tree-sitter-openscad
 https://github.com/briot/tree-sitter-ada
 https://github.com/bufbuild/tree-sitter-cel
 https://github.com/camdencheek/tree-sitter-dockerfile
-https://github.com/camdencheek/tree-sitter-go-mod
 https://github.com/camdencheek/tree-sitter-go-mod
 https://github.com/cbarrete/tree-sitter-ledger
 https://github.com/charmbracelet/tree-sitter-vhs
@@ -272,7 +266,6 @@ https://github.com/nvim-neorg/tree-sitter-norg2
 https://github.com/nvim-treesitter/tree-sitter-query
 https://github.com/ok-ryoko/tree-sitter-systemtap
 https://github.com/omertuc/tree-sitter-go-work
-https://github.com/omertuc/tree-sitter-go-work
 https://github.com/open-papyrus/tree-sitter-papyrus
 https://github.com/osthomas/tree-sitter-snakemake
 https://github.com/pebbe/tree-sitter-gemtext
@@ -342,7 +335,6 @@ https://github.com/tree-sitter/tree-sitter-c
 https://github.com/tree-sitter/tree-sitter-c-sharp
 https://github.com/tree-sitter/tree-sitter-cpp
 https://github.com/tree-sitter/tree-sitter-css
-https://github.com/tree-sitter/tree-sitter-embedded-template
 https://github.com/tree-sitter/tree-sitter-embedded-template
 https://github.com/tree-sitter/tree-sitter-go
 https://github.com/tree-sitter/tree-sitter-haskell
