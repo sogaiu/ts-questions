@@ -42,7 +42,10 @@
 (assert repo-urls "failed to parse list of parsers")
 
 (with [of (file/open repos-fname :w)]
+  (def seen-table @{})
   (each url (sort repo-urls)
-    (file/write of url)
-    (file/write of "\n")))
+    (when (not (get seen-table url))
+      (put seen-table url true)
+      (file/write of url)
+      (file/write of "\n"))))
 
