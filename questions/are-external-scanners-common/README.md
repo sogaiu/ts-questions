@@ -34,6 +34,11 @@ committed to their repositories, `scanner.(c|cc)` is not typically a
 generated file, so it seems unlikely that of the repositories fetched,
 the above search was undercounting by much.
 
+_Update_: it seems there may now be a preference leaning away from C++
+usage.  See
+[here](https://github.com/tree-sitter/tree-sitter/pull/2897#issuecomment-1928112073)
+for more.
+
 ---
 
 [1] See [here and follow-up
