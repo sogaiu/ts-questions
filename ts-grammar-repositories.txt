@@ -14,9 +14,11 @@ https://github.com/Azganoth/tree-sitter-lua
 https://github.com/Beaglefoot/tree-sitter-awk
 https://github.com/BonaBeavis/tree-sitter-sparql
 https://github.com/BonaBeavis/tree-sitter-turtle
+https://github.com/ColinKennedy/tree-sitter-disassembly
 https://github.com/ColinKennedy/tree-sitter-usd
 https://github.com/CyberShadow/tree-sitter-d
 https://github.com/DariusCorvus/tree-sitter-surrealdb
+https://github.com/Decodetalkers/tree-sitter-groovy
 https://github.com/Decodetalkers/tree-sitter-meson
 https://github.com/Decodetalkers/tree-sitter-qmldir
 https://github.com/Decodetalkers/tree_sitter_plantuml
@@ -28,6 +30,7 @@ https://github.com/FallenAngel97/tree-sitter-rego
 https://github.com/Flakebi/tree-sitter-llvm-mir
 https://github.com/Flakebi/tree-sitter-tablegen
 https://github.com/FoamScience/tree-sitter-foam
+https://github.com/Freed-Wu/tree-sitter-zathurarc
 https://github.com/Fymyte/tree-sitter-rasi
 https://github.com/GoodNotes/tree-sitter-rtf
 https://github.com/GrayJack/tree-sitter-carp
@@ -78,6 +81,7 @@ https://github.com/PrestonKnopp/tree-sitter-godot-resource
 https://github.com/RaafatTurki/tree-sitter-sxhkdrc
 https://github.com/RubixDev/ebnf
 https://github.com/Rukiza/tree-sitter-prolog
+https://github.com/Sarrus1/tree-sitter-sourcepawn
 https://github.com/SeniorMars/tree-sitter-typst
 https://github.com/Shopify/tree-sitter-liquid
 https://github.com/SystemRDL/tree-sitter-systemrdl
@@ -137,12 +141,14 @@ https://github.com/amaanq/tree-sitter-puppet
 https://github.com/amaanq/tree-sitter-re2c
 https://github.com/amaanq/tree-sitter-rec
 https://github.com/amaanq/tree-sitter-ron
+https://github.com/amaanq/tree-sitter-smali
 https://github.com/amaanq/tree-sitter-squirrel
 https://github.com/amaanq/tree-sitter-starlark
 https://github.com/amaanq/tree-sitter-tablegen
 https://github.com/amaanq/tree-sitter-uxntal
 https://github.com/ambroisie/tree-sitter-tiger
 https://github.com/antosha417/tree-sitter-hocon
+https://github.com/apple/tree-sitter-pkl
 https://github.com/arnarg/tree-sitter-todotxt
 https://github.com/artagnon/tree-sitter-mlir
 https://github.com/ath3/tree-sitter-passwd
@@ -159,6 +165,7 @@ https://github.com/briot/tree-sitter-ada
 https://github.com/bufbuild/tree-sitter-cel
 https://github.com/camdencheek/tree-sitter-dockerfile
 https://github.com/camdencheek/tree-sitter-go-mod
+https://github.com/cathaysia/tree-sitter-asciidoc
 https://github.com/cbarrete/tree-sitter-ledger
 https://github.com/charmbracelet/tree-sitter-vhs
 https://github.com/chipsalliance/tree-sitter-firrtl
@@ -172,6 +179,7 @@ https://github.com/dannylongeuay/tree-sitter-go-template
 https://github.com/dbt-labs/tree-sitter-jinja2
 https://github.com/demizer/tree-sitter-jakt
 https://github.com/dhcmrlchtdj/tree-sitter-sqlite
+https://github.com/dlvandenberg/tree-sitter-angular
 https://github.com/dorgnarg/tree-sitter-xml
 https://github.com/dpezto/tree-sitter-gnuplot
 https://github.com/dralletje/tree-sitter-graphql
@@ -224,6 +232,7 @@ https://github.com/kaermorchen/tree-sitter-twig
 https://github.com/kcl-lang/tree-sitter-kcl
 https://github.com/keidax/tree-sitter-crystal
 https://github.com/kevinkeckeis/tree-sitter-helma
+https://github.com/krn-robin/tree-sitter-magik
 https://github.com/kylegoetz/tree-sitter-unison
 https://github.com/langston-barrett/tree-sitter-souffle
 https://github.com/latex-lsp/tree-sitter-bibtex
@@ -231,6 +240,7 @@ https://github.com/latex-lsp/tree-sitter-latex
 https://github.com/legesher/tree-sitter-legesher-python
 https://github.com/leo60228/tree-sitter-pioasm
 https://github.com/lewis6991/tree-sitter-tcl
+https://github.com/luckasRanarison/tree-sitter-hyprlang
 https://github.com/lucypero/tree-sitter-odin
 https://github.com/lyndsysimon/tree-sitter-plantuml
 https://github.com/m-novikov/tree-sitter-sql
@@ -250,6 +260,7 @@ https://github.com/mrnugget/tree-sitter-tucan
 https://github.com/mrnugget/tree-sitter-tucanir
 https://github.com/mskelton/tree-sitter-styled
 https://github.com/mstanciu552/tree-sitter-matlab
+https://github.com/murtaza64/tree-sitter-groovy
 https://github.com/naclsn/tree-sitter-nasm
 https://github.com/nedpals/tree-sitter-v
 https://github.com/neovim/tree-sitter-vim
@@ -260,6 +271,7 @@ https://github.com/nilshelmig/tree-sitter-sourcepawn
 https://github.com/nitreojs/tree-sitter-jpp
 https://github.com/nkrkv/tree-sitter-rescript
 https://github.com/nnnewb/tree-sitter-protobuf
+https://github.com/nushell/tree-sitter-nu
 https://github.com/nvim-neorg/tree-sitter-norg
 https://github.com/nvim-neorg/tree-sitter-norg-meta
 https://github.com/nvim-neorg/tree-sitter-norg2
@@ -303,6 +315,7 @@ https://github.com/sourcegraph/tree-sitter-jsonnet
 https://github.com/spaarmann/tree-sitter-kdl
 https://github.com/stadelmanma/tree-sitter-fortran
 https://github.com/staysail/tree-sitter-meson
+https://github.com/steelsojka/tree-sitter-angular
 https://github.com/stonebuddha/tree-sitter-sml
 https://github.com/stsewd/tree-sitter-comment
 https://github.com/stsewd/tree-sitter-rst
@@ -371,6 +384,7 @@ https://github.com/victorhqc/tree-sitter-prisma
 https://github.com/vigoux/tree-sitter-diff
 https://github.com/virchau13/tree-sitter-astro
 https://github.com/vito/tree-sitter-bass
+https://github.com/vkazanov/tree-sitter-quakec
 https://github.com/vlang/vls
 https://github.com/vrischmann/tree-sitter-templ
 https://github.com/wasm-lsp/tree-sitter-wasm
