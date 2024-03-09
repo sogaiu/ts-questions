@@ -75,29 +75,54 @@ starting point in trying out various versions.
 
 ## Footnotes
 
-[1] Assuming one has followed the [Emscripten Download and install
-steps](https://emscripten.org/docs/getting_started/downloads.html),
-usually an invocation from the emsdk source directory like:
+[1] There are instructions at [Emscripten Download and install
+steps](https://emscripten.org/docs/getting_started/downloads.html)
+for getting emsdk setup and ready for use.
 
-```
-source ./emsdk_env.sh
-```
-
-should be sufficient to make the activated version of Emscripten
-available for use.
-
-Note that for Windows, the invocation, if using a command prompt,
-should be:
-
-```
-.\emsdk_env.bat
-```
-
-Also note that the instructions linked to above specifically mention
-using `latest` for the install and activation invocations, but for our
-purposes, it's likely preferrable to use a specific version string.
+However, the instructions specifically mention using `latest` for the
+`install` and `activate` invocations, but for our purposes, it's
+likely preferrable to use a specific version string.
 
 For example, if the `tree-sitter` cli in use is version `0.21.0`, then
 specify `3.1.37` (according to the table above) instead of `latest` in
 both of the install and activate invocations.
+
+For UNIXy environments:
+
+```
+./emsdk install 3.1.37
+./emsdk activate 3.1.37
+```
+
+For Windows environments, for `cmd.exe`:
+
+```
+.\emsdk.bat install 3.1.37
+.\emsdk.bat activate 3.1.37
+```
+
+... and for `powershell.exe`:
+
+```
+.\emsdk.ps1 install 3.1.37
+.\emsdk.ps1 activate 3.1.37
+```
+
+To get an emsdk environment to be usable in the currently executing
+shell (e.g. environment variables configured), there is an extra step
+of running one of the `emsdk_env.*` scripts.  Unless the account's
+shell configuration is altered, this will need to be done repeatedly
+(e.g. if a new unrelated shell instance is started or on a future
+login).  Also, the command to invoke depends on the shell in use.
+
+UNIXy options include:
+
+* `csh`: `source ./emsdk_env.csh`
+* `fish`: `source ./emsdk_env.fish`
+* `bash`, `ksh`, `zsh`: `source ./emsdk_env.sh`
+
+Windows options include:
+
+* `cmd.exe`: `.\emsdk_env.bat`
+* `powershell.exe`: `.\emsdk_env.ps1`
 
