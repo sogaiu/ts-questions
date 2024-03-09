@@ -85,3 +85,19 @@ source ./emsdk_env.sh
 
 should be sufficient to make the activated version of Emscripten
 available for use.
+
+Note that for Windows, the invocation, if using a command prompt,
+should be:
+
+```
+.\emsdk_env.bat
+```
+
+Also note that the instructions linked to above specifically mention
+using `latest` for the install and activation invocations, but for our
+purposes, it's likely preferrable to use a specific version string.
+
+For example, if the `tree-sitter` cli in use is version `0.21.0`, then
+specify `3.1.37` (according to the table above) instead of `latest` in
+both of the install and activate invocations.
+
