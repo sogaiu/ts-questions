@@ -54,6 +54,7 @@ tree-sitter  Emscripten
    0.20.8      3.1.35
   c4871a26     3.1.35
    0.20.9      3.1.37
+   0.21.0      3.1.37
 ```
 
 The following file histories may be of interest:
