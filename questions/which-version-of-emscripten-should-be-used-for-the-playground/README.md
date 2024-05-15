@@ -30,7 +30,7 @@ tree-sitter build-wasm
 tree-sitter playground
 ```
 
-The first builds a `.wasm` file for the "current" grammar, while the
+The first builds a `.wasm` file for the "current" grammar [2], while the
 second arranges for a web server and browser to start, serving up the
 playground for interaction.
 
@@ -58,6 +58,10 @@ tree-sitter  Emscripten
    0.22.0      3.1.37
    0.22.1      3.1.37
    0.22.2      3.1.37
+   0.22.3      3.1.55
+   0.22.4      3.1.55
+   0.22.5      3.1.55
+   0.22.6      3.1.55
 ```
 
 The following file histories may be of interest:
@@ -86,29 +90,29 @@ However, the instructions specifically mention using `latest` for the
 `install` and `activate` invocations, but for our purposes, it's
 likely preferrable to use a specific version string.
 
-For example, if the `tree-sitter` cli in use is version `0.21.0`, then
-specify `3.1.37` (according to the table above) instead of `latest` in
+For example, if the `tree-sitter` cli in use is version `0.22.6`, then
+specify `3.1.55` (according to the table above) instead of `latest` in
 both of the install and activate invocations.
 
 For UNIXy environments:
 
 ```
-./emsdk install 3.1.37
-./emsdk activate 3.1.37
+./emsdk install 3.1.55
+./emsdk activate 3.1.55
 ```
 
 For Windows environments, for `cmd.exe`:
 
 ```
-.\emsdk.bat install 3.1.37
-.\emsdk.bat activate 3.1.37
+.\emsdk.bat install 3.1.55
+.\emsdk.bat activate 3.1.55
 ```
 
 ... and for `powershell.exe`:
 
 ```
-.\emsdk.ps1 install 3.1.37
-.\emsdk.ps1 activate 3.1.37
+.\emsdk.ps1 install 3.1.55
+.\emsdk.ps1 activate 3.1.55
 ```
 
 To get an emsdk environment to be usable in the currently executing
@@ -129,3 +133,14 @@ Windows options include:
 * `cmd.exe`: `.\emsdk_env.bat`
 * `powershell.exe`: `.\emsdk_env.ps1`
 
+[2] Unfortunately, the invocation for building `.wasm` files may be
+changing so at some point one may need to use a different invocation.
+In fact, for 0.22.2, one may need the newer form of invocation, though
+it may be that 0.22.3 and later added back the ability to invoke
+with the older method.
+
+FWIW, the newer form looks like:
+
+```
+tree-sitter build --wasm
+```
