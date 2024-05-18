@@ -1,11 +1,5 @@
 # Is There A Changelog?
 
-At the time of writing, [there isn't
-one](https://github.com/tree-sitter/tree-sitter/discussions/1031).
-According to the [Tree-sitter 1.0
-Checklist](https://github.com/tree-sitter/tree-sitter/issues/930),
-there is an intention to make one.
-
 [Starting from
 0.20.8](https://github.com/tree-sitter/tree-sitter/discussions/1031#discussioncomment-5639228),
 the description for releases should contain related information.
@@ -14,12 +8,12 @@ is an example.
 
 ## Version Highlights
 
-In the mean time, below are some highlights.
+Below is some historical info.
 
 Note that the versions below refer to the command line program, not
 necessarily the library (though they might be close in many cases).
 
-* Unreleased
+* _Not sure which release_
   * [Add API for checking if a pattern in a query is
     non-local](https://github.com/tree-sitter/tree-sitter/commit/837899e456202c6d112679c03e7e989451973a6d)
   * [Add --row-range, --quiet, and --time flags to query
