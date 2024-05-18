@@ -124,7 +124,6 @@ https://github.com/amaanq/tree-sitter-gn
 https://github.com/amaanq/tree-sitter-go-sum
 https://github.com/amaanq/tree-sitter-hare
 https://github.com/amaanq/tree-sitter-hlsl
-https://github.com/amaanq/tree-sitter-jenkinsfile
 https://github.com/amaanq/tree-sitter-kconfig
 https://github.com/amaanq/tree-sitter-kdl
 https://github.com/amaanq/tree-sitter-linkerscript
@@ -132,7 +131,6 @@ https://github.com/amaanq/tree-sitter-luadoc
 https://github.com/amaanq/tree-sitter-luap
 https://github.com/amaanq/tree-sitter-luau
 https://github.com/amaanq/tree-sitter-move
-https://github.com/amaanq/tree-sitter-nginx
 https://github.com/amaanq/tree-sitter-nqc
 https://github.com/amaanq/tree-sitter-objc
 https://github.com/amaanq/tree-sitter-odin
