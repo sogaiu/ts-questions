@@ -3,14 +3,22 @@
 Some tree-sitter-related questions with discussions and some answers
 and demos.
 
-* [What Files Are Involved in `tree-sitter generate`?](questions/generate-subcommand-files/README.md)
-* [Should Generated Parser Source Be Committed?](questions/should-parser-source-be-committed/README.md)
-* [What ABI Version Should Be Used for `parser.c`?](questions/what-abi-level-should-be-used/README.md)
-* [Are External Scanners Commonly Used?](questions/are-external-scanners-common/README.md)
-* [What Regular Expression Features Are Supported?](questions/what-regex-features-are-supported/README.md)
-* [Which Version of Emscripten Should be Used for the Playground?](questions/which-version-of-emscripten-should-be-used-for-the-playground/README.md)
-* [What Are Some Projects That Use Tree-sitter?](questions/what-are-some-projects-that-use-tree-sitter/README.md)
-* [How Can One Test for An Expected Error?](questions/how-to-test-for-an-expected-error/README.md)
+* [What Files Are Involved in `tree-sitter
+  generate`?](questions/generate-subcommand-files/README.md)
+* [Should Generated Parser Source Be
+  Committed?](questions/should-parser-source-be-committed/README.md)
+* [What ABI Version Should Be Used for
+  `parser.c`?](questions/what-abi-level-should-be-used/README.md)
+* [Are External Scanners Commonly
+  Used?](questions/are-external-scanners-common/README.md)
+* [What Regular Expression Features Are
+  Supported?](questions/what-regex-features-are-supported/README.md)
+* [Which Version of Emscripten Should be Used for the
+  Playground?](questions/which-version-of-emscripten-should-be-used-for-the-playground/README.md)
+* [What Are Some Projects That Use
+  Tree-sitter?](questions/what-are-some-projects-that-use-tree-sitter/README.md)
+* [How Can One Test for An Expected
+  Error?](questions/how-to-test-for-an-expected-error/README.md)
 * [Is There A Changelog?](questions/is-there-a-changelog/README.md)
 
 ## Prerequisites for Demos
@@ -18,7 +26,8 @@ and demos.
 There are some demos in this repository which have prerequisites along
 the following lines:
 
-* \*nix-ish OS with Bourne-ish shell (only tested on a Linux box with bash though)
+* \*nix-ish OS with Bourne-ish shell (only tested on a Linux box with
+  bash though)
 * git, diff, and other typical shell + dev clis
 * make (used GNU's version 4.3 here, may be others will work too)
 * tree-sitter 0.19.4 or up to
