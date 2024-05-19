@@ -85,7 +85,7 @@
       (string "https://" host "/" user-name "/" repo-name))
     (printf "cloning %s to %s" url dir-path)
     (def res
-      (os/execute ["git" "clone" url dir-path] :p))
+      (os/execute ["git" "clone" "--depth" "1" url dir-path] :p))
     (when (not (zero? res))
       (array/push problems url)
       (eprintf "git clone failed with: %n" res))))

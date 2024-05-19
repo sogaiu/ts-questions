@@ -16,8 +16,8 @@ do
     #printf "user_name: %s\n" "${user_name}"
     dir_name="${repo_name}.${user_name}"
     if [ ! -e "${dir_name}" ]; then
-        printf "cloning %s to %s\n" "${repo_name}" "${dir_name}"
-        git clone "${line}" "${dir_name}"
+        printf "cloning %s with depth 1 to %s\n" "${repo_name}" "${dir_name}"
+        git clone --depth 1 "${line}" "${dir_name}"
     fi
 done < ../ts-grammar-repositories.txt
 
