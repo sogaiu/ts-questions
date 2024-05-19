@@ -73,12 +73,12 @@ ABI: Count
 10: 3
 11: 5
 12: 4
-13: 83
-14: 285
+13: 82
+14: 303
 
-Total found: 389
+Total found: 406
 ```
 
-At least for what was collected, about 21% use 13, while about 73% use
+At least for what was collected, about 21% use 13, while about 75% use
 14.
 
