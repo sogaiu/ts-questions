@@ -1,7 +1,6 @@
 # Tree-sitter Questions
 
-Some tree-sitter-related questions with discussions and some answers
-and demos.
+Some tree-sitter-related questions with discussions and some answers.
 
 * [What Files Are Involved in `tree-sitter
   generate`?](questions/generate-subcommand-files/README.md)
