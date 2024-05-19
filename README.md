@@ -23,8 +23,7 @@ and demos.
 
 ## Prerequisites for Scripts
 
-There are some scripts in this repository which have prerequisites along
-the following lines:
+There are some scripts in this repository with these prerequisites:
 
 * git
 * [janet](https://github.com/janet-lang/janet)
@@ -37,8 +36,7 @@ git clone https://github.com/sogaiu/ts-questions
 
 The scripts that involve generating statistics across multple
 repositories assume that parser / grammar repositories have been
-fetched to live under a `repos` subdirectory of the repository root
-directory.
+fetched to live under a `repos` subdirectory.
 
 The `repos` directory can be populated by running the following script
 from this project's root directory:
@@ -59,7 +57,16 @@ janet ./script/update-repositories.janet
 
 This might be useful if one was interested in up-to-date statistics.
 
----
+## Breaking Change
+
+The scripts in this repository used to be shell scripts, but this was
+becoming unwieldy and awkward to maintain.  Most of them have been
+removed but the scripts for fetching and updating repositories still
+exist in the `script` subdirectory.
+
+These remaining shell scripts can still be used for fetching and
+updating repositories, but they don't play well with the
+statistics-generating `.janet` scripts.
 
 ## Credits
 
