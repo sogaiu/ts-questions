@@ -1,6 +1,7 @@
 # XXX: execute from ts-questions root directory
 
 (import ./walk-dir :as wd)
+(import ./common :as c)
 
 (defn find-lang-version
   [line]
@@ -30,10 +31,8 @@
 
 (def results @{})
 
-(def all-repos-root "./repos")
-
 (wd/visit-files
-  all-repos-root
+  c/all-repos-root
   (fn [path]
     (when (string/has-suffix? "src/parser.c" path)
       (with [f (file/open path)]

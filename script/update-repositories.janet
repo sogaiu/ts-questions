@@ -1,13 +1,12 @@
 # XXX: execute from ts-questions root directory
 
 (import ./walk-dir :as wd)
+(import ./common :as c)
 
 (def repos-roots @{})
 
-(def all-repos-root "./repos")
-
 (wd/visit-dirs
-  all-repos-root
+  c/all-repos-root
   (fn [path]
     (when (string/has-suffix? "/.git" path)
       (def parent-dir

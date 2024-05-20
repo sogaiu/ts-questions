@@ -2,11 +2,7 @@
 
 # XXX: execute from ts-questions root directory
 
-(def repos-dir "repos")
-
-(def tsgr-fname "ts-grammar-repositories.txt")
-
-########################################################################
+(import ./common :as c)
 
 (defn mkdir-p
   [dir-path &opt sep]
@@ -34,7 +30,7 @@
   (eprint "please execute from ts-questions root directory")
   (os/exit 1))
 
-(try (os/stat tsgr-fname)
+(try (os/stat c/tsgr-fname)
   ([e] (eprint e) (os/exit 1)))
 
 (def tsgr-peg
@@ -52,7 +48,7 @@
     :eol (choice "\r\n" "\n" "\r")})
 
 (def tsgr-content
-  (try (slurp tsgr-fname)
+  (try (slurp c/tsgr-fname)
     ([e] (eprint e) (os/exit 1))))
 
 (def repo-info
@@ -62,10 +58,10 @@
 
 (def old-dir (os/cwd))
 
-(try (os/mkdir repos-dir)
+(try (os/mkdir c/all-repos-root)
   ([e] (eprint e) (os/exit 1)))
 
-(try (os/cd repos-dir)
+(try (os/cd c/all-repos-root)
   ([e] (eprint e) (os/exit 1)))
 
 (def sep (if (= :windows (os/which)) `\` "/"))

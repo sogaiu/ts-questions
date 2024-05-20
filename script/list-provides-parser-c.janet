@@ -1,6 +1,7 @@
 # XXX: execute from ts-questions root directory
 
 (import ./walk-dir :as wd)
+(import ./common :as c)
 
 (def results @[])
 
@@ -9,7 +10,7 @@
 (def all-repos-root "./repos")
 
 (wd/visit-files
-  all-repos-root
+  c/all-repos-root
   (fn [path]
     (cond
       (string/has-suffix? "/grammar.js" path)

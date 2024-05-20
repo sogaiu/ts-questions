@@ -3,11 +3,13 @@
 # XXX: clone nvim-treesitter.wiki as a subdirectory
 # XXX: execute this script from ts-questions root directory
 
+(import ./common :as c)
+
 # input
 (def lop-fname "nvim-treesitter.wiki/List-of-parsers.md")
 
 # output
-(def repos-fname "ts-grammar-repositories.txt")
+c/tsgr-fname
 
 ########################################################################
 
@@ -41,7 +43,7 @@
 
 (assert repo-urls "failed to parse list of parsers")
 
-(with [of (file/open repos-fname :w)]
+(with [of (file/open c/tsgr-fname :w)]
   (def seen-table @{})
   (each url (sort repo-urls)
     (when (not (get seen-table url))
