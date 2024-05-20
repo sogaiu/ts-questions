@@ -1,6 +1,6 @@
 # XXX: execute from ts-questions root directory
 
-(import ../lib/walk-dir :as wd)
+(import ./walk-dir :as wd)
 
 (defn find-repo-url
   [line]
@@ -45,6 +45,8 @@
       (when result
         (array/push results [root result])
         (break)))))
+
+(sort-by |(get $ 1) results)
 
 (each [_ url] results
   (print url))

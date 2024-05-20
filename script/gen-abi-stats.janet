@@ -1,6 +1,6 @@
 # XXX: execute from ts-questions root directory
 
-(import ../lib/walk-dir :as wd)
+(import ./walk-dir :as wd)
 
 (defn find-lang-version
   [line]

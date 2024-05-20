@@ -1,6 +1,6 @@
 # XXX: execute from ts-questions root directory
 
-(import ../lib/walk-dir :as wd)
+(import ./walk-dir :as wd)
 
 (def results @[])
 
@@ -18,7 +18,9 @@
       (string/has-suffix? "src/parser.c" path)
       (array/push results path))))
 
-(printf "Minimum number of grammars with parser.c: %d"
-        (length results))
+(each root results
+  (print root))
+
+(printf "Grammars with parser.c: %d" (length results))
 (printf "Total number of grammar.js: %d" n-grammars)
 
