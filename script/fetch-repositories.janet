@@ -4,7 +4,7 @@
 
 (def repos-dir "repos")
 
-(def lop-fname "nvim-treesitter.wiki/List-of-parsers.md")
+(def tsgr-fname "ts-grammar-repositories.txt")
 
 ########################################################################
 
@@ -34,32 +34,29 @@
   (eprint "please execute from ts-questions root directory")
   (os/exit 1))
 
-(try (os/stat lop-fname)
+(try (os/stat tsgr-fname)
   ([e] (eprint e) (os/exit 1)))
 
-(def lop-peg
+(def tsgr-peg
   ~{:main (sequence (some :line) -1)
     :line (choice :repo-line :other-line)
-    :repo-line (sequence "- [" 1 "] "
-                         "[" (thru "]")
-                         "(" :repo-url ")"
-                         :eol)
+    :repo-line (sequence :repo-url :eol)
     :repo-url (cmt (sequence "https://"
                              (capture (to "/"))
                              "/"
                              (capture (to "/"))
                              "/"
-                             (capture (to ")")))
+                             (capture (to :eol)))
                    ,|[$0 $1 $2])
     :other-line (thru :eol)
     :eol (choice "\r\n" "\n" "\r")})
 
-(def lop-content
-  (try (slurp lop-fname)
+(def tsgr-content
+  (try (slurp tsgr-fname)
     ([e] (eprint e) (os/exit 1))))
 
 (def repo-info
-  (peg/match lop-peg lop-content))
+  (peg/match tsgr-peg tsgr-content))
 
 (assert repo-info "failed to parse list of parsers")
 
