@@ -75,6 +75,9 @@
 
 (def problems @[])
 
+# skip git's prompts
+(os/setenv "GIT_TERMINAL_PROMPT" "0")
+
 (each record repo-info
   (def [host user-name repo-name] record)
   (comment print host " " user-name " " repo-name)
