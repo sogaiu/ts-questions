@@ -2,6 +2,8 @@
 
 Some tree-sitter-related questions with discussions and some answers.
 
+* [What Paths are Relevant for `tree-sitter`
+  Use?](questions/what-paths-are-relevant/README.md)
 * [What Files Are Involved in `tree-sitter
   generate`?](questions/generate-subcommand-files/README.md)
 * [Should Generated Parser Source Be
