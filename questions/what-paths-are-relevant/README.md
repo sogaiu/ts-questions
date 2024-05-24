@@ -8,7 +8,7 @@ What is this info, where is it stored, and how is behavior affected?
 The `tree-sitter` cli's behavior can be affected by:
 
 * Information stored within individual parser repositories
-* Shared objects compiled from individual parses
+* Shared objects compiled from parser source
 
 ### Where Parser Repositories Live
 
