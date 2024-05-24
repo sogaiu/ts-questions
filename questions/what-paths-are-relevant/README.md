@@ -21,6 +21,9 @@ affect various `tree-sitter` subcommand behavior (e.g. `parse`,
 * Mac - `~/Library/Application Support/tree-sitter`
 * Windows - `C:\Users\<username>\AppData\Roaming\tree-sitter`
 
+Note that since tree-sitter 0.20.8, the directory in question can be
+overridden via the `TREE_SITTER_DIR` environment variable.
+
 A default `config.json` file will be generated in the appropriate
 location via `tree-sitter`'s `init-config` subcommand and by default
 it contains two keys:
@@ -51,6 +54,9 @@ directories:
 * Linux - `~/.cache/tree-sitter`
 * Mac - `~/Library/Caches/tree-sitter`
 * Windows - `C:\Users\<username>\AppData\Local\tree-sitter`
+
+Note that since tree-sitter 0.20.8, the directory in question can be
+overridden via the `TREE_SITTER_LIBDIR` environment variable.
 
 The `parse` subcommand is an example of a `tree-sitter` subcommand
 that is affected by which shared objects can be found.
