@@ -15,7 +15,7 @@ The `tree-sitter` cli's behavior can be affected by:
 If a JSON configuration file named `config.json` lives under one of
 the following operating-system-dependent directories, its content can
 affect various `tree-sitter` subcommand behavior (e.g. `parse`,
-`highlight`, `dump-lanauges`, etc.):
+`highlight`, `dump-languages`, etc.):
 
 * Linux - `~/.config/tree-sitter`
 * Mac - `~/Library/Application Support/tree-sitter`
@@ -51,9 +51,9 @@ As the result of executing a variety of subcommands (e.g. `test`),
 shared object under one of the following operating-system-dependent
 directories:
 
-* Linux - `~/.cache/tree-sitter`
-* Mac - `~/Library/Caches/tree-sitter`
-* Windows - `C:\Users\<username>\AppData\Local\tree-sitter`
+* Linux - `~/.cache/tree-sitter/lib`
+* Mac - `~/Library/Caches/tree-sitter/lib`
+* Windows - `C:\Users\<username>\AppData\Local\tree-sitter\lib`
 
 Note that since tree-sitter 0.20.8, the directory in question can be
 overridden via the `TREE_SITTER_LIBDIR` environment variable.
