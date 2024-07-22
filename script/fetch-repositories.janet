@@ -4,9 +4,14 @@
 
 (import ./common :as c)
 
+########################################################################
+
+(def os-sep
+  (if (= :windows (os/which)) `\` "/"))
+
 (defn mkdir-p
   [dir-path &opt sep]
-  (default sep (if (= :windows (os/which)) `\` "/"))
+  (default sep os-sep)
   (each idx (string/find-all sep dir-path)
     (when (< 0 idx)
       (def curr-path (string/slice dir-path 0 idx))
@@ -64,8 +69,6 @@
 (try (os/cd c/all-repos-root)
   ([e] (eprint e) (os/exit 1)))
 
-(def sep (if (= :windows (os/which)) `\` "/"))
-
 (def problems @[])
 
 # skip git's prompts
@@ -74,7 +77,7 @@
 (each record repo-info
   (def [host user-name repo-name] record)
   (comment print host " " user-name " " repo-name)
-  (def dir-path (string/join record sep))
+  (def dir-path (string/join record os-sep))
   (when (not (os/stat dir-path))
     (mkdir-p dir-path)
     (def url 
@@ -84,7 +87,8 @@
       (os/execute ["git" "clone" "--depth" "1" url dir-path] :p))
     (when (not (zero? res))
       (array/push problems url)
-      (eprintf "git clone failed with: %n" res))))
+      (eprintf "git clone error for: %s" url)
+      (eprintf "git exit code: %d" res))))
 
 (when (next problems)
   (eprint "git clone had issues for the following:")
