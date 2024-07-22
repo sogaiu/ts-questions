@@ -39,6 +39,7 @@ There appear to be what might be considered compromise options:
   [issue](https://github.com/alex-pinkus/tree-sitter-swift/issues/149))
 * https://github.com/DerekStride/tree-sitter-sql#installation (related
   [issue](https://github.com/DerekStride/tree-sitter-sql/issues/76))
+* https://github.com/tree-sitter-perl/tree-sitter-perl#in-general
 
 It's probably worth noting that there are [security
 implications](https://github.com/tree-sitter/tree-sitter/issues/1641)
