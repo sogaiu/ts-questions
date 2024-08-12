@@ -1,6 +1,8 @@
+https://codeberg.org/foxy/tree-sitter-problog
+https://codeberg.org/foxy/tree-sitter-prolog
 https://codeberg.org/xasc/tree-sitter-t32
-https://git.sr.ht/~rockorager/tree-sitter-scfg
 https://git.sr.ht/~nbsp/tree-sitter-gemini
+https://git.sr.ht/~rockorager/tree-sitter-scfg
 https://git.sr.ht/~yotam/tree-sitter-smali
 https://github.com/3p3r/tree-sitter-eventrule
 https://github.com/6cdh/tree-sitter-racket
@@ -12,8 +14,6 @@ https://github.com/Aerijo/tree-sitter-todo
 https://github.com/AlexanderBrevig/tree-sitter-forth
 https://github.com/Azganoth/tree-sitter-lua
 https://github.com/Beaglefoot/tree-sitter-awk
-https://github.com/BonaBeavis/tree-sitter-sparql
-https://github.com/BonaBeavis/tree-sitter-turtle
 https://github.com/ColinKennedy/tree-sitter-disassembly
 https://github.com/ColinKennedy/tree-sitter-usd
 https://github.com/CyberShadow/tree-sitter-d
@@ -35,6 +35,8 @@ https://github.com/FuelLabs/tree-sitter-sway
 https://github.com/Fymyte/tree-sitter-rasi
 https://github.com/GodOfAvacyn/tree-sitter-gdshader
 https://github.com/GoodNotes/tree-sitter-rtf
+https://github.com/GordianDziwis/tree-sitter-sparql
+https://github.com/GordianDziwis/tree-sitter-turtle
 https://github.com/GrayJack/tree-sitter-carp
 https://github.com/GrayJack/tree-sitter-janet
 https://github.com/GrayJack/tree-sitter-zig
@@ -76,7 +78,6 @@ https://github.com/PasiSalenius/tree-sitter-http
 https://github.com/Philipp-M/tree-sitter-ungrammar
 https://github.com/Philipp-M/tree-sitter-yuck
 https://github.com/PorterAtGoogle/tree-sitter-textproto
-https://github.com/PowerShell/tree-sitter-PowerShell
 https://github.com/PrestonKnopp/tree-sitter-gdscript
 https://github.com/PrestonKnopp/tree-sitter-godot-resource
 https://github.com/RaafatTurki/tree-sitter-sxhkdrc
@@ -122,6 +123,7 @@ https://github.com/atom-ocaml/tree-sitter-ocamllex
 https://github.com/bamonroe/tree-sitter-rnoweb
 https://github.com/bartek/tree-sitter-vespa
 https://github.com/bearcove/tree-sitter-x86asm
+https://github.com/belltoy/tree-sitter-vrl
 https://github.com/benwilliamgraham/tree-sitter-llvm
 https://github.com/bgamari/tree-sitter-ghc-core
 https://github.com/bkegley/tree-sitter-graphql
@@ -133,8 +135,10 @@ https://github.com/camdencheek/tree-sitter-go-mod
 https://github.com/cathaysia/tree-sitter-asciidoc
 https://github.com/cathaysia/tree-sitter-idl
 https://github.com/cbarrete/tree-sitter-ledger
+https://github.com/chaozwn/tree-sitter-goctl
 https://github.com/charmbracelet/tree-sitter-vhs
 https://github.com/chipsalliance/tree-sitter-firrtl
+https://github.com/chrnorm/tree-sitter-cedar
 https://github.com/ckafi/tree-sitter-elvish
 https://github.com/claytonrcarter/tree-sitter-phpdoc
 https://github.com/connorlay/tree-sitter-eex
@@ -160,7 +164,6 @@ https://github.com/euclidianAce/tree-sitter-teal
 https://github.com/fab4100/tree-sitter-ispc
 https://github.com/faldor20/tree-sitter-roc
 https://github.com/fdncred/tree-sitter-nu
-https://github.com/fluidattacks/tree-sitter-yaml
 https://github.com/flurie/tree-sitter-jq
 https://github.com/frozolotl/tree-sitter-typst
 https://github.com/fwcd/tree-sitter-kotlin
@@ -196,6 +199,7 @@ https://github.com/jmitchell/tree-sitter-abnf
 https://github.com/jmitchell/tree-sitter-dhall
 https://github.com/joelspadin/tree-sitter-devicetree
 https://github.com/joker1007/tree-sitter-rbs
+https://github.com/jpt13653903/tree-sitter-vhdl
 https://github.com/jsuarez-chipiron/tree-sitter-apex
 https://github.com/julienhenry/tree-sitter-souffle
 https://github.com/justinmk/tree-sitter-ini
@@ -249,6 +253,8 @@ https://github.com/nvim-neorg/tree-sitter-norg-meta
 https://github.com/nvim-neorg/tree-sitter-norg2
 https://github.com/ok-ryoko/tree-sitter-systemtap
 https://github.com/omertuc/tree-sitter-go-work
+https://github.com/opa-oz/tree-sitter-nginx
+https://github.com/opa-oz/tree-sitter-robots-txt
 https://github.com/open-papyrus/tree-sitter-papyrus
 https://github.com/osthomas/tree-sitter-snakemake
 https://github.com/pebbe/tree-sitter-gemtext
@@ -408,8 +414,10 @@ https://github.com/winston0410/tree-sitter-hjson
 https://github.com/yagebu/tree-sitter-beancount
 https://github.com/yuja/tree-sitter-qmljs
 https://github.com/yutaro-sakamoto/tree-sitter-cobol
+https://github.com/zaucy/tree-sitter-bazelrc
 https://github.com/zealot128/tree-sitter-pug
 https://github.com/zeek/tree-sitter-zeek
+https://github.com/ziglibs/tree-sitter-zig
 https://github.com/zwpaper/tree-sitter-beancount
 https://gitlab.com/WhyNotHugo/tree-sitter-jsonc.git
 https://gitlab.com/btuin2/tree-sitter-bison
