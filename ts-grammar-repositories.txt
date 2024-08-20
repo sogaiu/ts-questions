@@ -120,6 +120,7 @@ https://github.com/arnarg/tree-sitter-todotxt
 https://github.com/artagnon/tree-sitter-mlir
 https://github.com/ath3/tree-sitter-passwd
 https://github.com/atom-ocaml/tree-sitter-ocamllex
+https://github.com/austincummings/tree-sitter-mojo
 https://github.com/bamonroe/tree-sitter-rnoweb
 https://github.com/bartek/tree-sitter-vespa
 https://github.com/bearcove/tree-sitter-x86asm
@@ -135,12 +136,14 @@ https://github.com/camdencheek/tree-sitter-go-mod
 https://github.com/cathaysia/tree-sitter-asciidoc
 https://github.com/cathaysia/tree-sitter-idl
 https://github.com/cbarrete/tree-sitter-ledger
+https://github.com/cbuttner/tree-sitter-c3
 https://github.com/chaozwn/tree-sitter-goctl
 https://github.com/charmbracelet/tree-sitter-vhs
 https://github.com/chipsalliance/tree-sitter-firrtl
 https://github.com/chrnorm/tree-sitter-cedar
 https://github.com/ckafi/tree-sitter-elvish
 https://github.com/claytonrcarter/tree-sitter-phpdoc
+https://github.com/comom87/tree-sitter-smallbasic
 https://github.com/connorlay/tree-sitter-eex
 https://github.com/connorlay/tree-sitter-heex
 https://github.com/connorlay/tree-sitter-surface
@@ -235,6 +238,7 @@ https://github.com/mrnugget/tree-sitter-tucan
 https://github.com/mrnugget/tree-sitter-tucanir
 https://github.com/mskelton/tree-sitter-styled
 https://github.com/mstanciu552/tree-sitter-matlab
+https://github.com/mtoohey31/tree-sitter-koka
 https://github.com/murtaza64/tree-sitter-groovy
 https://github.com/naclsn/tree-sitter-nasm
 https://github.com/nedpals/tree-sitter-v
@@ -246,8 +250,11 @@ https://github.com/nilshelmig/tree-sitter-sourcepawn
 https://github.com/nitreojs/tree-sitter-jpp
 https://github.com/nkrkv/tree-sitter-rescript
 https://github.com/nnnewb/tree-sitter-protobuf
+https://github.com/noorwachid/tree-sitter-gularen
+https://github.com/novusnota/tree-sitter-ohm
 https://github.com/nushell/tree-sitter-nu
 https://github.com/nverno/tree-sitter-jack
+https://github.com/nverno/tree-sitter-jq
 https://github.com/nvim-neorg/tree-sitter-norg
 https://github.com/nvim-neorg/tree-sitter-norg-meta
 https://github.com/nvim-neorg/tree-sitter-norg2
@@ -257,6 +264,7 @@ https://github.com/opa-oz/tree-sitter-nginx
 https://github.com/opa-oz/tree-sitter-robots-txt
 https://github.com/open-papyrus/tree-sitter-papyrus
 https://github.com/osthomas/tree-sitter-snakemake
+https://github.com/panicinc/tree-sitter-xml
 https://github.com/pebbe/tree-sitter-gemtext
 https://github.com/pfeiferj/tree-sitter-hurl
 https://github.com/phoenixframework/tree-sitter-heex
@@ -304,6 +312,7 @@ https://github.com/the-mikedavis/tree-sitter-erlang
 https://github.com/the-mikedavis/tree-sitter-git-commit
 https://github.com/the-mikedavis/tree-sitter-git-config
 https://github.com/the-mikedavis/tree-sitter-git-rebase
+https://github.com/the-mikedavis/tree-sitter-tsq
 https://github.com/theHamsta/tree-sitter-commonlisp
 https://github.com/theHamsta/tree-sitter-cuda
 https://github.com/theHamsta/tree-sitter-glsl

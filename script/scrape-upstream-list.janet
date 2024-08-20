@@ -6,7 +6,7 @@
 (import ./common :as c)
 
 # input
-(def lop-fname "nvim-treesitter.wiki/List-of-parsers.md")
+(def lop-fname "tree-sitter.wiki/List-of-parsers.md")
 
 # output
 c/tsgr-fname
@@ -23,8 +23,7 @@ c/tsgr-fname
 (def lop-peg
   ~{:main (sequence (some :line) -1)
     :line (choice :repo-line :other-line)
-    :repo-line (sequence "- [" 1 "] "
-                         "[" (thru "]")
+    :repo-line (sequence "- [" (thru "]")
                          "(" :repo-url ")"
                          :eol)
     :repo-url (capture (sequence "https://"
@@ -35,8 +34,14 @@ c/tsgr-fname
     :eol (choice "\r\n" "\n" "\r")})
 
 (def lop-content
-  (try (slurp lop-fname)
-    ([e] (eprint e) (os/exit 1))))
+  (do
+    (def content
+      (try (slurp lop-fname)
+        ([e] (eprint e) (os/exit 1))))
+    (string content
+            # wiki page lacked newline at eof (at some point)
+            (when (not= "\n" (last content))
+              "\n"))))
 
 (def repo-urls
   (peg/match lop-peg lop-content))
