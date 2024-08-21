@@ -30,6 +30,7 @@ https://github.com/FallenAngel97/tree-sitter-rego
 https://github.com/Flakebi/tree-sitter-llvm-mir
 https://github.com/Flakebi/tree-sitter-tablegen
 https://github.com/FoamScience/tree-sitter-foam
+https://github.com/Freed-Wu/tree-sitter-hlsplaylist
 https://github.com/Freed-Wu/tree-sitter-zathurarc
 https://github.com/FuelLabs/tree-sitter-sway
 https://github.com/Fymyte/tree-sitter-rasi
@@ -94,6 +95,7 @@ https://github.com/Tavistock/tree-sitter-clojure
 https://github.com/Teddytrombone/tree-sitter-typoscript
 https://github.com/TravonteD/tree-sitter-fennel
 https://github.com/UserNobody14/tree-sitter-dart
+https://github.com/ValdezFOmar/tree-sitter-editorconfig
 https://github.com/WardBrian/tree-sitter-stan
 https://github.com/WhatsApp/tree-sitter-erlang
 https://github.com/Wilfred/tree-sitter-elisp
@@ -115,7 +117,9 @@ https://github.com/alemuller/tree-sitter-re2c
 https://github.com/alemuller/tree-sitter-vhdl
 https://github.com/alex-pinkus/tree-sitter-swift
 https://github.com/alexlafroscia/tree-sitter-glimmer
+https://github.com/alexmozaidze/tree-sitter-fennel
 https://github.com/amaanq/tree-sitter-rec
+https://github.com/ambroisie/tree-sitter-bp
 https://github.com/ambroisie/tree-sitter-tiger
 https://github.com/antosha417/tree-sitter-hocon
 https://github.com/apple/tree-sitter-pkl
@@ -214,6 +218,7 @@ https://github.com/kaermorchen/tree-sitter-twig
 https://github.com/kcl-lang/tree-sitter-kcl
 https://github.com/keidax/tree-sitter-crystal
 https://github.com/kevinkeckeis/tree-sitter-helma
+https://github.com/khiner/tree-sitter-faust
 https://github.com/krn-robin/tree-sitter-magik
 https://github.com/kylegoetz/tree-sitter-unison
 https://github.com/langston-barrett/tree-sitter-souffle
@@ -254,6 +259,7 @@ https://github.com/nilshelmig/tree-sitter-sourcepawn
 https://github.com/nitreojs/tree-sitter-jpp
 https://github.com/nkrkv/tree-sitter-rescript
 https://github.com/nnnewb/tree-sitter-protobuf
+https://github.com/nois-lang/tree-sitter-nois
 https://github.com/noorwachid/tree-sitter-gularen
 https://github.com/novusnota/tree-sitter-ohm
 https://github.com/nushell/tree-sitter-nu
@@ -282,6 +288,7 @@ https://github.com/r001/tree-sitter-leo
 https://github.com/ram02z/tree-sitter-fish
 https://github.com/rest-nvim/tree-sitter-http
 https://github.com/rfdonnelly/tree-sitter-sv
+https://github.com/ribru17/tree-sitter-readline
 https://github.com/rockerBOO/tree-sitter-twitchchat
 https://github.com/rolandwalker/tree-sitter-pgn
 https://github.com/rschiang/tree-sitter-qml
@@ -364,6 +371,7 @@ https://github.com/tree-sitter-grammars/tree-sitter-ron
 https://github.com/tree-sitter-grammars/tree-sitter-smali
 https://github.com/tree-sitter-grammars/tree-sitter-squirrel
 https://github.com/tree-sitter-grammars/tree-sitter-starlark
+https://github.com/tree-sitter-grammars/tree-sitter-svelte
 https://github.com/tree-sitter-grammars/tree-sitter-tablegen
 https://github.com/tree-sitter-grammars/tree-sitter-tcl
 https://github.com/tree-sitter-grammars/tree-sitter-toml

@@ -25,9 +25,9 @@ c/tsgr-fname
     :line (choice :repo-line :other-line)
 
     :repo-line (sequence "-"
-                         # XXX: occasionally this turns up...
-                         (opt "_")
-                         " [" (thru "]")
+                         # XXX: occasionally there is some oddness
+                         (to "[")
+                         "[" (thru "]")
                          "(" :repo-url ")"
                          (opt (sequence :s+ "(archived)"))
                          :eol)
