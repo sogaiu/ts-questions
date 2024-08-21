@@ -23,8 +23,13 @@ c/tsgr-fname
 (def lop-peg
   ~{:main (sequence (some :line) -1)
     :line (choice :repo-line :other-line)
-    :repo-line (sequence "- [" (thru "]")
+
+    :repo-line (sequence "-"
+                         # XXX: occasionally this turns up...
+                         (opt "_")
+                         " [" (thru "]")
                          "(" :repo-url ")"
+                         (opt (sequence :s+ "(archived)"))
                          :eol)
     :repo-url (capture (sequence "https://"
                                  (thru "/")

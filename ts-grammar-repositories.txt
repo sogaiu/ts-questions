@@ -62,6 +62,7 @@ https://github.com/MichaHoffmann/tree-sitter-promql
 https://github.com/MineBill/tree-sitter-odin
 https://github.com/MortenSchou/tree-sitter-lbnf
 https://github.com/MunifTanjim/tree-sitter-lua
+https://github.com/Neppord/tree-sitter-cobol
 https://github.com/ObserverOfTime/tree-sitter-chatito
 https://github.com/ObserverOfTime/tree-sitter-gitattributes
 https://github.com/ObserverOfTime/tree-sitter-gpg-config
@@ -78,6 +79,7 @@ https://github.com/PasiSalenius/tree-sitter-http
 https://github.com/Philipp-M/tree-sitter-ungrammar
 https://github.com/Philipp-M/tree-sitter-yuck
 https://github.com/PorterAtGoogle/tree-sitter-textproto
+https://github.com/PowerShell/tree-sitter-PowerShell
 https://github.com/PrestonKnopp/tree-sitter-gdscript
 https://github.com/PrestonKnopp/tree-sitter-godot-resource
 https://github.com/RaafatTurki/tree-sitter-sxhkdrc
@@ -96,6 +98,7 @@ https://github.com/WardBrian/tree-sitter-stan
 https://github.com/WhatsApp/tree-sitter-erlang
 https://github.com/Wilfred/tree-sitter-elisp
 https://github.com/Willem-J-an/tree-sitter-kusto
+https://github.com/Ziemniakoss/tree-sitter-apex
 https://github.com/aMOPel/tree-sitter-nim
 https://github.com/aMOPel/tree-sitter-nim-format-string
 https://github.com/ace-design/tree-sitter-p4
@@ -122,6 +125,7 @@ https://github.com/ath3/tree-sitter-passwd
 https://github.com/atom-ocaml/tree-sitter-ocamllex
 https://github.com/austincummings/tree-sitter-mojo
 https://github.com/bamonroe/tree-sitter-rnoweb
+https://github.com/baronfel/tree-sitter-fsharp
 https://github.com/bartek/tree-sitter-vespa
 https://github.com/bearcove/tree-sitter-x86asm
 https://github.com/belltoy/tree-sitter-vrl
@@ -268,6 +272,7 @@ https://github.com/panicinc/tree-sitter-xml
 https://github.com/pebbe/tree-sitter-gemtext
 https://github.com/pfeiferj/tree-sitter-hurl
 https://github.com/phoenixframework/tree-sitter-heex
+https://github.com/pleshevskiy/tree-sitter-d2
 https://github.com/pmazaitis/tree-sitter-context_en
 https://github.com/polarmutex/tree-sitter-beancount
 https://github.com/polychromatist/tree-sitter-luau
@@ -427,6 +432,7 @@ https://github.com/zaucy/tree-sitter-bazelrc
 https://github.com/zealot128/tree-sitter-pug
 https://github.com/zeek/tree-sitter-zeek
 https://github.com/ziglibs/tree-sitter-zig
+https://github.com/zweimach/tree-sitter-c3
 https://github.com/zwpaper/tree-sitter-beancount
 https://gitlab.com/WhyNotHugo/tree-sitter-jsonc.git
 https://gitlab.com/btuin2/tree-sitter-bison
