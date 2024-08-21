@@ -35,7 +35,7 @@ Assuming those things are in place, clone this repository:
 git clone https://github.com/sogaiu/ts-questions
 ```
 
-The scripts that involve generating statistics across multple
+The scripts that involve generating statistics across multiple
 repositories assume that parser / grammar repositories have been
 fetched to live under a `repos` subdirectory.
 
