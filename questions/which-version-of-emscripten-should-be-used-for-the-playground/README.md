@@ -63,6 +63,7 @@ tree-sitter  Emscripten
    0.22.5      3.1.55
    0.22.6      3.1.55
   ce37b112     3.1.64
+   0.23.0      3.1.64
 ```
 
 The following file histories may be of interest:
