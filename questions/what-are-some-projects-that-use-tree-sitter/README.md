@@ -10,6 +10,8 @@ Below are some projects that use the tree-sitter library.
 * [Helix](https://github.com/helix-editor/helix)
 * [htsparse](https://github.com/haxscramper/htsparse)
 * [lapce](https://github.com/lapce/lapce)
+* [neovim](https://github.com/neovim/neovim)
 * [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+* [pulsar](https://pulsar-edit.dev/)
 * [semgrep](https://github.com/returntocorp/semgrep)
 * [tree-sitter cli](https://github.com/tree-sitter/tree-sitter/tree/master/cli)
