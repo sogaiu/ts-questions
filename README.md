@@ -16,6 +16,8 @@ Some tree-sitter-related questions with discussions and some answers.
   Supported?](questions/what-regex-features-are-supported/README.md)
 * [Which Version of Emscripten Should be Used for the
   Playground?](questions/which-version-of-emscripten-should-be-used-for-the-playground/README.md)
+* [How Can a Custom Playground Be
+  Hosted?](questions/how-can-a-custom-playground-be-hosted/README.md)
 * [How Can One Test for An Expected
   Error?](questions/how-to-test-for-an-expected-error/README.md)
 * [Is There A Changelog?](questions/is-there-a-changelog/README.md)
