@@ -8,7 +8,6 @@ Below are some projects that use the tree-sitter library.
 * [elisp-tree-sitter](https://github.com/emacs-tree-sitter/elisp-tree-sitter/)
 * [Emacs 29+](https://github.com/emacs-mirror/emacs/tree/emacs-29)
 * [Helix](https://github.com/helix-editor/helix)
-* [htsparse](https://github.com/haxscramper/htsparse)
 * [lapce](https://github.com/lapce/lapce)
 * [neovim](https://github.com/neovim/neovim)
 * [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
