@@ -114,6 +114,7 @@ https://github.com/alemuller/tree-sitter-make
 https://github.com/alemuller/tree-sitter-ninja
 https://github.com/alemuller/tree-sitter-re2c
 https://github.com/alemuller/tree-sitter-vhdl
+https://github.com/alephium/tree-sitter-ralph
 https://github.com/alex-pinkus/tree-sitter-swift
 https://github.com/alexlafroscia/tree-sitter-glimmer
 https://github.com/alexmozaidze/tree-sitter-fennel
@@ -238,6 +239,7 @@ https://github.com/mgramigna/tree-sitter-fsh
 https://github.com/milisims/tree-sitter-org
 https://github.com/mitchellh/tree-sitter-proto
 https://github.com/mleonidas/tree-sitter-authzed
+https://github.com/modelicahub/tree-sitter-modelica
 https://github.com/monaqa/tree-sitter-mermaid
 https://github.com/monaqa/tree-sitter-satysfi
 https://github.com/monaqa/tree-sitter-unifieddiff
@@ -254,6 +256,7 @@ https://github.com/neovim/tree-sitter-vim
 https://github.com/neovim/tree-sitter-vimdoc
 https://github.com/ngalaiko/tree-sitter-go-template
 https://github.com/nickel-lang/tree-sitter-nickel
+https://github.com/nicolas-graves/tree-sitter-scilab
 https://github.com/nilshelmig/tree-sitter-sourcepawn
 https://github.com/nitreojs/tree-sitter-jpp
 https://github.com/nkrkv/tree-sitter-rescript
@@ -273,6 +276,7 @@ https://github.com/opa-oz/tree-sitter-nginx
 https://github.com/opa-oz/tree-sitter-robots-txt
 https://github.com/open-papyrus/tree-sitter-papyrus
 https://github.com/osthomas/tree-sitter-snakemake
+https://github.com/panicinc/tree-sitter-objcpp
 https://github.com/panicinc/tree-sitter-xml
 https://github.com/pebbe/tree-sitter-gemtext
 https://github.com/pfeiferj/tree-sitter-hurl
