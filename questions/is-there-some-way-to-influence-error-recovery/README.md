@@ -69,15 +69,15 @@ At one point, he gave [a sketch of an approach to providing some
 
 ## Video Clips
 
+Similar content, but perhaps nice for fans or those looking for tiny
+hints? (^^;
+
 * [Error recovery (35:15) in talk at GitHub Universe
   2017](https://youtu.be/a1rC79DHpmY?t=2115)
 * [Error recovery (31:33) in talk at Strange Loop
   2018](https://youtu.be/Jes3bD6P0To?t=1893)
 * [Error recovery (15:35) in talk at FOSDEDM
   2018](https://youtu.be/0CGzC_iss-8?t=935)
-
-Similar content, but perhaps nice for fans or those looking for tiny
-hints? (^^;
 
 ## Papers and the Like
 
