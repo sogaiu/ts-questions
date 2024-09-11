@@ -67,7 +67,31 @@ At one point, he gave [a sketch of an approach to providing some
 > detected. From there, you could call another function to iterate
 > over all of the valid symbols in that parse state.
 
-## References
+## Video Clips
+
+* [Error recovery (35:15) in talk at GitHub Universe
+  2017](https://youtu.be/a1rC79DHpmY?t=2115)
+* [Error recovery (31:33) in talk at Strange Loop
+  2018](https://youtu.be/Jes3bD6P0To?t=1893)
+* [Error recovery (15:35) in talk at FOSDEDM
+  2018](https://youtu.be/0CGzC_iss-8?t=935)
+
+Similar content, but perhaps nice for fans or those looking for tiny
+hints? (^^;
+
+## Papers and the Like
+
+* [Error Detection and Recovery in LR Parsers - via
+  archive.org](https://web.archive.org/web/20240302031213/https://what-when-how.com/compiler-writing/bottom-up-parsing-compiler-writing-part-13/) - (2012?) -
+  listed at tree-sitter.github.io
+* [Error Recovery for LR
+  Parsers](https://apps.dtic.mil/sti/pdfs/ADA043470.pdf) - (1977) - listed at
+  tree-sitter.github.io
+* [Chapter 3 "Error recovery" - Lukas Diekmann's PhD Thesis "Editing
+  composed languages"](https://diekmann.uk/diekmann_phd.pdf#page=60) -
+  (2019) - may contain bits that didn't influence tree-sitter
+
+## Tree-sitter Issues
 
 * [#26 Overhaul error
   recovery](https://github.com/tree-sitter/tree-sitter/pull/26)
@@ -120,4 +144,3 @@ At one point, he gave [a sketch of an approach to providing some
   grammar?](https://github.com/tree-sitter/tree-sitter/issues/1870)
 * [#1993 Adding keyword extraction breaks MISSING
   node](https://github.com/tree-sitter/tree-sitter/issues/1993)
-  
