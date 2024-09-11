@@ -14,12 +14,16 @@ Some tree-sitter-related questions with discussions and some answers.
   Used?](questions/are-external-scanners-common/README.md)
 * [What Regular Expression Features Are
   Supported?](questions/what-regex-features-are-supported/README.md)
+
 * [Which Version of Emscripten Should be Used for the
   Playground?](questions/which-version-of-emscripten-should-be-used-for-the-playground/README.md)
 * [How Can a Custom Playground Be
   Hosted?](questions/how-can-a-custom-playground-be-hosted/README.md)
+
 * [How Can One Test for An Expected
   Error?](questions/how-to-test-for-an-expected-error/README.md)
+* [Is There Some Way to Influence Error Recovery?](questions/is-there-some-way-to-influence-error-recovery/README.md)
+
 * [Is There A Changelog?](questions/is-there-a-changelog/README.md)
 * [What Are Some Projects That Use
   Tree-sitter?](questions/what-are-some-projects-that-use-tree-sitter/README.md)
