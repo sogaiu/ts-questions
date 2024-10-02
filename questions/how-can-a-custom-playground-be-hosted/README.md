@@ -32,11 +32,6 @@ tree-sitter-sfapex](https://github.com/aheber/tree-sitter-sfapex/tree/main/docs)
 or [the tree-sitter website's playground
 content](https://tree-sitter.github.io/tree-sitter/playground).
 
-3. Have
-[ts-playground-setup](https://github.com/sogaiu/ts-playground-setup)
-generate an appropriate directory of files (or study its docs and/or
-source to figure out what to do).
-
 On a side note, for each desired grammar, a corresponding `.wasm` file
 is needed.  See the [official
 instructions](https://github.com/tree-sitter/tree-sitter/tree/master/lib/binding_web#generate-wasm-language-files)
