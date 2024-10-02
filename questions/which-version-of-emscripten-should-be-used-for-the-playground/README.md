@@ -23,18 +23,18 @@ When the stars are aligned appropriately [1], this can be made to
 work via two subcommands:
 
 ```
-tree-sitter build-wasm
+tree-sitter build --wasm      # in older versions, tree-sitter build-wasm
 ```
 
 ```
 tree-sitter playground
 ```
 
-The first builds a `.wasm` file for the "current" grammar [2], while the
+The first builds a `.wasm` file for the "current" grammar, while the
 second arranges for a web server and browser to start, serving up the
 playground for interaction.
 
-Unfortunately, the version of Emscripten used in the `build-wasm` step
+Unfortunately, the version of Emscripten used in the `build --wasm` step
 can matter a lot and this information is not clearly documented at the
 time of this writing.
 
@@ -135,14 +135,3 @@ Windows options include:
 * `cmd.exe`: `.\emsdk_env.bat`
 * `powershell.exe`: `.\emsdk_env.ps1`
 
-[2] Unfortunately, the invocation for building `.wasm` files may be
-changing so at some point one may need to use a different invocation.
-In fact, for 0.22.2, one may need the newer form of invocation, though
-it may be that 0.22.3 and later added back the ability to invoke
-with the older method.
-
-FWIW, the newer form looks like:
-
-```
-tree-sitter build --wasm
-```
