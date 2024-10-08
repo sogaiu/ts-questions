@@ -12,21 +12,21 @@ the info may get duplicated here.
 
 ## Release Info (Post 0.20.7)
 
-* [0.24.2](release-notes/0.24.2.md)
-* [0.24.1](release-notes/0.24.1.md)
-* [0.24.0](release-notes/0.24.0.md)
-* [0.23.2](release-notes/0.23.2.md)
-* [0.23.1](release-notes/0.23.1.md)
-* [0.23.0](release-notes/0.23.0.md)
-* [0.22.6](release-notes/0.22.6.md)
-* [0.22.5](release-notes/0.22.5.md)
-* [0.22.4](release-notes/0.22.4.md)
-* [0.22.3](release-notes/0.22.3.md)
-* [0.22.2](release-notes/0.22.2.md)
-* [0.22.1](release-notes/0.22.1.md)
-* [0.22.0](release-notes/0.22.0.md)
-* [0.21.0](release-notes/0.21.0.md)
-* [0.20.8](release-notes/0.20.8.md)
+* [0.24.2](release-notes/0.24.2.md) - 2024-10-06
+* [0.24.1](release-notes/0.24.1.md) - 2024-10-04
+* [0.24.0](release-notes/0.24.0.md) - 2024-10-04
+* [0.23.2](release-notes/0.23.2.md) - 2024-10-01
+* [0.23.1](release-notes/0.23.1.md) - 2024-09-30
+* [0.23.0](release-notes/0.23.0.md) - 2024-08-26
+* [0.22.6](release-notes/0.22.6.md) - 2024-05-05
+* [0.22.5](release-notes/0.22.5.md) - 2024-04-14
+* [0.22.4](release-notes/0.22.4.md) - 2024-04-12
+* [0.22.3](release-notes/0.22.3.md) - 2024-04-12
+* [0.22.2](release-notes/0.22.2.md) - 2024-03-17
+* [0.22.1](release-notes/0.22.1.md) - 2024-03-10
+* [0.22.0](release-notes/0.22.0.md) - 2024-03-10
+* [0.21.0](release-notes/0.21.0.md) - 2024-02-21
+* [0.20.8](release-notes/0.20.8.md) - 2023-04-04
 
 ## Older Info
 
