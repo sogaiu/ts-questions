@@ -26,7 +26,7 @@ the info may get duplicated here.
 * [0.22.1](release-notes/0.22.1.md) - 2024-03-10
 * [0.22.0](release-notes/0.22.0.md) - 2024-03-10
 * [0.21.0](release-notes/0.21.0.md) - 2024-02-21
-* 0.20.9 - 2024-01-26
+* 0.20.9 - 2024-01-26 (empty listing)
 * [0.20.8](release-notes/0.20.8.md) - 2023-04-04
 
 ## Older Info
