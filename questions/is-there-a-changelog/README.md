@@ -6,9 +6,29 @@ the description for releases should contain related information.
 [Here](https://github.com/tree-sitter/tree-sitter/releases/tag/v0.20.8)
 is an example.
 
-## Version Highlights
+As the `CHANGELOG` file may get removed in the future and the release
+notes are not under revision control, as a temporary measure, some of
+the info may get duplicated here.
 
-Below is some historical info.
+## Release Info (Post 0.20.7)
+
+* [0.24.2](release-notes/0.24.2.md)
+* [0.24.1](release-notes/0.24.1.md)
+* [0.24.0](release-notes/0.24.0.md)
+* [0.23.2](release-notes/0.23.2.md)
+* [0.23.1](release-notes/0.23.1.md)
+* [0.23.0](release-notes/0.23.0.md)
+* [0.22.6](release-notes/0.22.6.md)
+* [0.22.5](release-notes/0.22.5.md)
+* [0.22.4](release-notes/0.22.4.md)
+* [0.22.3](release-notes/0.22.3.md)
+* [0.22.2](release-notes/0.22.2.md)
+* [0.22.1](release-notes/0.22.1.md)
+* [0.22.0](release-notes/0.22.0.md)
+* [0.21.0](release-notes/0.21.0.md)
+* [0.20.8](release-notes/0.20.8.md)
+
+## Older Info
 
 Note that the versions below refer to the command line program, not
 necessarily the library (though they might be close in many cases).
