@@ -12,6 +12,7 @@ the info may get duplicated here.
 
 ## Release Info (Post 0.20.7)
 
+* [0.24.5](release-notes/0.24.5.md) - 2024-12-11
 * [0.24.4](release-notes/0.24.4.md) - 2024-11-10
 * [0.24.3](release-notes/0.24.3.md) - 2024-10-09
 * [0.24.2](release-notes/0.24.2.md) - 2024-10-06
