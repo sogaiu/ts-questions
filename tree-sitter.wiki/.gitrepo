@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/tree-sitter/tree-sitter.wiki
 	branch = master
-	commit = 5d78c281258131344ff575b911b2d62fb6a2f1cf
-	parent = f7e39b87a95607a2c992200345474d13e571fcb7
+	commit = 0925f545c6dc4a634383692cc7ec64f14713b726
+	parent = d2d23f383b18d6af88b1c2a8363a0c94b92c04dc
 	method = merge
 	cmdver = 0.4.9
