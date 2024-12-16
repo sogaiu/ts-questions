@@ -6,9 +6,11 @@ the description for releases should contain related information.
 [Here](https://github.com/tree-sitter/tree-sitter/releases/tag/v0.20.8)
 is an example.
 
-As the `CHANGELOG` file may get removed in the future and the release
-notes are not under revision control, as a temporary measure, some of
-the info may get duplicated here.
+A `CHANGELOG` was [added at one
+point](https://github.com/tree-sitter/tree-sitter/commit/80a0f9110dc0e4b1a1ea427477b07ddd63c2184e) but [it got removed](https://github.com/tree-sitter/tree-sitter/pull/3928).
+
+Since the release notes are not under revision control, as a temporary
+measure, some of the info may get duplicated here.
 
 ## Release Info (Post 0.20.7)
 
