@@ -92,6 +92,7 @@ https://github.com/SystemRDL/tree-sitter-systemrdl
 https://github.com/TamaMcGlinn/tree-sitter-ada
 https://github.com/Tavistock/tree-sitter-clojure
 https://github.com/Teddytrombone/tree-sitter-typoscript
+https://github.com/TornaxO7/tree-sitter-man-db-config
 https://github.com/TravonteD/tree-sitter-fennel
 https://github.com/UserNobody14/tree-sitter-dart
 https://github.com/ValdezFOmar/tree-sitter-editorconfig
@@ -139,12 +140,12 @@ https://github.com/bkegley/tree-sitter-graphql
 https://github.com/bollian/tree-sitter-openscad
 https://github.com/briot/tree-sitter-ada
 https://github.com/bufbuild/tree-sitter-cel
+https://github.com/c3lang/tree-sitter-c3
 https://github.com/camdencheek/tree-sitter-dockerfile
 https://github.com/camdencheek/tree-sitter-go-mod
 https://github.com/cathaysia/tree-sitter-asciidoc
 https://github.com/cathaysia/tree-sitter-idl
 https://github.com/cbarrete/tree-sitter-ledger
-https://github.com/cbuttner/tree-sitter-c3
 https://github.com/chaozwn/tree-sitter-goctl
 https://github.com/charmbracelet/tree-sitter-vhs
 https://github.com/chipsalliance/tree-sitter-firrtl
@@ -271,6 +272,7 @@ https://github.com/nvim-neorg/tree-sitter-norg
 https://github.com/nvim-neorg/tree-sitter-norg-meta
 https://github.com/nvim-neorg/tree-sitter-norg2
 https://github.com/ok-ryoko/tree-sitter-systemtap
+https://github.com/olehermanse/tree-sitter-cfengine
 https://github.com/omertuc/tree-sitter-go-work
 https://github.com/opa-oz/tree-sitter-nginx
 https://github.com/opa-oz/tree-sitter-robots-txt
@@ -292,6 +294,7 @@ https://github.com/ram02z/tree-sitter-fish
 https://github.com/rest-nvim/tree-sitter-http
 https://github.com/rfdonnelly/tree-sitter-sv
 https://github.com/ribru17/tree-sitter-readline
+https://github.com/ricomariani/tree-sitter-cgsql
 https://github.com/rockerBOO/tree-sitter-twitchchat
 https://github.com/rolandwalker/tree-sitter-pgn
 https://github.com/rschiang/tree-sitter-qml
@@ -300,6 +303,7 @@ https://github.com/rydesun/tree-sitter-dot
 https://github.com/savonet/tree-sitter-liquidsoap
 https://github.com/sdm-lang/tree-sitter-sdml
 https://github.com/serenadeai/tree-sitter-scss
+https://github.com/sh-cho/tree-sitter-fluentbit
 https://github.com/shotover/tree-sitter-cql
 https://github.com/shunsambongi/tree-sitter-gitignore
 https://github.com/sigmaSd/tree-sitter-strace
@@ -316,6 +320,7 @@ https://github.com/spaarmann/tree-sitter-kdl
 https://github.com/stadelmanma/tree-sitter-fortran
 https://github.com/staysail/tree-sitter-meson
 https://github.com/steelsojka/tree-sitter-angular
+https://github.com/stevenxxiu/tree-sitter-mail
 https://github.com/stonebuddha/tree-sitter-sml
 https://github.com/stsewd/tree-sitter-comment
 https://github.com/stsewd/tree-sitter-rst
@@ -450,3 +455,4 @@ https://gitlab.com/btuin2/tree-sitter-bison
 https://gitlab.com/gabmus/tree-sitter-blueprint.git
 https://gitlab.com/jirgn/tree-sitter-fusion.git
 https://gitlab.com/maxnordlund/tree-sitter-email
+https://gitlab.com/theoreichel/tree-sitter-slim
