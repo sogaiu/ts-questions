@@ -11,5 +11,5 @@ thanks to CAD97's [PR
 > will error, indicating the regex which needs to be edited.
 
 The official docs mention some limitations
-[here](https://tree-sitter.github.io/tree-sitter/creating-parsers#the-grammar-dsl)
+[here](https://tree-sitter.github.io/tree-sitter/creating-parsers/2-the-grammar-dsl.html)
 under the "Regex Limitations" bullet point.
