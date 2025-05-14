@@ -27,25 +27,25 @@ given by the tree-sitter creator is:
 > The basic idea is that the parser accepts any string. If the string
 > does not match the grammar, the parser corrects it to match the
 > grammar. Currently, there are two types of corrections:
-
+>
 > 1. Skip some number of tokens or subtrees
 > 2. Insert one missing token
-
+>
 > Obviously, for a given syntax error, there are multiple combinations
 > of corrections that would work. The parser handles this decision
 > similarly to how ambiguities are handled by the classic GLR
 > algorithm: the parse stack forks into multiple branches, and tries a
 > different possibility on each branch.
-
+>
 > We maintain two quantities associated with each branch of the parse stack:
-
+>
 > * error_cost - an integer measure of the number of subtrees skipped,
 >   the total size of the subtrees skipped, and the number of missing
 >   tokens inserted.
-
+>
 > * node_count - the number of valid syntax tree nodes that have been
 >   added, since the last error.
-
+>
 > There is some heuristic logic for deciding when to discard branches
 > of the parse stack based on their error cost and their node
 > count. When the node count is small, it means that we've just
@@ -144,3 +144,4 @@ hints? (^^;
   grammar?](https://github.com/tree-sitter/tree-sitter/issues/1870)
 * [#1993 Adding keyword extraction breaks MISSING
   node](https://github.com/tree-sitter/tree-sitter/issues/1993)
+
