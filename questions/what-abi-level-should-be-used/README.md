@@ -30,16 +30,17 @@ wired into `src/parser.c`), usually depends on specifically which
 version (or build) of the `tree-sitter` cli was used when invoking the
 `generate` subcommand.
 
-For release versions of the `tree-sitter` cli, the [default ABI became
-14](https://github.com/tree-sitter/tree-sitter/commit/e2fe380a08408ff42eada21f8723f653e6da6606)
-in version 0.20.7.  In version 0.20.3, it became possible to specify
-generation of at least one level lower via the [`--abi` option to the
-`generate`
+For release versions of the `tree-sitter` cli, the default ABI became:
+
+* [14](https://github.com/tree-sitter/tree-sitter/commit/e2fe380a08408ff42eada21f8723f653e6da6606) in version 0.20.7 (2022-09)
+* [15](https://github.com/tree-sitter/tree-sitter/commit/ce93d8fd9b73fe586cf6c42ca3988051a7952623) in version 0.25.0 (2025-02)
+
+Note that in version 0.20.3, it became possible to specify generation
+of at least one level lower via the [`--abi` option to the `generate`
 subcommand](https://github.com/tree-sitter/tree-sitter/pull/1599/commits/516fd6f6def1615cb5dc004ab41c348c7de6d182).
 
-Note that these changes occurred in 2022.
-
-The following is an incomplete table of which versions used which ABI levels:
+The following is an incomplete table of which cli versions defaulted
+to which ABI levels:
 
 ```
 ABI   Version   Release
@@ -62,6 +63,23 @@ ABI   Version   Release
  14    0.22.4   2024-04
  14    0.22.5   2024-04
  14    0.22.6   2024-05
+ 14    0.23.0   2024-08
+ 14    0.23.1   2024-10
+ 14    0.23.2   2024-10
+ 14    0.24.0   2024-10
+ 14    0.24.1   2024-10
+ 14    0.24.2   2024-10
+ 14    0.24.3   2024-10
+ 14    0.24.4   2024-11
+ 14    0.24.5   2024-12
+ 14    0.24.6   2024-12
+ 14    0.24.7   2025-01
+ 15    0.25.0   2025-02
+ 15    0.25.1   2025-02
+ 15    0.25.2   2025-02
+ 15    0.25.3   2025-03
+ 15    0.25.4   2025-05
+ 15    0.25.5   2025-05
 ```
 
 Below is a distribution of ABI numbers for locally fetched data:
@@ -70,15 +88,25 @@ Below is a distribution of ABI numbers for locally fetched data:
 ABI: Count
 
 9: 9
-10: 3
+10: 2
 11: 5
 12: 4
-13: 82
-14: 303
+13: 75
+14: 314
+15: 39
 
-Total found: 406
+Total found: 448
 ```
 
-At least for what was collected, about 21% use 13, while about 75% use
-14.
+By percentage of collected parsers, this translates to:
+
+* 9 (2.0%)
+* 10 (2.2%)
+* 11 (1.1%)
+* 12 (0.9%)
+* 13 (16.7%)
+* 14 (70.1%)
+* 15 (8.7%)
+
+For ABI 9-12, perhaps mostly updates are no longer being made.
 
