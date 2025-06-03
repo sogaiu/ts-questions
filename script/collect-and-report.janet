@@ -11,7 +11,8 @@
 ########################################################################
 
 (def header-info
-  @[["url" "%s"]
+  @[["name" "%s"]
+    ["url" "%s"]
     ["last commit date" "%s"]
     ["tree-sitter.json" "%s"]
     ["grammar-dir" "%s"]
@@ -53,6 +54,10 @@
       (def grammar-dir
         (string/slice p 0 (- (inc (length "/grammar.js")))))
       (put g-tbl :dir (u/relativize rr grammar-dir))
+      #
+      (def name (u/find-name grammar-dir))
+      (assertf name "did not determine name for: %s" grammar-dir)
+      (put g-tbl :name name)
       #
       (def parser-c-path (string grammar-dir "/src/parser.c"))
       (when (os/stat parser-c-path :mode)
@@ -101,7 +106,8 @@
           :grammars grammars} rr-tbl)
     (default has-tsj :no)
     (each g grammars
-      (def {:dir grammar-dir
+      (def {:name name
+            :dir grammar-dir
             :abi abi
             :parser-c has-pc
             :grammar-json has-gjson
@@ -112,7 +118,9 @@
       (default scanner :no)
       (try
         (printf format-str
-                url lc-date has-tsj
+                # Ada and COBOL...ofc, some old foggies would be using
+                # upper case...
+                (string/ascii-lower name) url lc-date has-tsj
                 grammar-dir abi has-pc has-gjson scanner)
         ([e]
           (eprintf "%n %n" rr rr-tbl)

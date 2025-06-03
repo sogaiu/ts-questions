@@ -133,6 +133,92 @@
 
 ########################################################################
 
+(defn find-lang-name
+  [line]
+  (def parsed
+    (peg/match ~(sequence :s*
+                          # .js and .json
+                          (choice "name:" `"name":`)
+                          :s+
+                          (choice `"` "'")
+                          (capture (to (choice `"` "'")))
+                          (choice `"` "'"))
+               line))
+  (when parsed
+    (get parsed 0)))
+
+(comment
+
+  (find-lang-name
+    ``
+      name: "python_legesher",
+    ``)
+  # =>
+  "python_legesher"
+
+  (find-lang-name
+    ``
+      name: 'ssh_client_config',
+    ``)
+  # =>
+  "ssh_client_config"
+
+  (find-lang-name
+    ``
+      "name": "hcl",
+    ``)
+  # =>
+  "hcl"
+
+  )
+
+(defn scan-file-for-name
+  [path]
+  (var name nil)
+  (with [f (file/open path)]
+    (while (def line (file/read f :line))
+      (def result (find-lang-name line))
+      (when result
+        (set name result)
+        (break))))
+  #
+  name)
+
+(defn find-name
+  [grammar-dir]
+  (var name nil)
+  #
+  (def grammar-js-path (string grammar-dir "/grammar.js"))
+  (assertf (= :file (os/stat grammar-js-path :mode))
+           "grammar.js does not exist for: %s" grammar-dir)
+  #
+  (set name (scan-file-for-name grammar-js-path))
+  (when name (break name))
+  #
+  (def grammar-json-path (string grammar-dir "/src/grammar.json"))
+  (when (= :file (os/stat grammar-json-path :mode))
+    (set name (scan-file-for-name grammar-json-path)))
+  #
+  # XXX: it's possible to reach this point without having succeeded
+  #      in determining a name.
+  #
+  #      some other things that could be tried:
+  #
+  #      * substring repository url
+  #      * look in package.json (may need to massage name)
+  #      * look in tree-sitter.json (not present in many cases)
+  #
+  #      not likely to work:
+  #
+  #      * scan parser.c - if the grammar.json approach didn't
+  #        work, then it's likely because grammar.json didn't
+  #        exist.  in such cases, it's not likely that parser.c
+  #        exists.
+  #
+  name)
+
+########################################################################
+
 (defn find-lang-version
   [line]
   (def parsed
