@@ -1,7 +1,9 @@
 # XXX: execute from ts-questions root directory
 
 # produce tsv table of info collected from cloned grammar repositories
-# see `header-info` below for hints on what each row contains
+#
+# see `col-info` below for what each row can potentially contain.
+# what is actually put in the table is tweaked via `field-info`.
 
 ########################################################################
 
@@ -10,16 +12,34 @@
 
 ########################################################################
 
-(def header-info
-  @[["name" "%s"]
-    ["url" "%s"]
-    ["last commit date" "%s"]
-    ["tree-sitter.json" "%s"]
-    ["grammar-dir" "%s"]
-    ["abi" "%d"]
-    ["parser.c" "%s"]
-    ["grammar.json" "%s"]
-    ["scanner" "%s"]])
+# there is duplication between this and field-info, but may be it's
+# going too far to try to remove that duplication.  won't for now.
+(def col-info
+  [:name
+   :url
+   :last-commit-date
+   :tree-sitter-json
+   :grammar-dir
+   :abi
+   :parser-c
+   :grammar-json
+   :scanner])
+
+# tuple of triples (one for each field to put in table output)
+#
+# * keyword
+# * label (for output)
+# * transform fn (for output)
+(def field-info
+  [# Ada and COBOL...ofc, some old foggies would be using
+   # upper case...
+   [:name "name" string/ascii-lower]
+   [:url "url" identity]
+   [:last-commit-date "last commit date" identity]
+   [:abi "abi" string] # gets populated as number, so need to convert
+   [:parser-c "parser.c" identity]
+   [:grammar-json "grammar.json" identity]
+   [:scanner "external scanner" |(if (= :no $) :no :yes)]])
 
 ########################################################################
 
@@ -76,7 +96,7 @@
         (def non-o (filter |(not= "o" $) scanners))
         (when (> (length non-o) 1)
           (eprintf "grammar-dir: %s" grammar-dir)
-          (eprintf "multiple files starting with scanner. found for %s: %n"
+          (eprintf "> 1 filenames start with 'scanner.' for %s: %n"
                    grammar-dir non-o))
         # XXX: just report first one
         (put g-tbl :scanner (first non-o)))
@@ -87,18 +107,9 @@
   #
   repos-roots)
 
-(defn report
+(defn make-rows
   [repos-roots]
-  (def header-row
-    (string/join (map |(get $ 0) header-info)
-                 "\t"))
-
-  (print header-row)
-
-  (def format-str
-    (string/join (map |(get $ 1) header-info)
-                 "\t"))
-
+  (def rows @[])
   (eachp [rr rr-tbl] repos-roots
     (def {:url url
           :last-commit-date lc-date
@@ -116,15 +127,72 @@
       (default has-pc :no)
       (default has-gjson :no)
       (default scanner :no)
-      (try
-        (printf format-str
-                # Ada and COBOL...ofc, some old foggies would be using
-                # upper case...
-                (string/ascii-lower name) url lc-date has-tsj
-                grammar-dir abi has-pc has-gjson scanner)
-        ([e]
-          (eprintf "%n %n" rr rr-tbl)
-          (errorf "problem printing row: %s" e))))))
+      (array/push rows
+                  {:name name
+                   :url url
+                   :last-commit-date lc-date
+                   :tree-sitter-json has-tsj
+                   :dir grammar-dir
+                   :abi abi
+                   :parser-c has-pc
+                   :grammar-json has-gjson
+                   :scanner scanner})))
+  #
+  rows)
+
+(defn report-tsv
+  [rows field-info]
+  (def header-row
+    (string/join (map |(get $ 1) field-info) "\t"))
+
+  (print header-row)
+
+  (def format-str
+    (string/join (map (fn [_] "%s") field-info)
+                 "\t"))
+
+  (each r rows
+    # massage field values for output
+    (def vals
+      (seq [[id _ xform] :in field-info]
+        (xform (get r id))))
+    (try
+      (printf format-str ;vals)
+      ([e]
+        (eprintf "%n" r)
+        (errorf "problem printing row: %s" e)))))
+
+(defn report-gfm
+  [rows field-info]
+  (def names
+    (seq [[id label _] :in field-info
+          :unless (= :url id)]
+      label))
+
+  (def header-row
+    (string/format "| %s | %s | %s | %s | %s | %s |"
+                   ;names))
+
+  (print header-row)
+
+  (def separator-row
+    "| --- | --- | --- | --- | --- | --- |")
+
+  (print separator-row)
+
+  (def format-str
+    "| [%s](%s) | %s | %s | %s | %s | %s |")
+
+  (each r rows
+    # massage field values for output
+    (def vals
+      (seq [[id _ xform] :in field-info]
+        (xform (get r id))))
+    (try
+      (printf format-str ;vals)
+      ([e]
+        (eprintf "%n" r)
+        (errorf "problem printing row: %s" e)))))
 
 ########################################################################
 
@@ -140,5 +208,18 @@
 
   (def repos-roots (collect root-path))
 
-  (report repos-roots))
+  (def rows
+    # some language names use upper-case letters...
+    (sorted-by |(string/ascii-lower (get $ :name))
+               (make-rows repos-roots)))
+
+  # only keep things with no scanner or a scanner written in c
+  (def filtered
+    (filter (fn [{:scanner scanner}]
+              (or (= :no scanner) (= "c" scanner)))
+            rows))
+
+  #(report-tsv filtered field-info)
+
+  (report-gfm filtered field-info))
 
