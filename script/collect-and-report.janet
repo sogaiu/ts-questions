@@ -1,6 +1,7 @@
 # XXX: execute from ts-questions root directory
 
-# produce tsv table of info collected from cloned grammar repositories
+# produce gfm table of info collected from cloned grammar repositories
+# (with some commenting / uncommenting, a tsv table can also be made)
 #
 # see `col-info` below for what each row can potentially contain.
 # what is actually put in the table is tweaked via `field-info`.
