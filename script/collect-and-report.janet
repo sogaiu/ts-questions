@@ -262,7 +262,8 @@
                    (>= year 2020)))
             rows))
 
-  '(report-tsv filtered tsv-field-info)
-
-  (report-gfm filtered gfm-field-info))
+  # CAR - didn't want to type COLLECT_AND_REPORT...too long
+  (if (os/getenv "CAR_TSV")
+    (report-tsv filtered tsv-field-info)
+    (report-gfm filtered gfm-field-info)))
 
