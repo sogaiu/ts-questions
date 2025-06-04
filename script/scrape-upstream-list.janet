@@ -1,6 +1,6 @@
 #! /usr/bin/env janet
 
-# XXX: clone nvim-treesitter.wiki as a subdirectory
+# XXX: clone tree-sitter.wiki as a subdirectory
 # XXX: execute this script from ts-questions root directory
 
 (import ./common :as c)
