@@ -223,9 +223,11 @@
 
   (def repos-roots (collect root-path))
 
+  # create rows and sort by name and commit date
   (def rows
     # some language names use upper-case letters...
-    (sorted-by |(string/ascii-lower (get $ :name))
+    (sorted-by |(string (string/ascii-lower (get $ :name))
+                        (get $ :last-commit-date))
                (make-rows repos-roots)))
 
   # only keep things with no scanner or a scanner written in c
