@@ -230,16 +230,18 @@
                         (get $ :last-commit-date))
                (make-rows repos-roots)))
 
-  # only keep things with no scanner or a scanner written in c
+  # only keep some rows
   (def filtered
     (filter (fn [{:last-commit-date lc-date
                   :abi abi
                   :scanner scanner}]
               (def year (-> (string/slice lc-date 0 4)
                             scan-number))
-              (and (or (= :no scanner) (= "c" scanner))
+              (and # has no external scanner or is in c
+                   (or (= :no scanner) (= "c" scanner))
+                   # abi >= 12 or undetermined abi
                    (or (>= abi 12) (= abi 0))
-                   # 2020-09 is when abi 12 was default in cli
+                   # 2020-09 is when abi 12 became default in cli
                    (>= year 2020)))
             rows))
 
