@@ -4,7 +4,7 @@
 # (with some commenting / uncommenting, a tsv table can also be made)
 #
 # see `col-info` below for what each row can potentially contain.
-# what is actually put in the table is tweaked via `field-info`.
+# what is actually put in the table is tweaked via `*-field-info`.
 
 ########################################################################
 
@@ -13,7 +13,7 @@
 
 ########################################################################
 
-# there is duplication between this and field-info, but may be it's
+# there is duplication between this and *-field-info, but may be it's
 # going too far to try to remove that duplication.  won't for now.
 (def col-info
   [:name
@@ -32,16 +32,28 @@
 # * keyword
 # * label (for output)
 # * transform fn (for output)
-(def field-info
+
+# for tsv output
+(def tsv-field-info
   [# Ada and COBOL...ofc, some old foggies would be using
    # upper case...
    [:name "name" string/ascii-lower]
-   # XXX: for gfm
+   [:url "url" identity]
+   [:last-commit-date "last commit date" identity]
+   [:abi "abi" |(if (= 0 $) "-" (string $))]
+   # abi 0 implies no src/parser.c, so :parser-c is sort of redundant
+   #[:parser-c "parser.c" identity]
+   [:grammar-json "grammar.json" identity]
+   [:scanner "external scanner" |(if (= :no $) :no :yes)]])
+
+# for gfm output
+(def gfm-field-info
+  [# Ada and COBOL...ofc, some old foggies would be using
+   # upper case...
+   [:name "name" string/ascii-lower]
    [:url "url"
     |(string/format "[%s](%s)"
                     (string/slice $ (inc (length "http://"))) $)]
-   # XXX: for tsv
-   #[:url "url" identity]
    [:last-commit-date "last commit date" identity]
    [:abi "abi" |(if (= 0 $) "-" (string $))]
    # abi 0 implies no src/parser.c, so :parser-c is sort of redundant
@@ -160,8 +172,11 @@
 
 (defn report-tsv
   [rows field-info]
-  (def header-row
-    (string/join (map |(get $ 1) field-info) "\t"))
+  (def names
+    (map (fn [[_ label _]] label)
+         field-info))
+
+  (def header-row (string/join names "\t"))
 
   (print header-row)
 
@@ -172,8 +187,8 @@
   (each r rows
     # massage field values for output
     (def vals
-      (seq [[id _ xform] :in field-info]
-        (xform (get r id))))
+      (map (fn [[id _ xform]] (xform (get r id)))
+           field-info))
     (try
       (printf format-str ;vals)
       ([e]
@@ -183,7 +198,8 @@
 (defn report-gfm
   [rows field-info]
   (def names
-    (seq [[_ label _] :in field-info] label))
+    (map (fn [[_ label _]] label)
+         field-info))
 
   (def header-row
     (string/format "| %s | %s | %s | %s | %s | %s |"
@@ -202,8 +218,8 @@
   (each r rows
     # massage field values for output
     (def vals
-      (seq [[id _ xform] :in field-info]
-        (xform (get r id))))
+      (map (fn [[id _ xform]] (xform (get r id)))
+           field-info))
     (try
       (printf format-str ;vals)
       ([e]
@@ -246,9 +262,7 @@
                    (>= year 2020)))
             rows))
 
-  # XXX: remember to review and change field-info if switching
-  #      between report-tsv and report-gfm (cf. :url)
-  '(report-tsv filtered field-info)
+  '(report-tsv filtered tsv-field-info)
 
-  (report-gfm filtered field-info))
+  (report-gfm filtered gfm-field-info))
 
