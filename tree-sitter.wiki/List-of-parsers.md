@@ -1,470 +1,498 @@
-This list contains all known tree-sitter parsers with publicly available repos. If a parser is missing, let us know on [Discord](https://discord.gg/w7nTvsVJhm) or [Matrix](https://matrix.to/#/#tree-sitter-chat:matrix.org).
+Below is a table of collected tree-sitter parser information, though with the following constraints:
 
-- [abnf](https://github.com/jmitchell/tree-sitter-abnf)
-- [ada](https://github.com/TamaMcGlinn/tree-sitter-ada)
-- [ada](https://github.com/briot/tree-sitter-ada)
-- [agda](https://github.com/tree-sitter/tree-sitter-agda)
-- [angular](https://github.com/steelsojka/tree-sitter-angular)
-- [angular](https://github.com/dlvandenberg/tree-sitter-angular)
-- [apex](https://github.com/Ziemniakoss/tree-sitter-apex) (archived)
-- [apex](https://github.com/jsuarez-chipiron/tree-sitter-apex)
-- [apex](https://github.com/aheber/tree-sitter-sfapex)
-- [arduino](https://github.com/tree-sitter-grammars/tree-sitter-arduino)
-- [asciidoc](https://github.com/cathaysia/tree-sitter-asciidoc)
-- [asm](https://github.com/rush-rs/tree-sitter-asm)
-- [astro](https://github.com/virchau13/tree-sitter-astro)
-- [authzed](https://github.com/mleonidas/tree-sitter-authzed)
-- [awk](https://github.com/Beaglefoot/tree-sitter-awk)
-- [bash](https://github.com/tree-sitter/tree-sitter-bash)
-- [bass](https://github.com/vito/tree-sitter-bass)
-- [bazelrc](https://github.com/zaucy/tree-sitter-bazelrc)
-- [beancount](https://github.com/polarmutex/tree-sitter-beancount)
-- [beancount](https://github.com/yagebu/tree-sitter-beancount)
-- [beancount](https://github.com/zwpaper/tree-sitter-beancount)
-- [biber](https://github.com/Aerijo/tree-sitter-biber)
-- [bibtex](https://github.com/latex-lsp/tree-sitter-bibtex)
-- [bicep](https://github.com/tree-sitter-grammars/tree-sitter-bicep)
-- [bigquery](https://github.com/takegue/tree-sitter-sql-bigquery)
-- [bison](https://gitlab.com/btuin2/tree-sitter-bison)
-- [bitbake](https://github.com/tree-sitter-grammars/tree-sitter-bitbake)
-- [blade](https://github.com/EmranMR/tree-sitter-blade)
-- [blueprint](https://gitlab.com/gabmus/tree-sitter-blueprint.git)
-- [bp](https://github.com/ambroisie/tree-sitter-bp)
-- [c3](https://github.com/zweimach/tree-sitter-c3) (archived)
-- [c3](https://github.com/c3lang/tree-sitter-c3)
-- [c](https://github.com/tree-sitter/tree-sitter-c)
-- [cairo](https://github.com/tree-sitter-grammars/tree-sitter-cairo)
-- [cairo](https://github.com/JoranHonig/tree-sitter-cairo)
-- [capnp](https://github.com/tree-sitter-grammars/tree-sitter-capnp)
-- [carp](https://github.com/GrayJack/tree-sitter-carp)
-- [cedar](https://github.com/chrnorm/tree-sitter-cedar)
-- [cel](https://github.com/bufbuild/tree-sitter-cel)
-- [cfengine](https://github.com/olehermanse/tree-sitter-cfengine)
-- [cgsql](https://github.com/ricomariani/tree-sitter-cgsql)
-- [chatito](https://github.com/ObserverOfTime/tree-sitter-chatito)
-- [clojure](https://github.com/Tavistock/tree-sitter-clojure)
-- [clojure](https://github.com/sogaiu/tree-sitter-clojure)
-- [cmake](https://github.com/uyha/tree-sitter-cmake)
-- [cobol](https://github.com/Neppord/tree-sitter-cobol) (archived)
-- [cobol](https://github.com/yutaro-sakamoto/tree-sitter-cobol)
-- [comment](https://github.com/stsewd/tree-sitter-comment)
-- [commonlisp](https://github.com/theHamsta/tree-sitter-commonlisp)
-- [context](https://github.com/pmazaitis/tree-sitter-context_en)
-- [context](https://github.com/jethro-djan/tree-sitter-context)
-- [cooklang](https://github.com/addcninblue/tree-sitter-cooklang)
-- [core](https://github.com/bgamari/tree-sitter-ghc-core)
-- [corn](https://github.com/jakestanger/tree-sitter-corn)
-- [cpon](https://github.com/tree-sitter-grammars/tree-sitter-cpon)
-- [cpp](https://github.com/tree-sitter/tree-sitter-cpp)
-- [cql](https://github.com/shotover/tree-sitter-cql)
-- [crystal](https://github.com/keidax/tree-sitter-crystal)
-- [crystal](https://github.com/will/tree-sitter-crystal)
-- [csharp](https://github.com/tree-sitter/tree-sitter-c-sharp)
-- [css](https://github.com/tree-sitter/tree-sitter-css)
-- [csv](https://github.com/tree-sitter-grammars/tree-sitter-csv)
-- [cuda](https://github.com/theHamsta/tree-sitter-cuda)
-- [cue](https://github.com/eonpatapon/tree-sitter-cue)
-- [d](https://github.com/CyberShadow/tree-sitter-d)
-- [d](https://github.com/gdamore/tree-sitter-d)
-- [d2](https://github.com/pleshevskiy/tree-sitter-d2) (archived)
-- [dart](https://github.com/UserNobody14/tree-sitter-dart)
-- [devicetree](https://github.com/joelspadin/tree-sitter-devicetree)
-- [dhall](https://github.com/jbellerb/tree-sitter-dhall)
-- [dhall](https://github.com/jmitchell/tree-sitter-dhall)
-- [diff](https://github.com/the-mikedavis/tree-sitter-diff)
-- [diff](https://github.com/vigoux/tree-sitter-diff)
-- [disassembly](https://github.com/ColinKennedy/tree-sitter-disassembly)
-- [djot](https://github.com/treeman/tree-sitter-djot)
-- [dockerfile](https://github.com/camdencheek/tree-sitter-dockerfile)
-- [dot](https://github.com/rydesun/tree-sitter-dot)
-- [doxygen](https://github.com/tree-sitter-grammars/tree-sitter-doxygen)
-- [dtd](https://github.com/ObserverOfTime/tree-sitter-xml)
-- [ebnf](https://github.com/RubixDev/ebnf)
-- [editorconfig](https://github.com/ValdezFOmar/tree-sitter-editorconfig)
-- [eds](https://github.com/uyha/tree-sitter-eds)
-- [eex](https://github.com/connorlay/tree-sitter-eex)
-- [elisp](https://github.com/Wilfred/tree-sitter-elisp)
-- [elisp](https://github.com/tpeacock19/tree-sitter-elisp)
-- [elixir](https://github.com/elixir-lang/tree-sitter-elixir)
-- [elm](https://github.com/elm-tooling/tree-sitter-elm)
-- [elsa](https://github.com/glapa-grossklag/tree-sitter-elsa)
-- [elvish](https://github.com/ckafi/tree-sitter-elvish)
-- [email](https://gitlab.com/maxnordlund/tree-sitter-email)
-- [eno](https://github.com/eno-lang/tree-sitter-eno)
-- [erb](https://github.com/tree-sitter/tree-sitter-embedded-template)
-- [erde](https://github.com/vhyrro/tree-sitter-erde)
-- [erlang](https://github.com/WhatsApp/tree-sitter-erlang)
-- [erlang](https://github.com/the-mikedavis/tree-sitter-erlang)
-- [eventrule](https://github.com/3p3r/tree-sitter-eventrule)
-- [facility](https://github.com/FacilityApi/tree-sitter-facility)
-- [faust](https://github.com/khiner/tree-sitter-faust)
-- [fennel](https://github.com/TravonteD/tree-sitter-fennel)
-- [fennel](https://github.com/alexmozaidze/tree-sitter-fennel)
-- [fennel](https://github.com/sogaiu/tree-sitter-fennel)
-- [filter](https://github.com/ObserverOfTime/tree-sitter-poe-filter)
-- [firrtl](https://github.com/tree-sitter-grammars/tree-sitter-firrtl)
-- [firrtl](https://github.com/chipsalliance/tree-sitter-firrtl)
-- [fish](https://github.com/ram02z/tree-sitter-fish)
-- [fluent-bit](https://github.com/sh-cho/tree-sitter-fluentbit)
-- [foam](https://github.com/FoamScience/tree-sitter-foam)
-- [formula](https://github.com/siraben/tree-sitter-formula)
-- [forth](https://github.com/AlexanderBrevig/tree-sitter-forth)
-- [fortran](https://github.com/stadelmanma/tree-sitter-fortran)
-- [fsh](https://github.com/mgramigna/tree-sitter-fsh)
-- [fsharp](https://github.com/ionide/tree-sitter-fsharp)
-- [fsharp](https://github.com/baronfel/tree-sitter-fsharp) (archived)
-- [func](https://github.com/akifoq/tree-sitter-func)
-- [func](https://github.com/tree-sitter-grammars/tree-sitter-func)
-- [fusion](https://gitlab.com/jirgn/tree-sitter-fusion.git)
-- [gdscript](https://github.com/PrestonKnopp/tree-sitter-gdscript)
-- [gdshader](https://github.com/GodOfAvacyn/tree-sitter-gdshader)
-- [gemtext](https://github.com/pebbe/tree-sitter-gemtext)
-- [gemtext](https://git.sr.ht/~nbsp/tree-sitter-gemini)
-- [git_commit](https://github.com/the-mikedavis/tree-sitter-git-commit)
-- [git_config](https://github.com/the-mikedavis/tree-sitter-git-config)
-- [git_rebase](https://github.com/the-mikedavis/tree-sitter-git-rebase)
-- [gitattributes](https://github.com/ObserverOfTime/tree-sitter-gitattributes)
-- [gitcommit](https://github.com/gbprod/tree-sitter-gitcommit)
-- [gitignore](https://github.com/shunsambongi/tree-sitter-gitignore)
-- [gleam](https://github.com/gleam-lang/tree-sitter-gleam)
-- [glimmer](https://github.com/alexlafroscia/tree-sitter-glimmer)
-- [glsl](https://github.com/theHamsta/tree-sitter-glsl)
-- [gn](https://github.com/tree-sitter-grammars/tree-sitter-gn)
-- [gnuplot](https://github.com/dpezto/tree-sitter-gnuplot)
-- [go](https://github.com/tree-sitter/tree-sitter-go)
-- [goctl](https://github.com/chaozwn/tree-sitter-goctl)
-- [godot_resource](https://github.com/PrestonKnopp/tree-sitter-godot-resource)
-- [go-template](https://github.com/ngalaiko/tree-sitter-go-template)
-- [go-template](https://github.com/dannylongeuay/tree-sitter-go-template)
-- [gomod](https://github.com/camdencheek/tree-sitter-go-mod)
-- [gosum](https://github.com/tree-sitter-grammars/tree-sitter-go-sum)
-- [gowork](https://github.com/omertuc/tree-sitter-go-work)
-- [gpg](https://github.com/ObserverOfTime/tree-sitter-gpg-config)
-- [graphql](https://github.com/bkegley/tree-sitter-graphql)
-- [graphql](https://github.com/dralletje/tree-sitter-graphql)
-- [groovy](https://github.com/Decodetalkers/tree-sitter-groovy)
-- [groovy](https://github.com/murtaza64/tree-sitter-groovy)
-- [gstlaunch](https://github.com/theHamsta/tree-sitter-gstlaunch)
-- [gularen](https://github.com/noorwachid/tree-sitter-gularen)
-- [hack](https://github.com/slackhq/tree-sitter-hack)
-- [harbour](https://github.com/APerricone/tree-sitter-harbour)
-- [hare](https://github.com/tree-sitter-grammars/tree-sitter-hare)
-- [haskell](https://github.com/tree-sitter/tree-sitter-haskell)
-- [haskell_persistent](https://github.com/MercuryTechnologies/tree-sitter-haskell-persistent)
-- [haxe](https://github.com/vantreeseba/tree-sitter-haxe)
-- [hcl](https://github.com/MichaHoffmann/tree-sitter-hcl)
-- [heex](https://github.com/connorlay/tree-sitter-heex)
-- [heex](https://github.com/phoenixframework/tree-sitter-heex)
-- [helma](https://github.com/kevinkeckeis/tree-sitter-helma)
-- [hjson](https://github.com/winston0410/tree-sitter-hjson)
-- [hlsl](https://github.com/theHamsta/tree-sitter-hlsl)
-- [hlsplaylist](https://github.com/Freed-Wu/tree-sitter-hlsplaylist)
-- [hocon](https://github.com/antosha417/tree-sitter-hocon)
-- [hoon](https://github.com/urbit-pilled/tree-sitter-hoon)
-- [html](https://github.com/tree-sitter/tree-sitter-html)
-- [htmldjango](https://github.com/interdependence/tree-sitter-htmldjango)
-- [http](https://github.com/PasiSalenius/tree-sitter-http)
-- [http](https://github.com/rest-nvim/tree-sitter-http)
-- [hurl](https://github.com/pfeiferj/tree-sitter-hurl)
-- [hyprlang](https://github.com/luckasRanarison/tree-sitter-hyprlang)
-- [ibmhlasm](https://github.com/janus-llm/tree-sitter-ibmhlasm)
-- [idl](https://github.com/cathaysia/tree-sitter-idl)
-- [idris2](https://github.com/gwerbin/tree-sitter-idris2)
-- [iex](https://github.com/elixir-lang/tree-sitter-iex)
-- [ini](https://github.com/justinmk/tree-sitter-ini)
-- [inko](https://github.com/inko-lang/tree-sitter-inko)
-- [ispc](https://github.com/fab4100/tree-sitter-ispc)
-- [jack](https://github.com/nverno/tree-sitter-jack)
-- [jakt](https://github.com/demizer/tree-sitter-jakt)
-- [janet](https://github.com/GrayJack/tree-sitter-janet)
-- [janet_simple](https://github.com/sogaiu/tree-sitter-janet-simple)
-- [java](https://github.com/tree-sitter/tree-sitter-java)
-- [javascript](https://github.com/tree-sitter/tree-sitter-javascript)
-- [jinja2](https://github.com/dbt-labs/tree-sitter-jinja2)
-- [jpp](https://github.com/nitreojs/tree-sitter-jpp)
-- [jq](https://github.com/flurie/tree-sitter-jq)
-- [jq](https://github.com/nverno/tree-sitter-jq)
-- [jsdoc](https://github.com/tree-sitter/tree-sitter-jsdoc)
-- [json](https://github.com/tree-sitter/tree-sitter-json)
-- [json5](https://github.com/Joakker/tree-sitter-json5)
-- [jsonc](https://gitlab.com/WhyNotHugo/tree-sitter-jsonc.git)
-- [jsonnet](https://github.com/sourcegraph/tree-sitter-jsonnet)
-- [julia](https://github.com/tree-sitter/tree-sitter-julia)
-- [just](https://github.com/IndianBoy42/tree-sitter-just)
-- [kconfig](https://github.com/tree-sitter-grammars/tree-sitter-kconfig)
-- [kcl](https://github.com/kcl-lang/tree-sitter-kcl)
-- [kdl](https://github.com/tree-sitter-grammars/tree-sitter-kdl)
-- [kdl](https://github.com/spaarmann/tree-sitter-kdl)
-- [koka](https://github.com/mtoohey31/tree-sitter-koka)
-- [kotlin](https://github.com/fwcd/tree-sitter-kotlin)
-- [kusto](https://github.com/Willem-J-an/tree-sitter-kusto)
-- [lalrpop](https://github.com/traxys/tree-sitter-lalrpop)
-- [latex](https://github.com/latex-lsp/tree-sitter-latex)
-- [lbnf](https://github.com/MortenSchou/tree-sitter-lbnf)
-- [lean](https://github.com/Julian/tree-sitter-lean)
-- [ledger](https://github.com/cbarrete/tree-sitter-ledger)
-- [leo](https://github.com/r001/tree-sitter-leo)
-- [liquid](https://github.com/Shopify/tree-sitter-liquid)
-- [liquidsoap](https://github.com/savonet/tree-sitter-liquidsoap)
-- [lilypond](https://github.com/tristanperalta/tree-sitter-lilypond)
-- [linkerscript](https://github.com/tree-sitter-grammars/tree-sitter-linkerscript)
-- [llvm](https://github.com/benwilliamgraham/tree-sitter-llvm)
-- [llvm-mir](https://github.com/Flakebi/tree-sitter-llvm-mir)
-- [lua](https://github.com/Azganoth/tree-sitter-lua)
-- [lua](https://github.com/MunifTanjim/tree-sitter-lua)
-- [lua](https://github.com/tjdevries/tree-sitter-lua)
-- [luadoc](https://github.com/tree-sitter-grammars/tree-sitter-luadoc)
-- [luap](https://github.com/tree-sitter-grammars/tree-sitter-luap)
-- [luap](https://github.com/vhyrro/tree-sitter-luap)
-- [luau](https://github.com/tree-sitter-grammars/tree-sitter-luau)
-- [luau](https://github.com/polychromatist/tree-sitter-luau)
-- [m68k](https://github.com/grahambates/tree-sitter-m68k)
-- [magik](https://github.com/krn-robin/tree-sitter-magik)
-- [mail](https://github.com/stevenxxiu/tree-sitter-mail)
-- [make](https://github.com/alemuller/tree-sitter-make)
-- [make](https://github.com/tree-sitter-grammars/tree-sitter-make)
-- [mal](https://github.com/sogaiu/tree-sitter-mal)
-- [man-db-config](https://github.com/TornaxO7/tree-sitter-man-db-config)
-- [markdown](https://github.com/MDeiml/tree-sitter-markdown)
-- [markdown](https://github.com/ikatyang/tree-sitter-markdown)
-- [math](https://github.com/DerekStride/tree-sitter-math)
-- [matlab](https://github.com/mstanciu552/tree-sitter-matlab)
-- [matlab](https://github.com/acristoffers/tree-sitter-matlab)
-- [menhir](https://github.com/Kerl13/tree-sitter-menhir)
-- [mermaid](https://github.com/monaqa/tree-sitter-mermaid)
-- [meson](https://github.com/Decodetalkers/tree-sitter-meson)
-- [meson](https://github.com/staysail/tree-sitter-meson)
-- [meta](https://github.com/nvim-neorg/tree-sitter-norg-meta)
-- [mlir](https://github.com/artagnon/tree-sitter-mlir)
-- [mod](https://github.com/camdencheek/tree-sitter-go-mod)
-- [modelica](https://github.com/modelicahub/tree-sitter-modelica)
-- [mojo](https://github.com/austincummings/tree-sitter-mojo)
-- [monkey](https://github.com/jamestrew/tree-sitter-monkey)
-- [move](https://github.com/tree-sitter-grammars/tree-sitter-move)
-- [move](https://github.com/move-hub/tree-sitter-move)
-- [nasm](https://github.com/naclsn/tree-sitter-nasm)
-- [nginx](https://github.com/opa-oz/tree-sitter-nginx)
-- [nickel](https://github.com/nickel-lang/tree-sitter-nickel)
-- [nim](https://github.com/aMOPel/tree-sitter-nim)
-- [nim](https://github.com/alaviss/tree-sitter-nim)
-- [nim_format_string](https://github.com/aMOPel/tree-sitter-nim-format-string)
-- [ninja](https://github.com/alemuller/tree-sitter-ninja)
-- [nix](https://github.com/cstrahan/tree-sitter-nix)
-- [nqc](https://github.com/tree-sitter-grammars/tree-sitter-nqc)
-- [noir](https://github.com/hhamud/tree-sitter-noir)
-- [nois](https://github.com/nois-lang/tree-sitter-nois)
-- [norg2](https://github.com/nvim-neorg/tree-sitter-norg2)
-- [norg](https://github.com/nvim-neorg/tree-sitter-norg)
-- [nu](https://github.com/fdncred/tree-sitter-nu)
-- [nu](https://github.com/LhKipp/tree-sitter-nu)
-- [nu](https://github.com/nushell/tree-sitter-nu)
-- [objc](https://github.com/tree-sitter-grammars/tree-sitter-objc)
-- [objc](https://github.com/jiyee/tree-sitter-objc)
-- [objcpp](https://github.com/panicinc/tree-sitter-objcpp)
-- [ocaml](https://github.com/tree-sitter/tree-sitter-ocaml)
-- [ocamllex](https://github.com/atom-ocaml/tree-sitter-ocamllex)
-- [odin](https://github.com/tree-sitter-grammars/tree-sitter-odin)
-- [odin](https://github.com/MineBill/tree-sitter-odin)
-- [odin](https://github.com/lucypero/tree-sitter-odin)
-- [ohm](https://github.com/novusnota/tree-sitter-ohm)
-- [openscad](https://github.com/bollian/tree-sitter-openscad)
-- [org](https://github.com/milisims/tree-sitter-org)
-- [p4](https://github.com/ace-design/tree-sitter-p4)
-- [papyrus](https://github.com/open-papyrus/tree-sitter-papyrus)
-- [pascal](https://github.com/Isopod/tree-sitter-pascal)
-- [passwd](https://github.com/ath3/tree-sitter-passwd)
-- [perl](https://github.com/ganezdragon/tree-sitter-perl)
-- [perl](https://github.com/tree-sitter-perl/tree-sitter-perl)
-- [pgn](https://github.com/rolandwalker/tree-sitter-pgn)
-- [php](https://github.com/tree-sitter/tree-sitter-php)
-- [php_only](https://github.com/tree-sitter/tree-sitter-php)
-- [phpdoc](https://github.com/claytonrcarter/tree-sitter-phpdoc)
-- [pioasm](https://github.com/leo60228/tree-sitter-pioasm)
-- [pkl](https://github.com/apple/tree-sitter-pkl)
-- [plantuml](https://github.com/lyndsysimon/tree-sitter-plantuml)
-- [plantuml](https://github.com/ahlinc/tree-sitter-plantuml)
-- [plantuml](https://github.com/Decodetalkers/tree_sitter_plantuml)
-- [po](https://github.com/erasin/tree-sitter-po)
-- [pod](https://github.com/tree-sitter-perl/tree-sitter-pod)
-- [poe_filter](https://github.com/ObserverOfTime/tree-sitter-poe-filter)
-- [pony](https://github.com/tree-sitter-grammars/tree-sitter-pony)
-- [powershell](https://github.com/PowerShell/tree-sitter-PowerShell) (archived)
-- [powershell](https://github.com/airbus-cert/tree-sitter-powershell)
-- [printf](https://github.com/ObserverOfTime/tree-sitter-printf)
-- [prisma](https://github.com/victorhqc/tree-sitter-prisma)
-- [prolog](https://github.com/Rukiza/tree-sitter-prolog)
-- [prolog](https://codeberg.org/foxy/tree-sitter-prolog)
-- [problog](https://codeberg.org/foxy/tree-sitter-prolog)
-- [promela](https://github.com/siraben/tree-sitter-promela)
-- [promql](https://github.com/MichaHoffmann/tree-sitter-promql)
-- [properties](https://github.com/ObserverOfTime/tree-sitter-properties)
-- [proto](https://github.com/mitchellh/tree-sitter-proto)
-- [proto](https://github.com/treywood/tree-sitter-proto)
-- [protobuf](https://github.com/nnnewb/tree-sitter-protobuf)
-- [prql](https://github.com/PRQL/tree-sitter-prql)
-- [psv](https://github.com/tree-sitter-grammars/tree-sitter-csv)
-- [pug](https://github.com/zealot128/tree-sitter-pug)
-- [puppet](https://github.com/tree-sitter-grammars/tree-sitter-puppet)
-- [purescript](https://github.com/postsolar/tree-sitter-purescript)
-- [pymanifest](https://github.com/ObserverOfTime/tree-sitter-pymanifest)
-- [python](https://github.com/legesher/tree-sitter-legesher-python)
-- [python](https://github.com/tree-sitter/tree-sitter-python)
-- [ql](https://github.com/tree-sitter/tree-sitter-ql)
-- [qml](https://github.com/rschiang/tree-sitter-qml)
-- [qmldir](https://github.com/Decodetalkers/tree-sitter-qmldir)
-- [qmljs](https://github.com/yuja/tree-sitter-qmljs)
-- [quakec](https://github.com/vkazanov/tree-sitter-quakec)
-- [query](https://github.com/tree-sitter-grammars/tree-sitter-query)
-- [query](https://github.com/the-mikedavis/tree-sitter-tsq)
-- [r](https://github.com/r-lib/tree-sitter-r)
-- [racket](https://github.com/6cdh/tree-sitter-racket)
-- [ralph](https://github.com/alephium/tree-sitter-ralph)
-- [rasi](https://github.com/Fymyte/tree-sitter-rasi)
-- [rbs](https://github.com/joker1007/tree-sitter-rbs)
-- [re2c](https://github.com/alemuller/tree-sitter-re2c)
-- [re2c](https://github.com/tree-sitter-grammars/tree-sitter-re2c)
-- [readline](https://github.com/ribru17/tree-sitter-readline)
-- [reasonml](https://github.com/IwanKaramazow/tree-sitter-reason)
-- [rec](https://github.com/amaanq/tree-sitter-rec)
-- [regex](https://github.com/tree-sitter/tree-sitter-regex)
-- [rego](https://github.com/FallenAngel97/tree-sitter-rego)
-- [requirements](https://github.com/ObserverOfTime/tree-sitter-requirements)
-- [rescript](https://github.com/nkrkv/tree-sitter-rescript)
-- [rnoweb](https://github.com/bamonroe/tree-sitter-rnoweb)
-- [robot](https://github.com/Hubro/tree-sitter-robot)
-- [robots](https://github.com/opa-oz/tree-sitter-robots-txt)
-- [roc](https://github.com/faldor20/tree-sitter-roc)
-- [ron](https://github.com/tree-sitter-grammars/tree-sitter-ron)
-- [rst](https://github.com/stsewd/tree-sitter-rst)
-- [rsx](https://github.com/tjdevries/tree-sitter-rsx)
-- [rtf](https://github.com/GoodNotes/tree-sitter-rtf)
-- [ruby](https://github.com/tree-sitter/tree-sitter-ruby)
-- [rust](https://github.com/tree-sitter/tree-sitter-rust)
-- [satysfi](https://github.com/monaqa/tree-sitter-satysfi)
-- [scala](https://github.com/tree-sitter/tree-sitter-scala)
-- [scfg](https://git.sr.ht/~rockorager/tree-sitter-scfg)
-- [scheme](https://github.com/6cdh/tree-sitter-scheme)
-- [scilab](https://github.com/nicolas-graves/tree-sitter-scilab)
-- [scss](https://github.com/serenadeai/tree-sitter-scss)
-- [sdml](https://github.com/sdm-lang/tree-sitter-sdml)
-- [sexp](https://github.com/AbstractMachinesLab/tree-sitter-sexp)
-- [slang](https://github.com/theHamsta/tree-sitter-slang)
-- [slim](https://gitlab.com/theoreichel/tree-sitter-slim)
-- [slint](https://github.com/slint-ui/slint)
-- [smali](https://github.com/tree-sitter-grammars/tree-sitter-smali)
-- [smali](https://git.sr.ht/~yotam/tree-sitter-smali)
-- [small basic](https://github.com/comom87/tree-sitter-smallbasic)
-- [smalltalk](https://github.com/tom95/tree-sitter-smalltalk)
-- [smarty](https://github.com/Kibadda/tree-sitter-smarty)
-- [smithy](https://github.com/indoorvivants/tree-sitter-smithy)
-- [sml](https://github.com/MatthewFluet/tree-sitter-sml)
-- [sml](https://github.com/stonebuddha/tree-sitter-sml)
-- [snakemake](https://github.com/osthomas/tree-sitter-snakemake)
-- [solidity](https://github.com/JoranHonig/tree-sitter-solidity)
-- [souffle](https://github.com/julienhenry/tree-sitter-souffle)
-- [souffle](https://github.com/langston-barrett/tree-sitter-souffle)
-- [sourcepawn](https://github.com/nilshelmig/tree-sitter-sourcepawn)
-- [sourcepawn](https://github.com/Sarrus1/tree-sitter-sourcepawn)
-- [sparql](https://github.com/GordianDziwis/tree-sitter-sparql)
-- [sql](https://github.com/DerekStride/tree-sitter-sql)
-- [sql](https://github.com/m-novikov/tree-sitter-sql)
-- [sql](https://github.com/tjdevries/tree-sitter-sql)
-- [sqlite](https://github.com/dhcmrlchtdj/tree-sitter-sqlite)
-- [squirrel](https://github.com/tree-sitter-grammars/tree-sitter-squirrel)
-- [ssh config](https://github.com/metio/tree-sitter-ssh-client-config)
-- [stan](https://github.com/WardBrian/tree-sitter-stan)
-- [starlark](https://github.com/tree-sitter-grammars/tree-sitter-starlark)
-- [strace](https://github.com/sigmaSd/tree-sitter-strace)
-- [styled](https://github.com/mskelton/tree-sitter-styled)
-- [supercollider](https://github.com/madskjeldgaard/tree-sitter-supercollider)
-- [surface](https://github.com/connorlay/tree-sitter-surface)
-- [surrealdb](https://github.com/DariusCorvus/tree-sitter-surrealdb)
-- [sv](https://github.com/rfdonnelly/tree-sitter-sv)
-- [svelte](https://github.com/Himujjal/tree-sitter-svelte)
-- [svelte](https://github.com/tree-sitter-grammars/tree-sitter-svelte)
-- [sway](https://github.com/FuelLabs/tree-sitter-sway)
-- [swift](https://github.com/alex-pinkus/tree-sitter-swift)
-- [sxhkdrc](https://github.com/RaafatTurki/tree-sitter-sxhkdrc)
-- [systemrdl](https://github.com/SystemRDL/tree-sitter-systemrdl)
-- [systemtap](https://github.com/ok-ryoko/tree-sitter-systemtap)
-- [t32](https://codeberg.org/xasc/tree-sitter-t32)
-- [tablegen](https://github.com/tree-sitter-grammars/tree-sitter-tablegen)
-- [tablegen](https://github.com/Flakebi/tree-sitter-tablegen)
-- [Tact](https://github.com/tact-lang/tree-sitter-tact)
-- [tcl](https://github.com/tree-sitter-grammars/tree-sitter-tcl)
-- [teal](https://github.com/euclidianAce/tree-sitter-teal)
-- [templ](https://github.com/vrischmann/tree-sitter-templ)
-- [template](https://github.com/tree-sitter/tree-sitter-embedded-template)
-- [textproto](https://github.com/PorterAtGoogle/tree-sitter-textproto)
-- [thrift](https://github.com/duskmoon314/tree-sitter-thrift)
-- [tiger](https://github.com/ambroisie/tree-sitter-tiger)
-- [tlaplus](https://github.com/tlaplus-community/tree-sitter-tlaplus)
-- [todo](https://github.com/Aerijo/tree-sitter-todo)
-- [todotxt](https://github.com/arnarg/tree-sitter-todotxt)
-- [toml](https://github.com/ikatyang/tree-sitter-toml)
-- [toml](https://github.com/tree-sitter-grammars/tree-sitter-toml)
-- [tsq](https://github.com/tree-sitter/tree-sitter-tsq)
-- [tsv](https://github.com/tree-sitter-grammars/tree-sitter-csv)
-- [tucan](https://github.com/mrnugget/tree-sitter-tucan)
-- [tucanir](https://github.com/mrnugget/tree-sitter-tucanir)
-- [turtle](https://github.com/GordianDziwis/tree-sitter-turtle)
-- [twig](https://github.com/gbprod/tree-sitter-twig)
-- [twig](https://github.com/kaermorchen/tree-sitter-twig)
-- [twitchchat](https://github.com/rockerBOO/tree-sitter-twitchchat)
-- [typescript](https://github.com/tree-sitter/tree-sitter-typescript)
-- [typespec](https://github.com/happenslol/tree-sitter-typespec)
-- [typoscript](https://github.com/Teddytrombone/tree-sitter-typoscript)
-- [typst](https://github.com/uben0/tree-sitter-typst)
-- [typst](https://github.com/SeniorMars/tree-sitter-typst)
-- [typst](https://github.com/frozolotl/tree-sitter-typst)
-- [udev](https://github.com/ObserverOfTime/tree-sitter-udev)
-- [ungrammar](https://github.com/Philipp-M/tree-sitter-ungrammar)
-- [unifieddiff](https://github.com/monaqa/tree-sitter-unifieddiff)
-- [unison](https://github.com/kylegoetz/tree-sitter-unison)
-- [usd](https://github.com/ColinKennedy/tree-sitter-usd)
-- [uxntal](https://github.com/Jummit/tree-sitter-uxntal)
-- [uxntal](https://github.com/tree-sitter-grammars/tree-sitter-uxntal)
-- [v](https://github.com/nedpals/tree-sitter-v)
-- [v](https://github.com/vlang/v-analyzer)
-- [vala](https://github.com/vala-lang/tree-sitter-vala)
-- [vcd](https://github.com/wavedrom/tree-sitter-vcd)
-- [vento](https://github.com/ventojs/tree-sitter-vento)
-- [verilog](https://github.com/tree-sitter/tree-sitter-verilog)
-- [verilog](https://github.com/gmlarumbe/tree-sitter-verilog)
-- [vespa](https://github.com/bartek/tree-sitter-vespa)
-- [vhdl](https://github.com/alemuller/tree-sitter-vhdl)
-- [vhdl](https://github.com/jpt13653903/tree-sitter-vhdl)
-- [vhs](https://github.com/charmbracelet/tree-sitter-vhs)
-- [vim](https://github.com/neovim/tree-sitter-vim)
-- [vimdoc](https://github.com/neovim/tree-sitter-vimdoc)
-- [vls](https://github.com/vlang/vls)
-- [vrl](https://github.com/belltoy/tree-sitter-vrl)
-- [vue](https://github.com/ikatyang/tree-sitter-vue)
-- [vue](https://github.com/tree-sitter-grammars/tree-sitter-vue)
-- [wasm](https://github.com/wasm-lsp/tree-sitter-wasm)
-- [wdl](https://github.com/jdidion/tree-sitter-wdl)
-- [wgsl](https://github.com/mehmetoguzderin/tree-sitter-wgsl)
-- [wgsl](https://github.com/szebniok/tree-sitter-wgsl)
-- [wgsl_bevy](https://github.com/theHamsta/tree-sitter-wgsl-bevy)
-- [wing](https://github.com/winglang/wing)
-- [wit](https://github.com/liamwh/tree-sitter-wit)
-- [wit](https://github.com/hh9527/tree-sitter-wit)
-- [work](https://github.com/omertuc/tree-sitter-go-work)
-- [x86asm](https://github.com/bearcove/tree-sitter-x86asm)
-- [xcompose](https://github.com/ObserverOfTime/tree-sitter-xcompose)
-- [xml](https://github.com/ObserverOfTime/tree-sitter-xml)
-- [xml](https://github.com/dorgnarg/tree-sitter-xml)
-- [xml](https://github.com/unhammer/tree-sitter-xml)
-- [xml](https://github.com/panicinc/tree-sitter-xml)
-- [xquery](https://github.com/grantmacken/tree-sitter-xquery)
-- [yaml](https://github.com/ikatyang/tree-sitter-yaml)
-- [yaml](https://github.com/tree-sitter-grammars/tree-sitter-yaml)
-- [yang](https://github.com/Hubro/tree-sitter-yang)
-- [yuck](https://github.com/Philipp-M/tree-sitter-yuck)
-- [zathurarc](https://github.com/Freed-Wu/tree-sitter-zathurarc)
-- [zeek](https://github.com/zeek/tree-sitter-zeek)
-- [zig](https://github.com/GrayJack/tree-sitter-zig)
-- [zig](https://github.com/maxxnino/tree-sitter-zig)
-- [zig](https://github.com/ziglibs/tree-sitter-zig)
-- [zsh](https://github.com/tree-sitter-grammars/tree-sitter-zsh)
+* ABI >= 12 (or unknown and last commit date is 2020 or later)
+* If the parser uses an external scanner, that must be implemented in `C` (as non-`C` implementations are no longer supported)
 
+If a parser is missing, let us know on
+[Discord](https://discord.gg/w7nTvsVJhm) or
+[Matrix](https://matrix.to/#/#tree-sitter-chat:matrix.org).
+
+---
+
+Column names and values are:
+
+* `name`: name of the parser (lower-cased; usually obtained via `grammar.js`)
+* `url`: link to parser repository
+* `last commit date` (by time of list creation/update)
+* `abi`: ABI of included `parser.c` (or `-` if repository does not contain pre-generated parser)
+* `grammar.json`: whether repository contains pre-generated `grammar.json` (useful to `tree-sitter generate src/grammar.json` without requiring node/npm)
+* `external scanner`: whether parser uses an external scanner 
+
+---
+
+| name | url | last commit date | abi | grammar.json | external scanner |
+| --- | --- | --- | --- | --- | --- |
+| ada | [github.com/TamaMcGlinn/tree-sitter-ada](https://github.com/TamaMcGlinn/tree-sitter-ada) | 2022-06-25 | 13 | yes | no |
+| ada | [github.com/briot/tree-sitter-ada](https://github.com/briot/tree-sitter-ada) | 2024-05-23 | 14 | yes | no |
+| agda | [github.com/tree-sitter/tree-sitter-agda](https://github.com/tree-sitter/tree-sitter-agda) | 2024-11-11 | 14 | yes | yes |
+| angular | [github.com/dlvandenberg/tree-sitter-angular](https://github.com/dlvandenberg/tree-sitter-angular) | 2025-03-27 | 14 | yes | yes |
+| apex | [github.com/Ziemniakoss/tree-sitter-apex](https://github.com/Ziemniakoss/tree-sitter-apex) | 2022-04-16 | 13 | yes | no |
+| apex | [github.com/jsuarez-chipiron/tree-sitter-apex](https://github.com/jsuarez-chipiron/tree-sitter-apex) | 2023-05-12 | 13 | yes | no |
+| apex | [github.com/aheber/tree-sitter-sfapex](https://github.com/aheber/tree-sitter-sfapex) | 2025-02-12 | 14 | yes | no |
+| arduino | [github.com/tree-sitter-grammars/tree-sitter-arduino](https://github.com/tree-sitter-grammars/tree-sitter-arduino) | 2024-11-19 | 14 | yes | yes |
+| asciidoc | [github.com/cathaysia/tree-sitter-asciidoc](https://github.com/cathaysia/tree-sitter-asciidoc) | 2025-04-29 | 14 | yes | yes |
+| asciidoc_inline | [github.com/cathaysia/tree-sitter-asciidoc](https://github.com/cathaysia/tree-sitter-asciidoc) | 2025-04-29 | 14 | yes | yes |
+| asm | [github.com/rush-rs/tree-sitter-asm](https://github.com/rush-rs/tree-sitter-asm) | 2025-03-09 | 14 | yes | no |
+| astro | [github.com/virchau13/tree-sitter-astro](https://github.com/virchau13/tree-sitter-astro) | 2025-04-19 | 14 | yes | yes |
+| authzed | [github.com/mleonidas/tree-sitter-authzed](https://github.com/mleonidas/tree-sitter-authzed) | 2023-10-06 | 14 | yes | no |
+| awk | [github.com/Beaglefoot/tree-sitter-awk](https://github.com/Beaglefoot/tree-sitter-awk) | 2024-11-02 | 14 | yes | yes |
+| bash | [github.com/tree-sitter/tree-sitter-bash](https://github.com/tree-sitter/tree-sitter-bash) | 2025-01-31 | 14 | yes | yes |
+| bass | [github.com/vito/tree-sitter-bass](https://github.com/vito/tree-sitter-bass) | 2024-05-03 | 14 | yes | no |
+| bazelrc | [github.com/zaucy/tree-sitter-bazelrc](https://github.com/zaucy/tree-sitter-bazelrc) | 2024-04-01 | 14 | yes | no |
+| beancount | [github.com/zwpaper/tree-sitter-beancount](https://github.com/zwpaper/tree-sitter-beancount) | 2022-03-01 | 13 | yes | no |
+| beancount | [github.com/polarmutex/tree-sitter-beancount](https://github.com/polarmutex/tree-sitter-beancount) | 2024-10-28 | 14 | yes | yes |
+| beancount | [github.com/yagebu/tree-sitter-beancount](https://github.com/yagebu/tree-sitter-beancount) | 2025-05-28 | 15 | yes | no |
+| bibtex | [github.com/latex-lsp/tree-sitter-bibtex](https://github.com/latex-lsp/tree-sitter-bibtex) | 2025-04-19 | 15 | yes | no |
+| bicep | [github.com/tree-sitter-grammars/tree-sitter-bicep](https://github.com/tree-sitter-grammars/tree-sitter-bicep) | 2024-12-21 | 14 | yes | yes |
+| bison | [gitlab.com/btuin2/tree-sitter-bison](https://gitlab.com/btuin2/tree-sitter-bison) | 2024-01-13 | 14 | yes | yes |
+| bitbake | [github.com/tree-sitter-grammars/tree-sitter-bitbake](https://github.com/tree-sitter-grammars/tree-sitter-bitbake) | 2024-04-27 | 14 | yes | yes |
+| blade | [github.com/EmranMR/tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) | 2025-04-19 | 15 | yes | no |
+| blueprint | [gitlab.com/gabmus/tree-sitter-blueprint.git](https://gitlab.com/gabmus/tree-sitter-blueprint.git) | 2024-04-28 | 14 | yes | no |
+| bp | [github.com/ambroisie/tree-sitter-bp](https://github.com/ambroisie/tree-sitter-bp) | 2025-04-02 | 15 | yes | no |
+| brightscript | [github.com/ajdelcimmuto/tree-sitter-brightscript](https://github.com/ajdelcimmuto/tree-sitter-brightscript) | 2025-04-11 | 14 | yes | no |
+| c | [github.com/tree-sitter/tree-sitter-c](https://github.com/tree-sitter/tree-sitter-c) | 2025-05-24 | 15 | yes | no |
+| c3 | [github.com/zweimach/tree-sitter-c3](https://github.com/zweimach/tree-sitter-c3) | 2024-02-17 | 14 | yes | no |
+| c3 | [github.com/c3lang/tree-sitter-c3](https://github.com/c3lang/tree-sitter-c3) | 2025-05-28 | 14 | yes | yes |
+| c_sharp | [github.com/tree-sitter/tree-sitter-c-sharp](https://github.com/tree-sitter/tree-sitter-c-sharp) | 2025-02-14 | 14 | yes | yes |
+| caddy | [github.com/opa-oz/tree-sitter-caddy](https://github.com/opa-oz/tree-sitter-caddy) | 2025-01-26 | 14 | yes | yes |
+| cairo | [github.com/JoranHonig/tree-sitter-cairo](https://github.com/JoranHonig/tree-sitter-cairo) | 2022-12-14 | 14 | yes | no |
+| cairo | [github.com/tree-sitter-grammars/tree-sitter-cairo](https://github.com/tree-sitter-grammars/tree-sitter-cairo) | 2024-04-27 | 14 | yes | yes |
+| capnp | [github.com/tree-sitter-grammars/tree-sitter-capnp](https://github.com/tree-sitter-grammars/tree-sitter-capnp) | 2024-04-20 | 14 | yes | no |
+| cedar | [github.com/chrnorm/tree-sitter-cedar](https://github.com/chrnorm/tree-sitter-cedar) | 2024-07-03 | 14 | yes | no |
+| cel | [github.com/bufbuild/tree-sitter-cel](https://github.com/bufbuild/tree-sitter-cel) | 2024-02-13 | 14 | yes | no |
+| cfengine | [github.com/olehermanse/tree-sitter-cfengine](https://github.com/olehermanse/tree-sitter-cfengine) | 2024-10-20 | 14 | yes | no |
+| chatito | [github.com/tree-sitter-grammars/tree-sitter-chatito](https://github.com/tree-sitter-grammars/tree-sitter-chatito) | 2024-11-23 | 14 | yes | no |
+| chatl | [github.com/tree-sitter-grammars/tree-sitter-chatito](https://github.com/tree-sitter-grammars/tree-sitter-chatito) | 2024-11-23 | 14 | yes | no |
+| circom | [github.com/Decurity/tree-sitter-circom](https://github.com/Decurity/tree-sitter-circom) | 2024-09-09 | 14 | yes | no |
+| clojure | [github.com/sogaiu/tree-sitter-clojure](https://github.com/sogaiu/tree-sitter-clojure) | 2025-05-26 | 14 | yes | no |
+| cmake | [github.com/uyha/tree-sitter-cmake](https://github.com/uyha/tree-sitter-cmake) | 2025-05-23 | 14 | yes | yes |
+| cobol | [github.com/Neppord/tree-sitter-cobol](https://github.com/Neppord/tree-sitter-cobol) | 2020-07-06 | - | no | no |
+| cobol | [github.com/yutaro-sakamoto/tree-sitter-cobol](https://github.com/yutaro-sakamoto/tree-sitter-cobol) | 2024-12-17 | 14 | yes | yes |
+| comment | [github.com/stsewd/tree-sitter-comment](https://github.com/stsewd/tree-sitter-comment) | 2025-05-03 | 15 | yes | yes |
+| commonlisp | [github.com/theHamsta/tree-sitter-commonlisp](https://github.com/theHamsta/tree-sitter-commonlisp) | 2025-03-16 | 14 | yes | no |
+| context | [github.com/pmazaitis/tree-sitter-context_en](https://github.com/pmazaitis/tree-sitter-context_en) | 2024-08-13 | 14 | yes | yes |
+| cooklang | [github.com/addcninblue/tree-sitter-cooklang](https://github.com/addcninblue/tree-sitter-cooklang) | 2024-05-03 | 14 | yes | yes |
+| core_schema | [github.com/tree-sitter-grammars/tree-sitter-yaml](https://github.com/tree-sitter-grammars/tree-sitter-yaml) | 2025-05-28 | 14 | yes | no |
+| corn | [github.com/jakestanger/tree-sitter-corn](https://github.com/jakestanger/tree-sitter-corn) | 2024-06-16 | 14 | yes | no |
+| cpon | [github.com/tree-sitter-grammars/tree-sitter-cpon](https://github.com/tree-sitter-grammars/tree-sitter-cpon) | 2024-04-20 | 14 | yes | no |
+| cpp | [github.com/tree-sitter/tree-sitter-cpp](https://github.com/tree-sitter/tree-sitter-cpp) | 2025-05-10 | 14 | yes | yes |
+| cql | [github.com/shotover/tree-sitter-cql](https://github.com/shotover/tree-sitter-cql) | 2024-05-09 | 14 | yes | no |
+| cql | [github.com/ricomariani/tree-sitter-cgsql](https://github.com/ricomariani/tree-sitter-cgsql) | 2025-03-08 | - | no | no |
+| crystal | [github.com/will/tree-sitter-crystal](https://github.com/will/tree-sitter-crystal) | 2021-09-02 | 13 | yes | no |
+| crystal | [github.com/keidax/tree-sitter-crystal](https://github.com/keidax/tree-sitter-crystal) | 2024-12-22 | 14 | yes | yes |
+| css | [github.com/tree-sitter/tree-sitter-css](https://github.com/tree-sitter/tree-sitter-css) | 2025-01-30 | 14 | yes | yes |
+| csv | [github.com/tree-sitter-grammars/tree-sitter-csv](https://github.com/tree-sitter-grammars/tree-sitter-csv) | 2024-04-27 | 14 | yes | no |
+| cuda | [github.com/theHamsta/tree-sitter-cuda](https://github.com/theHamsta/tree-sitter-cuda) | 2025-03-16 | 14 | yes | yes |
+| cue | [github.com/eonpatapon/tree-sitter-cue](https://github.com/eonpatapon/tree-sitter-cue) | 2025-02-03 | 14 | yes | yes |
+| cylc | [github.com/elliotfontaine/tree-sitter-cylc](https://github.com/elliotfontaine/tree-sitter-cylc) | 2025-05-07 | 14 | yes | no |
+| d | [github.com/gdamore/tree-sitter-d](https://github.com/gdamore/tree-sitter-d) | 2024-09-21 | 14 | yes | yes |
+| dart | [github.com/UserNobody14/tree-sitter-dart](https://github.com/UserNobody14/tree-sitter-dart) | 2025-02-28 | 14 | yes | yes |
+| desktop | [github.com/ValdezFOmar/tree-sitter-desktop](https://github.com/ValdezFOmar/tree-sitter-desktop) | 2025-06-01 | 15 | yes | no |
+| devicetree | [github.com/joelspadin/tree-sitter-devicetree](https://github.com/joelspadin/tree-sitter-devicetree) | 2025-02-24 | 14 | yes | no |
+| dhall | [github.com/jbellerb/tree-sitter-dhall](https://github.com/jbellerb/tree-sitter-dhall) | 2025-04-13 | 15 | yes | yes |
+| diff | [github.com/vigoux/tree-sitter-diff](https://github.com/vigoux/tree-sitter-diff) | 2020-09-29 | 12 | yes | no |
+| diff | [github.com/the-mikedavis/tree-sitter-diff](https://github.com/the-mikedavis/tree-sitter-diff) | 2025-01-05 | 14 | yes | no |
+| disassembly | [github.com/ColinKennedy/tree-sitter-disassembly](https://github.com/ColinKennedy/tree-sitter-disassembly) | 2023-12-02 | 14 | yes | yes |
+| djot | [github.com/treeman/tree-sitter-djot](https://github.com/treeman/tree-sitter-djot) | 2025-02-28 | 14 | yes | yes |
+| dockerfile | [github.com/camdencheek/tree-sitter-dockerfile](https://github.com/camdencheek/tree-sitter-dockerfile) | 2025-01-12 | 14 | yes | yes |
+| dot | [github.com/rydesun/tree-sitter-dot](https://github.com/rydesun/tree-sitter-dot) | 2022-08-25 | 13 | yes | no |
+| doxygen | [github.com/tree-sitter-grammars/tree-sitter-doxygen](https://github.com/tree-sitter-grammars/tree-sitter-doxygen) | 2024-06-09 | 14 | yes | yes |
+| dtd | [github.com/tree-sitter-grammars/tree-sitter-xml](https://github.com/tree-sitter-grammars/tree-sitter-xml) | 2025-05-21 | 14 | yes | yes |
+| earthfile | [github.com/glehmann/tree-sitter-earthfile](https://github.com/glehmann/tree-sitter-earthfile) | 2025-05-02 | 14 | yes | yes |
+| ebnf | [github.com/RubixDev/ebnf](https://github.com/RubixDev/ebnf) | 2023-02-06 | 14 | yes | no |
+| editorconfig | [github.com/ValdezFOmar/tree-sitter-editorconfig](https://github.com/ValdezFOmar/tree-sitter-editorconfig) | 2025-05-25 | 15 | yes | yes |
+| eds | [github.com/uyha/tree-sitter-eds](https://github.com/uyha/tree-sitter-eds) | 2024-10-14 | 14 | yes | no |
+| eex | [github.com/connorlay/tree-sitter-eex](https://github.com/connorlay/tree-sitter-eex) | 2022-01-12 | 13 | yes | no |
+| elisp | [github.com/tpeacock19/tree-sitter-elisp](https://github.com/tpeacock19/tree-sitter-elisp) | 2022-10-10 | 13 | yes | no |
+| elisp | [github.com/Wilfred/tree-sitter-elisp](https://github.com/Wilfred/tree-sitter-elisp) | 2024-06-18 | 14 | yes | no |
+| elixir | [github.com/elixir-lang/tree-sitter-elixir](https://github.com/elixir-lang/tree-sitter-elixir) | 2025-04-23 | 14 | yes | yes |
+| elm | [github.com/elm-tooling/tree-sitter-elm](https://github.com/elm-tooling/tree-sitter-elm) | 2025-05-04 | 15 | yes | yes |
+| elsa | [github.com/glapa-grossklag/tree-sitter-elsa](https://github.com/glapa-grossklag/tree-sitter-elsa) | 2023-02-21 | 14 | yes | no |
+| elvish | [github.com/elves/tree-sitter-elvish](https://github.com/elves/tree-sitter-elvish) | 2023-07-17 | 14 | yes | no |
+| embedded_template | [github.com/tree-sitter/tree-sitter-embedded-template](https://github.com/tree-sitter/tree-sitter-embedded-template) | 2025-01-25 | 14 | yes | no |
+| enforce | [github.com/simonvic/tree-sitter-enforce](https://github.com/simonvic/tree-sitter-enforce) | 2025-03-29 | 15 | yes | no |
+| erlang | [github.com/the-mikedavis/tree-sitter-erlang](https://github.com/the-mikedavis/tree-sitter-erlang) | 2025-02-05 | 14 | yes | no |
+| erlang | [github.com/WhatsApp/tree-sitter-erlang](https://github.com/WhatsApp/tree-sitter-erlang) | 2025-04-08 | 14 | yes | yes |
+| eventrule | [github.com/3p3r/tree-sitter-eventrule](https://github.com/3p3r/tree-sitter-eventrule) | 2024-04-10 | - | no | no |
+| facility | [github.com/FacilityApi/tree-sitter-facility](https://github.com/FacilityApi/tree-sitter-facility) | 2025-01-14 | 14 | yes | no |
+| faust | [github.com/khiner/tree-sitter-faust](https://github.com/khiner/tree-sitter-faust) | 2024-02-22 | 14 | yes | no |
+| fennel | [github.com/sogaiu/tree-sitter-fennel](https://github.com/sogaiu/tree-sitter-fennel) | 2022-02-19 | 13 | yes | no |
+| fennel | [github.com/TravonteD/tree-sitter-fennel](https://github.com/TravonteD/tree-sitter-fennel) | 2024-02-02 | 14 | yes | no |
+| fennel | [github.com/alexmozaidze/tree-sitter-fennel](https://github.com/alexmozaidze/tree-sitter-fennel) | 2025-04-17 | 14 | yes | yes |
+| fidl | [github.com/google/tree-sitter-fidl](https://github.com/google/tree-sitter-fidl) | 2024-02-26 | 14 | yes | no |
+| firrtl | [github.com/tree-sitter-grammars/tree-sitter-firrtl](https://github.com/tree-sitter-grammars/tree-sitter-firrtl) | 2024-04-20 | 14 | yes | yes |
+| fish | [github.com/ram02z/tree-sitter-fish](https://github.com/ram02z/tree-sitter-fish) | 2025-01-18 | 14 | yes | yes |
+| fluentbit | [github.com/sh-cho/tree-sitter-fluentbit](https://github.com/sh-cho/tree-sitter-fluentbit) | 2025-05-27 | 14 | yes | no |
+| foam | [github.com/FoamScience/tree-sitter-foam](https://github.com/FoamScience/tree-sitter-foam) | 2024-11-10 | 14 | yes | yes |
+| formula | [github.com/siraben/tree-sitter-formula](https://github.com/siraben/tree-sitter-formula) | 2022-05-05 | 13 | yes | no |
+| forth | [github.com/AlexanderBrevig/tree-sitter-forth](https://github.com/AlexanderBrevig/tree-sitter-forth) | 2023-11-03 | 14 | yes | no |
+| fortran | [github.com/stadelmanma/tree-sitter-fortran](https://github.com/stadelmanma/tree-sitter-fortran) | 2025-05-28 | 14 | yes | yes |
+| fsh | [github.com/mgramigna/tree-sitter-fsh](https://github.com/mgramigna/tree-sitter-fsh) | 2024-04-27 | 14 | yes | no |
+| fsharp | [github.com/baronfel/tree-sitter-fsharp](https://github.com/baronfel/tree-sitter-fsharp) | 2023-02-13 | 13 | yes | no |
+| fsharp | [github.com/ionide/tree-sitter-fsharp](https://github.com/ionide/tree-sitter-fsharp) | 2025-05-17 | 14 | yes | yes |
+| fsharp_signature | [github.com/ionide/tree-sitter-fsharp](https://github.com/ionide/tree-sitter-fsharp) | 2025-05-17 | 14 | yes | yes |
+| func | [github.com/akifoq/tree-sitter-func](https://github.com/akifoq/tree-sitter-func) | 2022-04-02 | 13 | yes | no |
+| func | [github.com/tree-sitter-grammars/tree-sitter-func](https://github.com/tree-sitter-grammars/tree-sitter-func) | 2024-04-27 | 14 | yes | no |
+| fusion | [gitlab.com/jirgn/tree-sitter-fusion.git](https://gitlab.com/jirgn/tree-sitter-fusion.git) | 2021-12-29 | 13 | yes | yes |
+| gap | [github.com/gap-system/tree-sitter-gap](https://github.com/gap-system/tree-sitter-gap) | 2025-04-08 | 14 | yes | yes |
+| gaptst | [github.com/gap-system/tree-sitter-gaptst](https://github.com/gap-system/tree-sitter-gaptst) | 2024-12-27 | 14 | yes | yes |
+| gdscript | [github.com/PrestonKnopp/tree-sitter-gdscript](https://github.com/PrestonKnopp/tree-sitter-gdscript) | 2025-05-27 | 14 | yes | yes |
+| gdshader | [github.com/GodOfAvacyn/tree-sitter-gdshader](https://github.com/GodOfAvacyn/tree-sitter-gdshader) | 2024-02-22 | 14 | yes | no |
+| gemini | [git.sr.ht/~nbsp/tree-sitter-gemini](https://git.sr.ht/~nbsp/tree-sitter-gemini) | 2023-11-28 | 14 | yes | no |
+| gemtext | [github.com/pebbe/tree-sitter-gemtext](https://github.com/pebbe/tree-sitter-gemtext) | 2024-12-14 | 14 | yes | no |
+| ghccore | [github.com/bgamari/tree-sitter-ghc-core](https://github.com/bgamari/tree-sitter-ghc-core) | 2023-01-30 | - | no | no |
+| git_commit | [github.com/the-mikedavis/tree-sitter-git-commit](https://github.com/the-mikedavis/tree-sitter-git-commit) | 2023-08-04 | 14 | yes | no |
+| git_config | [github.com/the-mikedavis/tree-sitter-git-config](https://github.com/the-mikedavis/tree-sitter-git-config) | 2025-05-11 | 14 | yes | no |
+| git_rebase | [github.com/the-mikedavis/tree-sitter-git-rebase](https://github.com/the-mikedavis/tree-sitter-git-rebase) | 2024-07-22 | 14 | yes | no |
+| gitattributes | [github.com/tree-sitter-grammars/tree-sitter-gitattributes](https://github.com/tree-sitter-grammars/tree-sitter-gitattributes) | 2025-05-28 | 14 | yes | no |
+| gitcommit | [github.com/gbprod/tree-sitter-gitcommit](https://github.com/gbprod/tree-sitter-gitcommit) | 2025-03-13 | 14 | yes | yes |
+| gitignore | [github.com/shunsambongi/tree-sitter-gitignore](https://github.com/shunsambongi/tree-sitter-gitignore) | 2022-05-04 | 13 | yes | no |
+| gleam | [github.com/gleam-lang/tree-sitter-gleam](https://github.com/gleam-lang/tree-sitter-gleam) | 2025-05-17 | 13 | yes | yes |
+| glimmer | [github.com/ember-tooling/tree-sitter-glimmer](https://github.com/ember-tooling/tree-sitter-glimmer) | 2024-08-20 | 14 | yes | yes |
+| glimmer_javascript | [github.com/NullVoxPopuli/tree-sitter-glimmer-javascript](https://github.com/NullVoxPopuli/tree-sitter-glimmer-javascript) | 2025-04-01 | 14 | yes | yes |
+| glimmer_typescript | [github.com/NullVoxPopuli/tree-sitter-glimmer-typescript](https://github.com/NullVoxPopuli/tree-sitter-glimmer-typescript) | 2025-04-01 | 14 | yes | yes |
+| glsl | [github.com/tree-sitter-grammars/tree-sitter-glsl](https://github.com/tree-sitter-grammars/tree-sitter-glsl) | 2025-03-16 | 14 | yes | no |
+| gn | [github.com/tree-sitter-grammars/tree-sitter-gn](https://github.com/tree-sitter-grammars/tree-sitter-gn) | 2023-10-22 | 14 | yes | yes |
+| gnuplot | [github.com/dpezto/tree-sitter-gnuplot](https://github.com/dpezto/tree-sitter-gnuplot) | 2024-12-23 | 14 | yes | no |
+| go | [github.com/tree-sitter/tree-sitter-go](https://github.com/tree-sitter/tree-sitter-go) | 2025-01-30 | 14 | yes | no |
+| goctl | [github.com/chaozwn/tree-sitter-goctl](https://github.com/chaozwn/tree-sitter-goctl) | 2024-08-14 | 14 | yes | no |
+| godot_resource | [github.com/PrestonKnopp/tree-sitter-godot-resource](https://github.com/PrestonKnopp/tree-sitter-godot-resource) | 2025-05-27 | 14 | yes | yes |
+| gomod | [github.com/camdencheek/tree-sitter-go-mod](https://github.com/camdencheek/tree-sitter-go-mod) | 2025-01-12 | 14 | yes | no |
+| gosum | [github.com/tree-sitter-grammars/tree-sitter-go-sum](https://github.com/tree-sitter-grammars/tree-sitter-go-sum) | 2023-05-13 | 14 | yes | no |
+| gotmpl | [github.com/dannylongeuay/tree-sitter-go-template](https://github.com/dannylongeuay/tree-sitter-go-template) | 2022-07-19 | 13 | yes | no |
+| gotmpl | [github.com/ngalaiko/tree-sitter-go-template](https://github.com/ngalaiko/tree-sitter-go-template) | 2025-01-29 | 14 | yes | no |
+| gowork | [github.com/omertuc/tree-sitter-go-work](https://github.com/omertuc/tree-sitter-go-work) | 2022-10-04 | 13 | yes | no |
+| gpg | [github.com/ObserverOfTime/tree-sitter-gpg-config](https://github.com/ObserverOfTime/tree-sitter-gpg-config) | 2024-11-23 | 14 | yes | no |
+| graphql | [github.com/bkegley/tree-sitter-graphql](https://github.com/bkegley/tree-sitter-graphql) | 2021-05-10 | 13 | yes | no |
+| gren | [github.com/MaeBrooks/tree-sitter-gren](https://github.com/MaeBrooks/tree-sitter-gren) | 2025-05-03 | 14 | yes | yes |
+| groovy | [github.com/Decodetalkers/tree-sitter-groovy](https://github.com/Decodetalkers/tree-sitter-groovy) | 2024-05-16 | - | no | no |
+| groovy | [github.com/murtaza64/tree-sitter-groovy](https://github.com/murtaza64/tree-sitter-groovy) | 2025-01-22 | 14 | yes | no |
+| gstlaunch | [github.com/theHamsta/tree-sitter-gstlaunch](https://github.com/theHamsta/tree-sitter-gstlaunch) | 2024-04-06 | 14 | yes | no |
+| gularen | [github.com/noorwachid/tree-sitter-gularen](https://github.com/noorwachid/tree-sitter-gularen) | 2025-01-17 | 14 | yes | yes |
+| hack | [github.com/slackhq/tree-sitter-hack](https://github.com/slackhq/tree-sitter-hack) | 2025-01-22 | 13 | yes | yes |
+| hare | [github.com/tree-sitter-grammars/tree-sitter-hare](https://github.com/tree-sitter-grammars/tree-sitter-hare) | 2024-07-07 | 14 | yes | no |
+| haskell | [github.com/tree-sitter/tree-sitter-haskell](https://github.com/tree-sitter/tree-sitter-haskell) | 2025-01-31 | 14 | yes | yes |
+| haskell_persistent | [github.com/MercuryTechnologies/tree-sitter-haskell-persistent](https://github.com/MercuryTechnologies/tree-sitter-haskell-persistent) | 2023-09-18 | 14 | yes | yes |
+| haxe | [github.com/vantreeseba/tree-sitter-haxe](https://github.com/vantreeseba/tree-sitter-haxe) | 2024-09-18 | 14 | yes | yes |
+| hcl | [github.com/MichaHoffmann/tree-sitter-hcl](https://github.com/MichaHoffmann/tree-sitter-hcl) | 2025-05-09 | 15 | yes | yes |
+| heex | [github.com/connorlay/tree-sitter-heex](https://github.com/connorlay/tree-sitter-heex) | 2025-01-30 | 14 | yes | no |
+| helm | [github.com/ngalaiko/tree-sitter-go-template](https://github.com/ngalaiko/tree-sitter-go-template) | 2025-01-29 | 14 | yes | no |
+| helma | [github.com/kevinkeckeis/tree-sitter-helma](https://github.com/kevinkeckeis/tree-sitter-helma) | 2023-02-15 | 14 | yes | no |
+| hjson | [github.com/winston0410/tree-sitter-hjson](https://github.com/winston0410/tree-sitter-hjson) | 2021-08-02 | 13 | yes | no |
+| hlsl | [github.com/tree-sitter-grammars/tree-sitter-hlsl](https://github.com/tree-sitter-grammars/tree-sitter-hlsl) | 2025-03-23 | 14 | yes | yes |
+| hlsplaylist | [github.com/Freed-Wu/tree-sitter-hlsplaylist](https://github.com/Freed-Wu/tree-sitter-hlsplaylist) | 2024-08-04 | 14 | yes | no |
+| hocon | [github.com/antosha417/tree-sitter-hocon](https://github.com/antosha417/tree-sitter-hocon) | 2022-11-07 | 14 | yes | no |
+| hoon | [github.com/urbit-pilled/tree-sitter-hoon](https://github.com/urbit-pilled/tree-sitter-hoon) | 2024-12-17 | 14 | yes | yes |
+| html | [github.com/tree-sitter/tree-sitter-html](https://github.com/tree-sitter/tree-sitter-html) | 2025-01-30 | 14 | yes | yes |
+| htmldjango | [github.com/interdependence/tree-sitter-htmldjango](https://github.com/interdependence/tree-sitter-htmldjango) | 2025-04-16 | 15 | yes | no |
+| http | [github.com/PasiSalenius/tree-sitter-http](https://github.com/PasiSalenius/tree-sitter-http) | 2022-07-27 | 13 | yes | no |
+| http | [github.com/rest-nvim/tree-sitter-http](https://github.com/rest-nvim/tree-sitter-http) | 2025-03-28 | 14 | yes | no |
+| hurl | [github.com/pfeiferj/tree-sitter-hurl](https://github.com/pfeiferj/tree-sitter-hurl) | 2024-09-14 | 14 | yes | no |
+| hyprlang | [github.com/luckasRanarison/tree-sitter-hyprlang](https://github.com/luckasRanarison/tree-sitter-hyprlang) | 2025-05-09 | 15 | yes | no |
+| hyprlang | [github.com/tree-sitter-grammars/tree-sitter-hyprlang](https://github.com/tree-sitter-grammars/tree-sitter-hyprlang) | 2025-06-03 | 15 | yes | no |
+| ibmhlasm | [github.com/janus-llm/tree-sitter-ibmhlasm](https://github.com/janus-llm/tree-sitter-ibmhlasm) | 2024-03-21 | 14 | yes | yes |
+| idl | [github.com/cathaysia/tree-sitter-idl](https://github.com/cathaysia/tree-sitter-idl) | 2025-02-09 | 14 | yes | no |
+| idris | [github.com/kayhide/tree-sitter-idris](https://github.com/kayhide/tree-sitter-idris) | 2024-11-05 | 14 | yes | yes |
+| idris2 | [github.com/gwerbin/tree-sitter-idris2](https://github.com/gwerbin/tree-sitter-idris2) | 2022-04-14 | 13 | yes | no |
+| iex | [github.com/elixir-lang/tree-sitter-iex](https://github.com/elixir-lang/tree-sitter-iex) | 2022-01-08 | 13 | yes | no |
+| ini | [github.com/justinmk/tree-sitter-ini](https://github.com/justinmk/tree-sitter-ini) | 2025-05-27 | 14 | yes | no |
+| inko | [github.com/inko-lang/tree-sitter-inko](https://github.com/inko-lang/tree-sitter-inko) | 2025-02-21 | 14 | yes | no |
+| ipkg | [github.com/srghma/tree-sitter-ipkg](https://github.com/srghma/tree-sitter-ipkg) | 2024-11-11 | 14 | yes | yes |
+| ispc | [github.com/tree-sitter-grammars/tree-sitter-ispc](https://github.com/tree-sitter-grammars/tree-sitter-ispc) | 2023-08-14 | 14 | yes | no |
+| jack | [github.com/nverno/tree-sitter-jack](https://github.com/nverno/tree-sitter-jack) | 2024-10-03 | 14 | yes | no |
+| jakt | [github.com/demizer/tree-sitter-jakt](https://github.com/demizer/tree-sitter-jakt) | 2025-03-04 | 14 | yes | yes |
+| janet | [github.com/GrayJack/tree-sitter-janet](https://github.com/GrayJack/tree-sitter-janet) | 2021-07-19 | 13 | yes | yes |
+| janet_simple | [github.com/sogaiu/tree-sitter-janet-simple](https://github.com/sogaiu/tree-sitter-janet-simple) | 2025-05-19 | 14 | yes | yes |
+| java | [github.com/tree-sitter/tree-sitter-java](https://github.com/tree-sitter/tree-sitter-java) | 2025-01-30 | 14 | yes | no |
+| javadoc | [github.com/rmuir/tree-sitter-javadoc](https://github.com/rmuir/tree-sitter-javadoc) | 2025-06-03 | 14 | yes | yes |
+| javascript | [github.com/tree-sitter/tree-sitter-javascript](https://github.com/tree-sitter/tree-sitter-javascript) | 2025-01-30 | 14 | yes | yes |
+| jinja2 | [github.com/dbt-labs/tree-sitter-jinja2](https://github.com/dbt-labs/tree-sitter-jinja2) | 2025-02-12 | 14 | yes | no |
+| jpp | [github.com/nitreojs/tree-sitter-jpp](https://github.com/nitreojs/tree-sitter-jpp) | 2022-11-19 | 14 | yes | no |
+| jq | [github.com/nverno/tree-sitter-jq](https://github.com/nverno/tree-sitter-jq) | 2025-02-26 | 15 | yes | no |
+| jq | [github.com/flurie/tree-sitter-jq](https://github.com/flurie/tree-sitter-jq) | 2025-05-10 | 13 | yes | no |
+| jsdoc | [github.com/tree-sitter/tree-sitter-jsdoc](https://github.com/tree-sitter/tree-sitter-jsdoc) | 2025-01-25 | 14 | yes | yes |
+| json | [github.com/tree-sitter/tree-sitter-json](https://github.com/tree-sitter/tree-sitter-json) | 2025-01-30 | 14 | yes | no |
+| json5 | [github.com/Joakker/tree-sitter-json5](https://github.com/Joakker/tree-sitter-json5) | 2024-04-30 | 14 | yes | no |
+| json_schema | [github.com/tree-sitter-grammars/tree-sitter-yaml](https://github.com/tree-sitter-grammars/tree-sitter-yaml) | 2025-05-28 | 14 | yes | no |
+| jsonc | [gitlab.com/WhyNotHugo/tree-sitter-jsonc](https://gitlab.com/WhyNotHugo/tree-sitter-jsonc) | 2021-03-07 | 13 | yes | no |
+| jsonnet | [github.com/sourcegraph/tree-sitter-jsonnet](https://github.com/sourcegraph/tree-sitter-jsonnet) | 2024-08-15 | 14 | yes | yes |
+| julia | [github.com/tree-sitter/tree-sitter-julia](https://github.com/tree-sitter/tree-sitter-julia) | 2025-04-15 | 14 | yes | yes |
+| just | [github.com/IndianBoy42/tree-sitter-just](https://github.com/IndianBoy42/tree-sitter-just) | 2025-01-05 | 14 | yes | yes |
+| kcl | [github.com/kcl-lang/tree-sitter-kcl](https://github.com/kcl-lang/tree-sitter-kcl) | 2025-02-15 | 14 | yes | yes |
+| kconfig | [github.com/tree-sitter-grammars/tree-sitter-kconfig](https://github.com/tree-sitter-grammars/tree-sitter-kconfig) | 2024-12-22 | 14 | yes | yes |
+| kdl | [github.com/spaarmann/tree-sitter-kdl](https://github.com/spaarmann/tree-sitter-kdl) | 2024-02-03 | 14 | yes | yes |
+| kdl | [github.com/tree-sitter-grammars/tree-sitter-kdl](https://github.com/tree-sitter-grammars/tree-sitter-kdl) | 2024-06-08 | 14 | yes | yes |
+| koka | [github.com/mtoohey31/tree-sitter-koka](https://github.com/mtoohey31/tree-sitter-koka) | 2025-01-26 | 14 | yes | yes |
+| kotlin | [github.com/fwcd/tree-sitter-kotlin](https://github.com/fwcd/tree-sitter-kotlin) | 2025-04-28 | 14 | yes | yes |
+| koto | [github.com/koto-lang/tree-sitter-koto](https://github.com/koto-lang/tree-sitter-koto) | 2025-05-27 | 14 | yes | yes |
+| kusto | [github.com/Willem-J-an/tree-sitter-kusto](https://github.com/Willem-J-an/tree-sitter-kusto) | 2023-11-03 | 14 | yes | no |
+| lalrpop | [github.com/traxys/tree-sitter-lalrpop](https://github.com/traxys/tree-sitter-lalrpop) | 2025-03-20 | 14 | yes | yes |
+| latex | [github.com/latex-lsp/tree-sitter-latex](https://github.com/latex-lsp/tree-sitter-latex) | 2025-04-19 | - | yes | yes |
+| lean | [github.com/Julian/tree-sitter-lean](https://github.com/Julian/tree-sitter-lean) | 2024-12-25 | 13 | yes | yes |
+| ledger | [github.com/cbarrete/tree-sitter-ledger](https://github.com/cbarrete/tree-sitter-ledger) | 2025-03-31 | 14 | yes | no |
+| legacy_schema | [github.com/tree-sitter-grammars/tree-sitter-yaml](https://github.com/tree-sitter-grammars/tree-sitter-yaml) | 2025-05-28 | 14 | yes | no |
+| leo | [github.com/r001/tree-sitter-leo](https://github.com/r001/tree-sitter-leo) | 2025-01-28 | 14 | yes | no |
+| lilypond | [github.com/tristanperalta/tree-sitter-lilypond](https://github.com/tristanperalta/tree-sitter-lilypond) | 2023-09-27 | 14 | yes | no |
+| linkerscript | [github.com/tree-sitter-grammars/tree-sitter-linkerscript](https://github.com/tree-sitter-grammars/tree-sitter-linkerscript) | 2023-11-19 | 14 | yes | no |
+| liquid | [github.com/Shopify/tree-sitter-liquid](https://github.com/Shopify/tree-sitter-liquid) | 2023-11-20 | 14 | yes | no |
+| liquid | [github.com/hankthetank27/tree-sitter-liquid](https://github.com/hankthetank27/tree-sitter-liquid) | 2025-05-23 | 14 | yes | yes |
+| liquidsoap | [github.com/savonet/tree-sitter-liquidsoap](https://github.com/savonet/tree-sitter-liquidsoap) | 2024-12-11 | 14 | yes | yes |
+| llvm | [github.com/benwilliamgraham/tree-sitter-llvm](https://github.com/benwilliamgraham/tree-sitter-llvm) | 2025-05-13 | 15 | yes | no |
+| llvm_mir | [github.com/Flakebi/tree-sitter-llvm-mir](https://github.com/Flakebi/tree-sitter-llvm-mir) | 2024-10-04 | 14 | yes | no |
+| lua | [github.com/Azganoth/tree-sitter-lua](https://github.com/Azganoth/tree-sitter-lua) | 2022-08-14 | 13 | yes | yes |
+| lua | [github.com/tjdevries/tree-sitter-lua](https://github.com/tjdevries/tree-sitter-lua) | 2024-10-23 | 14 | yes | yes |
+| lua | [github.com/MunifTanjim/tree-sitter-lua](https://github.com/MunifTanjim/tree-sitter-lua) | 2025-05-09 | 14 | yes | yes |
+| lua | [github.com/tree-sitter-grammars/tree-sitter-lua](https://github.com/tree-sitter-grammars/tree-sitter-lua) | 2025-05-17 | 15 | yes | yes |
+| luadoc | [github.com/tree-sitter-grammars/tree-sitter-luadoc](https://github.com/tree-sitter-grammars/tree-sitter-luadoc) | 2024-02-09 | 14 | yes | no |
+| luap | [github.com/vhyrro/tree-sitter-luap](https://github.com/vhyrro/tree-sitter-luap) | 2022-03-12 | 13 | yes | no |
+| luap | [github.com/tree-sitter-grammars/tree-sitter-luap](https://github.com/tree-sitter-grammars/tree-sitter-luap) | 2024-06-08 | 14 | yes | no |
+| luau | [github.com/tree-sitter-grammars/tree-sitter-luau](https://github.com/tree-sitter-grammars/tree-sitter-luau) | 2024-12-22 | 14 | yes | yes |
+| luau | [github.com/polychromatist/tree-sitter-luau](https://github.com/polychromatist/tree-sitter-luau) | 2025-03-15 | 14 | yes | yes |
+| m68k | [github.com/grahambates/tree-sitter-m68k](https://github.com/grahambates/tree-sitter-m68k) | 2024-07-24 | 14 | yes | no |
+| magik | [github.com/krn-robin/tree-sitter-magik](https://github.com/krn-robin/tree-sitter-magik) | 2025-05-19 | 15 | yes | no |
+| mail | [github.com/stevenxxiu/tree-sitter-mail](https://github.com/stevenxxiu/tree-sitter-mail) | 2025-05-26 | 14 | yes | no |
+| make | [github.com/alemuller/tree-sitter-make](https://github.com/alemuller/tree-sitter-make) | 2021-12-16 | 13 | yes | no |
+| make | [github.com/tree-sitter-grammars/tree-sitter-make](https://github.com/tree-sitter-grammars/tree-sitter-make) | 2024-12-21 | 14 | yes | no |
+| mal | [github.com/sogaiu/tree-sitter-mal](https://github.com/sogaiu/tree-sitter-mal) | 2022-12-22 | 13 | yes | no |
+| mandbconfig | [github.com/TornaxO7/tree-sitter-man-db-config](https://github.com/TornaxO7/tree-sitter-man-db-config) | 2024-11-01 | - | no | no |
+| markdown | [github.com/tree-sitter-grammars/tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown) | 2025-05-17 | 15 | yes | yes |
+| markdown_inline | [github.com/tree-sitter-grammars/tree-sitter-markdown](https://github.com/tree-sitter-grammars/tree-sitter-markdown) | 2025-05-17 | 15 | yes | yes |
+| math | [github.com/DerekStride/tree-sitter-math](https://github.com/DerekStride/tree-sitter-math) | 2021-07-31 | 13 | yes | no |
+| matlab | [github.com/mstanciu552/tree-sitter-matlab](https://github.com/mstanciu552/tree-sitter-matlab) | 2023-04-13 | 14 | yes | no |
+| matlab | [github.com/acristoffers/tree-sitter-matlab](https://github.com/acristoffers/tree-sitter-matlab) | 2025-05-03 | 15 | yes | yes |
+| menhir | [github.com/Kerl13/tree-sitter-menhir](https://github.com/Kerl13/tree-sitter-menhir) | 2023-07-17 | 13 | yes | yes |
+| mermaid | [github.com/monaqa/tree-sitter-mermaid](https://github.com/monaqa/tree-sitter-mermaid) | 2024-04-23 | 14 | yes | no |
+| meson | [github.com/staysail/tree-sitter-meson](https://github.com/staysail/tree-sitter-meson) | 2022-11-02 | 14 | yes | no |
+| meson | [github.com/Decodetalkers/tree-sitter-meson](https://github.com/Decodetalkers/tree-sitter-meson) | 2025-05-07 | 14 | yes | no |
+| mlir | [github.com/artagnon/tree-sitter-mlir](https://github.com/artagnon/tree-sitter-mlir) | 2025-05-28 | 15 | yes | no |
+| modelica | [github.com/modelicahub/tree-sitter-modelica](https://github.com/modelicahub/tree-sitter-modelica) | 2024-09-10 | 14 | yes | no |
+| monkey | [github.com/jamestrew/tree-sitter-monkey](https://github.com/jamestrew/tree-sitter-monkey) | 2022-11-17 | 14 | yes | no |
+| move | [github.com/tree-sitter-grammars/tree-sitter-move](https://github.com/tree-sitter-grammars/tree-sitter-move) | 2023-02-11 | 14 | yes | no |
+| muttrc | [github.com/neomutt/tree-sitter-muttrc](https://github.com/neomutt/tree-sitter-muttrc) | 2024-08-04 | 14 | yes | no |
+| nasm | [github.com/naclsn/tree-sitter-nasm](https://github.com/naclsn/tree-sitter-nasm) | 2024-11-23 | 14 | yes | no |
+| nginx | [github.com/opa-oz/tree-sitter-nginx](https://github.com/opa-oz/tree-sitter-nginx) | 2025-01-25 | 14 | yes | yes |
+| nickel | [github.com/nickel-lang/tree-sitter-nickel](https://github.com/nickel-lang/tree-sitter-nickel) | 2025-02-17 | 15 | yes | yes |
+| nim | [github.com/alaviss/tree-sitter-nim](https://github.com/alaviss/tree-sitter-nim) | 2024-07-11 | 14 | yes | yes |
+| nim_format_string | [github.com/aMOPel/tree-sitter-nim-format-string](https://github.com/aMOPel/tree-sitter-nim-format-string) | 2023-10-21 | 14 | yes | no |
+| ninja | [github.com/alemuller/tree-sitter-ninja](https://github.com/alemuller/tree-sitter-ninja) | 2022-01-07 | 13 | yes | no |
+| nix | [github.com/cstrahan/tree-sitter-nix](https://github.com/cstrahan/tree-sitter-nix) | 2025-03-10 | 13 | yes | yes |
+| noir | [github.com/hhamud/tree-sitter-noir](https://github.com/hhamud/tree-sitter-noir) | 2023-10-22 | 14 | yes | yes |
+| nois | [github.com/nois-lang/tree-sitter-nois](https://github.com/nois-lang/tree-sitter-nois) | 2024-04-20 | 14 | yes | no |
+| norg_meta | [github.com/nvim-neorg/tree-sitter-norg-meta](https://github.com/nvim-neorg/tree-sitter-norg-meta) | 2024-04-13 | 14 | yes | no |
+| nqc | [github.com/tree-sitter-grammars/tree-sitter-nqc](https://github.com/tree-sitter-grammars/tree-sitter-nqc) | 2023-08-31 | 14 | yes | no |
+| nu | [github.com/LhKipp/tree-sitter-nu](https://github.com/LhKipp/tree-sitter-nu) | 2025-02-15 | 14 | yes | yes |
+| nu | [github.com/nushell/tree-sitter-nu](https://github.com/nushell/tree-sitter-nu) | 2025-03-29 | 14 | yes | yes |
+| objc | [github.com/jiyee/tree-sitter-objc](https://github.com/jiyee/tree-sitter-objc) | 2022-08-11 | 13 | yes | no |
+| objc | [github.com/tree-sitter-grammars/tree-sitter-objc](https://github.com/tree-sitter-grammars/tree-sitter-objc) | 2025-01-31 | 14 | yes | no |
+| objdump | [github.com/ColinKennedy/tree-sitter-objdump](https://github.com/ColinKennedy/tree-sitter-objdump) | 2023-11-13 | 14 | yes | yes |
+| ocaml | [github.com/tree-sitter/tree-sitter-ocaml](https://github.com/tree-sitter/tree-sitter-ocaml) | 2025-05-29 | 15 | yes | yes |
+| ocaml_interface | [github.com/tree-sitter/tree-sitter-ocaml](https://github.com/tree-sitter/tree-sitter-ocaml) | 2025-05-29 | 15 | yes | yes |
+| ocaml_type | [github.com/tree-sitter/tree-sitter-ocaml](https://github.com/tree-sitter/tree-sitter-ocaml) | 2025-05-29 | 15 | yes | yes |
+| ocamllex | [github.com/atom-ocaml/tree-sitter-ocamllex](https://github.com/atom-ocaml/tree-sitter-ocamllex) | 2025-05-17 | 14 | yes | yes |
+| odin | [github.com/MineBill/tree-sitter-odin](https://github.com/MineBill/tree-sitter-odin) | 2022-11-12 | 14 | yes | no |
+| odin | [github.com/tree-sitter-grammars/tree-sitter-odin](https://github.com/tree-sitter-grammars/tree-sitter-odin) | 2024-12-30 | 14 | yes | yes |
+| ohm | [github.com/novusnota/tree-sitter-ohm](https://github.com/novusnota/tree-sitter-ohm) | 2024-03-24 | 14 | yes | yes |
+| openscad | [github.com/bollian/tree-sitter-openscad](https://github.com/bollian/tree-sitter-openscad) | 2024-03-25 | 14 | yes | no |
+| org | [github.com/milisims/tree-sitter-org](https://github.com/milisims/tree-sitter-org) | 2023-06-19 | 14 | yes | yes |
+| p4 | [github.com/ace-design/tree-sitter-p4](https://github.com/ace-design/tree-sitter-p4) | 2024-01-29 | 14 | yes | yes |
+| papyrus | [github.com/open-papyrus/tree-sitter-papyrus](https://github.com/open-papyrus/tree-sitter-papyrus) | 2022-11-23 | 14 | yes | no |
+| pascal | [github.com/Isopod/tree-sitter-pascal](https://github.com/Isopod/tree-sitter-pascal) | 2025-05-11 | 14 | yes | no |
+| passwd | [github.com/ath3/tree-sitter-passwd](https://github.com/ath3/tree-sitter-passwd) | 2022-12-01 | 14 | yes | no |
+| pem | [github.com/tree-sitter-grammars/tree-sitter-pem](https://github.com/tree-sitter-grammars/tree-sitter-pem) | 2024-11-23 | 14 | yes | no |
+| perl | [github.com/ganezdragon/tree-sitter-perl](https://github.com/ganezdragon/tree-sitter-perl) | 2025-03-29 | 14 | yes | yes |
+| perl | [github.com/tree-sitter-perl/tree-sitter-perl](https://github.com/tree-sitter-perl/tree-sitter-perl) | 2025-05-18 | - | yes | yes |
+| pgn | [github.com/rolandwalker/tree-sitter-pgn](https://github.com/rolandwalker/tree-sitter-pgn) | 2024-10-05 | 14 | yes | yes |
+| php | [github.com/tree-sitter/tree-sitter-php](https://github.com/tree-sitter/tree-sitter-php) | 2025-04-19 | 14 | yes | yes |
+| php_only | [github.com/tree-sitter/tree-sitter-php](https://github.com/tree-sitter/tree-sitter-php) | 2025-04-19 | 14 | yes | yes |
+| phpdoc | [github.com/claytonrcarter/tree-sitter-phpdoc](https://github.com/claytonrcarter/tree-sitter-phpdoc) | 2025-04-02 | 14 | yes | yes |
+| pioasm | [github.com/leo60228/tree-sitter-pioasm](https://github.com/leo60228/tree-sitter-pioasm) | 2024-10-11 | 14 | yes | yes |
+| pkl | [github.com/apple/tree-sitter-pkl](https://github.com/apple/tree-sitter-pkl) | 2025-05-05 | 15 | yes | yes |
+| plantuml | [github.com/lyndsysimon/tree-sitter-plantuml](https://github.com/lyndsysimon/tree-sitter-plantuml) | 2021-12-09 | 13 | yes | no |
+| plantuml | [github.com/Decodetalkers/tree_sitter_plantuml](https://github.com/Decodetalkers/tree_sitter_plantuml) | 2023-09-01 | - | no | no |
+| po | [github.com/tree-sitter-grammars/tree-sitter-po](https://github.com/tree-sitter-grammars/tree-sitter-po) | 2024-04-20 | 14 | yes | no |
+| pod | [github.com/tree-sitter-perl/tree-sitter-pod](https://github.com/tree-sitter-perl/tree-sitter-pod) | 2024-08-23 | - | no | yes |
+| poe_filter | [github.com/tree-sitter-grammars/tree-sitter-poe-filter](https://github.com/tree-sitter-grammars/tree-sitter-poe-filter) | 2024-12-18 | 14 | yes | no |
+| pony | [github.com/tree-sitter-grammars/tree-sitter-pony](https://github.com/tree-sitter-grammars/tree-sitter-pony) | 2024-04-20 | 14 | yes | yes |
+| powershell | [github.com/airbus-cert/tree-sitter-powershell](https://github.com/airbus-cert/tree-sitter-powershell) | 2025-03-17 | 14 | yes | yes |
+| printf | [github.com/tree-sitter-grammars/tree-sitter-printf](https://github.com/tree-sitter-grammars/tree-sitter-printf) | 2025-02-08 | 14 | yes | no |
+| prisma | [github.com/victorhqc/tree-sitter-prisma](https://github.com/victorhqc/tree-sitter-prisma) | 2023-01-05 | 13 | yes | no |
+| problog | [codeberg.org/foxy/tree-sitter-prolog](https://codeberg.org/foxy/tree-sitter-prolog) | 2025-03-23 | 14 | yes | no |
+| prolog | [github.com/Rukiza/tree-sitter-prolog](https://github.com/Rukiza/tree-sitter-prolog) | 2023-12-23 | 14 | yes | no |
+| prolog | [codeberg.org/foxy/tree-sitter-prolog](https://codeberg.org/foxy/tree-sitter-prolog) | 2025-03-23 | 14 | yes | no |
+| promela | [github.com/siraben/tree-sitter-promela](https://github.com/siraben/tree-sitter-promela) | 2022-02-11 | 13 | yes | no |
+| promql | [github.com/MichaHoffmann/tree-sitter-promql](https://github.com/MichaHoffmann/tree-sitter-promql) | 2023-08-13 | 14 | yes | no |
+| properties | [github.com/tree-sitter-grammars/tree-sitter-properties](https://github.com/tree-sitter-grammars/tree-sitter-properties) | 2025-01-02 | 14 | yes | yes |
+| proto | [github.com/mitchellh/tree-sitter-proto](https://github.com/mitchellh/tree-sitter-proto) | 2021-06-12 | 13 | yes | no |
+| proto | [github.com/treywood/tree-sitter-proto](https://github.com/treywood/tree-sitter-proto) | 2023-08-02 | 14 | yes | no |
+| prql | [github.com/PRQL/tree-sitter-prql](https://github.com/PRQL/tree-sitter-prql) | 2023-07-28 | 14 | yes | no |
+| psv | [github.com/tree-sitter-grammars/tree-sitter-csv](https://github.com/tree-sitter-grammars/tree-sitter-csv) | 2024-04-27 | 14 | yes | no |
+| pug | [github.com/zealot128/tree-sitter-pug](https://github.com/zealot128/tree-sitter-pug) | 2024-11-17 | 14 | yes | yes |
+| puppet | [github.com/tree-sitter-grammars/tree-sitter-puppet](https://github.com/tree-sitter-grammars/tree-sitter-puppet) | 2024-12-21 | 14 | yes | no |
+| purescript | [github.com/postsolar/tree-sitter-purescript](https://github.com/postsolar/tree-sitter-purescript) | 2025-05-04 | 14 | yes | yes |
+| pymanifest | [github.com/tree-sitter-grammars/tree-sitter-pymanifest](https://github.com/tree-sitter-grammars/tree-sitter-pymanifest) | 2024-06-05 | 14 | yes | no |
+| python | [github.com/tree-sitter/tree-sitter-python](https://github.com/tree-sitter/tree-sitter-python) | 2025-01-30 | 14 | yes | yes |
+| ql | [github.com/tree-sitter/tree-sitter-ql](https://github.com/tree-sitter/tree-sitter-ql) | 2024-11-10 | 14 | yes | no |
+| qmldir | [github.com/Decodetalkers/tree-sitter-qmldir](https://github.com/Decodetalkers/tree-sitter-qmldir) | 2023-03-01 | 14 | yes | no |
+| qmljs | [github.com/yuja/tree-sitter-qmljs](https://github.com/yuja/tree-sitter-qmljs) | 2025-04-01 | 14 | yes | yes |
+| quakec | [github.com/vkazanov/tree-sitter-quakec](https://github.com/vkazanov/tree-sitter-quakec) | 2024-07-18 | 14 | yes | no |
+| query | [github.com/tree-sitter-grammars/tree-sitter-query](https://github.com/tree-sitter-grammars/tree-sitter-query) | 2025-05-17 | 15 | yes | no |
+| r | [github.com/r-lib/tree-sitter-r](https://github.com/r-lib/tree-sitter-r) | 2025-05-28 | 14 | yes | yes |
+| racket | [github.com/6cdh/tree-sitter-racket](https://github.com/6cdh/tree-sitter-racket) | 2025-05-17 | 14 | yes | yes |
+| ralph | [github.com/alephium/tree-sitter-ralph](https://github.com/alephium/tree-sitter-ralph) | 2024-06-24 | 14 | yes | no |
+| rasi | [github.com/Fymyte/tree-sitter-rasi](https://github.com/Fymyte/tree-sitter-rasi) | 2025-04-13 | 15 | yes | no |
+| razor | [github.com/tris203/tree-sitter-razor](https://github.com/tris203/tree-sitter-razor) | 2025-02-17 | 14 | yes | yes |
+| rbs | [github.com/joker1007/tree-sitter-rbs](https://github.com/joker1007/tree-sitter-rbs) | 2025-01-04 | 14 | yes | no |
+| re2c | [github.com/alemuller/tree-sitter-re2c](https://github.com/alemuller/tree-sitter-re2c) | 2021-12-31 | 13 | yes | no |
+| re2c | [github.com/tree-sitter-grammars/tree-sitter-re2c](https://github.com/tree-sitter-grammars/tree-sitter-re2c) | 2024-09-25 | 14 | yes | no |
+| readline | [github.com/ribru17/tree-sitter-readline](https://github.com/ribru17/tree-sitter-readline) | 2024-10-01 | 14 | yes | no |
+| rec | [github.com/amaanq/tree-sitter-rec](https://github.com/amaanq/tree-sitter-rec) | 2022-05-20 | 13 | yes | no |
+| regex | [github.com/tree-sitter/tree-sitter-regex](https://github.com/tree-sitter/tree-sitter-regex) | 2025-01-25 | 14 | yes | no |
+| rego | [github.com/FallenAngel97/tree-sitter-rego](https://github.com/FallenAngel97/tree-sitter-rego) | 2024-06-12 | 13 | yes | no |
+| requirements | [github.com/ObserverOfTime/tree-sitter-requirements](https://github.com/ObserverOfTime/tree-sitter-requirements) | 2025-03-03 | 14 | yes | no |
+| rescript | [github.com/rescript-lang/tree-sitter-rescript](https://github.com/rescript-lang/tree-sitter-rescript) | 2025-03-03 | 15 | yes | yes |
+| rnoweb | [github.com/bamonroe/tree-sitter-rnoweb](https://github.com/bamonroe/tree-sitter-rnoweb) | 2022-10-20 | 13 | yes | yes |
+| robot | [github.com/Hubro/tree-sitter-robot](https://github.com/Hubro/tree-sitter-robot) | 2025-05-01 | 14 | yes | no |
+| robots | [github.com/opa-oz/tree-sitter-robots-txt](https://github.com/opa-oz/tree-sitter-robots-txt) | 2024-06-29 | 14 | yes | yes |
+| roc | [github.com/faldor20/tree-sitter-roc](https://github.com/faldor20/tree-sitter-roc) | 2025-03-21 | 14 | yes | yes |
+| ron | [github.com/tree-sitter-grammars/tree-sitter-ron](https://github.com/tree-sitter-grammars/tree-sitter-ron) | 2024-05-05 | 14 | yes | yes |
+| rst | [github.com/stsewd/tree-sitter-rst](https://github.com/stsewd/tree-sitter-rst) | 2025-02-23 | 14 | yes | yes |
+| rtf | [github.com/GoodNotes/tree-sitter-rtf](https://github.com/GoodNotes/tree-sitter-rtf) | 2024-10-16 | - | no | no |
+| ruby | [github.com/tree-sitter/tree-sitter-ruby](https://github.com/tree-sitter/tree-sitter-ruby) | 2025-01-30 | 14 | yes | yes |
+| runescript | [github.com/2004Scape/tree-sitter-runescript](https://github.com/2004Scape/tree-sitter-runescript) | 2024-11-06 | 14 | yes | yes |
+| rust | [github.com/tree-sitter/tree-sitter-rust](https://github.com/tree-sitter/tree-sitter-rust) | 2025-04-02 | 15 | yes | yes |
+| satysfi | [github.com/monaqa/tree-sitter-satysfi](https://github.com/monaqa/tree-sitter-satysfi) | 2023-04-09 | 14 | yes | yes |
+| scala | [github.com/tree-sitter/tree-sitter-scala](https://github.com/tree-sitter/tree-sitter-scala) | 2025-04-01 | 14 | yes | yes |
+| scfg | [git.sr.ht/~rockorager/tree-sitter-scfg](https://git.sr.ht/~rockorager/tree-sitter-scfg) | 2024-07-10 | - | no | no |
+| scfg | [github.com/rockorager/tree-sitter-scfg](https://github.com/rockorager/tree-sitter-scfg) | 2025-01-23 | - | no | no |
+| scheme | [github.com/6cdh/tree-sitter-scheme](https://github.com/6cdh/tree-sitter-scheme) | 2025-05-25 | 14 | yes | no |
+| scilab | [github.com/nicolas-graves/tree-sitter-scilab](https://github.com/nicolas-graves/tree-sitter-scilab) | 2025-01-10 | - | no | no |
+| scss | [github.com/serenadeai/tree-sitter-scss](https://github.com/serenadeai/tree-sitter-scss) | 2022-02-03 | 13 | yes | yes |
+| sdml | [github.com/sdm-lang/tree-sitter-sdml](https://github.com/sdm-lang/tree-sitter-sdml) | 2025-05-27 | 14 | yes | no |
+| sexp | [github.com/AbstractMachinesLab/tree-sitter-sexp](https://github.com/AbstractMachinesLab/tree-sitter-sexp) | 2020-12-05 | 12 | yes | no |
+| sflog | [github.com/aheber/tree-sitter-sfapex](https://github.com/aheber/tree-sitter-sfapex) | 2025-02-12 | 14 | yes | no |
+| slang | [github.com/theHamsta/tree-sitter-slang](https://github.com/theHamsta/tree-sitter-slang) | 2025-04-19 | 14 | yes | yes |
+| slang | [github.com/tree-sitter-grammars/tree-sitter-slang](https://github.com/tree-sitter-grammars/tree-sitter-slang) | 2025-06-03 | 14 | yes | yes |
+| slim | [github.com/theoo/tree-sitter-slim](https://github.com/theoo/tree-sitter-slim) | 2025-04-23 | 14 | yes | yes |
+| slint | [github.com/slint-ui/slint](https://github.com/slint-ui/slint) | 2025-05-28 | - | no | no |
+| slint | [github.com/slint-ui/tree-sitter-slint](https://github.com/slint-ui/tree-sitter-slint) | 2025-05-28 | 15 | yes | no |
+| smali | [git.sr.ht/~yotam/tree-sitter-smali](https://git.sr.ht/~yotam/tree-sitter-smali) | 2023-05-13 | 14 | yes | yes |
+| smali | [github.com/tree-sitter-grammars/tree-sitter-smali](https://github.com/tree-sitter-grammars/tree-sitter-smali) | 2024-05-05 | 14 | yes | yes |
+| smallbasic | [github.com/comom87/tree-sitter-smallbasic](https://github.com/comom87/tree-sitter-smallbasic) | 2025-04-27 | 14 | yes | no |
+| smalltalk | [github.com/tom95/tree-sitter-smalltalk](https://github.com/tom95/tree-sitter-smalltalk) | 2023-10-05 | 13 | yes | no |
+| smarty | [github.com/Kibadda/tree-sitter-smarty](https://github.com/Kibadda/tree-sitter-smarty) | 2023-11-15 | 13 | yes | no |
+| smithy | [github.com/indoorvivants/tree-sitter-smithy](https://github.com/indoorvivants/tree-sitter-smithy) | 2025-05-13 | 14 | yes | no |
+| sml | [github.com/MatthewFluet/tree-sitter-sml](https://github.com/MatthewFluet/tree-sitter-sml) | 2025-05-22 | 15 | yes | yes |
+| snakemake | [github.com/osthomas/tree-sitter-snakemake](https://github.com/osthomas/tree-sitter-snakemake) | 2025-01-04 | 14 | yes | yes |
+| solidity | [github.com/JoranHonig/tree-sitter-solidity](https://github.com/JoranHonig/tree-sitter-solidity) | 2025-01-29 | 14 | yes | no |
+| soql | [github.com/aheber/tree-sitter-sfapex](https://github.com/aheber/tree-sitter-sfapex) | 2025-02-12 | 14 | yes | no |
+| sosl | [github.com/aheber/tree-sitter-sfapex](https://github.com/aheber/tree-sitter-sfapex) | 2025-02-12 | 14 | yes | no |
+| souffle | [github.com/langston-barrett/tree-sitter-souffle](https://github.com/langston-barrett/tree-sitter-souffle) | 2022-10-24 | 13 | yes | no |
+| sourcepawn | [github.com/Sarrus1/tree-sitter-sourcepawn](https://github.com/Sarrus1/tree-sitter-sourcepawn) | 2024-02-20 | 14 | yes | yes |
+| sourcepawn | [github.com/nilshelmig/tree-sitter-sourcepawn](https://github.com/nilshelmig/tree-sitter-sourcepawn) | 2025-01-20 | 14 | yes | yes |
+| sparql | [github.com/GordianDziwis/tree-sitter-sparql](https://github.com/GordianDziwis/tree-sitter-sparql) | 2024-06-24 | 13 | yes | no |
+| sql | [github.com/tjdevries/tree-sitter-sql](https://github.com/tjdevries/tree-sitter-sql) | 2021-04-06 | 13 | yes | no |
+| sql | [github.com/DerekStride/tree-sitter-sql](https://github.com/DerekStride/tree-sitter-sql) | 2025-04-11 | - | no | yes |
+| sql_bigquery | [github.com/takegue/tree-sitter-sql-bigquery](https://github.com/takegue/tree-sitter-sql-bigquery) | 2025-01-20 | 14 | yes | yes |
+| sqlite | [github.com/dhcmrlchtdj/tree-sitter-sqlite](https://github.com/dhcmrlchtdj/tree-sitter-sqlite) | 2023-06-24 | 14 | yes | no |
+| squirrel | [github.com/tree-sitter-grammars/tree-sitter-squirrel](https://github.com/tree-sitter-grammars/tree-sitter-squirrel) | 2024-07-07 | 14 | yes | yes |
+| ssh_client_config | [github.com/metio/tree-sitter-ssh-client-config](https://github.com/metio/tree-sitter-ssh-client-config) | 2025-05-29 | 14 | yes | no |
+| ssh_config | [github.com/tree-sitter-grammars/tree-sitter-ssh-config](https://github.com/tree-sitter-grammars/tree-sitter-ssh-config) | 2024-12-28 | 14 | yes | no |
+| stan | [github.com/WardBrian/tree-sitter-stan](https://github.com/WardBrian/tree-sitter-stan) | 2024-10-01 | 14 | yes | no |
+| starlark | [github.com/tree-sitter-grammars/tree-sitter-starlark](https://github.com/tree-sitter-grammars/tree-sitter-starlark) | 2024-12-04 | 14 | yes | yes |
+| strace | [github.com/sigmaSd/tree-sitter-strace](https://github.com/sigmaSd/tree-sitter-strace) | 2023-10-29 | 14 | yes | no |
+| styled | [github.com/mskelton/tree-sitter-styled](https://github.com/mskelton/tree-sitter-styled) | 2025-02-24 | 14 | yes | yes |
+| supercollider | [github.com/madskjeldgaard/tree-sitter-supercollider](https://github.com/madskjeldgaard/tree-sitter-supercollider) | 2024-09-21 | 14 | yes | yes |
+| superhtml | [github.com/kristoff-it/superhtml](https://github.com/kristoff-it/superhtml) | 2025-04-09 | 14 | yes | yes |
+| surface | [github.com/connorlay/tree-sitter-surface](https://github.com/connorlay/tree-sitter-surface) | 2022-01-18 | 13 | yes | no |
+| surrealdb | [github.com/DariusCorvus/tree-sitter-surrealdb](https://github.com/DariusCorvus/tree-sitter-surrealdb) | 2024-02-20 | 14 | yes | no |
+| svelte | [github.com/Himujjal/tree-sitter-svelte](https://github.com/Himujjal/tree-sitter-svelte) | 2024-09-06 | 14 | yes | yes |
+| svelte | [github.com/tree-sitter-grammars/tree-sitter-svelte](https://github.com/tree-sitter-grammars/tree-sitter-svelte) | 2024-10-19 | 14 | yes | yes |
+| sway | [github.com/FuelLabs/tree-sitter-sway](https://github.com/FuelLabs/tree-sitter-sway) | 2024-11-11 | 14 | yes | yes |
+| swift | [github.com/alex-pinkus/tree-sitter-swift](https://github.com/alex-pinkus/tree-sitter-swift) | 2025-05-04 | - | no | yes |
+| sxhkdrc | [github.com/RaafatTurki/tree-sitter-sxhkdrc](https://github.com/RaafatTurki/tree-sitter-sxhkdrc) | 2022-08-31 | 13 | yes | no |
+| systemrdl | [github.com/SystemRDL/tree-sitter-systemrdl](https://github.com/SystemRDL/tree-sitter-systemrdl) | 2024-05-12 | - | no | no |
+| systemtap | [github.com/ok-ryoko/tree-sitter-systemtap](https://github.com/ok-ryoko/tree-sitter-systemtap) | 2024-08-07 | 14 | yes | no |
+| t32 | [codeberg.org/xasc/tree-sitter-t32](https://codeberg.org/xasc/tree-sitter-t32) | 2025-05-08 | 15 | yes | yes |
+| t32 | [gitlab.com/xasc/tree-sitter-t32](https://gitlab.com/xasc/tree-sitter-t32) | 2025-05-30 | 15 | yes | yes |
+| tablegen | [github.com/tree-sitter-grammars/tree-sitter-tablegen](https://github.com/tree-sitter-grammars/tree-sitter-tablegen) | 2024-05-05 | 14 | yes | yes |
+| tablegen | [github.com/Flakebi/tree-sitter-tablegen](https://github.com/Flakebi/tree-sitter-tablegen) | 2024-10-04 | 14 | yes | yes |
+| tact | [github.com/tact-lang/tree-sitter-tact](https://github.com/tact-lang/tree-sitter-tact) | 2025-05-01 | 14 | yes | no |
+| tcl | [github.com/tree-sitter-grammars/tree-sitter-tcl](https://github.com/tree-sitter-grammars/tree-sitter-tcl) | 2025-04-08 | 15 | yes | yes |
+| teal | [github.com/euclidianAce/tree-sitter-teal](https://github.com/euclidianAce/tree-sitter-teal) | 2025-05-14 | 15 | yes | yes |
+| templ | [github.com/vrischmann/tree-sitter-templ](https://github.com/vrischmann/tree-sitter-templ) | 2025-05-23 | 15 | yes | yes |
+| tera | [github.com/uncenter/tree-sitter-tera](https://github.com/uncenter/tree-sitter-tera) | 2025-04-16 | 14 | yes | yes |
+| terraform | [github.com/MichaHoffmann/tree-sitter-hcl](https://github.com/MichaHoffmann/tree-sitter-hcl) | 2025-05-09 | 15 | yes | yes |
+| textproto | [github.com/PorterAtGoogle/tree-sitter-textproto](https://github.com/PorterAtGoogle/tree-sitter-textproto) | 2024-10-16 | 14 | yes | no |
+| thrift | [github.com/tree-sitter-grammars/tree-sitter-thrift](https://github.com/tree-sitter-grammars/tree-sitter-thrift) | 2023-10-23 | 14 | yes | no |
+| tiger | [github.com/ambroisie/tree-sitter-tiger](https://github.com/ambroisie/tree-sitter-tiger) | 2025-03-13 | 14 | yes | yes |
+| tlaplus | [github.com/tlaplus-community/tree-sitter-tlaplus](https://github.com/tlaplus-community/tree-sitter-tlaplus) | 2025-05-21 | 14 | yes | yes |
+| tmux | [github.com/Freed-Wu/tree-sitter-tmux](https://github.com/Freed-Wu/tree-sitter-tmux) | 2024-08-04 | 14 | yes | no |
+| todotxt | [github.com/arnarg/tree-sitter-todotxt](https://github.com/arnarg/tree-sitter-todotxt) | 2024-01-15 | 13 | yes | no |
+| toml | [github.com/ikatyang/tree-sitter-toml](https://github.com/ikatyang/tree-sitter-toml) | 2021-05-11 | 13 | yes | yes |
+| toml | [github.com/tree-sitter-grammars/tree-sitter-toml](https://github.com/tree-sitter-grammars/tree-sitter-toml) | 2024-12-02 | 14 | yes | yes |
+| tsq | [github.com/the-mikedavis/tree-sitter-tsq](https://github.com/the-mikedavis/tree-sitter-tsq) | 2022-07-03 | 13 | yes | no |
+| tsq | [github.com/tree-sitter/tree-sitter-tsq](https://github.com/tree-sitter/tree-sitter-tsq) | 2024-02-24 | 13 | yes | no |
+| tsv | [github.com/tree-sitter-grammars/tree-sitter-csv](https://github.com/tree-sitter-grammars/tree-sitter-csv) | 2024-04-27 | 14 | yes | no |
+| tsx | [github.com/tree-sitter/tree-sitter-typescript](https://github.com/tree-sitter/tree-sitter-typescript) | 2025-01-30 | 14 | yes | yes |
+| tucan | [github.com/mrnugget/tree-sitter-tucan](https://github.com/mrnugget/tree-sitter-tucan) | 2022-10-28 | 13 | yes | no |
+| tucanir | [github.com/mrnugget/tree-sitter-tucanir](https://github.com/mrnugget/tree-sitter-tucanir) | 2022-06-19 | 13 | yes | no |
+| turtle | [github.com/GordianDziwis/tree-sitter-turtle](https://github.com/GordianDziwis/tree-sitter-turtle) | 2024-07-02 | 14 | yes | no |
+| twig | [github.com/gbprod/tree-sitter-twig](https://github.com/gbprod/tree-sitter-twig) | 2024-06-15 | 14 | yes | no |
+| twig | [github.com/kaermorchen/tree-sitter-twig](https://github.com/kaermorchen/tree-sitter-twig) | 2025-05-16 | 14 | yes | yes |
+| twitchchat | [github.com/rockerBOO/tree-sitter-twitchchat](https://github.com/rockerBOO/tree-sitter-twitchchat) | 2020-12-04 | 12 | yes | no |
+| typescript | [github.com/tree-sitter/tree-sitter-typescript](https://github.com/tree-sitter/tree-sitter-typescript) | 2025-01-30 | 14 | yes | yes |
+| typespec | [github.com/happenslol/tree-sitter-typespec](https://github.com/happenslol/tree-sitter-typespec) | 2025-04-16 | 15 | yes | no |
+| typoscript | [github.com/Teddytrombone/tree-sitter-typoscript](https://github.com/Teddytrombone/tree-sitter-typoscript) | 2025-03-13 | 14 | yes | no |
+| typst | [github.com/SeniorMars/tree-sitter-typst](https://github.com/SeniorMars/tree-sitter-typst) | 2023-04-05 | 14 | yes | yes |
+| typst | [github.com/uben0/tree-sitter-typst](https://github.com/uben0/tree-sitter-typst) | 2025-02-10 | 14 | yes | yes |
+| udev | [github.com/ObserverOfTime/tree-sitter-udev](https://github.com/ObserverOfTime/tree-sitter-udev) | 2024-11-08 | 14 | yes | no |
+| ungrammar | [github.com/Philipp-M/tree-sitter-ungrammar](https://github.com/Philipp-M/tree-sitter-ungrammar) | 2023-02-27 | 14 | yes | no |
+| unifieddiff | [github.com/monaqa/tree-sitter-unifieddiff](https://github.com/monaqa/tree-sitter-unifieddiff) | 2022-12-23 | 14 | yes | yes |
+| unison | [github.com/kylegoetz/tree-sitter-unison](https://github.com/kylegoetz/tree-sitter-unison) | 2025-03-05 | 14 | yes | yes |
+| usd | [github.com/ColinKennedy/tree-sitter-usd](https://github.com/ColinKennedy/tree-sitter-usd) | 2024-04-28 | 14 | yes | no |
+| uxntal | [github.com/Jummit/tree-sitter-uxntal](https://github.com/Jummit/tree-sitter-uxntal) | 2024-03-23 | 14 | yes | no |
+| uxntal | [github.com/tree-sitter-grammars/tree-sitter-uxntal](https://github.com/tree-sitter-grammars/tree-sitter-uxntal) | 2024-05-05 | 14 | yes | yes |
+| v | [github.com/nedpals/tree-sitter-v](https://github.com/nedpals/tree-sitter-v) | 2022-10-30 | 13 | yes | yes |
+| v | [github.com/vlang/vls](https://github.com/vlang/vls) | 2024-02-04 | 14 | yes | yes |
+| v | [github.com/vlang/v-analyzer](https://github.com/vlang/v-analyzer) | 2025-05-23 | 14 | yes | no |
+| vala | [github.com/vala-lang/tree-sitter-vala](https://github.com/vala-lang/tree-sitter-vala) | 2024-10-30 | 13 | yes | no |
+| vento | [github.com/ventojs/tree-sitter-vento](https://github.com/ventojs/tree-sitter-vento) | 2024-12-29 | 14 | yes | yes |
+| verilog | [github.com/gmlarumbe/tree-sitter-verilog](https://github.com/gmlarumbe/tree-sitter-verilog) | 2023-01-20 | 13 | yes | no |
+| verilog | [github.com/tree-sitter/tree-sitter-verilog](https://github.com/tree-sitter/tree-sitter-verilog) | 2024-11-11 | 14 | yes | no |
+| verilog | [github.com/gmlarumbe/tree-sitter-systemverilog](https://github.com/gmlarumbe/tree-sitter-systemverilog) | 2025-03-20 | 15 | yes | no |
+| vespa | [github.com/bartek/tree-sitter-vespa](https://github.com/bartek/tree-sitter-vespa) | 2023-02-07 | 14 | yes | no |
+| vhdl | [github.com/alemuller/tree-sitter-vhdl](https://github.com/alemuller/tree-sitter-vhdl) | 2022-01-08 | 13 | yes | no |
+| vhdl | [github.com/jpt13653903/tree-sitter-vhdl](https://github.com/jpt13653903/tree-sitter-vhdl) | 2025-05-24 | 15 | yes | yes |
+| vhs | [github.com/charmbracelet/tree-sitter-vhs](https://github.com/charmbracelet/tree-sitter-vhs) | 2025-03-26 | 14 | yes | no |
+| vim | [github.com/tree-sitter-grammars/tree-sitter-vim](https://github.com/tree-sitter-grammars/tree-sitter-vim) | 2025-05-03 | 15 | yes | yes |
+| vimdoc | [github.com/neovim/tree-sitter-vimdoc](https://github.com/neovim/tree-sitter-vimdoc) | 2025-05-16 | 15 | yes | no |
+| vrl | [github.com/belltoy/tree-sitter-vrl](https://github.com/belltoy/tree-sitter-vrl) | 2024-07-31 | 14 | yes | no |
+| vue | [github.com/tree-sitter-grammars/tree-sitter-vue](https://github.com/tree-sitter-grammars/tree-sitter-vue) | 2023-07-04 | 14 | yes | yes |
+| wast | [github.com/wasm-lsp/tree-sitter-wasm](https://github.com/wasm-lsp/tree-sitter-wasm) | 2022-05-17 | 13 | yes | no |
+| wat | [github.com/wasm-lsp/tree-sitter-wasm](https://github.com/wasm-lsp/tree-sitter-wasm) | 2022-05-17 | 13 | yes | no |
+| wgsl | [github.com/mehmetoguzderin/tree-sitter-wgsl](https://github.com/mehmetoguzderin/tree-sitter-wgsl) | 2022-06-14 | 13 | yes | yes |
+| wgsl | [github.com/szebniok/tree-sitter-wgsl](https://github.com/szebniok/tree-sitter-wgsl) | 2023-01-09 | 13 | yes | yes |
+| wgsl_bevy | [github.com/theHamsta/tree-sitter-wgsl-bevy](https://github.com/theHamsta/tree-sitter-wgsl-bevy) | 2024-06-22 | 14 | yes | yes |
+| wing | [github.com/winglang/tree-sitter-wing](https://github.com/winglang/tree-sitter-wing) | 2024-09-03 | 14 | yes | yes |
+| wing | [github.com/winglang/wing](https://github.com/winglang/wing) | 2025-02-03 | - | yes | yes |
+| wit | [github.com/hh9527/tree-sitter-wit](https://github.com/hh9527/tree-sitter-wit) | 2022-10-31 | 14 | no | no |
+| wit | [github.com/liamwh/tree-sitter-wit](https://github.com/liamwh/tree-sitter-wit) | 2025-03-26 | 15 | yes | no |
+| x86asm | [github.com/bearcove/tree-sitter-x86asm](https://github.com/bearcove/tree-sitter-x86asm) | 2023-10-08 | 13 | yes | no |
+| xcompose | [github.com/tree-sitter-grammars/tree-sitter-xcompose](https://github.com/tree-sitter-grammars/tree-sitter-xcompose) | 2024-06-27 | 14 | yes | no |
+| xml | [github.com/dorgnarg/tree-sitter-xml](https://github.com/dorgnarg/tree-sitter-xml) | 2021-02-14 | 12 | yes | no |
+| xml | [github.com/panicinc/tree-sitter-xml](https://github.com/panicinc/tree-sitter-xml) | 2025-04-22 | 14 | yes | yes |
+| xml | [github.com/tree-sitter-grammars/tree-sitter-xml](https://github.com/tree-sitter-grammars/tree-sitter-xml) | 2025-05-21 | 14 | yes | yes |
+| xquery | [github.com/grantmacken/tree-sitter-xquery](https://github.com/grantmacken/tree-sitter-xquery) | 2023-06-06 | 14 | yes | no |
+| xresources | [github.com/ValdezFOmar/tree-sitter-xresources](https://github.com/ValdezFOmar/tree-sitter-xresources) | 2025-06-01 | 15 | yes | no |
+| yaml | [github.com/tree-sitter-grammars/tree-sitter-yaml](https://github.com/tree-sitter-grammars/tree-sitter-yaml) | 2025-05-28 | 14 | yes | yes |
+| yang | [github.com/Hubro/tree-sitter-yang](https://github.com/Hubro/tree-sitter-yang) | 2022-11-21 | 13 | yes | no |
+| yuck | [github.com/Philipp-M/tree-sitter-yuck](https://github.com/Philipp-M/tree-sitter-yuck) | 2024-05-05 | 14 | yes | yes |
+| zathurarc | [github.com/Freed-Wu/tree-sitter-zathurarc](https://github.com/Freed-Wu/tree-sitter-zathurarc) | 2024-08-04 | 14 | yes | no |
+| zeek | [github.com/zeek/tree-sitter-zeek](https://github.com/zeek/tree-sitter-zeek) | 2025-05-02 | 14 | yes | no |
+| zig | [github.com/ziglibs/tree-sitter-zig](https://github.com/ziglibs/tree-sitter-zig) | 2023-09-27 | - | no | no |
+| zig | [github.com/GrayJack/tree-sitter-zig](https://github.com/GrayJack/tree-sitter-zig) | 2024-05-23 | 14 | yes | no |
+| zig | [github.com/maxxnino/tree-sitter-zig](https://github.com/maxxnino/tree-sitter-zig) | 2024-10-13 | 14 | yes | no |
+| zig | [github.com/tree-sitter-grammars/tree-sitter-zig](https://github.com/tree-sitter-grammars/tree-sitter-zig) | 2024-12-21 | 14 | yes | no |
+| ziggy | [github.com/kristoff-it/ziggy](https://github.com/kristoff-it/ziggy) | 2025-04-18 | 14 | yes | no |
+| ziggy_schema | [github.com/kristoff-it/ziggy](https://github.com/kristoff-it/ziggy) | 2025-04-18 | 13 | yes | no |
+| zsh | [github.com/tree-sitter-grammars/tree-sitter-zsh](https://github.com/tree-sitter-grammars/tree-sitter-zsh) | 2023-08-26 | 14 | yes | yes |
