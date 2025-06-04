@@ -236,10 +236,12 @@
 
   # create rows and sort by name and commit date
   (def rows
-    # some language names use upper-case letters...
-    (sorted-by |(string (string/ascii-lower (get $ :name))
-                        (get $ :last-commit-date))
-               (make-rows repos-roots)))
+    (->> (make-rows repos-roots)
+         # some language names use upper-case letters...
+         (sorted-by |(string (string/ascii-lower (get $ :name))
+                             # use string that is not legal in name
+                             "-"
+                             (get $ :last-commit-date)))))
 
   # only keep some rows
   (def filtered
