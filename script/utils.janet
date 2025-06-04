@@ -93,6 +93,28 @@
 
 ########################################################################
 
+(defn last-commit-hash
+  [repos-root]
+  (def old-dir (os/cwd))
+  (def buf @"")
+  (defer (os/cd old-dir)
+    (os/cd repos-root)
+    (with [of (file/temp)]
+      (os/execute ["git" "--no-pager" "rev-parse" "HEAD"]
+                  :px {:out of})
+      (file/seek of :set 0)
+      (file/read of :all buf)))
+  #
+  (string/trimr buf))
+
+(comment
+
+  (last-commit-hash (string (os/getenv "HOME") "/src/janet"))
+
+  )
+
+########################################################################
+
 (defn find-tree-sitter-json
   [repos-root]
   (def results @[])

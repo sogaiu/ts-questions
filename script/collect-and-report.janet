@@ -18,6 +18,7 @@
   [:name
    :url
    :last-commit-date
+   :last-commit-hash
    :tree-sitter-json
    :grammar-dir
    :abi
@@ -34,10 +35,16 @@
   [# Ada and COBOL...ofc, some old foggies would be using
    # upper case...
    [:name "name" string/ascii-lower]
-   [:url "url" identity]
+   # XXX: for gfm
+   [:url "url"
+    |(string/format "[%s](%s)"
+                    (string/slice $ (inc (length "http://"))) $)]
+   # XXX: for tsv
+   #[:url "url" identity]
    [:last-commit-date "last commit date" identity]
-   [:abi "abi" string] # gets populated as number, so need to convert
-   [:parser-c "parser.c" identity]
+   [:abi "abi" |(if (= 0 $) "-" (string $))]
+   # abi 0 implies no src/parser.c, so :parser-c is sort of redundant
+   #[:parser-c "parser.c" identity]
    [:grammar-json "grammar.json" identity]
    [:scanner "external scanner" |(if (= :no $) :no :yes)]])
 
@@ -52,6 +59,10 @@
     (def url (u/extract-repo-url rr))
     (assertf url "no url determined for: %s" rr)
     (put rr-tbl :url url)
+    #
+    (def lc-hash (u/last-commit-hash rr))
+    (assertf (not (empty? lc-hash)) "no last commit hash for: %s" rr)
+    (put rr-tbl :last-commit-hash lc-hash)
     #
     (def lc-date (u/last-commit-date rr))
     (assertf (not (empty? lc-date)) "no last commit date for: %s" rr)
@@ -110,33 +121,39 @@
 (defn make-rows
   [repos-roots]
   (def rows @[])
+  (def seen-names @{})
   (eachp [rr rr-tbl] repos-roots
     (def {:url url
           :last-commit-date lc-date
+          :last-commit-hash lc-hash
           :tree-sitter-json has-tsj
           :grammars grammars} rr-tbl)
-    (default has-tsj :no)
-    (each g grammars
-      (def {:name name
-            :dir grammar-dir
-            :abi abi
-            :parser-c has-pc
-            :grammar-json has-gjson
-            :scanner scanner} g)
-      (default abi 0)
-      (default has-pc :no)
-      (default has-gjson :no)
-      (default scanner :no)
-      (array/push rows
-                  {:name name
-                   :url url
-                   :last-commit-date lc-date
-                   :tree-sitter-json has-tsj
-                   :dir grammar-dir
-                   :abi abi
-                   :parser-c has-pc
-                   :grammar-json has-gjson
-                   :scanner scanner})))
+      (default has-tsj :no)
+      (each g grammars
+        (def {:name name
+              :dir grammar-dir
+              :abi abi
+              :parser-c has-pc
+              :grammar-json has-gjson
+              :scanner scanner} g)
+        (def hashes (get seen-names name @{}))
+        (when (not (get hashes lc-hash))
+          (put-in seen-names [name lc-hash] true)
+          (default abi 0)
+          (default has-pc :no)
+          (default has-gjson :no)
+          (default scanner :no)
+          (array/push rows
+                      {:name name
+                       :url url
+                       :last-commit-date lc-date
+                       :last-commit-hash lc-hash
+                       :tree-sitter-json has-tsj
+                       :dir grammar-dir
+                       :abi abi
+                       :parser-c has-pc
+                       :grammar-json has-gjson
+                       :scanner scanner}))))
   #
   rows)
 
@@ -165,9 +182,7 @@
 (defn report-gfm
   [rows field-info]
   (def names
-    (seq [[id label _] :in field-info
-          :unless (= :url id)]
-      label))
+    (seq [[_ label _] :in field-info] label))
 
   (def header-row
     (string/format "| %s | %s | %s | %s | %s | %s |"
@@ -181,7 +196,7 @@
   (print separator-row)
 
   (def format-str
-    "| [%s](%s) | %s | %s | %s | %s | %s |")
+    "| %s | %s | %s | %s | %s | %s |")
 
   (each r rows
     # massage field values for output
@@ -215,11 +230,20 @@
 
   # only keep things with no scanner or a scanner written in c
   (def filtered
-    (filter (fn [{:scanner scanner}]
-              (or (= :no scanner) (= "c" scanner)))
+    (filter (fn [{:last-commit-date lc-date
+                  :abi abi
+                  :scanner scanner}]
+              (def year (-> (string/slice lc-date 0 4)
+                            scan-number))
+              (and (or (= :no scanner) (= "c" scanner))
+                   (or (>= abi 12) (= abi 0))
+                   # 2020-09 is when abi 12 was default in cli
+                   (>= year 2020)))
             rows))
 
-  #(report-tsv filtered field-info)
+  # XXX: remember to review and change field-info if switching
+  #      between report-tsv and report-gfm (cf. :url)
+  '(report-tsv filtered field-info)
 
   (report-gfm filtered field-info))
 
