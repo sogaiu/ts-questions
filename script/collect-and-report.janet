@@ -170,6 +170,18 @@
   #
   rows)
 
+(defn print-row
+  [row field-info format-str]
+  # massage field values for output
+  (def vals
+    (map (fn [[id _ xform]] (xform (get row id)))
+         field-info))
+  (try
+    (printf format-str ;vals)
+    ([e]
+      (eprintf "%n" row)
+      (errorf "problem printing row: %s" e))))
+
 (defn report-tsv
   [rows field-info]
   (def names
@@ -185,15 +197,7 @@
                  "\t"))
 
   (each r rows
-    # massage field values for output
-    (def vals
-      (map (fn [[id _ xform]] (xform (get r id)))
-           field-info))
-    (try
-      (printf format-str ;vals)
-      ([e]
-        (eprintf "%n" r)
-        (errorf "problem printing row: %s" e)))))
+    (print-row r field-info format-str)))
 
 (defn report-gfm
   [rows field-info]
@@ -207,24 +211,14 @@
 
   (print header-row)
 
-  (def separator-row
-    "| --- | --- | --- | --- | --- | --- |")
+  (def separator-row "| --- | --- | --- | --- | --- | --- |")
 
   (print separator-row)
 
-  (def format-str
-    "| %s | %s | %s | %s | %s | %s |")
+  (def format-str "| %s | %s | %s | %s | %s | %s |")
 
   (each r rows
-    # massage field values for output
-    (def vals
-      (map (fn [[id _ xform]] (xform (get r id)))
-           field-info))
-    (try
-      (printf format-str ;vals)
-      ([e]
-        (eprintf "%n" r)
-        (errorf "problem printing row: %s" e)))))
+    (print-row r field-info format-str)))
 
 ########################################################################
 
