@@ -24,12 +24,10 @@ c/tsgr-fname
   ~{:main (sequence (some :line) -1)
     :line (choice :repo-line :other-line)
 
-    :repo-line (sequence "-"
-                         # XXX: occasionally there is some oddness
-                         (to "[")
+    :repo-line (sequence "|" (to "[")
                          "[" (thru "]")
                          "(" :repo-url ")"
-                         (opt (sequence :s+ "(archived)"))
+                         (to :eol)
                          :eol)
     :repo-url (capture (sequence "https://"
                                  (thru "/")
@@ -54,10 +52,7 @@ c/tsgr-fname
 (assert repo-urls "failed to parse list of parsers")
 
 (with [of (file/open c/tsgr-fname :w)]
-  (def seen-table @{})
-  (each url (sort repo-urls)
-    (when (not (get seen-table url))
-      (put seen-table url true)
-      (file/write of url)
-      (file/write of "\n"))))
+  (each url repo-urls
+    (file/write of url)
+    (file/write of "\n")))
 
