@@ -64,17 +64,6 @@ janet ./script/update-repositories.janet
 
 This might be useful if one was interested in up-to-date statistics.
 
-## Breaking Change
-
-The scripts in this repository used to be shell scripts, but this was
-becoming unwieldy and awkward to maintain.  Most of them have been
-removed but the scripts for fetching and updating repositories still
-exist in the `script` subdirectory.
-
-These remaining shell scripts can still be used for fetching and
-updating repositories, but they don't play well with the
-statistics-generating `.janet` scripts.
-
 ## Credits
 
 * ahelwer
