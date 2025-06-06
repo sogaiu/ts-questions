@@ -1,0 +1,2 @@
+# repositories to skip
+https://github.com/cathaysia/tree-sitter-jinja

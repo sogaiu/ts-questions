@@ -61,6 +61,14 @@
    [:grammar-json "grammar.json" identity]
    [:scanner "external scanner" |(if (= :no $) :no :yes)]])
 
+(def skip-table
+  (->> (slurp "./repos-skip-list.txt")
+       (string/split "\n")
+       (filter |(and (not (empty? $))
+                     (string/has-prefix? "https://" $)))
+       (map |[$ true])
+       from-pairs))
+
 ########################################################################
 
 (defn collect
@@ -71,63 +79,70 @@
   (eachp [rr rr-tbl] repos-roots
     (def url (u/extract-repo-url rr))
     (assertf url "no url determined for: %s" rr)
-    (put rr-tbl :url url)
+    # only continue if not in skip list
+    (when (get skip-table url)
+      # remove
+      (put repos-roots rr nil)
+      (eprintf "skipping %s" url))
     #
-    (def lc-hash (u/last-commit-hash rr))
-    (assertf (not (empty? lc-hash)) "no last commit hash for: %s" rr)
-    (put rr-tbl :last-commit-hash lc-hash)
-    #
-    (def lc-date (u/last-commit-date rr))
-    (assertf (not (empty? lc-date)) "no last commit date for: %s" rr)
-    (put rr-tbl :last-commit-date lc-date)
-    #
-    (def tsjs (u/find-tree-sitter-json rr))
-    (when (> (length tsjs) 1)
-      (eprintf "multiple tree-sitter.json files found for %s" rr))
-    (when (not (empty? tsjs))
-      (put rr-tbl :tree-sitter-json :yes))
-    #
-    (def grammar-js-paths (u/find-grammar-js rr))
-    (when (empty? grammar-js-paths)
-      (eprintf "no grammars found for %s" rr))
-    #
-    (def gs-array @[])
-    (each p grammar-js-paths
-      (def g-tbl @{})
+    (when (not (get skip-table url))
+      (put rr-tbl :url url)
       #
-      (def grammar-dir
-        (string/slice p 0 (- (inc (length "/grammar.js")))))
-      (put g-tbl :dir (u/relativize rr grammar-dir))
+      (def lc-hash (u/last-commit-hash rr))
+      (assertf (not (empty? lc-hash)) "no last commit hash for: %s" rr)
+      (put rr-tbl :last-commit-hash lc-hash)
       #
-      (def name (u/find-name grammar-dir))
-      (assertf name "did not determine name for: %s" grammar-dir)
-      (put g-tbl :name name)
+      (def lc-date (u/last-commit-date rr))
+      (assertf (not (empty? lc-date)) "no last commit date for: %s" rr)
+      (put rr-tbl :last-commit-date lc-date)
       #
-      (def parser-c-path (string grammar-dir "/src/parser.c"))
-      (when (os/stat parser-c-path :mode)
-        (put g-tbl :parser-c :yes)
+      (def tsjs (u/find-tree-sitter-json rr))
+      (when (> (length tsjs) 1)
+        (eprintf "multiple tree-sitter.json files found for %s" rr))
+      (when (not (empty? tsjs))
+        (put rr-tbl :tree-sitter-json :yes))
+      #
+      (def grammar-js-paths (u/find-grammar-js rr))
+      (when (empty? grammar-js-paths)
+        (eprintf "no grammars found for %s" rr))
+      #
+      (def gs-array @[])
+      (each p grammar-js-paths
+        (def g-tbl @{})
         #
-        (def abi (u/find-abi-level parser-c-path))
-        (assertf abi "did not determine abi from %s" parser-c-path)
-        (put g-tbl :abi abi))
+        (def grammar-dir
+          (string/slice p 0 (- (inc (length "/grammar.js")))))
+        (put g-tbl :dir (u/relativize rr grammar-dir))
+        #
+        (def name (u/find-name grammar-dir))
+        (assertf name "did not determine name for: %s" grammar-dir)
+        (put g-tbl :name name)
+        #
+        (def parser-c-path (string grammar-dir "/src/parser.c"))
+        (when (os/stat parser-c-path :mode)
+          (put g-tbl :parser-c :yes)
+          #
+          (def abi (u/find-abi-level parser-c-path))
+          (assertf abi "did not determine abi from %s" parser-c-path)
+          (put g-tbl :abi abi))
+        #
+        (def grammar-json-path (string grammar-dir "/src/grammar.json"))
+        (when (os/stat grammar-json-path :mode)
+          (put g-tbl :grammar-json :yes))
+        #
+        (def scanners (u/find-scanner-likes grammar-dir))
+        (when (not (empty? scanners))
+          (def non-o (filter |(not= "o" $) scanners))
+          (when (> (length non-o) 1)
+            (eprintf "grammar-dir: %s" grammar-dir)
+            (eprintf "> 1 filenames start with 'scanner.' for %s: %n"
+                     grammar-dir non-o))
+          # XXX: just report first one
+          (put g-tbl :scanner (first non-o)))
+        #
+        (array/push gs-array g-tbl))
       #
-      (def grammar-json-path (string grammar-dir "/src/grammar.json"))
-      (when (os/stat grammar-json-path :mode)
-        (put g-tbl :grammar-json :yes))
-      #
-      (def scanners (u/find-scanner-likes grammar-dir))
-      (when (not (empty? scanners))
-        (def non-o (filter |(not= "o" $) scanners))
-        (when (> (length non-o) 1)
-          (eprintf "grammar-dir: %s" grammar-dir)
-          (eprintf "> 1 filenames start with 'scanner.' for %s: %n"
-                   grammar-dir non-o))
-        # XXX: just report first one
-        (put g-tbl :scanner (first non-o)))
-      #
-      (array/push gs-array g-tbl))
-    #
-    (put rr-tbl :grammars gs-array))
+      (put rr-tbl :grammars gs-array)))
   #
   repos-roots)
 
