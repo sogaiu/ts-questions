@@ -1,0 +1,5100 @@
+@[{ :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-20"
+    :last-commit-hash "ba3c1e305caf948f718293c86c6018a82ed5043e"
+    :name "verilog"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/gmlarumbe/tree-sitter-systemverilog"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-02"
+    :last-commit-hash "579b62f5ad8d96c2bb331f07d1408c92767531d9"
+    :name "properties"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-properties"}
+  { :abi 9
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2018-11-22"
+    :last-commit-hash "5b789e4cf7909a6fa6358404e7d74a8bb63418c9"
+    :name "TODO"
+    :parser-c :yes
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/Aerijo/tree-sitter-todo"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-12-23"
+    :last-commit-hash "d4556131c279d73961943a2ebf878198ab7976a6"
+    :name "unifieddiff"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/monaqa/tree-sitter-unifieddiff"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-07-03"
+    :last-commit-hash "48b5e9f82ae0a4727201626f33a17f69f8e0ff86"
+    :name "tsq"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/the-mikedavis/tree-sitter-tsq"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-02"
+    :last-commit-hash "03bb10330704b0b371b044e937d5cc7cd40b4999"
+    :name "phpdoc"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/claytonrcarter/tree-sitter-phpdoc"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-06-18"
+    :last-commit-hash "12b547b470a4213dc63a20c7bd2db988d85c7693"
+    :name "elisp"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Wilfred/tree-sitter-elisp"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-01-08"
+    :last-commit-hash "a3b2d84990527c7f8f4ae219c332c00c33d2d8e5"
+    :name "vhdl"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/alemuller/tree-sitter-vhdl"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2021-08-02"
+    :last-commit-hash "2a6eec1cd041a561bbfae81408df94c0e6390fbf"
+    :name "plantuml"
+    :parser-c :no
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/ahlinc/tree-sitter-plantuml"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-23"
+    :last-commit-hash "8923c1e38b9634a688a6c0dce7c18c8ffb823e79"
+    :name "gnuplot"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/dpezto/tree-sitter-gnuplot"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-28"
+    :last-commit-hash "6bc5564917edacd070afc4d33cf5e2e677831ea9"
+    :name "leo"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/r001/tree-sitter-leo"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-07"
+    :last-commit-hash "1f3cb70200b4e238e19652705336e7f2c52b8e2f"
+    :name "cylc"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/elliotfontaine/tree-sitter-cylc"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-02-11"
+    :last-commit-hash "b8ca25518749be10562455fd081a3dab30b93b8b"
+    :name "move"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-move"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-04"
+    :last-commit-hash "4cacfdaa75090bb790965674fe387bb215bab64b"
+    :name "purescript"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/postsolar/tree-sitter-purescript"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-08-07"
+    :last-commit-hash "f2b378a9af0b7e1192cff67a5fb45508c927205d"
+    :name "systemtap"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/ok-ryoko/tree-sitter-systemtap"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-11-17"
+    :last-commit-hash "13e9195370172c86a8b88184cc358b23b677cc46"
+    :name "pug"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/zealot128/tree-sitter-pug"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-10-05"
+    :last-commit-hash "38b20cead0ec1ab787cd36292a9160a2145df574"
+    :name "pgn"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/rolandwalker/tree-sitter-pgn"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-23"
+    :last-commit-hash "d8a79d15c7b9a68d2d1616c319d2b04d1999ab9f"
+    :name "slim"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/theoo/tree-sitter-slim"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-08-11"
+    :last-commit-hash "afec0de5a32d5894070b67932d6ff09e4f7c5879"
+    :name "objc"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/jiyee/tree-sitter-objc"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-03"
+    :last-commit-hash "c36aac51a915fdfcaf178128ba1e9c2205b25930"
+    :name "gren"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/MaeBrooks/tree-sitter-gren"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-05"
+    :last-commit-hash "e42b8def4f75633568f1aecfe01817bf15164928"
+    :name "diff"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/the-mikedavis/tree-sitter-diff"}
+  { :abi 10
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2019-10-24"
+    :last-commit-hash "d9338a598c0473572c6e48b20aead8955447bd95"
+    :name "biber"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Aerijo/tree-sitter-biber"}
+  { :abi 9
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2018-10-28"
+    :last-commit-hash "9f3a38ac7ca91102f1a024eec34ca363d450db78"
+    :name "clojure"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Tavistock/tree-sitter-clojure"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-04"
+    :last-commit-hash "f36c1587624d6d84376c82a357c20fc319cbf02c"
+    :name "snakemake"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/osthomas/tree-sitter-snakemake"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-02-28"
+    :last-commit-hash "eb31845d59b9ee8c1b2098e78e9ca72004bd1579"
+    :name "djot"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/treeman/tree-sitter-djot"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-03-01"
+    :last-commit-hash "6b2b5e41734bd6f07ea4c36ac20fb6f14061c841"
+    :name "qmldir"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Decodetalkers/tree-sitter-qmldir"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-16"
+    :last-commit-hash "d006172998fa8b81f96b0f2fc7fa2bf25207c46b"
+    :name "tera"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/uncenter/tree-sitter-tera"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-10-21"
+    :last-commit-hash "d45f75022d147cda056e98bfba68222c9c8eca3a"
+    :name "nim_format_string"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/aMOPel/tree-sitter-nim-format-string"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-02-07"
+    :last-commit-hash "618c5b1c9b92daac0b7dd0b41c65158437dbeec5"
+    :name "vespa"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/bartek/tree-sitter-vespa"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-05-05"
+    :last-commit-hash "b1170880c61355aaf38fc06f4af7d3c55abdabc4"
+    :name "tablegen"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-tablegen"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-12-02"
+    :last-commit-hash "0229c0211dba909c5d45129ac784a3f4d49c243a"
+    :name "disassembly"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/ColinKennedy/tree-sitter-disassembly"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-08-15"
+    :last-commit-hash "ddd075f1939aed8147b7aa67f042eda3fce22790"
+    :name "jsonnet"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/sourcegraph/tree-sitter-jsonnet"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-27"
+    :last-commit-hash "620ff8a32143f24f6f8e157bd1836183599d334d"
+    :name "koto"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/koto-lang/tree-sitter-koto"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-03"
+    :last-commit-hash "100d06e29d13a8ebfc3f29173c07a5c4f2050586"
+    :name "nu"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/nushell/tree-sitter-nu"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-29"
+    :last-commit-hash "36064bd71ce22e9a8c73b64b1a3448cc600a4312"
+    :name "enforce"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/simonvic/tree-sitter-enforce"}
+  { :abi 14
+    :grammar-dir "./typescript"
+    :grammar-json :yes
+    :last-commit-date "2025-01-30"
+    :last-commit-hash "75b3874edb2dc714fb1fd77a32013d0f8699989f"
+    :name "typescript"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-typescript"}
+  { :abi 14
+    :grammar-dir "./tsx"
+    :grammar-json :yes
+    :last-commit-date "2025-01-30"
+    :last-commit-hash "75b3874edb2dc714fb1fd77a32013d0f8699989f"
+    :name "tsx"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-typescript"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2019-08-21"
+    :last-commit-hash "b37ec11c796b59ce6e5f8ed0182e9d5de1f9fe77"
+    :name "sv"
+    :parser-c :no
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/rfdonnelly/tree-sitter-sv"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-13"
+    :last-commit-hash "4a77b2d7a004587646bddc4e854779044b6db459"
+    :name "tiger"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/ambroisie/tree-sitter-tiger"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-11"
+    :last-commit-hash "5054931bcd022860dd5936864f981e359fb63aef"
+    :name "pascal"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/Isopod/tree-sitter-pascal"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-13"
+    :last-commit-hash "62013259b26ac210d5de1abf64cf1b047ef88000"
+    :name "dhall"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/jbellerb/tree-sitter-dhall"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-30"
+    :last-commit-hash "29c816328a086ef056799e3924ef6e09e6a9a8cb"
+    :name "r"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/r-lib/tree-sitter-r"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-02-22"
+    :last-commit-hash "ffd9f958df13cae04593781d7d2562295a872455"
+    :name "gdshader"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/GodOfAvacyn/tree-sitter-gdshader"}
+  { :abi 15
+    :grammar-dir "./tree-sitter-markdown"
+    :grammar-json :yes
+    :last-commit-date "2025-05-17"
+    :last-commit-hash "efb075cbd57ce33f694c2bb264b99cdba0f31789"
+    :name "markdown"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-markdown"}
+  { :abi 15
+    :grammar-dir "./tree-sitter-markdown-inline"
+    :grammar-json :yes
+    :last-commit-date "2025-05-17"
+    :last-commit-hash "efb075cbd57ce33f694c2bb264b99cdba0f31789"
+    :name "markdown_inline"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-markdown"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-26"
+    :last-commit-hash "0c6fae9d2cfc5b217bfd1fe84a7678f5917116db"
+    :name "vhs"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/charmbracelet/tree-sitter-vhs"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-28"
+    :last-commit-hash "3d1a9c9a4cb5a2d247fe46fb20164eff0a81308d"
+    :name "beancount"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/yagebu/tree-sitter-beancount"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-20"
+    :last-commit-hash "f2af8d0dc14c6790130cceb2a20027eb41a8297c"
+    :name "sourcepawn"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/nilshelmig/tree-sitter-sourcepawn"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-13"
+    :last-commit-hash "ec4fe14586f2b0a1bc65d6db17f8d8acd8a90433"
+    :name "smithy"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/indoorvivants/tree-sitter-smithy"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-10-28"
+    :last-commit-hash "14269f79d6be0aa93f214f9315711138ad119658"
+    :name "tucan"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/mrnugget/tree-sitter-tucan"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-10-06"
+    :last-commit-hash "1dec7e1af96c56924e3322cd85fdce15d0a31d00"
+    :name "authzed"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/mleonidas/tree-sitter-authzed"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-11-23"
+    :last-commit-hash "1d16b8e063fdf4385e389096c4bc4999eaaef05f"
+    :name "pem"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-pem"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-25"
+    :last-commit-hash "b638d29335ef41215b86732dd51be34c701ef683"
+    :name "regex"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-regex"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-03"
+    :last-commit-hash "d2df8a285fff95de56a91d2f8152aeceb66f40ef"
+    :name "rescript"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/rescript-lang/tree-sitter-rescript"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-10-10"
+    :last-commit-hash "d0993592cb8c8ec85bad7aab1044a2fcb124e75b"
+    :name "elisp"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tpeacock19/tree-sitter-elisp"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-05-03"
+    :last-commit-hash "28dc7059722be090d04cd751aed915b2fee2f89a"
+    :name "bass"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/vito/tree-sitter-bass"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-06-24"
+    :last-commit-hash "d853661ca680d8ff7f8d800182d5782b61d0dd58"
+    :name "sparql"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/GordianDziwis/tree-sitter-sparql"}
+  { :abi 14
+    :grammar-dir "./tree_sitter_v"
+    :grammar-json :yes
+    :last-commit-date "2024-02-04"
+    :last-commit-hash "dd8c00497c8de79f939e26795f7115332d2347b6"
+    :name "v"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/vlang/vls"}
+  { :abi 9
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2018-10-22"
+    :last-commit-hash "c2848d829454546b4039df93ba9455665b2ed475"
+    :name "qml"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/rschiang/tree-sitter-qml"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-08-13"
+    :last-commit-hash "77625d78eebc3ffc44d114a07b2f348dff3061b0"
+    :name "promql"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/MichaHoffmann/tree-sitter-promql"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-01"
+    :last-commit-hash "e34def7cb0d8a66a59ec5057fe17bb4e6b17b56a"
+    :name "robot"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/Hubro/tree-sitter-robot"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-24"
+    :last-commit-hash "ec2cb14f68053cf49d1d18cd5742af8e81771ebb"
+    :name "vhdl"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/jpt13653903/tree-sitter-vhdl"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-02-05"
+    :last-commit-hash "33a3e4f1fa77a3e1a2736813f4b27c358f6c0b63"
+    :name "erlang"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/the-mikedavis/tree-sitter-erlang"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-08-25"
+    :last-commit-hash "9ab85550c896d8b294d9b9ca1e30698736f08cea"
+    :name "dot"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/rydesun/tree-sitter-dot"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2021-12-29"
+    :last-commit-hash "19db2f47ba4c3a0f6238d4ae0e2abfca16e61dd6"
+    :name "fusion"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://gitlab.com/jirgn/tree-sitter-fusion.git"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-07-19"
+    :last-commit-hash "395a33e08e69f4155156f0b90138a6c86764c979"
+    :name "gotmpl"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/dannylongeuay/tree-sitter-go-template"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-25"
+    :last-commit-hash "efe6b87145608d12f5996bd7f0cf6095a0e82261"
+    :name "lean"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/Julian/tree-sitter-lean"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-27"
+    :last-commit-hash "9bbb540e8a2734101c6857bd437f04baa974e03d"
+    :name "godot_resource"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/PrestonKnopp/tree-sitter-godot-resource"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-05-05"
+    :last-commit-hash "e877f6ade4b77d5ef8787075141053631ba12318"
+    :name "yuck"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/Philipp-M/tree-sitter-yuck"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-04-27"
+    :last-commit-hash "6238f609bea233040fe927858156dee5515a0745"
+    :name "cairo"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-cairo"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-01"
+    :last-commit-hash "12d98944c1d5077b957cbdb90d663a7c4d50118c"
+    :name "glimmer_typescript"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/NullVoxPopuli/tree-sitter-glimmer-typescript"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-11-17"
+    :last-commit-hash "9a71b0cd2cb1254c47624ae2a0b2110db329dbaa"
+    :name "monkey"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/jamestrew/tree-sitter-monkey"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-02-14"
+    :last-commit-hash "b5eb5742f6a7e9438bee22ce8026d6b927be2cd7"
+    :name "c_sharp"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-c-sharp"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-28"
+    :last-commit-hash "f23072a51e1c764d6c5bf461194a775c8a5c7a95"
+    :name "gitattributes"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-gitattributes"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-05-05"
+    :last-commit-hash "78938553b93075e638035f624973083451b29055"
+    :name "ron"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-ron"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-11-07"
+    :last-commit-hash "c390f10519ae69fdb03b3e5764f5592fb6924bcc"
+    :name "hocon"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/antosha417/tree-sitter-hocon"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-19"
+    :last-commit-hash "213f6e6973d9b456c6e50e86f19f66877e7ef0ee"
+    :name "astro"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/virchau13/tree-sitter-astro"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2024-07-10"
+    :last-commit-hash "a5512800ea0220da4abbae61b8aea8423d1549aa"
+    :name "scfg"
+    :parser-c :no
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://git.sr.ht/~rockorager/tree-sitter-scfg"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-03"
+    :last-commit-hash "a2e91c845064bb4031e31b103e32bcdaefeea139"
+    :name "scala"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-scala"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-16"
+    :last-commit-hash "3a643167ad9afac5d61e092f08ff5b054576fadf"
+    :name "htmldjango"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/interdependence/tree-sitter-htmldjango"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-04"
+    :last-commit-hash "e67a5de093cab9eb79be721bf39bc9115193534a"
+    :name "jakt"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/demizer/tree-sitter-jakt"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-10"
+    :last-commit-hash "c204e36d2c3c6fce1f57950b12cabcc24e5cc4d9"
+    :name "jq"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/flurie/tree-sitter-jq"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-02-13"
+    :last-commit-hash "df0585025e6f50cdb07347f5009ae3f47c652890"
+    :name "cel"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/bufbuild/tree-sitter-cel"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-11-23"
+    :last-commit-hash "b4cbe9ab7672d5106e9550d8413835395a1be362"
+    :name "chatito"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-chatito"}
+  { :abi 14
+    :grammar-dir "./extensions/chatl"
+    :grammar-json :yes
+    :last-commit-date "2024-11-23"
+    :last-commit-hash "b4cbe9ab7672d5106e9550d8413835395a1be362"
+    :name "chatl"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-chatito"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-12"
+    :last-commit-hash "6efb59652d30e0e9cd5f3b3a669afd6f1a926d3c"
+    :name "gomod"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/camdencheek/tree-sitter-go-mod"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-13"
+    :last-commit-hash "1ac83114e71839fa67f4cce2f864ebbbdf6e2a4f"
+    :name "llvm"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/benwilliamgraham/tree-sitter-llvm"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-05-05"
+    :last-commit-hash "ad9b638b914095320de85d59c49ab271603af048"
+    :name "uxntal"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-uxntal"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-11-10"
+    :last-commit-hash "f08bb76892b93e5b23c45ac3bd6b1eea5df323cc"
+    :name "foam"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/FoamScience/tree-sitter-foam"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-04-13"
+    :last-commit-hash "dd95e1fc1b5514aa3a882d5fb8ddbf4683e953f0"
+    :name "matlab"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/mstanciu552/tree-sitter-matlab"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-10-04"
+    :last-commit-hash "d166ff8c5950f80b0a476956e7a0ad2f27c12505"
+    :name "llvm_mir"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Flakebi/tree-sitter-llvm-mir"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-29"
+    :last-commit-hash "8d48b29910d2094cb1fc5c9c4ed8917c26b907de"
+    :name "perl"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/ganezdragon/tree-sitter-perl"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-02-27"
+    :last-commit-hash "debd26fed283d80456ebafa33a06957b0c52e451"
+    :name "ungrammar"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Philipp-M/tree-sitter-ungrammar"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-10-13"
+    :last-commit-hash "a80a6e9be81b33b182ce6305ae4ea28e29211bd5"
+    :name "zig"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/maxxnino/tree-sitter-zig"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-20"
+    :last-commit-hash "c0c4f0ed7b87846cb1be19df5d638ca227a9fe41"
+    :name "sql_bigquery"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/takegue/tree-sitter-sql-bigquery"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-12-01"
+    :last-commit-hash "20239395eacdc2e0923a7e5683ad3605aee7b716"
+    :name "passwd"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/ath3/tree-sitter-passwd"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-02-26"
+    :last-commit-hash "1e139eba1fd3a9c34a36f0f0f47ed8b73c9b4636"
+    :name "jq"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/nverno/tree-sitter-jq"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-07-02"
+    :last-commit-hash "7f789ea7ef765080f71a298fc96b7c957fa24422"
+    :name "turtle"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/GordianDziwis/tree-sitter-turtle"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-19"
+    :last-commit-hash "7e28cbf1ca061887ea43591a2898001f4245fddf"
+    :name "janet_simple"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/sogaiu/tree-sitter-janet-simple"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-17"
+    :last-commit-hash "e5e406935ff3e36529545955e2972646ed97f9e2"
+    :name "lua"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-lua"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-07"
+    :last-commit-hash "b1ff0037b665e7e84715390820d6ecbe763a9c79"
+    :name "meson"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/Decodetalkers/tree-sitter-meson"}
+  { :abi 9
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2018-11-06"
+    :last-commit-hash "633b20d7ab7785e84ac6b1f9c56349c9d0594d9d"
+    :name "graphql"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/dralletje/tree-sitter-graphql"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-31"
+    :last-commit-hash "96c92d4908a836bf8f661166721c98439f8afb80"
+    :name "ledger"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/cbarrete/tree-sitter-ledger"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-03-21"
+    :last-commit-hash "5f7ef6f2c4628f46fb5155eb1ac59df5e8de8ee6"
+    :name "ibmhlasm"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/janus-llm/tree-sitter-ibmhlasm"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-01-18"
+    :last-commit-hash "b9574e6179261f9d2639d9f41951b9b592c39179"
+    :name "erde"
+    :parser-c :yes
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/vhyrro/tree-sitter-erde"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-03"
+    :last-commit-hash "ccc312e878aa84f32d180b8528a3585c7b86a545"
+    :name "vim"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-vim"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-06-14"
+    :last-commit-hash "27ae4db1458d5ea7555300c9e93c6273723d420c"
+    :name "wgsl"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/mehmetoguzderin/tree-sitter-wgsl"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-05-03"
+    :last-commit-hash "4ebe237c1cf64cf3826fc249e9ec0988fe07e58e"
+    :name "cooklang"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/addcninblue/tree-sitter-cooklang"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-03"
+    :last-commit-hash "88ccb5ee90711e9961582d421c42bc8c6bd53f59"
+    :name "matlab"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/acristoffers/tree-sitter-matlab"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-10-11"
+    :last-commit-hash "afece58efdb30440bddd151ef1347fa8d6f744a9"
+    :name "pioasm"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/leo60228/tree-sitter-pioasm"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-03-12"
+    :last-commit-hash "ebc6739bf8900a0191a386ef53371fc556c662a8"
+    :name "luap"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/vhyrro/tree-sitter-luap"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-17"
+    :last-commit-hash "de06b9ad366f0186080056109a8c3be980129538"
+    :name "fennel"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/alexmozaidze/tree-sitter-fennel"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-02"
+    :last-commit-hash "64b56832c2cffe41758f28e05c756a3a98d16f41"
+    :name "toml"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-toml"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-03-25"
+    :last-commit-hash "bb1e12023e59489c0892af0c0c9a5b323af69df6"
+    :name "openscad"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/bollian/tree-sitter-openscad"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-02-28"
+    :last-commit-hash "80e23c07b64494f7e21090bb3450223ef0b192f4"
+    :name "dart"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/UserNobody14/tree-sitter-dart"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-30"
+    :last-commit-hash "cbb91a0ff3621245e890d1c50cc811bffb77a26b"
+    :name "html"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-html"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-11-03"
+    :last-commit-hash "90189238385cf636b9ee99ce548b9e5b5e569d48"
+    :name "forth"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/AlexanderBrevig/tree-sitter-forth"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-08-04"
+    :last-commit-hash "6f193a66e9aa872760823dff020960c6cedc37b3"
+    :name "git_commit"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/the-mikedavis/tree-sitter-git-commit"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-06-08"
+    :last-commit-hash "b37e3d58e5c5cf8d739b315d6114e02d42e66664"
+    :name "kdl"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-kdl"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-03-23"
+    :last-commit-hash "1a44f8d31053096b79c52f10a39da12479edbf64"
+    :name "uxntal"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Jummit/tree-sitter-uxntal"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-01-05"
+    :last-commit-hash "eca2596a355b1a9952b4f80f8f9caed300a272b5"
+    :name "prisma"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/victorhqc/tree-sitter-prisma"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-25"
+    :last-commit-hash "a417db5dbdd869fccb6a8b75ec04459e1d4ccd2c"
+    :name "jsdoc"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-jsdoc"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2021-12-16"
+    :last-commit-hash "a4b9187417d6be349ee5fd4b6e77b4172c6827dd"
+    :name "make"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/alemuller/tree-sitter-make"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2019-05-08"
+    :last-commit-hash "f74690d1445cccf5df8b65194a814a2bdb91af3c"
+    :name "Harbour"
+    :parser-c :no
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/APerricone/tree-sitter-harbour"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-11-12"
+    :last-commit-hash "0660febd1e0afc97f9bb5050510b3c220dc9b2f9"
+    :name "odin"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/MineBill/tree-sitter-odin"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-30"
+    :last-commit-hash "6e327db434fec0ee90f006697782e43ec855adf5"
+    :name "css"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-css"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-09-18"
+    :last-commit-hash "577259b4068b2c281c9ebf94c109bd50a74d5857"
+    :name "haskell_persistent"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/MercuryTechnologies/tree-sitter-haskell-persistent"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-03-01"
+    :last-commit-hash "c184999166c75edefef0936ff7e533698403d016"
+    :name "beancount"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/zwpaper/tree-sitter-beancount"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-30"
+    :last-commit-hash "ab9aa007a8d982a5a7926663a8ab989cea0f5d9e"
+    :name "fortran"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/stadelmanma/tree-sitter-fortran"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-17"
+    :last-commit-hash "1545137aadcc63660c47db9ad98d02fa602655d0"
+    :name "hoon"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/urbit-pilled/tree-sitter-hoon"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-06-24"
+    :last-commit-hash "993be0a91c0c90b0cc7799e6ff65922390e2cefe"
+    :name "sqlite"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/dhcmrlchtdj/tree-sitter-sqlite"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-11-28"
+    :last-commit-hash "b60a42df3f76bd4e8f988465309d705a007dc506"
+    :name "gemini"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://git.sr.ht/~nbsp/tree-sitter-gemini"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-08-14"
+    :last-commit-hash "9b2f9aec2106b94b4e099fe75e73ebd8ae707c04"
+    :name "ispc"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-ispc"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-10-19"
+    :last-commit-hash "ae5199db47757f785e43a14b332118a5474de1a2"
+    :name "svelte"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-svelte"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-12-07"
+    :last-commit-hash "3bd79d8f06f81df9d9a14da1adb9a0aadcfd9961"
+    :name "python_legesher"
+    :parser-c :yes
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/legesher/tree-sitter-legesher-python"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-08-31"
+    :last-commit-hash "14e6da1627aaef21d2b2aa0c37d04269766dcc1d"
+    :name "nqc"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-nqc"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-11-15"
+    :last-commit-hash "10d7ec727362b2978d686b544cee96568e297aae"
+    :name "smarty"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Kibadda/tree-sitter-smarty"}
+  { :abi 12
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2021-02-14"
+    :last-commit-hash "36dd54f701e3b3e030412a854295af971cf74ad1"
+    :name "xml"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/dorgnarg/tree-sitter-xml"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-21"
+    :last-commit-hash "2d831940c782850f64dabf5b7b17e9e51f7f0ebb"
+    :name "tlaplus"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tlaplus-community/tree-sitter-tlaplus"}
+  { :abi 14
+    :grammar-dir "./tree_sitter_v"
+    :grammar-json :yes
+    :last-commit-date "2025-05-23"
+    :last-commit-hash "0f963ca4c0cc888252f5a31f37c974d5e2527d06"
+    :name "v"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/vlang/v-analyzer"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-04-09"
+    :last-commit-hash "5519c547418ecb31ac7d63e64653aed726b5d1c3"
+    :name "satysfi"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/monaqa/tree-sitter-satysfi"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-02"
+    :last-commit-hash "034b543b210f1c115f20a287b7562f742f8038fc"
+    :name "magik"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/krn-robin/tree-sitter-magik"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-07-17"
+    :last-commit-hash "5e7210d945425b77f82cbaebc5af4dd3e1ad40f5"
+    :name "elvish"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/elves/tree-sitter-elvish"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-30"
+    :last-commit-hash "89bd7a8e5450cb6a942418a619d30469f259e5d6"
+    :name "ruby"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-ruby"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-05"
+    :last-commit-hash "169e7f748a540ec360c0cb086b448faad012caa4"
+    :name "unison"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/kylegoetz/tree-sitter-unison"}
+  { :abi 11
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-01-31"
+    :last-commit-hash "dbef9a250c8f882bdb383b4a9379a9e80537f177"
+    :name "souffle"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/julienhenry/tree-sitter-souffle"}
+  { :abi 11
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2020-08-16"
+    :last-commit-hash "93527b2c4845293384759e8ebee8fdd8a0878ad8"
+    :name "move"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/move-hub/tree-sitter-move"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-02-23"
+    :last-commit-hash "4e562e1598b95b93db4f3f64fe40ddefbc677a15"
+    :name "rst"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/stsewd/tree-sitter-rst"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-11-11"
+    :last-commit-hash "395006713db3bbb90d267ebdfcbf1881b399b05c"
+    :name "sway"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/FuelLabs/tree-sitter-sway"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-30"
+    :last-commit-hash "6fbef40512dcd9f0a61ce03a4c9ae7597b36ab5c"
+    :name "javascript"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-javascript"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-11-05"
+    :last-commit-hash "c56a25cf57c68ff929356db25505c1cc4c7820f6"
+    :name "idris"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/kayhide/tree-sitter-idris"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-16"
+    :last-commit-hash "174dbb1e14a461d48ba069a5a8d0c6d6c718b9a9"
+    :name "twig"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/kaermorchen/tree-sitter-twig"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-02-22"
+    :last-commit-hash "f3b9274514b5f9bf6b0dd4a01c30f9cc15c58bc4"
+    :name "faust"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/khiner/tree-sitter-faust"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2023-01-04"
+    :last-commit-hash "b2e55d97489a9d69a833519f95fd9fcc0a316855"
+    :name "firrtl"
+    :parser-c :no
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/chipsalliance/tree-sitter-firrtl"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-11-03"
+    :last-commit-hash "8353a1296607d6ba33db7c7e312226e5fc83e8ce"
+    :name "kusto"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Willem-J-an/tree-sitter-kusto"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-06-24"
+    :last-commit-hash "f6d81bf7a4599c77388035439cf5801cd461ff77"
+    :name "ralph"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/alephium/tree-sitter-ralph"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-03"
+    :last-commit-hash "6593b646692ea394fef256a7d287fa72c0187a7e"
+    :name "zeek"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/zeek/tree-sitter-zeek"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-28"
+    :last-commit-hash "0dd3c7e9f301758f6c69a6efde43d3048deb4d8a"
+    :name "ssh_config"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-ssh-config"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-10-28"
+    :last-commit-hash "9bc460a05b5f096d69568b5fb36105032ff4ff97"
+    :name "beancount"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/polarmutex/tree-sitter-beancount"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-11"
+    :last-commit-hash "0fbc9f99d5a28865f9de8427fb0672d66f9d83a5"
+    :name "git_config"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/the-mikedavis/tree-sitter-git-config"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2021-06-12"
+    :last-commit-hash "42d82fa18f8afe59b5fc0b16c207ee4f84cb185f"
+    :name "proto"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/mitchellh/tree-sitter-proto"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-09-14"
+    :last-commit-hash "ff07a42d9ec95443b5c1b57ed793414bf7b79be5"
+    :name "hurl"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/pfeiferj/tree-sitter-hurl"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-03"
+    :last-commit-hash "55baffbdc6bd00bf177b796950497a01bb496241"
+    :name "query"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-query"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-05-05"
+    :last-commit-hash "351159cf66f0e7f8d86fa06fc44ab3c2055082df"
+    :name "formula"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/siraben/tree-sitter-formula"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2023-09-27"
+    :last-commit-hash "2866ee6f8b8f67c9b1eca2ca6c88f0a5f1bcc13f"
+    :name "zig"
+    :parser-c :no
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/ziglibs/tree-sitter-zig"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-11-02"
+    :last-commit-hash "1a497eecfb1b840ab12caf28f0ef45d4a5e26d28"
+    :name "meson"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/staysail/tree-sitter-meson"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-05-16"
+    :last-commit-hash "af4901aa56d459b33487c307f4951068a2365b1e"
+    :name "objcpp"
+    :parser-c :yes
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/panicinc/tree-sitter-objcpp"}
+  { :abi 14
+    :grammar-dir "./dtd"
+    :grammar-json :yes
+    :last-commit-date "2025-06-03"
+    :last-commit-hash "87be254e12169240a0e0214dbee5e208df96fa75"
+    :name "dtd"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-xml"}
+  { :abi 14
+    :grammar-dir "./xml"
+    :grammar-json :yes
+    :last-commit-date "2025-06-03"
+    :last-commit-hash "87be254e12169240a0e0214dbee5e208df96fa75"
+    :name "xml"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-xml"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-09"
+    :last-commit-hash "04962e15f6b464cf1d75eada59506dc25090e186"
+    :name "asm"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/rush-rs/tree-sitter-asm"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-02-09"
+    :last-commit-hash "b14e7971cfbd64fa0ebcdeaa4dfbb3cb0bfabd7c"
+    :name "idl"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/cathaysia/tree-sitter-idl"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-29"
+    :last-commit-hash "d38dcd0b58b223c43e3f9265914fb3167dc624c6"
+    :name "solidity"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/JoranHonig/tree-sitter-solidity"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-25"
+    :last-commit-hash "989da760be05a3334af3ec88705cbf57e6a9c41d"
+    :name "nginx"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/opa-oz/tree-sitter-nginx"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-05"
+    :last-commit-hash "bb0c898a80644de438e6efe5d88d30bf092935cd"
+    :name "just"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/IndianBoy42/tree-sitter-just"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-01-08"
+    :last-commit-hash "39f20bb51f502e32058684e893c0c0b00bb2332c"
+    :name "iex"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/elixir-lang/tree-sitter-iex"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-01-12"
+    :last-commit-hash "f742f2fe327463335e8671a87c0b9b396905d1d1"
+    :name "eex"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/connorlay/tree-sitter-eex"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-26"
+    :last-commit-hash "2686186edb61be47960431c93a204fb249681360"
+    :name "caddy"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/opa-oz/tree-sitter-caddy"}
+  { :abi 14
+    :grammar-dir "./tree-sitter-asciidoc"
+    :grammar-json :yes
+    :last-commit-date "2025-04-29"
+    :last-commit-hash "5b6ccea9953b939959f447f7bfea699ae6968a99"
+    :name "asciidoc"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/cathaysia/tree-sitter-asciidoc"}
+  { :abi 14
+    :grammar-dir "./tree-sitter-asciidoc_inline"
+    :grammar-json :yes
+    :last-commit-date "2025-04-29"
+    :last-commit-hash "5b6ccea9953b939959f447f7bfea699ae6968a99"
+    :name "asciidoc_inline"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/cathaysia/tree-sitter-asciidoc"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-12-14"
+    :last-commit-hash "127f38a6c03d009ccf5798cf0eaad7d5df982445"
+    :name "cairo"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/JoranHonig/tree-sitter-cairo"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-03-06"
+    :last-commit-hash "587f30d184b058450be2a2330878210c5f33b3f9"
+    :name "sql"
+    :parser-c :yes
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/m-novikov/tree-sitter-sql"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-10-23"
+    :last-commit-hash "4932594a24f04e4ccf046919bc354272841b0077"
+    :name "lua"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tjdevries/tree-sitter-lua"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-22"
+    :last-commit-hash "9ac99fe4c0c27a35dc6f757cef534c646e944881"
+    :name "kconfig"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-kconfig"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-01"
+    :last-commit-hash "6eb323a20db2f1e8736c3a05915afe1687283965"
+    :name "desktop"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/ValdezFOmar/tree-sitter-desktop"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-03"
+    :last-commit-hash "31899dfa3b91622ea39e5c0bcddc88f45a9a3cfe"
+    :name "ini"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/justinmk/tree-sitter-ini"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-01-13"
+    :last-commit-hash "0681f9d1d21bbccdc44ab5241426409b4313f9b5"
+    :name "bison"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://gitlab.com/btuin2/tree-sitter-bison"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-04-01"
+    :last-commit-hash "3cea80b67f53178518e2c5f5011b51a4f8f6c0a5"
+    :name "bazelrc"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/zaucy/tree-sitter-bazelrc"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2024-11-01"
+    :last-commit-hash "d6eb82027c355e70f8186a47d17e6afd97fc7c81"
+    :name "mandbconfig"
+    :parser-c :no
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/TornaxO7/tree-sitter-man-db-config"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-01-15"
+    :last-commit-hash "3937c5cd105ec4127448651a21aef45f52d19609"
+    :name "todotxt"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/arnarg/tree-sitter-todotxt"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-16"
+    :last-commit-hash "24a6c8ef698e4480fecf8340d771fbcb5de8fbb4"
+    :name "glsl"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-glsl"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2022-10-31"
+    :last-commit-hash "c917790ab9aec50c5fd664cbfad8dd45110cfff3"
+    :name "wit"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/hh9527/tree-sitter-wit"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-10-01"
+    :last-commit-hash "8f42a13095951700e7f9597dc309bee2c390c51f"
+    :name "stan"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/WardBrian/tree-sitter-stan"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-06-12"
+    :last-commit-hash "20b5a5958c837bc9f74b231022a68a594a313f6d"
+    :name "rego"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/FallenAngel97/tree-sitter-rego"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-08-31"
+    :last-commit-hash "440d5f913d9465c9c776a1bd92334d32febcf065"
+    :name "sxhkdrc"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/RaafatTurki/tree-sitter-sxhkdrc"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-29"
+    :last-commit-hash "3b32474bc29584ea214e4e84b47102408263fe0e"
+    :name "vento"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/ventojs/tree-sitter-vento"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-11-11"
+    :last-commit-hash "b9b32fa042c2952a7bfca86847ea325e44ccc897"
+    :name "agda"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-agda"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-02-03"
+    :last-commit-hash "770737bcff2c4aa3f624d439e32b07dbb07102d3"
+    :name "cue"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/eonpatapon/tree-sitter-cue"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-02-19"
+    :last-commit-hash "39dd5774534db65957a964d48d3c3953a3085d29"
+    :name "fennel"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/sogaiu/tree-sitter-fennel"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-10-01"
+    :last-commit-hash "4900b68ead86049b67c4f7dfc4a805f170a7970e"
+    :name "nim"
+    :parser-c :yes
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/aMOPel/tree-sitter-nim"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-16"
+    :last-commit-hash "32323509b3d9fe96607d151c2da2c9009eb13a2f"
+    :name "commonlisp"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/theHamsta/tree-sitter-commonlisp"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-24"
+    :last-commit-hash "7fa1be1b694b6e763686793d97da01f36a0e5c12"
+    :name "c"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-c"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-11-21"
+    :last-commit-hash "2c0e6be8dd4dcb961c345fa35c309ad4f5bd3502"
+    :name "yang"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Hubro/tree-sitter-yang"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-02-17"
+    :last-commit-hash "20211339830745a9bce045587c84449c20dea202"
+    :name "c3"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/zweimach/tree-sitter-c3"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-04"
+    :last-commit-hash "de893b166476205b09e79cd3689f95831269579a"
+    :name "rbs"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/joker1007/tree-sitter-rbs"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-02"
+    :last-commit-hash "8509e3229b863c255ab6b61f3bf74ad0bf14e8bc"
+    :name "bash"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-bash"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-06-25"
+    :last-commit-hash "11b6ab9afaae072d38211b5ac2a438467b0137e3"
+    :name "Ada"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/TamaMcGlinn/tree-sitter-ada"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-06-22"
+    :last-commit-hash "47c1818d245a6156a488c4c4d06e9336714bae9b"
+    :name "wgsl_bevy"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/theHamsta/tree-sitter-wgsl-bevy"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-28"
+    :last-commit-hash "6eb8acc275961d137b4b4dd7fe84a19a0680c893"
+    :name "c3"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/c3lang/tree-sitter-c3"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-30"
+    :last-commit-hash "710796b8b877a970297106e5bbc8e2afa47f86ec"
+    :name "python"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-python"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-01"
+    :last-commit-hash "0889da4632bba3ec6f39ef4102625654890c15c1"
+    :name "qmljs"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/yuja/tree-sitter-qmljs"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-07-11"
+    :last-commit-hash "897e5d346f0b59ed62b517cfb0f1a845ad8f0ab7"
+    :name "nim"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/alaviss/tree-sitter-nim"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-14"
+    :last-commit-hash "e4bfd3e960de9f4b4648acb1c92e9b95b47d8cfb"
+    :name "facility"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/FacilityApi/tree-sitter-facility"}
+  { :abi 13
+    :grammar-dir "./tree-sitter-ziggy-schema"
+    :grammar-json :yes
+    :last-commit-date "2025-04-18"
+    :last-commit-hash "fe3bf9389e7ff213cf3548caaf9c6f3d4bb38647"
+    :name "ziggy_schema"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/kristoff-it/ziggy"}
+  { :abi 14
+    :grammar-dir "./tree-sitter-ziggy"
+    :grammar-json :yes
+    :last-commit-date "2025-04-18"
+    :last-commit-hash "fe3bf9389e7ff213cf3548caaf9c6f3d4bb38647"
+    :name "ziggy"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/kristoff-it/ziggy"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-21"
+    :last-commit-hash "15f192929b7d317f5914de2b4accd37b349182a6"
+    :name "puppet"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-puppet"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2024-05-16"
+    :last-commit-hash "679459be70d7fbac175fb19f668948d57b3825ef"
+    :name "groovy"
+    :parser-c :no
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Decodetalkers/tree-sitter-groovy"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-02-13"
+    :last-commit-hash "66a5319aed0cf9a5f464f18f9b73274734d2ef29"
+    :name "fsharp"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/baronfel/tree-sitter-fsharp"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-04-20"
+    :last-commit-hash "8503d3a0fe0f9e427863cb0055699ff2d29ae5f5"
+    :name "firrtl"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-firrtl"}
+  { :abi 0
+    :grammar-dir "./editors/tree-sitter-slint"
+    :grammar-json :no
+    :last-commit-date "2025-06-04"
+    :last-commit-hash "8c4ccabf7d286093ecca8070af9770833226b351"
+    :name "slint"
+    :parser-c :no
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/slint-ui/slint"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-09-25"
+    :last-commit-hash "c18a3c2f4b6665e35b7e50d6048ea3cff770c572"
+    :name "re2c"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-re2c"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-22"
+    :last-commit-hash "fd4b4955bb998262840ab8119885b3edf20ea75a"
+    :name "sml"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/MatthewFluet/tree-sitter-sml"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-03"
+    :last-commit-hash "d626ec06e4d876fc41200a30b3e6f2b4714c7367"
+    :name "hyprlang"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-hyprlang"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-06-19"
+    :last-commit-hash "64cfbc213f5a83da17632c95382a5a0a2f3357c1"
+    :name "org"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/milisims/tree-sitter-org"}
+  { :abi 14
+    :grammar-dir "./tree-sitter-superhtml"
+    :grammar-json :yes
+    :last-commit-date "2025-04-09"
+    :last-commit-hash "13f5a2221cb748bbe50ad702e89362afd5b925a7"
+    :name "superhtml"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/kristoff-it/superhtml"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-06-16"
+    :last-commit-hash "464654742cbfd3a3de560aba120998f1d5dfa844"
+    :name "corn"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/jakestanger/tree-sitter-corn"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-04-06"
+    :last-commit-hash "549aef253fd38a53995cda1bf55c501174372bf7"
+    :name "gstlaunch"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/theHamsta/tree-sitter-gstlaunch"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-13"
+    :last-commit-hash "e735c6881d8b475aaa4ef8f0a2bdfd825b438143"
+    :name "rasi"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/Fymyte/tree-sitter-rasi"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-14"
+    :last-commit-hash "05d276e737055e6f77a21335b7573c9d3c091e2f"
+    :name "teal"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/euclidianAce/tree-sitter-teal"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-11"
+    :last-commit-hash "8e51fa63ddb93ac179d4e34a311d3d3f03780b42"
+    :name "liquidsoap"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/savonet/tree-sitter-liquidsoap"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2021-04-18"
+    :last-commit-hash "8b8b77af0493e26d378135a3e7f5ae25b555b375"
+    :name "markdown"
+    :parser-c :yes
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/ikatyang/tree-sitter-markdown"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-02-24"
+    :last-commit-hash "6557729f4afaf01dec7481d4e5975515ea8f0edd"
+    :name "devicetree"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/joelspadin/tree-sitter-devicetree"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-04-20"
+    :last-commit-hash "bd860a0f57f697162bf28e576674be9c1500db5e"
+    :name "po"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-po"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-07-04"
+    :last-commit-hash "7e48557b903a9db9c38cea3b7839ef7e1f36c693"
+    :name "vue"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-vue"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2021-04-04"
+    :last-commit-hash "91fe2754796cd8fba5f229505a23fa08f3546c06"
+    :name "vue"
+    :parser-c :yes
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/ikatyang/tree-sitter-vue"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-03"
+    :last-commit-hash "a4454e3004a9e8fea2df7fd2535fbaa05500da21"
+    :name "slang"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/theHamsta/tree-sitter-slang"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-15"
+    :last-commit-hash "18b739c1563c83fc816170a4241adfa4b69e5c47"
+    :name "julia"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-julia"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-09-06"
+    :last-commit-hash "60ea1d673a1a3eeeb597e098d9ada9ed0c79ef4b"
+    :name "svelte"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/Himujjal/tree-sitter-svelte"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-10-24"
+    :last-commit-hash "901e71368a29d5f893d43d099fbc2b4ab037660e"
+    :name "souffle"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/langston-barrett/tree-sitter-souffle"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2021-12-31"
+    :last-commit-hash "40dda1f1be3215e67bec142511515f57a8e37345"
+    :name "re2c"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/alemuller/tree-sitter-re2c"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-14"
+    :last-commit-hash "5b5a96a17889bd8aab5c413bda9e7d29391a5a1c"
+    :name "gemtext"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/pebbe/tree-sitter-gemtext"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-05-20"
+    :last-commit-hash "a7732557aaa55e6947729e354950434dd775aae0"
+    :name "rec"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/amaanq/tree-sitter-rec"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-04-13"
+    :last-commit-hash "6f0510cc516a3af3396a682fbd6655486c2c9d2d"
+    :name "norg_meta"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/nvim-neorg/tree-sitter-norg-meta"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-28"
+    :last-commit-hash "db8b4398de90b6d0b6c780aba96aaa2cd8e9202c"
+    :name "http"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/rest-nvim/tree-sitter-http"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-11-10"
+    :last-commit-hash "1fd627a4e8bff8c24c11987474bd33112bead857"
+    :name "ql"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-ql"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-11-11"
+    :last-commit-hash "8d3e9782f2d091d0cd39c13bfb3068db0c675960"
+    :name "ipkg"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/srghma/tree-sitter-ipkg"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-23"
+    :last-commit-hash "b848e63e9f2a68accff0332392f07582c046295a"
+    :name "elixir"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/elixir-lang/tree-sitter-elixir"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-03"
+    :last-commit-hash "728910099ddea7f1f94ea95a35a70d1ea76a1639"
+    :name "requirements"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/ObserverOfTime/tree-sitter-requirements"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-09-03"
+    :last-commit-hash "76e0c25844a66ebc6e866d690fcc5f4e90698947"
+    :name "wing"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/winglang/tree-sitter-wing"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-10-14"
+    :last-commit-hash "26d529e6cfecde391a03c21d1474eb51e0285805"
+    :name "eds"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/uyha/tree-sitter-eds"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-06-27"
+    :last-commit-hash "fff3e72242aa110ebba6441946ea4d12d200fa68"
+    :name "xcompose"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-xcompose"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-30"
+    :last-commit-hash "15f0032f3eadf95988293338e883c095fd5936f6"
+    :name "t32"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://codeberg.org/xasc/tree-sitter-t32"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-10-04"
+    :last-commit-hash "949a8a470559543857a62102c84700d291fc984c"
+    :name "gowork"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/omertuc/tree-sitter-go-work"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-17"
+    :last-commit-hash "6ece453acf8b14568c10f629f8cd25d3dde3794f"
+    :name "gleam"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/gleam-lang/tree-sitter-gleam"}
+  { :abi 9
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2019-03-10"
+    :last-commit-hash "be9a66abbc6d3f3b2508bc2363d6089e13d11c17"
+    :name "LBNF"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/MortenSchou/tree-sitter-lbnf"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2024-05-12"
+    :last-commit-hash "2c27e329f7724e39f40439e68e22133e285a3e3b"
+    :name "systemrdl"
+    :parser-c :no
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/SystemRDL/tree-sitter-systemrdl"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2020-07-06"
+    :last-commit-hash "52944017f04362633baed93a62d068866641fdd0"
+    :name "COBOL"
+    :parser-c :no
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Neppord/tree-sitter-cobol"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2021-04-06"
+    :last-commit-hash "c8f50f7660e2e0b72e51eaae68c8f7f9f9a01755"
+    :name "sql"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tjdevries/tree-sitter-sql"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-21"
+    :last-commit-hash "bff59884307c0ab009bd5e81afd9324b46a6c0f9"
+    :name "bicep"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-bicep"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-21"
+    :last-commit-hash "b670c8df85a1568f498aa5c8cae42f51a90473c0"
+    :name "zig"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-zig"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-06-09"
+    :last-commit-hash "ccd998f378c3f9345ea4eeb223f56d7b84d16687"
+    :name "doxygen"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-doxygen"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-04-23"
+    :last-commit-hash "90ae195b31933ceb9d079abfa8a3ad0a36fee4cc"
+    :name "mermaid"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/monaqa/tree-sitter-mermaid"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-16"
+    :last-commit-hash "014628ae8d2df391b88ddb9fa0260fd97f770829"
+    :name "cuda"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/theHamsta/tree-sitter-cuda"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-02-02"
+    :last-commit-hash "15e4f8c417281768db17080c4447297f8ff5343a"
+    :name "fennel"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/TravonteD/tree-sitter-fennel"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-03-24"
+    :last-commit-hash "8b77e85eecd5597831bd8827f14a3a4fbc4a1337"
+    :name "ohm"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/novusnota/tree-sitter-ohm"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-05-04"
+    :last-commit-hash "f4685bf11ac466dd278449bcfe5fd014e94aa504"
+    :name "gitignore"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/shunsambongi/tree-sitter-gitignore"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-02-15"
+    :last-commit-hash "4f66444b92ba3e80d73b055ccbd04a2f7d9e1608"
+    :name "nu"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/LhKipp/tree-sitter-nu"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-10-01"
+    :last-commit-hash "74addc90fc539d31d413c0c7cf7581997a7fa46e"
+    :name "readline"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/ribru17/tree-sitter-readline"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-04-27"
+    :last-commit-hash "fad2e175099a45efbc98f000cc196d3674cc45e0"
+    :name "fsh"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/mgramigna/tree-sitter-fsh"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-10-23"
+    :last-commit-hash "68fd0d80943a828d9e6f49c58a74be1e9ca142cf"
+    :name "thrift"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-thrift"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-23"
+    :last-commit-hash "d6ebde3974742cd1b61b55d1d94aab1dacb41056"
+    :name "liquid"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/hankthetank27/tree-sitter-liquid"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-26"
+    :last-commit-hash "40c5fc2e2a0f511a802a82002553c5de00feeaf4"
+    :name "clojure"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/sogaiu/tree-sitter-clojure"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-05-23"
+    :last-commit-hash "e8e2515465cc2d7c444498e68bdb9f1d86767f95"
+    :name "ada"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/briot/tree-sitter-ada"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-08-22"
+    :last-commit-hash "d89d95af13d409f30a6c7676387bde311ec4a2c8"
+    :name "norg"
+    :parser-c :yes
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/nvim-neorg/tree-sitter-norg"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-04-20"
+    :last-commit-hash "0e9c9e962177dc0a17d6bd79ff14330334466800"
+    :name "nois"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/nois-lang/tree-sitter-nois"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-04-20"
+    :last-commit-hash "73ff874ae4c9e9b45462673cbc0a1e350e2522a7"
+    :name "pony"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-pony"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-10-30"
+    :last-commit-hash "97e6db3c8c73b15a9541a458d8e797a07f588ef4"
+    :name "vala"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/vala-lang/tree-sitter-vala"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-17"
+    :last-commit-hash "f48f0ba8e069e918ac08a2d0a6c1a8d67b0c5781"
+    :name "gularen"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/noorwachid/tree-sitter-gularen"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-02"
+    :last-commit-hash "a37c5ee95ce401ca311c0ae1369d9cfb953e151d"
+    :name "earthfile"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/glehmann/tree-sitter-earthfile"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-09"
+    :last-commit-hash "009def4ae38ec30e5b40beeae26efe93484ab286"
+    :name "hcl"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/MichaHoffmann/tree-sitter-hcl"}
+  { :abi 15
+    :grammar-dir "./dialects/terraform"
+    :grammar-json :yes
+    :last-commit-date "2025-05-09"
+    :last-commit-hash "009def4ae38ec30e5b40beeae26efe93484ab286"
+    :name "terraform"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/MichaHoffmann/tree-sitter-hcl"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-11-13"
+    :last-commit-hash "28d3b2e25a0b1881d1b47ed1924ca276c7003d45"
+    :name "objdump"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/ColinKennedy/tree-sitter-objdump"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-11-23"
+    :last-commit-hash "63e80cfe1302da9f9c7ee8d9df295f47d7d181bf"
+    :name "gpg"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/ObserverOfTime/tree-sitter-gpg-config"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-26"
+    :last-commit-hash "098c34d1228aab42a00a09b38d3dd2ec21b8ae4c"
+    :name "mail"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/stevenxxiu/tree-sitter-mail"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-09-21"
+    :last-commit-hash "45e5f1e9d6de2c68591bc8e5ec662cf18e950b4a"
+    :name "d"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/gdamore/tree-sitter-d"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-10-16"
+    :last-commit-hash "568471b80fd8793d37ed01865d8c2208a9fefd1b"
+    :name "textproto"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/PorterAtGoogle/tree-sitter-textproto"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2021-12-09"
+    :last-commit-hash "fe25cf8592ea12ad6de00379a444d376ba32c7b5"
+    :name "plantuml"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/lyndsysimon/tree-sitter-plantuml"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-10-05"
+    :last-commit-hash "fd6a5a256f831f0882b435d976c9baab04fb9e2b"
+    :name "smalltalk"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tom95/tree-sitter-smalltalk"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-29"
+    :last-commit-hash "5f19a36bb1eebb30454e277b222b278ceafed0dd"
+    :name "gotmpl"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/ngalaiko/tree-sitter-go-template"}
+  { :abi 14
+    :grammar-dir "./dialects/helm"
+    :grammar-json :yes
+    :last-commit-date "2025-01-29"
+    :last-commit-hash "5f19a36bb1eebb30454e277b222b278ceafed0dd"
+    :name "helm"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/ngalaiko/tree-sitter-go-template"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-04-20"
+    :last-commit-hash "7b0883c03e5edd34ef7bcf703194204299d7099f"
+    :name "capnp"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-capnp"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-01-29"
+    :last-commit-hash "9ff2d7b498fffbb7b311f30d5f3f4a9068302aea"
+    :name "p4"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/ace-design/tree-sitter-p4"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-02-03"
+    :last-commit-hash "c478c6868648eff49eb04a4df90d703dc45b312a"
+    :name "scss"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/serenadeai/tree-sitter-scss"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2021-07-18"
+    :last-commit-hash "c2fbf21bd3aa45495fe13247e040ad5815250032"
+    :name "d"
+    :parser-c :no
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/CyberShadow/tree-sitter-d"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-04-20"
+    :last-commit-hash "594289eadfec719198e560f9d7fd243c4db678d5"
+    :name "cpon"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-cpon"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-17"
+    :last-commit-hash "e99dbdc3d800d5fa2796476efd60af91f6b43d93"
+    :name "COBOL"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/yutaro-sakamoto/tree-sitter-cobol"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-02-16"
+    :last-commit-hash "02af3938f1d1187482ed91a5bcff84cc0fce45d9"
+    :name "d2"
+    :parser-c :yes
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/pleshevskiy/tree-sitter-d2"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-18"
+    :last-commit-hash "2902dc45439125b9386812c1089a8e9b5f71c4ab"
+    :name "poe_filter"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-poe-filter"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-07-28"
+    :last-commit-hash "09e158cd3650581c0af4c49c2e5b10c4834c8646"
+    :name "prql"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/PRQL/tree-sitter-prql"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-13"
+    :last-commit-hash "a716678c0f00645fed1e6f1d0eb221481dbd6f6d"
+    :name "gitcommit"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/gbprod/tree-sitter-gitcommit"}
+  { :abi 12
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2020-12-04"
+    :last-commit-hash "51c4348f7fe790160440a41e591aec3dd25f445a"
+    :name "twitchchat"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/rockerBOO/tree-sitter-twitchchat"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-12-23"
+    :last-commit-hash "c246cf2bf36590a3cb4de380205376d3c46208e8"
+    :name "prolog"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Rukiza/tree-sitter-prolog"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-04-27"
+    :last-commit-hash "a5d04fdb5a69a02b8fa8eb5525a60dfb5309b73b"
+    :name "bitbake"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-bitbake"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-04"
+    :last-commit-hash "a453dbf3ba433db0e5ec621a38a7e59d72e4dc69"
+    :name "starlark"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-starlark"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-02-12"
+    :last-commit-hash "922b28e1352c4966418b2e7e3772e0583d4532a2"
+    :name "jinja2"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/dbt-labs/tree-sitter-jinja2"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2019-10-07"
+    :last-commit-hash "a85d14355050f1293ed8d65daf2f0df42b7dad12"
+    :name "vcd"
+    :parser-c :no
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/wavedrom/tree-sitter-vcd"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2025-01-10"
+    :last-commit-hash "8a109b8f00bfb0fccaae83dc9a5a0abd0c444358"
+    :name "scilab"
+    :parser-c :no
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/nicolas-graves/tree-sitter-scilab"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-02-09"
+    :last-commit-hash "873612aadd3f684dd4e631bdf42ea8990c57634e"
+    :name "luadoc"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-luadoc"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-08"
+    :last-commit-hash "8dee53cfb962600dd35ca25432f005e7920e89f2"
+    :name "gap"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/gap-system/tree-sitter-gap"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-07-03"
+    :last-commit-hash "5092204de4521a8d5a71bbf14adf2e1ded45b723"
+    :name "cedar"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/chrnorm/tree-sitter-cedar"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-09"
+    :last-commit-hash "4fbec840c34149b7d5fe10097c93a320ee4af053"
+    :name "lua"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/MunifTanjim/tree-sitter-lua"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-02-15"
+    :last-commit-hash "b0b2eb38009e04035a6e266c7e11e541f3caab7c"
+    :name "kcl"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/kcl-lang/tree-sitter-kcl"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-10-03"
+    :last-commit-hash "1a617413ea92c237bff4cbe7fa67eb3bf4425596"
+    :name "jack"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/nverno/tree-sitter-jack"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-01"
+    :last-commit-hash "7e9f6fa9a6e9e4e5ced1683afc89a0d5b32a4ebc"
+    :name "xresources"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/ValdezFOmar/tree-sitter-xresources"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-07-30"
+    :last-commit-hash "3e90feaf59830d1e44017c729b4d5b354071ddc8"
+    :name "wdl"
+    :parser-c :yes
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/jdidion/tree-sitter-wdl"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-17"
+    :last-commit-hash "66d5e61126989c0aca57ff77d19b2064919b51e1"
+    :name "powershell"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/airbus-cert/tree-sitter-powershell"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-13"
+    :last-commit-hash "5d8fde870b0ded1f429ba5bb249a9d9f8589ff5f"
+    :name "typoscript"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Teddytrombone/tree-sitter-typoscript"}
+  { :abi 11
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2020-12-17"
+    :last-commit-hash "624ff108fe949727217cddb302f20e4f16997b1c"
+    :name "angular"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/steelsojka/tree-sitter-angular"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-02-20"
+    :last-commit-hash "17a7ed4481bdaaa35a1372f3a94bc851d634a19e"
+    :name "surrealdb"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/DariusCorvus/tree-sitter-surrealdb"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-08-04"
+    :last-commit-hash "173b0ab53a9c07962c9777189c4c70e90f1c1837"
+    :name "muttrc"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/neomutt/tree-sitter-muttrc"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-11"
+    :last-commit-hash "48ce1687125c6dfefcc7a1bef19fa0f0f00426cc"
+    :name "brightscript"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/ajdelcimmuto/tree-sitter-brightscript"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-04-16"
+    :last-commit-hash "d8d76edfcbc3c86485a246acfccbdc725d133b48"
+    :name "apex"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Ziemniakoss/tree-sitter-apex"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-07-24"
+    :last-commit-hash "e128454c2210c0e0c10b68fe45ddb8fee80182a3"
+    :name "m68k"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/grahambates/tree-sitter-m68k"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-16"
+    :last-commit-hash "9f6191a98702edc1084245abd5523279d4b681fb"
+    :name "vimdoc"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/neovim/tree-sitter-vimdoc"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-08-14"
+    :last-commit-hash "6b02dfd7f07f36c223270e97eb0adf84e15a4cef"
+    :name "lua"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/Azganoth/tree-sitter-lua"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-30"
+    :last-commit-hash "0f77bc710f61ec6be658ddf51851b2ed2cdaa20d"
+    :name "mlir"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/artagnon/tree-sitter-mlir"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2023-01-30"
+    :last-commit-hash "e6951706c8009111ffb38d53f2dfeb597fd6de22"
+    :name "ghccore"
+    :parser-c :no
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/bgamari/tree-sitter-ghc-core"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-04-14"
+    :last-commit-hash "a307cead536c1ba8143541a3df0a72a1f858efa4"
+    :name "idris2"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/gwerbin/tree-sitter-idris2"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-15"
+    :last-commit-hash "ec187cafba510cddac265329ca7831ec6f3b9955"
+    :name "luau"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/polychromatist/tree-sitter-luau"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-02"
+    :last-commit-hash "cb90e7a8a1ffd618f2e19ccc55ae947a994baf66"
+    :name "ssh_client_config"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/metio/tree-sitter-ssh-client-config"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-26"
+    :last-commit-hash "37bf43c7f11d2b4af7a78d98a19e6d5c2cf04ad2"
+    :name "wit"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/liamwh/tree-sitter-wit"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2021-03-07"
+    :last-commit-hash "02b01653c8a1c198ae7287d566efa86a135b30d5"
+    :name "jsonc"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://gitlab.com/WhyNotHugo/tree-sitter-jsonc"}
+  { :abi 13
+    :grammar-dir "./wast"
+    :grammar-json :yes
+    :last-commit-date "2022-05-17"
+    :last-commit-hash "2ca28a9f9d709847bf7a3de0942a84e912f59088"
+    :name "wast"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/wasm-lsp/tree-sitter-wasm"}
+  { :abi 13
+    :grammar-dir "./wat"
+    :grammar-json :yes
+    :last-commit-date "2022-05-17"
+    :last-commit-hash "2ca28a9f9d709847bf7a3de0942a84e912f59088"
+    :name "wat"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/wasm-lsp/tree-sitter-wasm"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-10"
+    :last-commit-hash "56455f4245baf4ea4e0881c5169de69d7edd5ae7"
+    :name "cpp"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-cpp"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-09-10"
+    :last-commit-hash "cf20fb1e68401d1c18825b82802101b3ad1d3f3b"
+    :name "modelica"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/modelicahub/tree-sitter-modelica"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2021-05-10"
+    :last-commit-hash "5e66e961eee421786bdda8495ed1db045e06b5fe"
+    :name "graphql"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/bkegley/tree-sitter-graphql"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-10-30"
+    :last-commit-hash "fee18d64a51127b32a221a56509f77c942d9923f"
+    :name "v"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/nedpals/tree-sitter-v"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-06-05"
+    :last-commit-hash "be062582956165019d3253794b4d712f66dfeaaa"
+    :name "pymanifest"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-pymanifest"}
+  { :abi 14
+    :grammar-dir "./crates/tree-sitter-ebnf"
+    :grammar-json :yes
+    :last-commit-date "2023-02-06"
+    :last-commit-hash "8e635b0b723c620774dfb8abf382a7f531894b40"
+    :name "ebnf"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/RubixDev/ebnf"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-31"
+    :last-commit-hash "181a81b8f23a2d593e7ab4259981f50122909fda"
+    :name "objc"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-objc"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2024-08-23"
+    :last-commit-hash "71244084e61c9bb17b1730caefc232dd981b45c4"
+    :name "pod"
+    :parser-c :no
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-perl/tree-sitter-pod"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2021-07-31"
+    :last-commit-hash "ed50340a0c331b5b2559fa69d8c530b2aca4d309"
+    :name "math"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/DerekStride/tree-sitter-math"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-01-09"
+    :last-commit-hash "40259f3c77ea856841a4e0c4c807705f3e4a2b65"
+    :name "wgsl"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/szebniok/tree-sitter-wgsl"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-05-23"
+    :last-commit-hash "8e970cb01c22cf89b8f70231ed4eca8d6fad1d56"
+    :name "zig"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/GrayJack/tree-sitter-zig"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-25"
+    :last-commit-hash "e35b41a183164f4a12e10da3d0c430e837c3d75a"
+    :name "scheme"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/6cdh/tree-sitter-scheme"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-07-31"
+    :last-commit-hash "274b3ce63f72aa8ffea18e7fc280d3062d28f0ba"
+    :name "vrl"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/belltoy/tree-sitter-vrl"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2021-09-02"
+    :last-commit-hash "15597b307b18028b04d288561f9c29794621562b"
+    :name "crystal"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/will/tree-sitter-crystal"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-08-13"
+    :last-commit-hash "7ee6e0024056ec759769de480890d7f22da926f9"
+    :name "context"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/pmazaitis/tree-sitter-context_en"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-04"
+    :last-commit-hash "6e3c6d51f13168f9d7794c8e8add7dfdd07d20b8"
+    :name "elm"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/elm-tooling/tree-sitter-elm"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-11-08"
+    :last-commit-hash "18a1d183c4c0cc40438bae2ebf8191aaf2dee8dc"
+    :name "udev"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/ObserverOfTime/tree-sitter-udev"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-10-08"
+    :last-commit-hash "9d028294a5f34188cd2cfcd290a2ec0ad31107e0"
+    :name "x86asm"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/bearcove/tree-sitter-x86asm"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-22"
+    :last-commit-hash "86911590a8e46d71301c66468e5620d9faa5b6af"
+    :name "groovy"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/murtaza64/tree-sitter-groovy"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-01-18"
+    :last-commit-hash "f4586b35ac8548667a9aaa4eae44456c1f43d032"
+    :name "surface"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/connorlay/tree-sitter-surface"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-01"
+    :last-commit-hash "4a00eb4b0e8fbf8f1594efa9b5b15386fbd7d563"
+    :name "editorconfig"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/ValdezFOmar/tree-sitter-editorconfig"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2024-04-10"
+    :last-commit-hash "4fb26398032328e7a2335ed6444791e20cc1793e"
+    :name "eventrule"
+    :parser-c :no
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/3p3r/tree-sitter-eventrule"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2025-04-11"
+    :last-commit-hash "0bb6d4fb695b3ce355588dca398edae41b90c44c"
+    :name "sql"
+    :parser-c :no
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/DerekStride/tree-sitter-sql"}
+  { :abi 12
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2020-12-05"
+    :last-commit-hash "b46b9f784b3e31bcbc0632f3294f1af6ba049241"
+    :name "sexp"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/AbstractMachinesLab/tree-sitter-sexp"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-10-22"
+    :last-commit-hash "bc06955bc1e3c9ff8e9b2b2a55b38b94da923c05"
+    :name "gn"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-gn"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-02-15"
+    :last-commit-hash "db3ede53e9a29631fbf0835483caecef9b39d1fd"
+    :name "helma"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/kevinkeckeis/tree-sitter-helma"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-02-03"
+    :last-commit-hash "4b91896648099d3c5a25fdaf80dfd0af8adc7da4"
+    :name "kdl"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/spaarmann/tree-sitter-kdl"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-05-13"
+    :last-commit-hash "e2ac513b2240c7ff1069ae33b2df29ce90777c11"
+    :name "gosum"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-go-sum"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-04-28"
+    :last-commit-hash "60ba73739c6083c693d86a1a7cf039c07eb4ed59"
+    :name "blueprint"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://gitlab.com/gabmus/tree-sitter-blueprint.git"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-02"
+    :last-commit-hash "3691201b01cacb2f96ffca4c632c4e938bfacd88"
+    :name "rust"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-rust"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-08-20"
+    :last-commit-hash "da605af8c5999b43e6839b575eae5e6cafabb06f"
+    :name "glimmer"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/ember-tooling/tree-sitter-glimmer"}
+  { :abi 9
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2018-12-28"
+    :last-commit-hash "6a6b1a15b5a18adbcba98b74f84e40bcf4d8728b"
+    :name "email_address"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://gitlab.com/maxnordlund/tree-sitter-email"}
+  { :abi 11
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2020-12-07"
+    :last-commit-hash "a67ccf2eaadfc0f9058a941d588998813bf9fabe"
+    :name "odin"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/lucypero/tree-sitter-odin"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-05-13"
+    :last-commit-hash "72e334b2630f5852825ba5ff9dfd872447175eb5"
+    :name "smali"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://git.sr.ht/~yotam/tree-sitter-smali"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-17"
+    :last-commit-hash "ed488aa334d1b4e3235e1efaaf96f00815ebc0e0"
+    :name "ocamllex"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/atom-ocaml/tree-sitter-ocamllex"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-29"
+    :last-commit-hash "d5c71a10b4d1b02e38967b05f8de70e847448dd1"
+    :name "nu"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/fdncred/tree-sitter-nu"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-22"
+    :last-commit-hash "51ad1411de9414b4600227553bb70953c352a627"
+    :name "crystal"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/keidax/tree-sitter-crystal"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-04-28"
+    :last-commit-hash "4e0875f724d94d0c2ff36f9b8cb0b12f8b20d216"
+    :name "usd"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/ColinKennedy/tree-sitter-usd"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-18"
+    :last-commit-hash "70640c0696abde32622afc43291a385681afbd32"
+    :name "fish"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/ram02z/tree-sitter-fish"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2025-03-08"
+    :last-commit-hash "a52fd004e5977b886b931a54b1bdcbd91101d862"
+    :name "cql"
+    :parser-c :no
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/ricomariani/tree-sitter-cgsql"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-07-07"
+    :last-commit-hash "4af5d82cf9ec39f67cb1db5b7a9269d337406592"
+    :name "hare"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-hare"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-09-18"
+    :last-commit-hash "12e814cd9b0656b0eaa3e04b0036b3b6625cc0d7"
+    :name "haxe"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/vantreeseba/tree-sitter-haxe"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-01-20"
+    :last-commit-hash "cd6e48b27d8bd7b192a8784b0171a39afa06f13d"
+    :name "verilog"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/gmlarumbe/tree-sitter-verilog"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-11-19"
+    :last-commit-hash "f99011a3554213b654985a4b0a65b3b032ec4621"
+    :name "linkerscript"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-linkerscript"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-23"
+    :last-commit-hash "bab9111922d53d43668fabb61869bec51bbcb915"
+    :name "hlsl"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-hlsl"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-12-22"
+    :last-commit-hash "759751b74ebe5ec2ed90f955deadd44e568bdbde"
+    :name "mal"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/sogaiu/tree-sitter-mal"}
+  { :abi 14
+    :grammar-dir "./psv"
+    :grammar-json :yes
+    :last-commit-date "2024-04-27"
+    :last-commit-hash "7eb7297823605392d2bbcc4c09b1cd18d6fa9529"
+    :name "psv"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-csv"}
+  { :abi 14
+    :grammar-dir "./tsv"
+    :grammar-json :yes
+    :last-commit-date "2024-04-27"
+    :last-commit-hash "7eb7297823605392d2bbcc4c09b1cd18d6fa9529"
+    :name "tsv"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-csv"}
+  { :abi 14
+    :grammar-dir "./csv"
+    :grammar-json :yes
+    :last-commit-date "2024-04-27"
+    :last-commit-hash "7eb7297823605392d2bbcc4c09b1cd18d6fa9529"
+    :name "csv"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-csv"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-23"
+    :last-commit-hash "cf9799600b2ba5e6620fdabddec3b2db8306bc46"
+    :name "cmake"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/uyha/tree-sitter-cmake"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-25"
+    :last-commit-hash "8495d106154741e6d35d37064f864758ece75de6"
+    :name "embedded_template"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-embedded-template"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-09-09"
+    :last-commit-hash "02150524228b1e6afef96949f2d6b7cc0aaf999e"
+    :name "circom"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Decurity/tree-sitter-circom"}
+  { :abi 14
+    :grammar-dir "./fsharp"
+    :grammar-json :yes
+    :last-commit-date "2025-05-17"
+    :last-commit-hash "f29605148f24199cf4d9c4a203a5debc0cbcc648"
+    :name "fsharp"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/ionide/tree-sitter-fsharp"}
+  { :abi 14
+    :grammar-dir "./fsharp_signature"
+    :grammar-json :yes
+    :last-commit-date "2025-05-17"
+    :last-commit-hash "f29605148f24199cf4d9c4a203a5debc0cbcc648"
+    :name "fsharp_signature"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/ionide/tree-sitter-fsharp"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-06-19"
+    :last-commit-hash "ce4d5439ae986bf4125468ac6023ab81c8bbe1b9"
+    :name "tucanir"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/mrnugget/tree-sitter-tucanir"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-02-08"
+    :last-commit-hash "df6b69967db7d74ab338a86a9ab45c0966c5ee3c"
+    :name "printf"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-printf"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-22"
+    :last-commit-hash "a8914d6c1fc5131f8e1c13f769fa704c9f5eb02f"
+    :name "luau"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-luau"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-21"
+    :last-commit-hash "5e9e8f8ff3387b0edcaa90f46ddf3629f4cfeb1d"
+    :name "make"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-make"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-01-07"
+    :last-commit-hash "0a95cfdc0745b6ae82f60d3a339b37f19b7b9267"
+    :name "ninja"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/alemuller/tree-sitter-ninja"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-02-24"
+    :last-commit-hash "49da6de661be6a07cb51018880ebe680324e7b82"
+    :name "tsq"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter/tree-sitter-tsq"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-28"
+    :last-commit-hash "57fb4560ba8641865bc0baa6b3f413b236112c4c"
+    :name "kotlin"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/fwcd/tree-sitter-kotlin"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2021-05-11"
+    :last-commit-hash "0e36bed171768908f331ff7dff9d956bae016efb"
+    :name "yaml"
+    :parser-c :yes
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/ikatyang/tree-sitter-yaml"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-07-22"
+    :last-commit-hash "bff4b66b44b020d918d67e2828eada1974a966aa"
+    :name "git_rebase"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/the-mikedavis/tree-sitter-git-rebase"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-19"
+    :last-commit-hash "f736d24d89acbd90092d92089e5171e6a449db40"
+    :name "latex"
+    :parser-c :no
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/latex-lsp/tree-sitter-latex"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-04-30"
+    :last-commit-hash "ab0ba8229d639ec4f3fa5f674c9133477f4b77bd"
+    :name "json5"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Joakker/tree-sitter-json5"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-01"
+    :last-commit-hash "5cc865a2a0a77cbfaf5062c8fcf2a9919bd54f87"
+    :name "glimmer_javascript"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/NullVoxPopuli/tree-sitter-glimmer-javascript"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-08"
+    :last-commit-hash "067d66937c8eeb6651e349f400c1756c2ea90b2e"
+    :name "erlang"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/WhatsApp/tree-sitter-erlang"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-02-17"
+    :last-commit-hash "fe46ce5ea7d844e53d59bc96f2175d33691c61c5"
+    :name "razor"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tris203/tree-sitter-razor"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-30"
+    :last-commit-hash "5e73f476efafe5c768eda19bbe877f188ded6144"
+    :name "go"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-go"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-20"
+    :last-commit-hash "8d38e9755c05d37df8a24dadb0fc64f6588ac188"
+    :name "lalrpop"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/traxys/tree-sitter-lalrpop"}
+  { :abi 9
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2019-02-22"
+    :last-commit-hash "f68bb6e3cfcc2a3eebf11f47e27efffb128c001f"
+    :name "abnf"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/jmitchell/tree-sitter-abnf"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-07-07"
+    :last-commit-hash "072c969749e66f000dba35a33c387650e203e96e"
+    :name "squirrel"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-squirrel"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-27"
+    :last-commit-hash "69086d7627c03e1f4baf766bcef14c60d9e92331"
+    :name "gaptst"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/gap-system/tree-sitter-gaptst"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-05-05"
+    :last-commit-hash "fdfa6a1febc43c7467aa7e937b87b607956f2346"
+    :name "smali"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-smali"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-05-27"
+    :last-commit-hash "ef49a5732b26c1f4bfb1ff6316902041cf26db2d"
+    :name "rsx"
+    :parser-c :yes
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/tjdevries/tree-sitter-rsx"}
+  { :abi 14
+    :grammar-dir "./grammars/prolog"
+    :grammar-json :yes
+    :last-commit-date "2025-03-23"
+    :last-commit-hash "d8d415f6a1cf80ca138524bcc395810b176d40fa"
+    :name "prolog"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://codeberg.org/foxy/tree-sitter-prolog"}
+  { :abi 14
+    :grammar-dir "./grammars/problog"
+    :grammar-json :yes
+    :last-commit-date "2025-03-23"
+    :last-commit-hash "d8d415f6a1cf80ca138524bcc395810b176d40fa"
+    :name "problog"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://codeberg.org/foxy/tree-sitter-prolog"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-06-29"
+    :last-commit-hash "8e3a4205b76236bb6dbebdbee5afc262ce38bb62"
+    :name "robots"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/opa-oz/tree-sitter-robots-txt"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-03"
+    :last-commit-hash "2f6acb0574bf59654336dadc509b0bbaf417d087"
+    :name "fluentbit"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/sh-cho/tree-sitter-fluentbit"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-02-11"
+    :last-commit-hash "91da8f141c3c4c695eb71018c8a7b2e7ea39c167"
+    :name "promela"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/siraben/tree-sitter-promela"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-28"
+    :last-commit-hash "32f970b57720010e77a486bc2001ee9e6c7c8250"
+    :name "slint"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/slint-ui/tree-sitter-slint"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-16"
+    :last-commit-hash "b6b6a66a18e98f44cc2f2cdbfd2e1df845b59852"
+    :name "typespec"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/happenslol/tree-sitter-typespec"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-27"
+    :last-commit-hash "4c732d2407dcf2831bbb4e4d4aebb339b7f11183"
+    :name "smallbasic"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/comom87/tree-sitter-smallbasic"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2025-05-04"
+    :last-commit-hash "f67f569270ce8664a065313f1086a3484a3bec77"
+    :name "swift"
+    :parser-c :no
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/alex-pinkus/tree-sitter-swift"}
+  { :abi 11
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2020-05-27"
+    :last-commit-hash "9a94e937187c3571595d3d2841a51fd12586bf89"
+    :name "carp"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/GrayJack/tree-sitter-carp"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-04-02"
+    :last-commit-hash "dffbbd70bc14bfc26e4d9130aefc36133b6ff11a"
+    :name "func"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/akifoq/tree-sitter-func"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-05-09"
+    :last-commit-hash "d3abd9ff1f4f449c18381c6d87c5becb7b2b5762"
+    :name "cql"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/shotover/tree-sitter-cql"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-04-04"
+    :last-commit-hash "ae6c29b7e74e283043f10aacde886f3e9dd730dc"
+    :name "norg"
+    :parser-c :yes
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/nvim-neorg/tree-sitter-norg2"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-06-08"
+    :last-commit-hash "c134aaec6acf4fa95fe4aa0dc9aba3eacdbbe55a"
+    :name "luap"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-luap"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-08-02"
+    :last-commit-hash "e9f6b43f6844bd2189b50a422d4e2094313f6aa3"
+    :name "proto"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/treywood/tree-sitter-proto"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-27"
+    :last-commit-hash "2ed3ef9e30a7998a98eea4dfbcd308678f93b88f"
+    :name "gdscript"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/PrestonKnopp/tree-sitter-gdscript"}
+  { :abi 15
+    :grammar-dir "./grammars/interface"
+    :grammar-json :yes
+    :last-commit-date "2025-05-31"
+    :last-commit-hash "3ef7c00b29e41e3a0c1d18e82ea37c64d72b93fc"
+    :name "ocaml_interface"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-ocaml"}
+  { :abi 15
+    :grammar-dir "./grammars/ocaml"
+    :grammar-json :yes
+    :last-commit-date "2025-05-31"
+    :last-commit-hash "3ef7c00b29e41e3a0c1d18e82ea37c64d72b93fc"
+    :name "ocaml"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-ocaml"}
+  { :abi 15
+    :grammar-dir "./grammars/type"
+    :grammar-json :yes
+    :last-commit-date "2025-05-31"
+    :last-commit-hash "3ef7c00b29e41e3a0c1d18e82ea37c64d72b93fc"
+    :name "ocaml_type"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-ocaml"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-31"
+    :last-commit-hash "0975ef72fc3c47b530309ca93937d7d143523628"
+    :name "haskell"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-haskell"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-03"
+    :last-commit-hash "820566bb4eb3d288822dbfee42417a5a9491aea6"
+    :name "angular"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/dlvandenberg/tree-sitter-angular"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-09-21"
+    :last-commit-hash "1a8ee0da9a4f2df5a8a22f4d637ac863623a78a7"
+    :name "supercollider"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/madskjeldgaard/tree-sitter-supercollider"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2021-08-02"
+    :last-commit-hash "02fa3b79b3ff9a296066da6277adfc3f26cbc9e0"
+    :name "hjson"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/winston0410/tree-sitter-hjson"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-22"
+    :last-commit-hash "53dfc22f454c18be9f1852b473044346480666be"
+    :name "xml"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/panicinc/tree-sitter-xml"}
+  { :abi 10
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2020-01-08"
+    :last-commit-hash "c059967d243487c1c2f567bd56c1d40c9a92dbe4"
+    :name "eno"
+    :parser-c :yes
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/eno-lang/tree-sitter-eno"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-11-20"
+    :last-commit-hash "bbf1a82cce8b87810a9537bbe63f91eb9957d384"
+    :name "liquid"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Shopify/tree-sitter-liquid"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-08-14"
+    :last-commit-hash "49c43532689fe1f53e8b9e009d0521cab02c432b"
+    :name "goctl"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/chaozwn/tree-sitter-goctl"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-02"
+    :last-commit-hash "ee641d15390183d7535777947ce0f2f1fbcee69f"
+    :name "bp"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/ambroisie/tree-sitter-bp"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2021-07-19"
+    :last-commit-hash "1d002c23d4e952ce24a2e472d0f81ab0471ceb1b"
+    :name "janet"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/GrayJack/tree-sitter-janet"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-06-15"
+    :last-commit-hash "085648e01d1422163a1702a44e72303b4e2a0bd1"
+    :name "twig"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/gbprod/tree-sitter-twig"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2021-05-11"
+    :last-commit-hash "8bd2056818b21860e3d756b5a58c4f6e05fb744e"
+    :name "toml"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/ikatyang/tree-sitter-toml"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-07-17"
+    :last-commit-hash "be8866a6bcc2b563ab0de895af69daeffa88fe70"
+    :name "menhir"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/Kerl13/tree-sitter-menhir"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-28"
+    :last-commit-hash "3431ec21da1dde751bab55520963cf3a4f1121f3"
+    :name "yaml"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-yaml"}
+  { :abi 14
+    :grammar-dir "./schema/legacy"
+    :grammar-json :yes
+    :last-commit-date "2025-05-28"
+    :last-commit-hash "3431ec21da1dde751bab55520963cf3a4f1121f3"
+    :name "legacy_schema"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-yaml"}
+  { :abi 14
+    :grammar-dir "./schema/json"
+    :grammar-json :yes
+    :last-commit-date "2025-05-28"
+    :last-commit-hash "3431ec21da1dde751bab55520963cf3a4f1121f3"
+    :name "json_schema"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-yaml"}
+  { :abi 14
+    :grammar-dir "./schema/core"
+    :grammar-json :yes
+    :last-commit-date "2025-05-28"
+    :last-commit-hash "3431ec21da1dde751bab55520963cf3a4f1121f3"
+    :name "core_schema"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-yaml"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-07-18"
+    :last-commit-hash "268be403609e944a45e5620c49cbbd6683b7f676"
+    :name "quakec"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/vkazanov/tree-sitter-quakec"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-08-26"
+    :last-commit-hash "47e2caf4ed7e466f51cfbb13a860a192c300506f"
+    :name "zsh"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-zsh"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2018-03-16"
+    :last-commit-hash "2dd7c6f2b2414f7b7381b0840b4631b3f6ad0ea7"
+    :name "reason"
+    :parser-c :no
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/IwanKaramazow/tree-sitter-reason"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-07-27"
+    :last-commit-hash "c9e650abb04eeee7018884b41f53ce201446201f"
+    :name "http"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/PasiSalenius/tree-sitter-http"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-30"
+    :last-commit-hash "a7db5227ec40fcfe94489559d8c9bc7c8181e25a"
+    :name "java"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-java"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-10-20"
+    :last-commit-hash "1a74dc0ed731ad07db39f063e2c5a6fe528cae7f"
+    :name "rnoweb"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/bamonroe/tree-sitter-rnoweb"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-04-27"
+    :last-commit-hash "f780ca55e65e7d7360d0229331763e16c452fc98"
+    :name "func"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-func"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-11-02"
+    :last-commit-hash "34bbdc7cce8e803096f47b625979e34c1be38127"
+    :name "awk"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/Beaglefoot/tree-sitter-awk"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-04-05"
+    :last-commit-hash "2e66ef4b798a26f0b82144143711f3f7a9e8ea35"
+    :name "typst"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/SeniorMars/tree-sitter-typst"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-10"
+    :last-commit-hash "cfc53fd287d23ab7281440a8526c73542984669b"
+    :name "nix"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/cstrahan/tree-sitter-nix"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-18"
+    :last-commit-hash "d02cd94a0437d15552ae788c7fa8f5000e682d8b"
+    :name "perl"
+    :parser-c :no
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-perl/tree-sitter-perl"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-02-21"
+    :last-commit-hash "0a66b2b3f3c1915e67ad2ef9f7dbd2a84820d9d7"
+    :name "elsa"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/glapa-grossklag/tree-sitter-elsa"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-11-06"
+    :last-commit-hash "cf85bbd5da0c5ad243301d889c7f84d790a4cae4"
+    :name "runescript"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/2004Scape/tree-sitter-runescript"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-11-11"
+    :last-commit-hash "227d277b6a1a5e2bf818d6206935722a7503de08"
+    :name "verilog"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-verilog"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-02-24"
+    :last-commit-hash "319cdcaa0346ba6db668a222d938e5c3569e2a51"
+    :name "styled"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/mskelton/tree-sitter-styled"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2023-09-01"
+    :last-commit-hash "c7361a1d481dc1ff6700b14ea1d5efc549b72713"
+    :name "plantuml"
+    :parser-c :no
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Decodetalkers/tree_sitter_plantuml"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2019-08-23"
+    :last-commit-hash "1ac090522cb339a6fd9d3ac915da01cb263d69e1"
+    :name "PowerShell"
+    :parser-c :no
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/PowerShell/tree-sitter-PowerShell"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-08"
+    :last-commit-hash "8f11ac7206a54ed11210491cee1e0657e2962c47"
+    :name "tcl"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-tcl"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-03"
+    :last-commit-hash "331160d1ce5e1ccc5c702c3b298c01eedcf166f1"
+    :name "cfengine"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/olehermanse/tree-sitter-cfengine"}
+  { :abi 15
+    :grammar-dir "./php_only"
+    :grammar-json :yes
+    :last-commit-date "2025-05-30"
+    :last-commit-hash "e771eb9fb5ccc65af35879487b66751568d10e48"
+    :name "php_only"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-php"}
+  { :abi 15
+    :grammar-dir "./php"
+    :grammar-json :yes
+    :last-commit-date "2025-05-30"
+    :last-commit-hash "e771eb9fb5ccc65af35879487b66751568d10e48"
+    :name "php"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-php"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-30"
+    :last-commit-hash "008626a3fad379d17c81d5ed576edd9bd7a4fbf7"
+    :name "heex"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/connorlay/tree-sitter-heex"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-17"
+    :last-commit-hash "6d63a202602eb350e726b5e7814127ba22ed25fc"
+    :name "racket"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/6cdh/tree-sitter-racket"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2024-10-16"
+    :last-commit-hash "3bbc47cb5d991bef4ebab1118459f6c8d5064c54"
+    :name "rtf"
+    :parser-c :no
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/GoodNotes/tree-sitter-rtf"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-11-19"
+    :last-commit-hash "017696bdf47ca2b10948c5a511f9ab387722d0f3"
+    :name "arduino"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-arduino"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-22"
+    :last-commit-hash "bc5b3a10d6d27e8220a113a9a7fe9bec0a1574b0"
+    :name "hack"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/slackhq/tree-sitter-hack"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-19"
+    :last-commit-hash "fbe5f81b54f0f6153961824ce306ffc805134980"
+    :name "blade"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/EmranMR/tree-sitter-blade"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-11-23"
+    :last-commit-hash "d1b3638d017f2a8585e26dcfc66fe1df94185e30"
+    :name "nasm"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/naclsn/tree-sitter-nasm"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-06-06"
+    :last-commit-hash "85f15e8f6388981678838407c25f9222a7abe14b"
+    :name "xquery"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/grantmacken/tree-sitter-xquery"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-10-29"
+    :last-commit-hash "d819cdd5dbe455bd3c859193633c8d91c0df7c36"
+    :name "strace"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/sigmaSd/tree-sitter-strace"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-05"
+    :last-commit-hash "4fc94a102c25ea383d70397dac7e677ca3731f1e"
+    :name "pkl"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/apple/tree-sitter-pkl"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-03-21"
+    :last-commit-hash "0b1afe88161cbd81f5ddea1bb4fa786314ed49a7"
+    :name "roc"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/faldor20/tree-sitter-roc"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-12-30"
+    :last-commit-hash "d2ca8efb4487e156a60d5bd6db2598b872629403"
+    :name "odin"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter-grammars/tree-sitter-odin"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-10-22"
+    :last-commit-hash "4cc223f677d72db319f1c8331b65a9564805c7bf"
+    :name "noir"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/hhamud/tree-sitter-noir"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-30"
+    :last-commit-hash "46aa487b3ade14b7b05ef92507fdaa3915a662a3"
+    :name "json"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tree-sitter/tree-sitter-json"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-08-04"
+    :last-commit-hash "3bfda9271e3adb08d35f47a2102fe957009e1c55"
+    :name "hlsplaylist"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Freed-Wu/tree-sitter-hlsplaylist"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-10-04"
+    :last-commit-hash "3e9c4822ab5cdcccf4f8aa9dcd42117f736d51d9"
+    :name "tablegen"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/Flakebi/tree-sitter-tablegen"}
+  { :abi 14
+    :grammar-dir "./apex"
+    :grammar-json :yes
+    :last-commit-date "2025-02-12"
+    :last-commit-hash "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
+    :name "apex"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/aheber/tree-sitter-sfapex"}
+  { :abi 14
+    :grammar-dir "./sosl"
+    :grammar-json :yes
+    :last-commit-date "2025-02-12"
+    :last-commit-hash "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
+    :name "sosl"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/aheber/tree-sitter-sfapex"}
+  { :abi 14
+    :grammar-dir "./sflog"
+    :grammar-json :yes
+    :last-commit-date "2025-02-12"
+    :last-commit-hash "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
+    :name "sflog"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/aheber/tree-sitter-sfapex"}
+  { :abi 14
+    :grammar-dir "./soql"
+    :grammar-json :yes
+    :last-commit-date "2025-02-12"
+    :last-commit-hash "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
+    :name "soql"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/aheber/tree-sitter-sfapex"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-01"
+    :last-commit-hash "a6267c2091ed432c248780cec9f8d42c8766d9ad"
+    :name "tact"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/tact-lang/tree-sitter-tact"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-01"
+    :last-commit-hash "de35706f89beed5087670a9c4421b7794ef02411"
+    :name "templ"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/vrischmann/tree-sitter-templ"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-08-04"
+    :last-commit-hash "0252ecd080016e45e6305ef1a943388f5ae2f4b4"
+    :name "tmux"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Freed-Wu/tree-sitter-tmux"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-08-04"
+    :last-commit-hash "0554b4a5d313244b7fc000cbb41c04afae4f4e31"
+    :name "zathurarc"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/Freed-Wu/tree-sitter-zathurarc"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-02-26"
+    :last-commit-hash "0a8910f293268e27ff554357c229ba172b0eaed2"
+    :name "fidl"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/google/tree-sitter-fidl"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-01-29"
+    :last-commit-hash "4b935442f19cfdee7fd74800ed55a0f457f281a2"
+    :name "typst"
+    :parser-c :yes
+    :scanner "cc"
+    :tree-sitter-json :no
+    :url "https://github.com/frozolotl/tree-sitter-typst"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-02-10"
+    :last-commit-hash "46cf4ded12ee974a70bf8457263b67ad7ee0379d"
+    :name "typst"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/uben0/tree-sitter-typst"}
+  { :abi 9
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2021-03-09"
+    :last-commit-hash "3e44adeb6a9a118cebf4f1351b92c0dcc4d237a0"
+    :name "xml"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/unhammer/tree-sitter-xml"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-03"
+    :last-commit-hash "ddf03959c0152bb61ed567f301ad6ecdab72f6ab"
+    :name "javadoc"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/rmuir/tree-sitter-javadoc"}
+  { :abi 0
+    :grammar-dir "."
+    :grammar-json :no
+    :last-commit-date "2025-01-23"
+    :last-commit-hash "2f3709e7656fa2c443f92041c91a9f843f8cd625"
+    :name "scfg"
+    :parser-c :no
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/rockorager/tree-sitter-scfg"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-03"
+    :last-commit-hash "689be73775bd2dd57b938b8e12bf50fec35a6ca3"
+    :name "comment"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/stsewd/tree-sitter-comment"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-05-27"
+    :last-commit-hash "83d68b835a99fe424da3cf613670523be36be1f7"
+    :name "sdml"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/sdm-lang/tree-sitter-sdml"}
+  { :abi 12
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2020-09-29"
+    :last-commit-hash "53bd9a3cd6e40a64f59d13dc73754c5473a1e2df"
+    :name "diff"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/vigoux/tree-sitter-diff"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-02-21"
+    :last-commit-hash "f58a87ac4dc6a7955c64c9e4408fbd693e804686"
+    :name "inko"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/inko-lang/tree-sitter-inko"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-26"
+    :last-commit-hash "33c333f7ff4cac4138c0786198481b33d2880656"
+    :name "koka"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/mtoohey31/tree-sitter-koka"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-06-02"
+    :last-commit-hash "9a05ab045c000cf37f02cff5c4de32b081444244"
+    :name "nickel"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/nickel-lang/tree-sitter-nickel"}
+  { :abi 0
+    :grammar-dir "./packages/@winglang/tree-sitter-wing"
+    :grammar-json :yes
+    :last-commit-date "2025-02-03"
+    :last-commit-hash "43ec45981cbb3f08b19d882e86f068e7eebc6c66"
+    :name "wing"
+    :parser-c :no
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/winglang/wing"}
+  { :abi 15
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-04-19"
+    :last-commit-hash "8d04ed27b3bc7929f14b7df9236797dab9f3fa66"
+    :name "bibtex"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :yes
+    :url "https://github.com/latex-lsp/tree-sitter-bibtex"}
+  { :abi 13
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-05-12"
+    :last-commit-hash "8861b02a3dde407d6755cb19f400d101936ce3fd"
+    :name "apex"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/jsuarez-chipiron/tree-sitter-apex"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2025-01-12"
+    :last-commit-hash "971acdd908568b4531b0ba28a445bf0bb720aba5"
+    :name "dockerfile"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :yes
+    :url "https://github.com/camdencheek/tree-sitter-dockerfile"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2024-02-20"
+    :last-commit-hash "b691bcacaf970a81c8a758b96b7e55b3d3c31a9f"
+    :name "sourcepawn"
+    :parser-c :yes
+    :scanner "c"
+    :tree-sitter-json :no
+    :url "https://github.com/Sarrus1/tree-sitter-sourcepawn"}
+  { :abi 9
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2019-03-02"
+    :last-commit-hash "69a9c9dae0f7c7165fdc703002dddb141cde0329"
+    :name "dhall"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/jmitchell/tree-sitter-dhall"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2023-09-27"
+    :last-commit-hash "faebb5993c75053df690544b3e3abf9a358b7703"
+    :name "lilypond"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/tristanperalta/tree-sitter-lilypond"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-11-19"
+    :last-commit-hash "21284b6f1ea0ee84f10fd80d11a2b765578eafbe"
+    :name "jpp"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/nitreojs/tree-sitter-jpp"}
+  { :abi 14
+    :grammar-dir "."
+    :grammar-json :yes
+    :last-commit-date "2022-11-23"
+    :last-commit-hash "caeb8d91c3ce46699bbb85dc08ce3790d7cea46f"
+    :name "papyrus"
+    :parser-c :yes
+    :scanner :no
+    :tree-sitter-json :no
+    :url "https://github.com/open-papyrus/tree-sitter-papyrus"}]

@@ -341,3 +341,68 @@
 
   )
 
+########################################################################
+
+# given two arrays, check whether the first array contains all of the
+# values of the second array
+(defn has-values?
+  [arr-1 arr-2]
+  # handle looking for nil first
+  (when (find-index nil? arr-2)
+    (when (not (find-index nil? arr-1))
+      (break false)))
+  #
+  (def tbl-1 (from-pairs (map |[$ $] arr-1)))
+  (var all-found? true)
+  (each val arr-2
+    (when (and (not (nil? val))
+               (not (get tbl-1 val)))
+      (set all-found? false)
+      (break)))
+  #
+  all-found?)
+
+(comment
+
+  (has-values? [:a :b] [:b])
+  # =>
+  true
+
+  (has-values? [:a] [:b])
+  # =>
+  false
+
+  (has-values? [nil] [nil])
+  # =>
+  true
+
+  (has-values? [:a] [nil])
+  # =>
+  false
+
+  )
+
+(defn assert-keys
+  [row-keys field-info-keys]
+  (assertf (has-values? row-keys field-info-keys)
+           (string "\n"
+                   "  row keys:\n"
+                   "    %n\n"
+                   "  missing something from:\n"
+                   "    %n")
+           row-keys field-info-keys))
+
+########################################################################
+
+(defn print-row
+  [row field-info format-str]
+  # massage field values for output
+  (def vals
+    (map (fn [[id _ xform]] (xform (get row id)))
+         field-info))
+  (try
+    (printf format-str ;vals)
+    ([e]
+      (eprintf "%n" row)
+      (errorf "problem printing row: %s" e))))
+

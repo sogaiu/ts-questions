@@ -1,9 +1,6 @@
 # XXX: execute from ts-questions root directory
 
-# produce gfm / tsv table of info collected from cloned grammar repos.
-#
-# see `col-info` below for what each row can potentially contain.
-# what is actually put in the table is tweaked via `*-field-info`.
+# traverse cloned grammar repos, collect info, and output to stdout
 
 ########################################################################
 
@@ -12,60 +9,12 @@
 
 ########################################################################
 
-# there is duplication between this and *-field-info, but may be it's
-# going too far to try to remove that duplication.  won't for now.
-(def col-info
-  [:name
-   :url
-   :last-commit-date
-   :last-commit-hash
-   :tree-sitter-json
-   :grammar-dir
-   :abi
-   :parser-c
-   :grammar-json
-   :scanner])
-
-# tuple of triples (one for each field to put in table output)
-#
-# * keyword
-# * label (for output)
-# * transform fn (for output)
-
-# for tsv output
-(def tsv-field-info
-  [# Ada and COBOL...ofc, some old foggies would be using
-   # upper case...
-   [:name "name" string/ascii-lower]
-   [:url "url" identity]
-   [:last-commit-date "last commit date" identity]
-   [:abi "abi" |(if (= 0 $) "-" (string $))]
-   # abi 0 implies no src/parser.c, so :parser-c is sort of redundant
-   #[:parser-c "parser.c" identity]
-   [:grammar-json "grammar.json" identity]
-   [:scanner "external scanner" |(if (= :no $) :no :yes)]])
-
-# for gfm output
-(def gfm-field-info
-  [# Ada and COBOL...ofc, some old foggies would be using
-   # upper case...
-   [:name "name" string/ascii-lower]
-   [:url "url"
-    |(string/format "[%s](%s)"
-                    (string/slice $ (inc (length "http://"))) $)]
-   [:last-commit-date "last commit date" identity]
-   [:abi "abi" |(if (= 0 $) "-" (string $))]
-   # abi 0 implies no src/parser.c, so :parser-c is sort of redundant
-   #[:parser-c "parser.c" identity]
-   [:grammar-json "grammar.json" identity]
-   [:scanner "external scanner" |(if (= :no $) :no :yes)]])
-
 (def skip-table
   (->> (slurp "./repos-skip-list.txt")
        (string/split "\n")
        (filter |(and (not (empty? $))
                      (string/has-prefix? "https://" $)))
-       (map |[$ true])
+       (map |[$ 0])
        from-pairs))
 
 ########################################################################
@@ -82,6 +31,7 @@
     (when (get skip-table url)
       # remove
       (put repos-roots rr nil)
+      (update skip-table url inc)
       (eprintf "skipping %s" url))
     #
     (when (not (get skip-table url))
@@ -111,7 +61,7 @@
         #
         (def grammar-dir
           (string/slice p 0 (- (inc (length "/grammar.js")))))
-        (put g-tbl :dir (u/relativize rr grammar-dir))
+        (put g-tbl :grammar-dir (u/relativize rr grammar-dir))
         #
         (def name (u/find-name grammar-dir))
         (assertf name "did not determine name for: %s" grammar-dir)
@@ -158,7 +108,7 @@
       (default has-tsj :no)
       (each g grammars
         (def {:name name
-              :dir grammar-dir
+              :grammar-dir grammar-dir
               :abi abi
               :parser-c has-pc
               :grammar-json has-gjson
@@ -176,63 +126,13 @@
                        :last-commit-date lc-date
                        :last-commit-hash lc-hash
                        :tree-sitter-json has-tsj
-                       :dir grammar-dir
+                       :grammar-dir grammar-dir
                        :abi abi
                        :parser-c has-pc
                        :grammar-json has-gjson
                        :scanner scanner}))))
   #
   rows)
-
-(defn print-row
-  [row field-info format-str]
-  # massage field values for output
-  (def vals
-    (map (fn [[id _ xform]] (xform (get row id)))
-         field-info))
-  (try
-    (printf format-str ;vals)
-    ([e]
-      (eprintf "%n" row)
-      (errorf "problem printing row: %s" e))))
-
-(defn report-tsv
-  [rows field-info]
-  (def names
-    (map (fn [[_ label _]] label)
-         field-info))
-
-  (def header-row (string/join names "\t"))
-
-  (print header-row)
-
-  (def format-str
-    (string/join (map (fn [_] "%s") field-info)
-                 "\t"))
-
-  (each r rows
-    (print-row r field-info format-str)))
-
-(defn report-gfm
-  [rows field-info]
-  (def names
-    (map (fn [[_ label _]] label)
-         field-info))
-
-  (def header-row
-    (string/format "| %s | %s | %s | %s | %s | %s |"
-                   ;names))
-
-  (print header-row)
-
-  (def separator-row "| --- | --- | --- | --- | --- | --- |")
-
-  (print separator-row)
-
-  (def format-str "| %s | %s | %s | %s | %s | %s |")
-
-  (each r rows
-    (print-row r field-info format-str)))
 
 ########################################################################
 
@@ -248,32 +148,12 @@
 
   (def repos-roots (collect root-path))
 
-  # create rows and sort by name and commit date
-  (def rows
-    (->> (make-rows repos-roots)
-         # some language names use upper-case letters...
-         (sorted-by |(string (string/ascii-lower (get $ :name))
-                             # use string that is not legal in name
-                             "-"
-                             (get $ :last-commit-date)))))
+  (def rows (make-rows repos-roots))
+  
+  (with [of (file/open c/parser-rows-path :w)]
+    (xprintf of "%m" rows))
 
-  # only keep some rows
-  (def filtered
-    (filter (fn [{:last-commit-date lc-date
-                  :abi abi
-                  :scanner scanner}]
-              (def year (-> (string/slice lc-date 0 4)
-                            scan-number))
-              (and # has no external scanner or is in c
-                   (or (= :no scanner) (= "c" scanner))
-                   # abi >= 12 or undetermined abi
-                   (or (>= abi 12) (= abi 0))
-                   # 2020-09 is when abi 12 became default in cli
-                   (>= year 2020)))
-            rows))
-
-  # CAR - didn't want to type COLLECT_AND_REPORT...too long
-  (if (os/getenv "CAR_TSV")
-    (report-tsv filtered tsv-field-info)
-    (report-gfm filtered gfm-field-info)))
+  (printf "%d repositories" (length repos-roots))
+  (printf "%d skipped" (reduce + 0 (values skip-table)))
+  (printf "%d grammar rows" (length rows)))
 
