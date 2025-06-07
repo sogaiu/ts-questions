@@ -7,6 +7,7 @@
 (def col-info
   [:name
    :url
+   :repos-dir
    :last-commit-date
    :last-commit-hash
    :tree-sitter-json

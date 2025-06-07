@@ -35,6 +35,8 @@
       (eprintf "skipping %s" url))
     #
     (when (not (get skip-table url))
+      (put rr-tbl :repos-dir rr)
+      #
       (put rr-tbl :url url)
       #
       (def lc-hash (u/last-commit-hash rr))
@@ -100,7 +102,8 @@
   (def rows @[])
   (def seen-names @{})
   (eachp [rr rr-tbl] repos-roots
-    (def {:url url
+    (def {:repos-dir repos-dir
+          :url url
           :last-commit-date lc-date
           :last-commit-hash lc-hash
           :tree-sitter-json has-tsj
@@ -123,6 +126,7 @@
           (array/push rows
                       {:name name
                        :url url
+                       :repos-dir repos-dir
                        :last-commit-date lc-date
                        :last-commit-hash lc-hash
                        :tree-sitter-json has-tsj

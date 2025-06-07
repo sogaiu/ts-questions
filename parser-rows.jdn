@@ -5,6 +5,7 @@
     :last-commit-hash "ba3c1e305caf948f718293c86c6018a82ed5043e"
     :name "verilog"
     :parser-c :yes
+    :repos-dir "./repos/github.com/gmlarumbe/tree-sitter-systemverilog"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/gmlarumbe/tree-sitter-systemverilog"}
@@ -15,6 +16,7 @@
     :last-commit-hash "579b62f5ad8d96c2bb331f07d1408c92767531d9"
     :name "properties"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-properties"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-properties"}
@@ -25,6 +27,7 @@
     :last-commit-hash "5b789e4cf7909a6fa6358404e7d74a8bb63418c9"
     :name "TODO"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Aerijo/tree-sitter-todo"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/Aerijo/tree-sitter-todo"}
@@ -35,6 +38,7 @@
     :last-commit-hash "d4556131c279d73961943a2ebf878198ab7976a6"
     :name "unifieddiff"
     :parser-c :yes
+    :repos-dir "./repos/github.com/monaqa/tree-sitter-unifieddiff"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/monaqa/tree-sitter-unifieddiff"}
@@ -45,6 +49,7 @@
     :last-commit-hash "48b5e9f82ae0a4727201626f33a17f69f8e0ff86"
     :name "tsq"
     :parser-c :yes
+    :repos-dir "./repos/github.com/the-mikedavis/tree-sitter-tsq"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/the-mikedavis/tree-sitter-tsq"}
@@ -55,6 +60,7 @@
     :last-commit-hash "03bb10330704b0b371b044e937d5cc7cd40b4999"
     :name "phpdoc"
     :parser-c :yes
+    :repos-dir "./repos/github.com/claytonrcarter/tree-sitter-phpdoc"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/claytonrcarter/tree-sitter-phpdoc"}
@@ -65,6 +71,7 @@
     :last-commit-hash "12b547b470a4213dc63a20c7bd2db988d85c7693"
     :name "elisp"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Wilfred/tree-sitter-elisp"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Wilfred/tree-sitter-elisp"}
@@ -75,6 +82,7 @@
     :last-commit-hash "a3b2d84990527c7f8f4ae219c332c00c33d2d8e5"
     :name "vhdl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/alemuller/tree-sitter-vhdl"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/alemuller/tree-sitter-vhdl"}
@@ -85,6 +93,7 @@
     :last-commit-hash "2a6eec1cd041a561bbfae81408df94c0e6390fbf"
     :name "plantuml"
     :parser-c :no
+    :repos-dir "./repos/github.com/ahlinc/tree-sitter-plantuml"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/ahlinc/tree-sitter-plantuml"}
@@ -95,6 +104,7 @@
     :last-commit-hash "8923c1e38b9634a688a6c0dce7c18c8ffb823e79"
     :name "gnuplot"
     :parser-c :yes
+    :repos-dir "./repos/github.com/dpezto/tree-sitter-gnuplot"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/dpezto/tree-sitter-gnuplot"}
@@ -105,6 +115,7 @@
     :last-commit-hash "6bc5564917edacd070afc4d33cf5e2e677831ea9"
     :name "leo"
     :parser-c :yes
+    :repos-dir "./repos/github.com/r001/tree-sitter-leo"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/r001/tree-sitter-leo"}
@@ -115,6 +126,7 @@
     :last-commit-hash "1f3cb70200b4e238e19652705336e7f2c52b8e2f"
     :name "cylc"
     :parser-c :yes
+    :repos-dir "./repos/github.com/elliotfontaine/tree-sitter-cylc"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/elliotfontaine/tree-sitter-cylc"}
@@ -125,6 +137,7 @@
     :last-commit-hash "b8ca25518749be10562455fd081a3dab30b93b8b"
     :name "move"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-move"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-move"}
@@ -135,6 +148,7 @@
     :last-commit-hash "4cacfdaa75090bb790965674fe387bb215bab64b"
     :name "purescript"
     :parser-c :yes
+    :repos-dir "./repos/github.com/postsolar/tree-sitter-purescript"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/postsolar/tree-sitter-purescript"}
@@ -145,6 +159,7 @@
     :last-commit-hash "f2b378a9af0b7e1192cff67a5fb45508c927205d"
     :name "systemtap"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ok-ryoko/tree-sitter-systemtap"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/ok-ryoko/tree-sitter-systemtap"}
@@ -155,6 +170,7 @@
     :last-commit-hash "13e9195370172c86a8b88184cc358b23b677cc46"
     :name "pug"
     :parser-c :yes
+    :repos-dir "./repos/github.com/zealot128/tree-sitter-pug"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/zealot128/tree-sitter-pug"}
@@ -165,6 +181,7 @@
     :last-commit-hash "38b20cead0ec1ab787cd36292a9160a2145df574"
     :name "pgn"
     :parser-c :yes
+    :repos-dir "./repos/github.com/rolandwalker/tree-sitter-pgn"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/rolandwalker/tree-sitter-pgn"}
@@ -175,6 +192,7 @@
     :last-commit-hash "d8a79d15c7b9a68d2d1616c319d2b04d1999ab9f"
     :name "slim"
     :parser-c :yes
+    :repos-dir "./repos/github.com/theoo/tree-sitter-slim"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/theoo/tree-sitter-slim"}
@@ -185,6 +203,7 @@
     :last-commit-hash "afec0de5a32d5894070b67932d6ff09e4f7c5879"
     :name "objc"
     :parser-c :yes
+    :repos-dir "./repos/github.com/jiyee/tree-sitter-objc"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/jiyee/tree-sitter-objc"}
@@ -195,6 +214,7 @@
     :last-commit-hash "c36aac51a915fdfcaf178128ba1e9c2205b25930"
     :name "gren"
     :parser-c :yes
+    :repos-dir "./repos/github.com/MaeBrooks/tree-sitter-gren"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/MaeBrooks/tree-sitter-gren"}
@@ -205,6 +225,7 @@
     :last-commit-hash "e42b8def4f75633568f1aecfe01817bf15164928"
     :name "diff"
     :parser-c :yes
+    :repos-dir "./repos/github.com/the-mikedavis/tree-sitter-diff"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/the-mikedavis/tree-sitter-diff"}
@@ -215,6 +236,7 @@
     :last-commit-hash "d9338a598c0473572c6e48b20aead8955447bd95"
     :name "biber"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Aerijo/tree-sitter-biber"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Aerijo/tree-sitter-biber"}
@@ -225,6 +247,7 @@
     :last-commit-hash "9f3a38ac7ca91102f1a024eec34ca363d450db78"
     :name "clojure"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Tavistock/tree-sitter-clojure"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Tavistock/tree-sitter-clojure"}
@@ -235,6 +258,7 @@
     :last-commit-hash "f36c1587624d6d84376c82a357c20fc319cbf02c"
     :name "snakemake"
     :parser-c :yes
+    :repos-dir "./repos/github.com/osthomas/tree-sitter-snakemake"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/osthomas/tree-sitter-snakemake"}
@@ -245,6 +269,7 @@
     :last-commit-hash "eb31845d59b9ee8c1b2098e78e9ca72004bd1579"
     :name "djot"
     :parser-c :yes
+    :repos-dir "./repos/github.com/treeman/tree-sitter-djot"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/treeman/tree-sitter-djot"}
@@ -255,6 +280,7 @@
     :last-commit-hash "6b2b5e41734bd6f07ea4c36ac20fb6f14061c841"
     :name "qmldir"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Decodetalkers/tree-sitter-qmldir"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Decodetalkers/tree-sitter-qmldir"}
@@ -265,6 +291,7 @@
     :last-commit-hash "d006172998fa8b81f96b0f2fc7fa2bf25207c46b"
     :name "tera"
     :parser-c :yes
+    :repos-dir "./repos/github.com/uncenter/tree-sitter-tera"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/uncenter/tree-sitter-tera"}
@@ -275,6 +302,7 @@
     :last-commit-hash "d45f75022d147cda056e98bfba68222c9c8eca3a"
     :name "nim_format_string"
     :parser-c :yes
+    :repos-dir "./repos/github.com/aMOPel/tree-sitter-nim-format-string"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/aMOPel/tree-sitter-nim-format-string"}
@@ -285,6 +313,7 @@
     :last-commit-hash "618c5b1c9b92daac0b7dd0b41c65158437dbeec5"
     :name "vespa"
     :parser-c :yes
+    :repos-dir "./repos/github.com/bartek/tree-sitter-vespa"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/bartek/tree-sitter-vespa"}
@@ -295,6 +324,7 @@
     :last-commit-hash "b1170880c61355aaf38fc06f4af7d3c55abdabc4"
     :name "tablegen"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-tablegen"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-tablegen"}
@@ -305,6 +335,7 @@
     :last-commit-hash "0229c0211dba909c5d45129ac784a3f4d49c243a"
     :name "disassembly"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ColinKennedy/tree-sitter-disassembly"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/ColinKennedy/tree-sitter-disassembly"}
@@ -315,6 +346,7 @@
     :last-commit-hash "ddd075f1939aed8147b7aa67f042eda3fce22790"
     :name "jsonnet"
     :parser-c :yes
+    :repos-dir "./repos/github.com/sourcegraph/tree-sitter-jsonnet"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/sourcegraph/tree-sitter-jsonnet"}
@@ -325,6 +357,7 @@
     :last-commit-hash "620ff8a32143f24f6f8e157bd1836183599d334d"
     :name "koto"
     :parser-c :yes
+    :repos-dir "./repos/github.com/koto-lang/tree-sitter-koto"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/koto-lang/tree-sitter-koto"}
@@ -335,6 +368,7 @@
     :last-commit-hash "100d06e29d13a8ebfc3f29173c07a5c4f2050586"
     :name "nu"
     :parser-c :yes
+    :repos-dir "./repos/github.com/nushell/tree-sitter-nu"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/nushell/tree-sitter-nu"}
@@ -345,6 +379,7 @@
     :last-commit-hash "36064bd71ce22e9a8c73b64b1a3448cc600a4312"
     :name "enforce"
     :parser-c :yes
+    :repos-dir "./repos/github.com/simonvic/tree-sitter-enforce"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/simonvic/tree-sitter-enforce"}
@@ -355,6 +390,7 @@
     :last-commit-hash "75b3874edb2dc714fb1fd77a32013d0f8699989f"
     :name "typescript"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-typescript"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-typescript"}
@@ -365,6 +401,7 @@
     :last-commit-hash "75b3874edb2dc714fb1fd77a32013d0f8699989f"
     :name "tsx"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-typescript"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-typescript"}
@@ -375,6 +412,7 @@
     :last-commit-hash "b37ec11c796b59ce6e5f8ed0182e9d5de1f9fe77"
     :name "sv"
     :parser-c :no
+    :repos-dir "./repos/github.com/rfdonnelly/tree-sitter-sv"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/rfdonnelly/tree-sitter-sv"}
@@ -385,6 +423,7 @@
     :last-commit-hash "4a77b2d7a004587646bddc4e854779044b6db459"
     :name "tiger"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ambroisie/tree-sitter-tiger"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/ambroisie/tree-sitter-tiger"}
@@ -395,6 +434,7 @@
     :last-commit-hash "5054931bcd022860dd5936864f981e359fb63aef"
     :name "pascal"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Isopod/tree-sitter-pascal"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/Isopod/tree-sitter-pascal"}
@@ -405,6 +445,7 @@
     :last-commit-hash "62013259b26ac210d5de1abf64cf1b047ef88000"
     :name "dhall"
     :parser-c :yes
+    :repos-dir "./repos/github.com/jbellerb/tree-sitter-dhall"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/jbellerb/tree-sitter-dhall"}
@@ -415,6 +456,7 @@
     :last-commit-hash "29c816328a086ef056799e3924ef6e09e6a9a8cb"
     :name "r"
     :parser-c :yes
+    :repos-dir "./repos/github.com/r-lib/tree-sitter-r"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/r-lib/tree-sitter-r"}
@@ -425,6 +467,7 @@
     :last-commit-hash "ffd9f958df13cae04593781d7d2562295a872455"
     :name "gdshader"
     :parser-c :yes
+    :repos-dir "./repos/github.com/GodOfAvacyn/tree-sitter-gdshader"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/GodOfAvacyn/tree-sitter-gdshader"}
@@ -435,6 +478,7 @@
     :last-commit-hash "efb075cbd57ce33f694c2bb264b99cdba0f31789"
     :name "markdown"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-markdown"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-markdown"}
@@ -445,6 +489,7 @@
     :last-commit-hash "efb075cbd57ce33f694c2bb264b99cdba0f31789"
     :name "markdown_inline"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-markdown"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-markdown"}
@@ -455,6 +500,7 @@
     :last-commit-hash "0c6fae9d2cfc5b217bfd1fe84a7678f5917116db"
     :name "vhs"
     :parser-c :yes
+    :repos-dir "./repos/github.com/charmbracelet/tree-sitter-vhs"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/charmbracelet/tree-sitter-vhs"}
@@ -465,6 +511,7 @@
     :last-commit-hash "3d1a9c9a4cb5a2d247fe46fb20164eff0a81308d"
     :name "beancount"
     :parser-c :yes
+    :repos-dir "./repos/github.com/yagebu/tree-sitter-beancount"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/yagebu/tree-sitter-beancount"}
@@ -475,6 +522,7 @@
     :last-commit-hash "f2af8d0dc14c6790130cceb2a20027eb41a8297c"
     :name "sourcepawn"
     :parser-c :yes
+    :repos-dir "./repos/github.com/nilshelmig/tree-sitter-sourcepawn"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/nilshelmig/tree-sitter-sourcepawn"}
@@ -485,6 +533,7 @@
     :last-commit-hash "ec4fe14586f2b0a1bc65d6db17f8d8acd8a90433"
     :name "smithy"
     :parser-c :yes
+    :repos-dir "./repos/github.com/indoorvivants/tree-sitter-smithy"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/indoorvivants/tree-sitter-smithy"}
@@ -495,6 +544,7 @@
     :last-commit-hash "14269f79d6be0aa93f214f9315711138ad119658"
     :name "tucan"
     :parser-c :yes
+    :repos-dir "./repos/github.com/mrnugget/tree-sitter-tucan"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/mrnugget/tree-sitter-tucan"}
@@ -505,6 +555,7 @@
     :last-commit-hash "1dec7e1af96c56924e3322cd85fdce15d0a31d00"
     :name "authzed"
     :parser-c :yes
+    :repos-dir "./repos/github.com/mleonidas/tree-sitter-authzed"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/mleonidas/tree-sitter-authzed"}
@@ -515,6 +566,7 @@
     :last-commit-hash "1d16b8e063fdf4385e389096c4bc4999eaaef05f"
     :name "pem"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-pem"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-pem"}
@@ -525,6 +577,7 @@
     :last-commit-hash "b638d29335ef41215b86732dd51be34c701ef683"
     :name "regex"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-regex"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-regex"}
@@ -535,6 +588,7 @@
     :last-commit-hash "d2df8a285fff95de56a91d2f8152aeceb66f40ef"
     :name "rescript"
     :parser-c :yes
+    :repos-dir "./repos/github.com/rescript-lang/tree-sitter-rescript"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/rescript-lang/tree-sitter-rescript"}
@@ -545,6 +599,7 @@
     :last-commit-hash "d0993592cb8c8ec85bad7aab1044a2fcb124e75b"
     :name "elisp"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tpeacock19/tree-sitter-elisp"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tpeacock19/tree-sitter-elisp"}
@@ -555,6 +610,7 @@
     :last-commit-hash "28dc7059722be090d04cd751aed915b2fee2f89a"
     :name "bass"
     :parser-c :yes
+    :repos-dir "./repos/github.com/vito/tree-sitter-bass"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/vito/tree-sitter-bass"}
@@ -565,6 +621,7 @@
     :last-commit-hash "d853661ca680d8ff7f8d800182d5782b61d0dd58"
     :name "sparql"
     :parser-c :yes
+    :repos-dir "./repos/github.com/GordianDziwis/tree-sitter-sparql"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/GordianDziwis/tree-sitter-sparql"}
@@ -575,6 +632,7 @@
     :last-commit-hash "dd8c00497c8de79f939e26795f7115332d2347b6"
     :name "v"
     :parser-c :yes
+    :repos-dir "./repos/github.com/vlang/vls"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/vlang/vls"}
@@ -585,6 +643,7 @@
     :last-commit-hash "c2848d829454546b4039df93ba9455665b2ed475"
     :name "qml"
     :parser-c :yes
+    :repos-dir "./repos/github.com/rschiang/tree-sitter-qml"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/rschiang/tree-sitter-qml"}
@@ -595,6 +654,7 @@
     :last-commit-hash "77625d78eebc3ffc44d114a07b2f348dff3061b0"
     :name "promql"
     :parser-c :yes
+    :repos-dir "./repos/github.com/MichaHoffmann/tree-sitter-promql"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/MichaHoffmann/tree-sitter-promql"}
@@ -605,6 +665,7 @@
     :last-commit-hash "e34def7cb0d8a66a59ec5057fe17bb4e6b17b56a"
     :name "robot"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Hubro/tree-sitter-robot"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/Hubro/tree-sitter-robot"}
@@ -615,6 +676,7 @@
     :last-commit-hash "ec2cb14f68053cf49d1d18cd5742af8e81771ebb"
     :name "vhdl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/jpt13653903/tree-sitter-vhdl"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/jpt13653903/tree-sitter-vhdl"}
@@ -625,6 +687,7 @@
     :last-commit-hash "33a3e4f1fa77a3e1a2736813f4b27c358f6c0b63"
     :name "erlang"
     :parser-c :yes
+    :repos-dir "./repos/github.com/the-mikedavis/tree-sitter-erlang"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/the-mikedavis/tree-sitter-erlang"}
@@ -635,6 +698,7 @@
     :last-commit-hash "9ab85550c896d8b294d9b9ca1e30698736f08cea"
     :name "dot"
     :parser-c :yes
+    :repos-dir "./repos/github.com/rydesun/tree-sitter-dot"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/rydesun/tree-sitter-dot"}
@@ -645,6 +709,7 @@
     :last-commit-hash "19db2f47ba4c3a0f6238d4ae0e2abfca16e61dd6"
     :name "fusion"
     :parser-c :yes
+    :repos-dir "./repos/gitlab.com/jirgn/tree-sitter-fusion.git"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://gitlab.com/jirgn/tree-sitter-fusion.git"}
@@ -655,6 +720,7 @@
     :last-commit-hash "395a33e08e69f4155156f0b90138a6c86764c979"
     :name "gotmpl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/dannylongeuay/tree-sitter-go-template"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/dannylongeuay/tree-sitter-go-template"}
@@ -665,6 +731,7 @@
     :last-commit-hash "efe6b87145608d12f5996bd7f0cf6095a0e82261"
     :name "lean"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Julian/tree-sitter-lean"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/Julian/tree-sitter-lean"}
@@ -675,6 +742,7 @@
     :last-commit-hash "9bbb540e8a2734101c6857bd437f04baa974e03d"
     :name "godot_resource"
     :parser-c :yes
+    :repos-dir "./repos/github.com/PrestonKnopp/tree-sitter-godot-resource"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/PrestonKnopp/tree-sitter-godot-resource"}
@@ -685,6 +753,7 @@
     :last-commit-hash "e877f6ade4b77d5ef8787075141053631ba12318"
     :name "yuck"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Philipp-M/tree-sitter-yuck"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/Philipp-M/tree-sitter-yuck"}
@@ -695,6 +764,7 @@
     :last-commit-hash "6238f609bea233040fe927858156dee5515a0745"
     :name "cairo"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-cairo"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-cairo"}
@@ -705,6 +775,7 @@
     :last-commit-hash "12d98944c1d5077b957cbdb90d663a7c4d50118c"
     :name "glimmer_typescript"
     :parser-c :yes
+    :repos-dir "./repos/github.com/NullVoxPopuli/tree-sitter-glimmer-typescript"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/NullVoxPopuli/tree-sitter-glimmer-typescript"}
@@ -715,6 +786,7 @@
     :last-commit-hash "9a71b0cd2cb1254c47624ae2a0b2110db329dbaa"
     :name "monkey"
     :parser-c :yes
+    :repos-dir "./repos/github.com/jamestrew/tree-sitter-monkey"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/jamestrew/tree-sitter-monkey"}
@@ -725,6 +797,7 @@
     :last-commit-hash "b5eb5742f6a7e9438bee22ce8026d6b927be2cd7"
     :name "c_sharp"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-c-sharp"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-c-sharp"}
@@ -735,6 +808,7 @@
     :last-commit-hash "f23072a51e1c764d6c5bf461194a775c8a5c7a95"
     :name "gitattributes"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-gitattributes"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-gitattributes"}
@@ -745,6 +819,7 @@
     :last-commit-hash "78938553b93075e638035f624973083451b29055"
     :name "ron"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-ron"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-ron"}
@@ -755,6 +830,7 @@
     :last-commit-hash "c390f10519ae69fdb03b3e5764f5592fb6924bcc"
     :name "hocon"
     :parser-c :yes
+    :repos-dir "./repos/github.com/antosha417/tree-sitter-hocon"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/antosha417/tree-sitter-hocon"}
@@ -765,6 +841,7 @@
     :last-commit-hash "213f6e6973d9b456c6e50e86f19f66877e7ef0ee"
     :name "astro"
     :parser-c :yes
+    :repos-dir "./repos/github.com/virchau13/tree-sitter-astro"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/virchau13/tree-sitter-astro"}
@@ -775,6 +852,7 @@
     :last-commit-hash "a5512800ea0220da4abbae61b8aea8423d1549aa"
     :name "scfg"
     :parser-c :no
+    :repos-dir "./repos/git.sr.ht/~rockorager/tree-sitter-scfg"
     :scanner :no
     :tree-sitter-json :no
     :url "https://git.sr.ht/~rockorager/tree-sitter-scfg"}
@@ -785,6 +863,7 @@
     :last-commit-hash "a2e91c845064bb4031e31b103e32bcdaefeea139"
     :name "scala"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-scala"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-scala"}
@@ -795,6 +874,7 @@
     :last-commit-hash "3a643167ad9afac5d61e092f08ff5b054576fadf"
     :name "htmldjango"
     :parser-c :yes
+    :repos-dir "./repos/github.com/interdependence/tree-sitter-htmldjango"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/interdependence/tree-sitter-htmldjango"}
@@ -805,6 +885,7 @@
     :last-commit-hash "e67a5de093cab9eb79be721bf39bc9115193534a"
     :name "jakt"
     :parser-c :yes
+    :repos-dir "./repos/github.com/demizer/tree-sitter-jakt"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/demizer/tree-sitter-jakt"}
@@ -815,6 +896,7 @@
     :last-commit-hash "c204e36d2c3c6fce1f57950b12cabcc24e5cc4d9"
     :name "jq"
     :parser-c :yes
+    :repos-dir "./repos/github.com/flurie/tree-sitter-jq"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/flurie/tree-sitter-jq"}
@@ -825,6 +907,7 @@
     :last-commit-hash "df0585025e6f50cdb07347f5009ae3f47c652890"
     :name "cel"
     :parser-c :yes
+    :repos-dir "./repos/github.com/bufbuild/tree-sitter-cel"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/bufbuild/tree-sitter-cel"}
@@ -835,6 +918,7 @@
     :last-commit-hash "b4cbe9ab7672d5106e9550d8413835395a1be362"
     :name "chatito"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-chatito"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-chatito"}
@@ -845,6 +929,7 @@
     :last-commit-hash "b4cbe9ab7672d5106e9550d8413835395a1be362"
     :name "chatl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-chatito"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-chatito"}
@@ -855,6 +940,7 @@
     :last-commit-hash "6efb59652d30e0e9cd5f3b3a669afd6f1a926d3c"
     :name "gomod"
     :parser-c :yes
+    :repos-dir "./repos/github.com/camdencheek/tree-sitter-go-mod"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/camdencheek/tree-sitter-go-mod"}
@@ -865,6 +951,7 @@
     :last-commit-hash "1ac83114e71839fa67f4cce2f864ebbbdf6e2a4f"
     :name "llvm"
     :parser-c :yes
+    :repos-dir "./repos/github.com/benwilliamgraham/tree-sitter-llvm"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/benwilliamgraham/tree-sitter-llvm"}
@@ -875,6 +962,7 @@
     :last-commit-hash "ad9b638b914095320de85d59c49ab271603af048"
     :name "uxntal"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-uxntal"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-uxntal"}
@@ -885,6 +973,7 @@
     :last-commit-hash "f08bb76892b93e5b23c45ac3bd6b1eea5df323cc"
     :name "foam"
     :parser-c :yes
+    :repos-dir "./repos/github.com/FoamScience/tree-sitter-foam"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/FoamScience/tree-sitter-foam"}
@@ -895,6 +984,7 @@
     :last-commit-hash "dd95e1fc1b5514aa3a882d5fb8ddbf4683e953f0"
     :name "matlab"
     :parser-c :yes
+    :repos-dir "./repos/github.com/mstanciu552/tree-sitter-matlab"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/mstanciu552/tree-sitter-matlab"}
@@ -905,6 +995,7 @@
     :last-commit-hash "d166ff8c5950f80b0a476956e7a0ad2f27c12505"
     :name "llvm_mir"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Flakebi/tree-sitter-llvm-mir"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Flakebi/tree-sitter-llvm-mir"}
@@ -915,6 +1006,7 @@
     :last-commit-hash "8d48b29910d2094cb1fc5c9c4ed8917c26b907de"
     :name "perl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ganezdragon/tree-sitter-perl"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/ganezdragon/tree-sitter-perl"}
@@ -925,6 +1017,7 @@
     :last-commit-hash "debd26fed283d80456ebafa33a06957b0c52e451"
     :name "ungrammar"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Philipp-M/tree-sitter-ungrammar"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Philipp-M/tree-sitter-ungrammar"}
@@ -935,6 +1028,7 @@
     :last-commit-hash "a80a6e9be81b33b182ce6305ae4ea28e29211bd5"
     :name "zig"
     :parser-c :yes
+    :repos-dir "./repos/github.com/maxxnino/tree-sitter-zig"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/maxxnino/tree-sitter-zig"}
@@ -945,6 +1039,7 @@
     :last-commit-hash "c0c4f0ed7b87846cb1be19df5d638ca227a9fe41"
     :name "sql_bigquery"
     :parser-c :yes
+    :repos-dir "./repos/github.com/takegue/tree-sitter-sql-bigquery"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/takegue/tree-sitter-sql-bigquery"}
@@ -955,6 +1050,7 @@
     :last-commit-hash "20239395eacdc2e0923a7e5683ad3605aee7b716"
     :name "passwd"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ath3/tree-sitter-passwd"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/ath3/tree-sitter-passwd"}
@@ -965,6 +1061,7 @@
     :last-commit-hash "1e139eba1fd3a9c34a36f0f0f47ed8b73c9b4636"
     :name "jq"
     :parser-c :yes
+    :repos-dir "./repos/github.com/nverno/tree-sitter-jq"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/nverno/tree-sitter-jq"}
@@ -975,6 +1072,7 @@
     :last-commit-hash "7f789ea7ef765080f71a298fc96b7c957fa24422"
     :name "turtle"
     :parser-c :yes
+    :repos-dir "./repos/github.com/GordianDziwis/tree-sitter-turtle"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/GordianDziwis/tree-sitter-turtle"}
@@ -985,6 +1083,7 @@
     :last-commit-hash "7e28cbf1ca061887ea43591a2898001f4245fddf"
     :name "janet_simple"
     :parser-c :yes
+    :repos-dir "./repos/github.com/sogaiu/tree-sitter-janet-simple"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/sogaiu/tree-sitter-janet-simple"}
@@ -995,6 +1094,7 @@
     :last-commit-hash "e5e406935ff3e36529545955e2972646ed97f9e2"
     :name "lua"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-lua"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-lua"}
@@ -1005,6 +1105,7 @@
     :last-commit-hash "b1ff0037b665e7e84715390820d6ecbe763a9c79"
     :name "meson"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Decodetalkers/tree-sitter-meson"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/Decodetalkers/tree-sitter-meson"}
@@ -1015,6 +1116,7 @@
     :last-commit-hash "633b20d7ab7785e84ac6b1f9c56349c9d0594d9d"
     :name "graphql"
     :parser-c :yes
+    :repos-dir "./repos/github.com/dralletje/tree-sitter-graphql"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/dralletje/tree-sitter-graphql"}
@@ -1025,6 +1127,7 @@
     :last-commit-hash "96c92d4908a836bf8f661166721c98439f8afb80"
     :name "ledger"
     :parser-c :yes
+    :repos-dir "./repos/github.com/cbarrete/tree-sitter-ledger"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/cbarrete/tree-sitter-ledger"}
@@ -1035,6 +1138,7 @@
     :last-commit-hash "5f7ef6f2c4628f46fb5155eb1ac59df5e8de8ee6"
     :name "ibmhlasm"
     :parser-c :yes
+    :repos-dir "./repos/github.com/janus-llm/tree-sitter-ibmhlasm"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/janus-llm/tree-sitter-ibmhlasm"}
@@ -1045,6 +1149,7 @@
     :last-commit-hash "b9574e6179261f9d2639d9f41951b9b592c39179"
     :name "erde"
     :parser-c :yes
+    :repos-dir "./repos/github.com/vhyrro/tree-sitter-erde"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/vhyrro/tree-sitter-erde"}
@@ -1055,6 +1160,7 @@
     :last-commit-hash "ccc312e878aa84f32d180b8528a3585c7b86a545"
     :name "vim"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-vim"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-vim"}
@@ -1065,6 +1171,7 @@
     :last-commit-hash "27ae4db1458d5ea7555300c9e93c6273723d420c"
     :name "wgsl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/mehmetoguzderin/tree-sitter-wgsl"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/mehmetoguzderin/tree-sitter-wgsl"}
@@ -1075,6 +1182,7 @@
     :last-commit-hash "4ebe237c1cf64cf3826fc249e9ec0988fe07e58e"
     :name "cooklang"
     :parser-c :yes
+    :repos-dir "./repos/github.com/addcninblue/tree-sitter-cooklang"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/addcninblue/tree-sitter-cooklang"}
@@ -1085,6 +1193,7 @@
     :last-commit-hash "88ccb5ee90711e9961582d421c42bc8c6bd53f59"
     :name "matlab"
     :parser-c :yes
+    :repos-dir "./repos/github.com/acristoffers/tree-sitter-matlab"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/acristoffers/tree-sitter-matlab"}
@@ -1095,6 +1204,7 @@
     :last-commit-hash "afece58efdb30440bddd151ef1347fa8d6f744a9"
     :name "pioasm"
     :parser-c :yes
+    :repos-dir "./repos/github.com/leo60228/tree-sitter-pioasm"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/leo60228/tree-sitter-pioasm"}
@@ -1105,6 +1215,7 @@
     :last-commit-hash "ebc6739bf8900a0191a386ef53371fc556c662a8"
     :name "luap"
     :parser-c :yes
+    :repos-dir "./repos/github.com/vhyrro/tree-sitter-luap"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/vhyrro/tree-sitter-luap"}
@@ -1115,6 +1226,7 @@
     :last-commit-hash "de06b9ad366f0186080056109a8c3be980129538"
     :name "fennel"
     :parser-c :yes
+    :repos-dir "./repos/github.com/alexmozaidze/tree-sitter-fennel"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/alexmozaidze/tree-sitter-fennel"}
@@ -1125,6 +1237,7 @@
     :last-commit-hash "64b56832c2cffe41758f28e05c756a3a98d16f41"
     :name "toml"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-toml"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-toml"}
@@ -1135,6 +1248,7 @@
     :last-commit-hash "bb1e12023e59489c0892af0c0c9a5b323af69df6"
     :name "openscad"
     :parser-c :yes
+    :repos-dir "./repos/github.com/bollian/tree-sitter-openscad"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/bollian/tree-sitter-openscad"}
@@ -1145,6 +1259,7 @@
     :last-commit-hash "80e23c07b64494f7e21090bb3450223ef0b192f4"
     :name "dart"
     :parser-c :yes
+    :repos-dir "./repos/github.com/UserNobody14/tree-sitter-dart"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/UserNobody14/tree-sitter-dart"}
@@ -1155,6 +1270,7 @@
     :last-commit-hash "cbb91a0ff3621245e890d1c50cc811bffb77a26b"
     :name "html"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-html"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-html"}
@@ -1165,6 +1281,7 @@
     :last-commit-hash "90189238385cf636b9ee99ce548b9e5b5e569d48"
     :name "forth"
     :parser-c :yes
+    :repos-dir "./repos/github.com/AlexanderBrevig/tree-sitter-forth"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/AlexanderBrevig/tree-sitter-forth"}
@@ -1175,6 +1292,7 @@
     :last-commit-hash "6f193a66e9aa872760823dff020960c6cedc37b3"
     :name "git_commit"
     :parser-c :yes
+    :repos-dir "./repos/github.com/the-mikedavis/tree-sitter-git-commit"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/the-mikedavis/tree-sitter-git-commit"}
@@ -1185,6 +1303,7 @@
     :last-commit-hash "b37e3d58e5c5cf8d739b315d6114e02d42e66664"
     :name "kdl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-kdl"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-kdl"}
@@ -1195,6 +1314,7 @@
     :last-commit-hash "1a44f8d31053096b79c52f10a39da12479edbf64"
     :name "uxntal"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Jummit/tree-sitter-uxntal"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Jummit/tree-sitter-uxntal"}
@@ -1205,6 +1325,7 @@
     :last-commit-hash "eca2596a355b1a9952b4f80f8f9caed300a272b5"
     :name "prisma"
     :parser-c :yes
+    :repos-dir "./repos/github.com/victorhqc/tree-sitter-prisma"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/victorhqc/tree-sitter-prisma"}
@@ -1215,6 +1336,7 @@
     :last-commit-hash "a417db5dbdd869fccb6a8b75ec04459e1d4ccd2c"
     :name "jsdoc"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-jsdoc"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-jsdoc"}
@@ -1225,6 +1347,7 @@
     :last-commit-hash "a4b9187417d6be349ee5fd4b6e77b4172c6827dd"
     :name "make"
     :parser-c :yes
+    :repos-dir "./repos/github.com/alemuller/tree-sitter-make"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/alemuller/tree-sitter-make"}
@@ -1235,6 +1358,7 @@
     :last-commit-hash "f74690d1445cccf5df8b65194a814a2bdb91af3c"
     :name "Harbour"
     :parser-c :no
+    :repos-dir "./repos/github.com/APerricone/tree-sitter-harbour"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/APerricone/tree-sitter-harbour"}
@@ -1245,6 +1369,7 @@
     :last-commit-hash "0660febd1e0afc97f9bb5050510b3c220dc9b2f9"
     :name "odin"
     :parser-c :yes
+    :repos-dir "./repos/github.com/MineBill/tree-sitter-odin"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/MineBill/tree-sitter-odin"}
@@ -1255,6 +1380,7 @@
     :last-commit-hash "6e327db434fec0ee90f006697782e43ec855adf5"
     :name "css"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-css"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-css"}
@@ -1265,6 +1391,7 @@
     :last-commit-hash "577259b4068b2c281c9ebf94c109bd50a74d5857"
     :name "haskell_persistent"
     :parser-c :yes
+    :repos-dir "./repos/github.com/MercuryTechnologies/tree-sitter-haskell-persistent"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/MercuryTechnologies/tree-sitter-haskell-persistent"}
@@ -1275,6 +1402,7 @@
     :last-commit-hash "c184999166c75edefef0936ff7e533698403d016"
     :name "beancount"
     :parser-c :yes
+    :repos-dir "./repos/github.com/zwpaper/tree-sitter-beancount"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/zwpaper/tree-sitter-beancount"}
@@ -1285,6 +1413,7 @@
     :last-commit-hash "ab9aa007a8d982a5a7926663a8ab989cea0f5d9e"
     :name "fortran"
     :parser-c :yes
+    :repos-dir "./repos/github.com/stadelmanma/tree-sitter-fortran"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/stadelmanma/tree-sitter-fortran"}
@@ -1295,6 +1424,7 @@
     :last-commit-hash "1545137aadcc63660c47db9ad98d02fa602655d0"
     :name "hoon"
     :parser-c :yes
+    :repos-dir "./repos/github.com/urbit-pilled/tree-sitter-hoon"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/urbit-pilled/tree-sitter-hoon"}
@@ -1305,6 +1435,7 @@
     :last-commit-hash "993be0a91c0c90b0cc7799e6ff65922390e2cefe"
     :name "sqlite"
     :parser-c :yes
+    :repos-dir "./repos/github.com/dhcmrlchtdj/tree-sitter-sqlite"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/dhcmrlchtdj/tree-sitter-sqlite"}
@@ -1315,6 +1446,7 @@
     :last-commit-hash "b60a42df3f76bd4e8f988465309d705a007dc506"
     :name "gemini"
     :parser-c :yes
+    :repos-dir "./repos/git.sr.ht/~nbsp/tree-sitter-gemini"
     :scanner :no
     :tree-sitter-json :no
     :url "https://git.sr.ht/~nbsp/tree-sitter-gemini"}
@@ -1325,6 +1457,7 @@
     :last-commit-hash "9b2f9aec2106b94b4e099fe75e73ebd8ae707c04"
     :name "ispc"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-ispc"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-ispc"}
@@ -1335,6 +1468,7 @@
     :last-commit-hash "ae5199db47757f785e43a14b332118a5474de1a2"
     :name "svelte"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-svelte"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-svelte"}
@@ -1345,6 +1479,7 @@
     :last-commit-hash "3bd79d8f06f81df9d9a14da1adb9a0aadcfd9961"
     :name "python_legesher"
     :parser-c :yes
+    :repos-dir "./repos/github.com/legesher/tree-sitter-legesher-python"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/legesher/tree-sitter-legesher-python"}
@@ -1355,6 +1490,7 @@
     :last-commit-hash "14e6da1627aaef21d2b2aa0c37d04269766dcc1d"
     :name "nqc"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-nqc"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-nqc"}
@@ -1365,6 +1501,7 @@
     :last-commit-hash "10d7ec727362b2978d686b544cee96568e297aae"
     :name "smarty"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Kibadda/tree-sitter-smarty"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Kibadda/tree-sitter-smarty"}
@@ -1375,6 +1512,7 @@
     :last-commit-hash "36dd54f701e3b3e030412a854295af971cf74ad1"
     :name "xml"
     :parser-c :yes
+    :repos-dir "./repos/github.com/dorgnarg/tree-sitter-xml"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/dorgnarg/tree-sitter-xml"}
@@ -1385,6 +1523,7 @@
     :last-commit-hash "2d831940c782850f64dabf5b7b17e9e51f7f0ebb"
     :name "tlaplus"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tlaplus-community/tree-sitter-tlaplus"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tlaplus-community/tree-sitter-tlaplus"}
@@ -1395,6 +1534,7 @@
     :last-commit-hash "0f963ca4c0cc888252f5a31f37c974d5e2527d06"
     :name "v"
     :parser-c :yes
+    :repos-dir "./repos/github.com/vlang/v-analyzer"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/vlang/v-analyzer"}
@@ -1405,6 +1545,7 @@
     :last-commit-hash "5519c547418ecb31ac7d63e64653aed726b5d1c3"
     :name "satysfi"
     :parser-c :yes
+    :repos-dir "./repos/github.com/monaqa/tree-sitter-satysfi"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/monaqa/tree-sitter-satysfi"}
@@ -1415,6 +1556,7 @@
     :last-commit-hash "034b543b210f1c115f20a287b7562f742f8038fc"
     :name "magik"
     :parser-c :yes
+    :repos-dir "./repos/github.com/krn-robin/tree-sitter-magik"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/krn-robin/tree-sitter-magik"}
@@ -1425,6 +1567,7 @@
     :last-commit-hash "5e7210d945425b77f82cbaebc5af4dd3e1ad40f5"
     :name "elvish"
     :parser-c :yes
+    :repos-dir "./repos/github.com/elves/tree-sitter-elvish"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/elves/tree-sitter-elvish"}
@@ -1435,6 +1578,7 @@
     :last-commit-hash "89bd7a8e5450cb6a942418a619d30469f259e5d6"
     :name "ruby"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-ruby"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-ruby"}
@@ -1445,6 +1589,7 @@
     :last-commit-hash "169e7f748a540ec360c0cb086b448faad012caa4"
     :name "unison"
     :parser-c :yes
+    :repos-dir "./repos/github.com/kylegoetz/tree-sitter-unison"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/kylegoetz/tree-sitter-unison"}
@@ -1455,6 +1600,7 @@
     :last-commit-hash "dbef9a250c8f882bdb383b4a9379a9e80537f177"
     :name "souffle"
     :parser-c :yes
+    :repos-dir "./repos/github.com/julienhenry/tree-sitter-souffle"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/julienhenry/tree-sitter-souffle"}
@@ -1465,6 +1611,7 @@
     :last-commit-hash "93527b2c4845293384759e8ebee8fdd8a0878ad8"
     :name "move"
     :parser-c :yes
+    :repos-dir "./repos/github.com/move-hub/tree-sitter-move"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/move-hub/tree-sitter-move"}
@@ -1475,6 +1622,7 @@
     :last-commit-hash "4e562e1598b95b93db4f3f64fe40ddefbc677a15"
     :name "rst"
     :parser-c :yes
+    :repos-dir "./repos/github.com/stsewd/tree-sitter-rst"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/stsewd/tree-sitter-rst"}
@@ -1485,6 +1633,7 @@
     :last-commit-hash "395006713db3bbb90d267ebdfcbf1881b399b05c"
     :name "sway"
     :parser-c :yes
+    :repos-dir "./repos/github.com/FuelLabs/tree-sitter-sway"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/FuelLabs/tree-sitter-sway"}
@@ -1495,6 +1644,7 @@
     :last-commit-hash "6fbef40512dcd9f0a61ce03a4c9ae7597b36ab5c"
     :name "javascript"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-javascript"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-javascript"}
@@ -1505,6 +1655,7 @@
     :last-commit-hash "c56a25cf57c68ff929356db25505c1cc4c7820f6"
     :name "idris"
     :parser-c :yes
+    :repos-dir "./repos/github.com/kayhide/tree-sitter-idris"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/kayhide/tree-sitter-idris"}
@@ -1515,6 +1666,7 @@
     :last-commit-hash "174dbb1e14a461d48ba069a5a8d0c6d6c718b9a9"
     :name "twig"
     :parser-c :yes
+    :repos-dir "./repos/github.com/kaermorchen/tree-sitter-twig"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/kaermorchen/tree-sitter-twig"}
@@ -1525,6 +1677,7 @@
     :last-commit-hash "f3b9274514b5f9bf6b0dd4a01c30f9cc15c58bc4"
     :name "faust"
     :parser-c :yes
+    :repos-dir "./repos/github.com/khiner/tree-sitter-faust"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/khiner/tree-sitter-faust"}
@@ -1535,6 +1688,7 @@
     :last-commit-hash "b2e55d97489a9d69a833519f95fd9fcc0a316855"
     :name "firrtl"
     :parser-c :no
+    :repos-dir "./repos/github.com/chipsalliance/tree-sitter-firrtl"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/chipsalliance/tree-sitter-firrtl"}
@@ -1545,6 +1699,7 @@
     :last-commit-hash "8353a1296607d6ba33db7c7e312226e5fc83e8ce"
     :name "kusto"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Willem-J-an/tree-sitter-kusto"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Willem-J-an/tree-sitter-kusto"}
@@ -1555,6 +1710,7 @@
     :last-commit-hash "f6d81bf7a4599c77388035439cf5801cd461ff77"
     :name "ralph"
     :parser-c :yes
+    :repos-dir "./repos/github.com/alephium/tree-sitter-ralph"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/alephium/tree-sitter-ralph"}
@@ -1565,6 +1721,7 @@
     :last-commit-hash "6593b646692ea394fef256a7d287fa72c0187a7e"
     :name "zeek"
     :parser-c :yes
+    :repos-dir "./repos/github.com/zeek/tree-sitter-zeek"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/zeek/tree-sitter-zeek"}
@@ -1575,6 +1732,7 @@
     :last-commit-hash "0dd3c7e9f301758f6c69a6efde43d3048deb4d8a"
     :name "ssh_config"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-ssh-config"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-ssh-config"}
@@ -1585,6 +1743,7 @@
     :last-commit-hash "9bc460a05b5f096d69568b5fb36105032ff4ff97"
     :name "beancount"
     :parser-c :yes
+    :repos-dir "./repos/github.com/polarmutex/tree-sitter-beancount"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/polarmutex/tree-sitter-beancount"}
@@ -1595,6 +1754,7 @@
     :last-commit-hash "0fbc9f99d5a28865f9de8427fb0672d66f9d83a5"
     :name "git_config"
     :parser-c :yes
+    :repos-dir "./repos/github.com/the-mikedavis/tree-sitter-git-config"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/the-mikedavis/tree-sitter-git-config"}
@@ -1605,6 +1765,7 @@
     :last-commit-hash "42d82fa18f8afe59b5fc0b16c207ee4f84cb185f"
     :name "proto"
     :parser-c :yes
+    :repos-dir "./repos/github.com/mitchellh/tree-sitter-proto"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/mitchellh/tree-sitter-proto"}
@@ -1615,6 +1776,7 @@
     :last-commit-hash "ff07a42d9ec95443b5c1b57ed793414bf7b79be5"
     :name "hurl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/pfeiferj/tree-sitter-hurl"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/pfeiferj/tree-sitter-hurl"}
@@ -1625,6 +1787,7 @@
     :last-commit-hash "55baffbdc6bd00bf177b796950497a01bb496241"
     :name "query"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-query"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-query"}
@@ -1635,6 +1798,7 @@
     :last-commit-hash "351159cf66f0e7f8d86fa06fc44ab3c2055082df"
     :name "formula"
     :parser-c :yes
+    :repos-dir "./repos/github.com/siraben/tree-sitter-formula"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/siraben/tree-sitter-formula"}
@@ -1645,6 +1809,7 @@
     :last-commit-hash "2866ee6f8b8f67c9b1eca2ca6c88f0a5f1bcc13f"
     :name "zig"
     :parser-c :no
+    :repos-dir "./repos/github.com/ziglibs/tree-sitter-zig"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/ziglibs/tree-sitter-zig"}
@@ -1655,6 +1820,7 @@
     :last-commit-hash "1a497eecfb1b840ab12caf28f0ef45d4a5e26d28"
     :name "meson"
     :parser-c :yes
+    :repos-dir "./repos/github.com/staysail/tree-sitter-meson"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/staysail/tree-sitter-meson"}
@@ -1665,6 +1831,7 @@
     :last-commit-hash "af4901aa56d459b33487c307f4951068a2365b1e"
     :name "objcpp"
     :parser-c :yes
+    :repos-dir "./repos/github.com/panicinc/tree-sitter-objcpp"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/panicinc/tree-sitter-objcpp"}
@@ -1675,6 +1842,7 @@
     :last-commit-hash "87be254e12169240a0e0214dbee5e208df96fa75"
     :name "dtd"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-xml"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-xml"}
@@ -1685,6 +1853,7 @@
     :last-commit-hash "87be254e12169240a0e0214dbee5e208df96fa75"
     :name "xml"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-xml"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-xml"}
@@ -1695,6 +1864,7 @@
     :last-commit-hash "04962e15f6b464cf1d75eada59506dc25090e186"
     :name "asm"
     :parser-c :yes
+    :repos-dir "./repos/github.com/rush-rs/tree-sitter-asm"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/rush-rs/tree-sitter-asm"}
@@ -1705,6 +1875,7 @@
     :last-commit-hash "b14e7971cfbd64fa0ebcdeaa4dfbb3cb0bfabd7c"
     :name "idl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/cathaysia/tree-sitter-idl"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/cathaysia/tree-sitter-idl"}
@@ -1715,6 +1886,7 @@
     :last-commit-hash "d38dcd0b58b223c43e3f9265914fb3167dc624c6"
     :name "solidity"
     :parser-c :yes
+    :repos-dir "./repos/github.com/JoranHonig/tree-sitter-solidity"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/JoranHonig/tree-sitter-solidity"}
@@ -1725,6 +1897,7 @@
     :last-commit-hash "989da760be05a3334af3ec88705cbf57e6a9c41d"
     :name "nginx"
     :parser-c :yes
+    :repos-dir "./repos/github.com/opa-oz/tree-sitter-nginx"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/opa-oz/tree-sitter-nginx"}
@@ -1735,6 +1908,7 @@
     :last-commit-hash "bb0c898a80644de438e6efe5d88d30bf092935cd"
     :name "just"
     :parser-c :yes
+    :repos-dir "./repos/github.com/IndianBoy42/tree-sitter-just"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/IndianBoy42/tree-sitter-just"}
@@ -1745,6 +1919,7 @@
     :last-commit-hash "39f20bb51f502e32058684e893c0c0b00bb2332c"
     :name "iex"
     :parser-c :yes
+    :repos-dir "./repos/github.com/elixir-lang/tree-sitter-iex"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/elixir-lang/tree-sitter-iex"}
@@ -1755,6 +1930,7 @@
     :last-commit-hash "f742f2fe327463335e8671a87c0b9b396905d1d1"
     :name "eex"
     :parser-c :yes
+    :repos-dir "./repos/github.com/connorlay/tree-sitter-eex"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/connorlay/tree-sitter-eex"}
@@ -1765,6 +1941,7 @@
     :last-commit-hash "2686186edb61be47960431c93a204fb249681360"
     :name "caddy"
     :parser-c :yes
+    :repos-dir "./repos/github.com/opa-oz/tree-sitter-caddy"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/opa-oz/tree-sitter-caddy"}
@@ -1775,6 +1952,7 @@
     :last-commit-hash "5b6ccea9953b939959f447f7bfea699ae6968a99"
     :name "asciidoc"
     :parser-c :yes
+    :repos-dir "./repos/github.com/cathaysia/tree-sitter-asciidoc"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/cathaysia/tree-sitter-asciidoc"}
@@ -1785,6 +1963,7 @@
     :last-commit-hash "5b6ccea9953b939959f447f7bfea699ae6968a99"
     :name "asciidoc_inline"
     :parser-c :yes
+    :repos-dir "./repos/github.com/cathaysia/tree-sitter-asciidoc"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/cathaysia/tree-sitter-asciidoc"}
@@ -1795,6 +1974,7 @@
     :last-commit-hash "127f38a6c03d009ccf5798cf0eaad7d5df982445"
     :name "cairo"
     :parser-c :yes
+    :repos-dir "./repos/github.com/JoranHonig/tree-sitter-cairo"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/JoranHonig/tree-sitter-cairo"}
@@ -1805,6 +1985,7 @@
     :last-commit-hash "587f30d184b058450be2a2330878210c5f33b3f9"
     :name "sql"
     :parser-c :yes
+    :repos-dir "./repos/github.com/m-novikov/tree-sitter-sql"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/m-novikov/tree-sitter-sql"}
@@ -1815,6 +1996,7 @@
     :last-commit-hash "4932594a24f04e4ccf046919bc354272841b0077"
     :name "lua"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tjdevries/tree-sitter-lua"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tjdevries/tree-sitter-lua"}
@@ -1825,6 +2007,7 @@
     :last-commit-hash "9ac99fe4c0c27a35dc6f757cef534c646e944881"
     :name "kconfig"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-kconfig"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-kconfig"}
@@ -1835,6 +2018,7 @@
     :last-commit-hash "6eb323a20db2f1e8736c3a05915afe1687283965"
     :name "desktop"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ValdezFOmar/tree-sitter-desktop"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/ValdezFOmar/tree-sitter-desktop"}
@@ -1845,6 +2029,7 @@
     :last-commit-hash "31899dfa3b91622ea39e5c0bcddc88f45a9a3cfe"
     :name "ini"
     :parser-c :yes
+    :repos-dir "./repos/github.com/justinmk/tree-sitter-ini"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/justinmk/tree-sitter-ini"}
@@ -1855,6 +2040,7 @@
     :last-commit-hash "0681f9d1d21bbccdc44ab5241426409b4313f9b5"
     :name "bison"
     :parser-c :yes
+    :repos-dir "./repos/gitlab.com/btuin2/tree-sitter-bison"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://gitlab.com/btuin2/tree-sitter-bison"}
@@ -1865,6 +2051,7 @@
     :last-commit-hash "3cea80b67f53178518e2c5f5011b51a4f8f6c0a5"
     :name "bazelrc"
     :parser-c :yes
+    :repos-dir "./repos/github.com/zaucy/tree-sitter-bazelrc"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/zaucy/tree-sitter-bazelrc"}
@@ -1875,6 +2062,7 @@
     :last-commit-hash "d6eb82027c355e70f8186a47d17e6afd97fc7c81"
     :name "mandbconfig"
     :parser-c :no
+    :repos-dir "./repos/github.com/TornaxO7/tree-sitter-man-db-config"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/TornaxO7/tree-sitter-man-db-config"}
@@ -1885,6 +2073,7 @@
     :last-commit-hash "3937c5cd105ec4127448651a21aef45f52d19609"
     :name "todotxt"
     :parser-c :yes
+    :repos-dir "./repos/github.com/arnarg/tree-sitter-todotxt"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/arnarg/tree-sitter-todotxt"}
@@ -1895,6 +2084,7 @@
     :last-commit-hash "24a6c8ef698e4480fecf8340d771fbcb5de8fbb4"
     :name "glsl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-glsl"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-glsl"}
@@ -1905,6 +2095,7 @@
     :last-commit-hash "c917790ab9aec50c5fd664cbfad8dd45110cfff3"
     :name "wit"
     :parser-c :yes
+    :repos-dir "./repos/github.com/hh9527/tree-sitter-wit"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/hh9527/tree-sitter-wit"}
@@ -1915,6 +2106,7 @@
     :last-commit-hash "8f42a13095951700e7f9597dc309bee2c390c51f"
     :name "stan"
     :parser-c :yes
+    :repos-dir "./repos/github.com/WardBrian/tree-sitter-stan"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/WardBrian/tree-sitter-stan"}
@@ -1925,6 +2117,7 @@
     :last-commit-hash "20b5a5958c837bc9f74b231022a68a594a313f6d"
     :name "rego"
     :parser-c :yes
+    :repos-dir "./repos/github.com/FallenAngel97/tree-sitter-rego"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/FallenAngel97/tree-sitter-rego"}
@@ -1935,6 +2128,7 @@
     :last-commit-hash "440d5f913d9465c9c776a1bd92334d32febcf065"
     :name "sxhkdrc"
     :parser-c :yes
+    :repos-dir "./repos/github.com/RaafatTurki/tree-sitter-sxhkdrc"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/RaafatTurki/tree-sitter-sxhkdrc"}
@@ -1945,6 +2139,7 @@
     :last-commit-hash "3b32474bc29584ea214e4e84b47102408263fe0e"
     :name "vento"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ventojs/tree-sitter-vento"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/ventojs/tree-sitter-vento"}
@@ -1955,6 +2150,7 @@
     :last-commit-hash "b9b32fa042c2952a7bfca86847ea325e44ccc897"
     :name "agda"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-agda"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-agda"}
@@ -1965,6 +2161,7 @@
     :last-commit-hash "770737bcff2c4aa3f624d439e32b07dbb07102d3"
     :name "cue"
     :parser-c :yes
+    :repos-dir "./repos/github.com/eonpatapon/tree-sitter-cue"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/eonpatapon/tree-sitter-cue"}
@@ -1975,6 +2172,7 @@
     :last-commit-hash "39dd5774534db65957a964d48d3c3953a3085d29"
     :name "fennel"
     :parser-c :yes
+    :repos-dir "./repos/github.com/sogaiu/tree-sitter-fennel"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/sogaiu/tree-sitter-fennel"}
@@ -1985,6 +2183,7 @@
     :last-commit-hash "4900b68ead86049b67c4f7dfc4a805f170a7970e"
     :name "nim"
     :parser-c :yes
+    :repos-dir "./repos/github.com/aMOPel/tree-sitter-nim"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/aMOPel/tree-sitter-nim"}
@@ -1995,6 +2194,7 @@
     :last-commit-hash "32323509b3d9fe96607d151c2da2c9009eb13a2f"
     :name "commonlisp"
     :parser-c :yes
+    :repos-dir "./repos/github.com/theHamsta/tree-sitter-commonlisp"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/theHamsta/tree-sitter-commonlisp"}
@@ -2005,6 +2205,7 @@
     :last-commit-hash "7fa1be1b694b6e763686793d97da01f36a0e5c12"
     :name "c"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-c"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-c"}
@@ -2015,6 +2216,7 @@
     :last-commit-hash "2c0e6be8dd4dcb961c345fa35c309ad4f5bd3502"
     :name "yang"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Hubro/tree-sitter-yang"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Hubro/tree-sitter-yang"}
@@ -2025,6 +2227,7 @@
     :last-commit-hash "20211339830745a9bce045587c84449c20dea202"
     :name "c3"
     :parser-c :yes
+    :repos-dir "./repos/github.com/zweimach/tree-sitter-c3"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/zweimach/tree-sitter-c3"}
@@ -2035,6 +2238,7 @@
     :last-commit-hash "de893b166476205b09e79cd3689f95831269579a"
     :name "rbs"
     :parser-c :yes
+    :repos-dir "./repos/github.com/joker1007/tree-sitter-rbs"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/joker1007/tree-sitter-rbs"}
@@ -2045,6 +2249,7 @@
     :last-commit-hash "8509e3229b863c255ab6b61f3bf74ad0bf14e8bc"
     :name "bash"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-bash"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-bash"}
@@ -2055,6 +2260,7 @@
     :last-commit-hash "11b6ab9afaae072d38211b5ac2a438467b0137e3"
     :name "Ada"
     :parser-c :yes
+    :repos-dir "./repos/github.com/TamaMcGlinn/tree-sitter-ada"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/TamaMcGlinn/tree-sitter-ada"}
@@ -2065,6 +2271,7 @@
     :last-commit-hash "47c1818d245a6156a488c4c4d06e9336714bae9b"
     :name "wgsl_bevy"
     :parser-c :yes
+    :repos-dir "./repos/github.com/theHamsta/tree-sitter-wgsl-bevy"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/theHamsta/tree-sitter-wgsl-bevy"}
@@ -2075,6 +2282,7 @@
     :last-commit-hash "6eb8acc275961d137b4b4dd7fe84a19a0680c893"
     :name "c3"
     :parser-c :yes
+    :repos-dir "./repos/github.com/c3lang/tree-sitter-c3"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/c3lang/tree-sitter-c3"}
@@ -2085,6 +2293,7 @@
     :last-commit-hash "710796b8b877a970297106e5bbc8e2afa47f86ec"
     :name "python"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-python"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-python"}
@@ -2095,6 +2304,7 @@
     :last-commit-hash "0889da4632bba3ec6f39ef4102625654890c15c1"
     :name "qmljs"
     :parser-c :yes
+    :repos-dir "./repos/github.com/yuja/tree-sitter-qmljs"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/yuja/tree-sitter-qmljs"}
@@ -2105,6 +2315,7 @@
     :last-commit-hash "897e5d346f0b59ed62b517cfb0f1a845ad8f0ab7"
     :name "nim"
     :parser-c :yes
+    :repos-dir "./repos/github.com/alaviss/tree-sitter-nim"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/alaviss/tree-sitter-nim"}
@@ -2115,6 +2326,7 @@
     :last-commit-hash "e4bfd3e960de9f4b4648acb1c92e9b95b47d8cfb"
     :name "facility"
     :parser-c :yes
+    :repos-dir "./repos/github.com/FacilityApi/tree-sitter-facility"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/FacilityApi/tree-sitter-facility"}
@@ -2125,6 +2337,7 @@
     :last-commit-hash "fe3bf9389e7ff213cf3548caaf9c6f3d4bb38647"
     :name "ziggy_schema"
     :parser-c :yes
+    :repos-dir "./repos/github.com/kristoff-it/ziggy"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/kristoff-it/ziggy"}
@@ -2135,6 +2348,7 @@
     :last-commit-hash "fe3bf9389e7ff213cf3548caaf9c6f3d4bb38647"
     :name "ziggy"
     :parser-c :yes
+    :repos-dir "./repos/github.com/kristoff-it/ziggy"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/kristoff-it/ziggy"}
@@ -2145,6 +2359,7 @@
     :last-commit-hash "15f192929b7d317f5914de2b4accd37b349182a6"
     :name "puppet"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-puppet"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-puppet"}
@@ -2155,6 +2370,7 @@
     :last-commit-hash "679459be70d7fbac175fb19f668948d57b3825ef"
     :name "groovy"
     :parser-c :no
+    :repos-dir "./repos/github.com/Decodetalkers/tree-sitter-groovy"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Decodetalkers/tree-sitter-groovy"}
@@ -2165,6 +2381,7 @@
     :last-commit-hash "66a5319aed0cf9a5f464f18f9b73274734d2ef29"
     :name "fsharp"
     :parser-c :yes
+    :repos-dir "./repos/github.com/baronfel/tree-sitter-fsharp"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/baronfel/tree-sitter-fsharp"}
@@ -2175,6 +2392,7 @@
     :last-commit-hash "8503d3a0fe0f9e427863cb0055699ff2d29ae5f5"
     :name "firrtl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-firrtl"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-firrtl"}
@@ -2185,6 +2403,7 @@
     :last-commit-hash "8c4ccabf7d286093ecca8070af9770833226b351"
     :name "slint"
     :parser-c :no
+    :repos-dir "./repos/github.com/slint-ui/slint"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/slint-ui/slint"}
@@ -2195,6 +2414,7 @@
     :last-commit-hash "c18a3c2f4b6665e35b7e50d6048ea3cff770c572"
     :name "re2c"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-re2c"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-re2c"}
@@ -2205,6 +2425,7 @@
     :last-commit-hash "fd4b4955bb998262840ab8119885b3edf20ea75a"
     :name "sml"
     :parser-c :yes
+    :repos-dir "./repos/github.com/MatthewFluet/tree-sitter-sml"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/MatthewFluet/tree-sitter-sml"}
@@ -2215,6 +2436,7 @@
     :last-commit-hash "d626ec06e4d876fc41200a30b3e6f2b4714c7367"
     :name "hyprlang"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-hyprlang"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-hyprlang"}
@@ -2225,6 +2447,7 @@
     :last-commit-hash "64cfbc213f5a83da17632c95382a5a0a2f3357c1"
     :name "org"
     :parser-c :yes
+    :repos-dir "./repos/github.com/milisims/tree-sitter-org"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/milisims/tree-sitter-org"}
@@ -2235,6 +2458,7 @@
     :last-commit-hash "13f5a2221cb748bbe50ad702e89362afd5b925a7"
     :name "superhtml"
     :parser-c :yes
+    :repos-dir "./repos/github.com/kristoff-it/superhtml"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/kristoff-it/superhtml"}
@@ -2245,6 +2469,7 @@
     :last-commit-hash "464654742cbfd3a3de560aba120998f1d5dfa844"
     :name "corn"
     :parser-c :yes
+    :repos-dir "./repos/github.com/jakestanger/tree-sitter-corn"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/jakestanger/tree-sitter-corn"}
@@ -2255,6 +2480,7 @@
     :last-commit-hash "549aef253fd38a53995cda1bf55c501174372bf7"
     :name "gstlaunch"
     :parser-c :yes
+    :repos-dir "./repos/github.com/theHamsta/tree-sitter-gstlaunch"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/theHamsta/tree-sitter-gstlaunch"}
@@ -2265,6 +2491,7 @@
     :last-commit-hash "e735c6881d8b475aaa4ef8f0a2bdfd825b438143"
     :name "rasi"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Fymyte/tree-sitter-rasi"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/Fymyte/tree-sitter-rasi"}
@@ -2275,6 +2502,7 @@
     :last-commit-hash "05d276e737055e6f77a21335b7573c9d3c091e2f"
     :name "teal"
     :parser-c :yes
+    :repos-dir "./repos/github.com/euclidianAce/tree-sitter-teal"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/euclidianAce/tree-sitter-teal"}
@@ -2285,6 +2513,7 @@
     :last-commit-hash "8e51fa63ddb93ac179d4e34a311d3d3f03780b42"
     :name "liquidsoap"
     :parser-c :yes
+    :repos-dir "./repos/github.com/savonet/tree-sitter-liquidsoap"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/savonet/tree-sitter-liquidsoap"}
@@ -2295,6 +2524,7 @@
     :last-commit-hash "8b8b77af0493e26d378135a3e7f5ae25b555b375"
     :name "markdown"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ikatyang/tree-sitter-markdown"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/ikatyang/tree-sitter-markdown"}
@@ -2305,6 +2535,7 @@
     :last-commit-hash "6557729f4afaf01dec7481d4e5975515ea8f0edd"
     :name "devicetree"
     :parser-c :yes
+    :repos-dir "./repos/github.com/joelspadin/tree-sitter-devicetree"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/joelspadin/tree-sitter-devicetree"}
@@ -2315,6 +2546,7 @@
     :last-commit-hash "bd860a0f57f697162bf28e576674be9c1500db5e"
     :name "po"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-po"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-po"}
@@ -2325,6 +2557,7 @@
     :last-commit-hash "7e48557b903a9db9c38cea3b7839ef7e1f36c693"
     :name "vue"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-vue"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-vue"}
@@ -2335,6 +2568,7 @@
     :last-commit-hash "91fe2754796cd8fba5f229505a23fa08f3546c06"
     :name "vue"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ikatyang/tree-sitter-vue"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/ikatyang/tree-sitter-vue"}
@@ -2345,6 +2579,7 @@
     :last-commit-hash "a4454e3004a9e8fea2df7fd2535fbaa05500da21"
     :name "slang"
     :parser-c :yes
+    :repos-dir "./repos/github.com/theHamsta/tree-sitter-slang"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/theHamsta/tree-sitter-slang"}
@@ -2355,6 +2590,7 @@
     :last-commit-hash "18b739c1563c83fc816170a4241adfa4b69e5c47"
     :name "julia"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-julia"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-julia"}
@@ -2365,6 +2601,7 @@
     :last-commit-hash "60ea1d673a1a3eeeb597e098d9ada9ed0c79ef4b"
     :name "svelte"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Himujjal/tree-sitter-svelte"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/Himujjal/tree-sitter-svelte"}
@@ -2375,6 +2612,7 @@
     :last-commit-hash "901e71368a29d5f893d43d099fbc2b4ab037660e"
     :name "souffle"
     :parser-c :yes
+    :repos-dir "./repos/github.com/langston-barrett/tree-sitter-souffle"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/langston-barrett/tree-sitter-souffle"}
@@ -2385,6 +2623,7 @@
     :last-commit-hash "40dda1f1be3215e67bec142511515f57a8e37345"
     :name "re2c"
     :parser-c :yes
+    :repos-dir "./repos/github.com/alemuller/tree-sitter-re2c"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/alemuller/tree-sitter-re2c"}
@@ -2395,6 +2634,7 @@
     :last-commit-hash "5b5a96a17889bd8aab5c413bda9e7d29391a5a1c"
     :name "gemtext"
     :parser-c :yes
+    :repos-dir "./repos/github.com/pebbe/tree-sitter-gemtext"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/pebbe/tree-sitter-gemtext"}
@@ -2405,6 +2645,7 @@
     :last-commit-hash "a7732557aaa55e6947729e354950434dd775aae0"
     :name "rec"
     :parser-c :yes
+    :repos-dir "./repos/github.com/amaanq/tree-sitter-rec"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/amaanq/tree-sitter-rec"}
@@ -2415,6 +2656,7 @@
     :last-commit-hash "6f0510cc516a3af3396a682fbd6655486c2c9d2d"
     :name "norg_meta"
     :parser-c :yes
+    :repos-dir "./repos/github.com/nvim-neorg/tree-sitter-norg-meta"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/nvim-neorg/tree-sitter-norg-meta"}
@@ -2425,6 +2667,7 @@
     :last-commit-hash "db8b4398de90b6d0b6c780aba96aaa2cd8e9202c"
     :name "http"
     :parser-c :yes
+    :repos-dir "./repos/github.com/rest-nvim/tree-sitter-http"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/rest-nvim/tree-sitter-http"}
@@ -2435,6 +2678,7 @@
     :last-commit-hash "1fd627a4e8bff8c24c11987474bd33112bead857"
     :name "ql"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-ql"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-ql"}
@@ -2445,6 +2689,7 @@
     :last-commit-hash "8d3e9782f2d091d0cd39c13bfb3068db0c675960"
     :name "ipkg"
     :parser-c :yes
+    :repos-dir "./repos/github.com/srghma/tree-sitter-ipkg"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/srghma/tree-sitter-ipkg"}
@@ -2455,6 +2700,7 @@
     :last-commit-hash "b848e63e9f2a68accff0332392f07582c046295a"
     :name "elixir"
     :parser-c :yes
+    :repos-dir "./repos/github.com/elixir-lang/tree-sitter-elixir"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/elixir-lang/tree-sitter-elixir"}
@@ -2465,6 +2711,7 @@
     :last-commit-hash "728910099ddea7f1f94ea95a35a70d1ea76a1639"
     :name "requirements"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ObserverOfTime/tree-sitter-requirements"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/ObserverOfTime/tree-sitter-requirements"}
@@ -2475,6 +2722,7 @@
     :last-commit-hash "76e0c25844a66ebc6e866d690fcc5f4e90698947"
     :name "wing"
     :parser-c :yes
+    :repos-dir "./repos/github.com/winglang/tree-sitter-wing"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/winglang/tree-sitter-wing"}
@@ -2485,6 +2733,7 @@
     :last-commit-hash "26d529e6cfecde391a03c21d1474eb51e0285805"
     :name "eds"
     :parser-c :yes
+    :repos-dir "./repos/github.com/uyha/tree-sitter-eds"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/uyha/tree-sitter-eds"}
@@ -2495,6 +2744,7 @@
     :last-commit-hash "fff3e72242aa110ebba6441946ea4d12d200fa68"
     :name "xcompose"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-xcompose"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-xcompose"}
@@ -2505,6 +2755,7 @@
     :last-commit-hash "15f0032f3eadf95988293338e883c095fd5936f6"
     :name "t32"
     :parser-c :yes
+    :repos-dir "./repos/codeberg.org/xasc/tree-sitter-t32"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://codeberg.org/xasc/tree-sitter-t32"}
@@ -2515,6 +2766,7 @@
     :last-commit-hash "949a8a470559543857a62102c84700d291fc984c"
     :name "gowork"
     :parser-c :yes
+    :repos-dir "./repos/github.com/omertuc/tree-sitter-go-work"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/omertuc/tree-sitter-go-work"}
@@ -2525,6 +2777,7 @@
     :last-commit-hash "6ece453acf8b14568c10f629f8cd25d3dde3794f"
     :name "gleam"
     :parser-c :yes
+    :repos-dir "./repos/github.com/gleam-lang/tree-sitter-gleam"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/gleam-lang/tree-sitter-gleam"}
@@ -2535,6 +2788,7 @@
     :last-commit-hash "be9a66abbc6d3f3b2508bc2363d6089e13d11c17"
     :name "LBNF"
     :parser-c :yes
+    :repos-dir "./repos/github.com/MortenSchou/tree-sitter-lbnf"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/MortenSchou/tree-sitter-lbnf"}
@@ -2545,6 +2799,7 @@
     :last-commit-hash "2c27e329f7724e39f40439e68e22133e285a3e3b"
     :name "systemrdl"
     :parser-c :no
+    :repos-dir "./repos/github.com/SystemRDL/tree-sitter-systemrdl"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/SystemRDL/tree-sitter-systemrdl"}
@@ -2555,6 +2810,7 @@
     :last-commit-hash "52944017f04362633baed93a62d068866641fdd0"
     :name "COBOL"
     :parser-c :no
+    :repos-dir "./repos/github.com/Neppord/tree-sitter-cobol"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Neppord/tree-sitter-cobol"}
@@ -2565,6 +2821,7 @@
     :last-commit-hash "c8f50f7660e2e0b72e51eaae68c8f7f9f9a01755"
     :name "sql"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tjdevries/tree-sitter-sql"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tjdevries/tree-sitter-sql"}
@@ -2575,6 +2832,7 @@
     :last-commit-hash "bff59884307c0ab009bd5e81afd9324b46a6c0f9"
     :name "bicep"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-bicep"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-bicep"}
@@ -2585,6 +2843,7 @@
     :last-commit-hash "b670c8df85a1568f498aa5c8cae42f51a90473c0"
     :name "zig"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-zig"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-zig"}
@@ -2595,6 +2854,7 @@
     :last-commit-hash "ccd998f378c3f9345ea4eeb223f56d7b84d16687"
     :name "doxygen"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-doxygen"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-doxygen"}
@@ -2605,6 +2865,7 @@
     :last-commit-hash "90ae195b31933ceb9d079abfa8a3ad0a36fee4cc"
     :name "mermaid"
     :parser-c :yes
+    :repos-dir "./repos/github.com/monaqa/tree-sitter-mermaid"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/monaqa/tree-sitter-mermaid"}
@@ -2615,6 +2876,7 @@
     :last-commit-hash "014628ae8d2df391b88ddb9fa0260fd97f770829"
     :name "cuda"
     :parser-c :yes
+    :repos-dir "./repos/github.com/theHamsta/tree-sitter-cuda"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/theHamsta/tree-sitter-cuda"}
@@ -2625,6 +2887,7 @@
     :last-commit-hash "15e4f8c417281768db17080c4447297f8ff5343a"
     :name "fennel"
     :parser-c :yes
+    :repos-dir "./repos/github.com/TravonteD/tree-sitter-fennel"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/TravonteD/tree-sitter-fennel"}
@@ -2635,6 +2898,7 @@
     :last-commit-hash "8b77e85eecd5597831bd8827f14a3a4fbc4a1337"
     :name "ohm"
     :parser-c :yes
+    :repos-dir "./repos/github.com/novusnota/tree-sitter-ohm"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/novusnota/tree-sitter-ohm"}
@@ -2645,6 +2909,7 @@
     :last-commit-hash "f4685bf11ac466dd278449bcfe5fd014e94aa504"
     :name "gitignore"
     :parser-c :yes
+    :repos-dir "./repos/github.com/shunsambongi/tree-sitter-gitignore"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/shunsambongi/tree-sitter-gitignore"}
@@ -2655,6 +2920,7 @@
     :last-commit-hash "4f66444b92ba3e80d73b055ccbd04a2f7d9e1608"
     :name "nu"
     :parser-c :yes
+    :repos-dir "./repos/github.com/LhKipp/tree-sitter-nu"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/LhKipp/tree-sitter-nu"}
@@ -2665,6 +2931,7 @@
     :last-commit-hash "74addc90fc539d31d413c0c7cf7581997a7fa46e"
     :name "readline"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ribru17/tree-sitter-readline"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/ribru17/tree-sitter-readline"}
@@ -2675,6 +2942,7 @@
     :last-commit-hash "fad2e175099a45efbc98f000cc196d3674cc45e0"
     :name "fsh"
     :parser-c :yes
+    :repos-dir "./repos/github.com/mgramigna/tree-sitter-fsh"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/mgramigna/tree-sitter-fsh"}
@@ -2685,6 +2953,7 @@
     :last-commit-hash "68fd0d80943a828d9e6f49c58a74be1e9ca142cf"
     :name "thrift"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-thrift"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-thrift"}
@@ -2695,6 +2964,7 @@
     :last-commit-hash "d6ebde3974742cd1b61b55d1d94aab1dacb41056"
     :name "liquid"
     :parser-c :yes
+    :repos-dir "./repos/github.com/hankthetank27/tree-sitter-liquid"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/hankthetank27/tree-sitter-liquid"}
@@ -2705,6 +2975,7 @@
     :last-commit-hash "40c5fc2e2a0f511a802a82002553c5de00feeaf4"
     :name "clojure"
     :parser-c :yes
+    :repos-dir "./repos/github.com/sogaiu/tree-sitter-clojure"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/sogaiu/tree-sitter-clojure"}
@@ -2715,6 +2986,7 @@
     :last-commit-hash "e8e2515465cc2d7c444498e68bdb9f1d86767f95"
     :name "ada"
     :parser-c :yes
+    :repos-dir "./repos/github.com/briot/tree-sitter-ada"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/briot/tree-sitter-ada"}
@@ -2725,6 +2997,7 @@
     :last-commit-hash "d89d95af13d409f30a6c7676387bde311ec4a2c8"
     :name "norg"
     :parser-c :yes
+    :repos-dir "./repos/github.com/nvim-neorg/tree-sitter-norg"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/nvim-neorg/tree-sitter-norg"}
@@ -2735,6 +3008,7 @@
     :last-commit-hash "0e9c9e962177dc0a17d6bd79ff14330334466800"
     :name "nois"
     :parser-c :yes
+    :repos-dir "./repos/github.com/nois-lang/tree-sitter-nois"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/nois-lang/tree-sitter-nois"}
@@ -2745,6 +3019,7 @@
     :last-commit-hash "73ff874ae4c9e9b45462673cbc0a1e350e2522a7"
     :name "pony"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-pony"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-pony"}
@@ -2755,6 +3030,7 @@
     :last-commit-hash "97e6db3c8c73b15a9541a458d8e797a07f588ef4"
     :name "vala"
     :parser-c :yes
+    :repos-dir "./repos/github.com/vala-lang/tree-sitter-vala"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/vala-lang/tree-sitter-vala"}
@@ -2765,6 +3041,7 @@
     :last-commit-hash "f48f0ba8e069e918ac08a2d0a6c1a8d67b0c5781"
     :name "gularen"
     :parser-c :yes
+    :repos-dir "./repos/github.com/noorwachid/tree-sitter-gularen"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/noorwachid/tree-sitter-gularen"}
@@ -2775,6 +3052,7 @@
     :last-commit-hash "a37c5ee95ce401ca311c0ae1369d9cfb953e151d"
     :name "earthfile"
     :parser-c :yes
+    :repos-dir "./repos/github.com/glehmann/tree-sitter-earthfile"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/glehmann/tree-sitter-earthfile"}
@@ -2785,6 +3063,7 @@
     :last-commit-hash "009def4ae38ec30e5b40beeae26efe93484ab286"
     :name "hcl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/MichaHoffmann/tree-sitter-hcl"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/MichaHoffmann/tree-sitter-hcl"}
@@ -2795,6 +3074,7 @@
     :last-commit-hash "009def4ae38ec30e5b40beeae26efe93484ab286"
     :name "terraform"
     :parser-c :yes
+    :repos-dir "./repos/github.com/MichaHoffmann/tree-sitter-hcl"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/MichaHoffmann/tree-sitter-hcl"}
@@ -2805,6 +3085,7 @@
     :last-commit-hash "28d3b2e25a0b1881d1b47ed1924ca276c7003d45"
     :name "objdump"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ColinKennedy/tree-sitter-objdump"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/ColinKennedy/tree-sitter-objdump"}
@@ -2815,6 +3096,7 @@
     :last-commit-hash "63e80cfe1302da9f9c7ee8d9df295f47d7d181bf"
     :name "gpg"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ObserverOfTime/tree-sitter-gpg-config"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/ObserverOfTime/tree-sitter-gpg-config"}
@@ -2825,6 +3107,7 @@
     :last-commit-hash "098c34d1228aab42a00a09b38d3dd2ec21b8ae4c"
     :name "mail"
     :parser-c :yes
+    :repos-dir "./repos/github.com/stevenxxiu/tree-sitter-mail"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/stevenxxiu/tree-sitter-mail"}
@@ -2835,6 +3118,7 @@
     :last-commit-hash "45e5f1e9d6de2c68591bc8e5ec662cf18e950b4a"
     :name "d"
     :parser-c :yes
+    :repos-dir "./repos/github.com/gdamore/tree-sitter-d"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/gdamore/tree-sitter-d"}
@@ -2845,6 +3129,7 @@
     :last-commit-hash "568471b80fd8793d37ed01865d8c2208a9fefd1b"
     :name "textproto"
     :parser-c :yes
+    :repos-dir "./repos/github.com/PorterAtGoogle/tree-sitter-textproto"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/PorterAtGoogle/tree-sitter-textproto"}
@@ -2855,6 +3140,7 @@
     :last-commit-hash "fe25cf8592ea12ad6de00379a444d376ba32c7b5"
     :name "plantuml"
     :parser-c :yes
+    :repos-dir "./repos/github.com/lyndsysimon/tree-sitter-plantuml"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/lyndsysimon/tree-sitter-plantuml"}
@@ -2865,6 +3151,7 @@
     :last-commit-hash "fd6a5a256f831f0882b435d976c9baab04fb9e2b"
     :name "smalltalk"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tom95/tree-sitter-smalltalk"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tom95/tree-sitter-smalltalk"}
@@ -2875,6 +3162,7 @@
     :last-commit-hash "5f19a36bb1eebb30454e277b222b278ceafed0dd"
     :name "gotmpl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ngalaiko/tree-sitter-go-template"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/ngalaiko/tree-sitter-go-template"}
@@ -2885,6 +3173,7 @@
     :last-commit-hash "5f19a36bb1eebb30454e277b222b278ceafed0dd"
     :name "helm"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ngalaiko/tree-sitter-go-template"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/ngalaiko/tree-sitter-go-template"}
@@ -2895,6 +3184,7 @@
     :last-commit-hash "7b0883c03e5edd34ef7bcf703194204299d7099f"
     :name "capnp"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-capnp"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-capnp"}
@@ -2905,6 +3195,7 @@
     :last-commit-hash "9ff2d7b498fffbb7b311f30d5f3f4a9068302aea"
     :name "p4"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ace-design/tree-sitter-p4"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/ace-design/tree-sitter-p4"}
@@ -2915,6 +3206,7 @@
     :last-commit-hash "c478c6868648eff49eb04a4df90d703dc45b312a"
     :name "scss"
     :parser-c :yes
+    :repos-dir "./repos/github.com/serenadeai/tree-sitter-scss"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/serenadeai/tree-sitter-scss"}
@@ -2925,6 +3217,7 @@
     :last-commit-hash "c2fbf21bd3aa45495fe13247e040ad5815250032"
     :name "d"
     :parser-c :no
+    :repos-dir "./repos/github.com/CyberShadow/tree-sitter-d"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/CyberShadow/tree-sitter-d"}
@@ -2935,6 +3228,7 @@
     :last-commit-hash "594289eadfec719198e560f9d7fd243c4db678d5"
     :name "cpon"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-cpon"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-cpon"}
@@ -2945,6 +3239,7 @@
     :last-commit-hash "e99dbdc3d800d5fa2796476efd60af91f6b43d93"
     :name "COBOL"
     :parser-c :yes
+    :repos-dir "./repos/github.com/yutaro-sakamoto/tree-sitter-cobol"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/yutaro-sakamoto/tree-sitter-cobol"}
@@ -2955,6 +3250,7 @@
     :last-commit-hash "02af3938f1d1187482ed91a5bcff84cc0fce45d9"
     :name "d2"
     :parser-c :yes
+    :repos-dir "./repos/github.com/pleshevskiy/tree-sitter-d2"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/pleshevskiy/tree-sitter-d2"}
@@ -2965,6 +3261,7 @@
     :last-commit-hash "2902dc45439125b9386812c1089a8e9b5f71c4ab"
     :name "poe_filter"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-poe-filter"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-poe-filter"}
@@ -2975,6 +3272,7 @@
     :last-commit-hash "09e158cd3650581c0af4c49c2e5b10c4834c8646"
     :name "prql"
     :parser-c :yes
+    :repos-dir "./repos/github.com/PRQL/tree-sitter-prql"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/PRQL/tree-sitter-prql"}
@@ -2985,6 +3283,7 @@
     :last-commit-hash "a716678c0f00645fed1e6f1d0eb221481dbd6f6d"
     :name "gitcommit"
     :parser-c :yes
+    :repos-dir "./repos/github.com/gbprod/tree-sitter-gitcommit"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/gbprod/tree-sitter-gitcommit"}
@@ -2995,6 +3294,7 @@
     :last-commit-hash "51c4348f7fe790160440a41e591aec3dd25f445a"
     :name "twitchchat"
     :parser-c :yes
+    :repos-dir "./repos/github.com/rockerBOO/tree-sitter-twitchchat"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/rockerBOO/tree-sitter-twitchchat"}
@@ -3005,6 +3305,7 @@
     :last-commit-hash "c246cf2bf36590a3cb4de380205376d3c46208e8"
     :name "prolog"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Rukiza/tree-sitter-prolog"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Rukiza/tree-sitter-prolog"}
@@ -3015,6 +3316,7 @@
     :last-commit-hash "a5d04fdb5a69a02b8fa8eb5525a60dfb5309b73b"
     :name "bitbake"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-bitbake"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-bitbake"}
@@ -3025,6 +3327,7 @@
     :last-commit-hash "a453dbf3ba433db0e5ec621a38a7e59d72e4dc69"
     :name "starlark"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-starlark"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-starlark"}
@@ -3035,6 +3338,7 @@
     :last-commit-hash "922b28e1352c4966418b2e7e3772e0583d4532a2"
     :name "jinja2"
     :parser-c :yes
+    :repos-dir "./repos/github.com/dbt-labs/tree-sitter-jinja2"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/dbt-labs/tree-sitter-jinja2"}
@@ -3045,6 +3349,7 @@
     :last-commit-hash "a85d14355050f1293ed8d65daf2f0df42b7dad12"
     :name "vcd"
     :parser-c :no
+    :repos-dir "./repos/github.com/wavedrom/tree-sitter-vcd"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/wavedrom/tree-sitter-vcd"}
@@ -3055,6 +3360,7 @@
     :last-commit-hash "8a109b8f00bfb0fccaae83dc9a5a0abd0c444358"
     :name "scilab"
     :parser-c :no
+    :repos-dir "./repos/github.com/nicolas-graves/tree-sitter-scilab"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/nicolas-graves/tree-sitter-scilab"}
@@ -3065,6 +3371,7 @@
     :last-commit-hash "873612aadd3f684dd4e631bdf42ea8990c57634e"
     :name "luadoc"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-luadoc"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-luadoc"}
@@ -3075,6 +3382,7 @@
     :last-commit-hash "8dee53cfb962600dd35ca25432f005e7920e89f2"
     :name "gap"
     :parser-c :yes
+    :repos-dir "./repos/github.com/gap-system/tree-sitter-gap"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/gap-system/tree-sitter-gap"}
@@ -3085,6 +3393,7 @@
     :last-commit-hash "5092204de4521a8d5a71bbf14adf2e1ded45b723"
     :name "cedar"
     :parser-c :yes
+    :repos-dir "./repos/github.com/chrnorm/tree-sitter-cedar"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/chrnorm/tree-sitter-cedar"}
@@ -3095,6 +3404,7 @@
     :last-commit-hash "4fbec840c34149b7d5fe10097c93a320ee4af053"
     :name "lua"
     :parser-c :yes
+    :repos-dir "./repos/github.com/MunifTanjim/tree-sitter-lua"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/MunifTanjim/tree-sitter-lua"}
@@ -3105,6 +3415,7 @@
     :last-commit-hash "b0b2eb38009e04035a6e266c7e11e541f3caab7c"
     :name "kcl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/kcl-lang/tree-sitter-kcl"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/kcl-lang/tree-sitter-kcl"}
@@ -3115,6 +3426,7 @@
     :last-commit-hash "1a617413ea92c237bff4cbe7fa67eb3bf4425596"
     :name "jack"
     :parser-c :yes
+    :repos-dir "./repos/github.com/nverno/tree-sitter-jack"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/nverno/tree-sitter-jack"}
@@ -3125,6 +3437,7 @@
     :last-commit-hash "7e9f6fa9a6e9e4e5ced1683afc89a0d5b32a4ebc"
     :name "xresources"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ValdezFOmar/tree-sitter-xresources"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/ValdezFOmar/tree-sitter-xresources"}
@@ -3135,6 +3448,7 @@
     :last-commit-hash "3e90feaf59830d1e44017c729b4d5b354071ddc8"
     :name "wdl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/jdidion/tree-sitter-wdl"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/jdidion/tree-sitter-wdl"}
@@ -3145,6 +3459,7 @@
     :last-commit-hash "66d5e61126989c0aca57ff77d19b2064919b51e1"
     :name "powershell"
     :parser-c :yes
+    :repos-dir "./repos/github.com/airbus-cert/tree-sitter-powershell"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/airbus-cert/tree-sitter-powershell"}
@@ -3155,6 +3470,7 @@
     :last-commit-hash "5d8fde870b0ded1f429ba5bb249a9d9f8589ff5f"
     :name "typoscript"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Teddytrombone/tree-sitter-typoscript"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Teddytrombone/tree-sitter-typoscript"}
@@ -3165,6 +3481,7 @@
     :last-commit-hash "624ff108fe949727217cddb302f20e4f16997b1c"
     :name "angular"
     :parser-c :yes
+    :repos-dir "./repos/github.com/steelsojka/tree-sitter-angular"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/steelsojka/tree-sitter-angular"}
@@ -3175,6 +3492,7 @@
     :last-commit-hash "17a7ed4481bdaaa35a1372f3a94bc851d634a19e"
     :name "surrealdb"
     :parser-c :yes
+    :repos-dir "./repos/github.com/DariusCorvus/tree-sitter-surrealdb"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/DariusCorvus/tree-sitter-surrealdb"}
@@ -3185,6 +3503,7 @@
     :last-commit-hash "173b0ab53a9c07962c9777189c4c70e90f1c1837"
     :name "muttrc"
     :parser-c :yes
+    :repos-dir "./repos/github.com/neomutt/tree-sitter-muttrc"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/neomutt/tree-sitter-muttrc"}
@@ -3195,6 +3514,7 @@
     :last-commit-hash "48ce1687125c6dfefcc7a1bef19fa0f0f00426cc"
     :name "brightscript"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ajdelcimmuto/tree-sitter-brightscript"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/ajdelcimmuto/tree-sitter-brightscript"}
@@ -3205,6 +3525,7 @@
     :last-commit-hash "d8d76edfcbc3c86485a246acfccbdc725d133b48"
     :name "apex"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Ziemniakoss/tree-sitter-apex"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Ziemniakoss/tree-sitter-apex"}
@@ -3215,6 +3536,7 @@
     :last-commit-hash "e128454c2210c0e0c10b68fe45ddb8fee80182a3"
     :name "m68k"
     :parser-c :yes
+    :repos-dir "./repos/github.com/grahambates/tree-sitter-m68k"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/grahambates/tree-sitter-m68k"}
@@ -3225,6 +3547,7 @@
     :last-commit-hash "9f6191a98702edc1084245abd5523279d4b681fb"
     :name "vimdoc"
     :parser-c :yes
+    :repos-dir "./repos/github.com/neovim/tree-sitter-vimdoc"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/neovim/tree-sitter-vimdoc"}
@@ -3235,6 +3558,7 @@
     :last-commit-hash "6b02dfd7f07f36c223270e97eb0adf84e15a4cef"
     :name "lua"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Azganoth/tree-sitter-lua"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/Azganoth/tree-sitter-lua"}
@@ -3245,6 +3569,7 @@
     :last-commit-hash "0f77bc710f61ec6be658ddf51851b2ed2cdaa20d"
     :name "mlir"
     :parser-c :yes
+    :repos-dir "./repos/github.com/artagnon/tree-sitter-mlir"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/artagnon/tree-sitter-mlir"}
@@ -3255,6 +3580,7 @@
     :last-commit-hash "e6951706c8009111ffb38d53f2dfeb597fd6de22"
     :name "ghccore"
     :parser-c :no
+    :repos-dir "./repos/github.com/bgamari/tree-sitter-ghc-core"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/bgamari/tree-sitter-ghc-core"}
@@ -3265,6 +3591,7 @@
     :last-commit-hash "a307cead536c1ba8143541a3df0a72a1f858efa4"
     :name "idris2"
     :parser-c :yes
+    :repos-dir "./repos/github.com/gwerbin/tree-sitter-idris2"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/gwerbin/tree-sitter-idris2"}
@@ -3275,6 +3602,7 @@
     :last-commit-hash "ec187cafba510cddac265329ca7831ec6f3b9955"
     :name "luau"
     :parser-c :yes
+    :repos-dir "./repos/github.com/polychromatist/tree-sitter-luau"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/polychromatist/tree-sitter-luau"}
@@ -3285,6 +3613,7 @@
     :last-commit-hash "cb90e7a8a1ffd618f2e19ccc55ae947a994baf66"
     :name "ssh_client_config"
     :parser-c :yes
+    :repos-dir "./repos/github.com/metio/tree-sitter-ssh-client-config"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/metio/tree-sitter-ssh-client-config"}
@@ -3295,6 +3624,7 @@
     :last-commit-hash "37bf43c7f11d2b4af7a78d98a19e6d5c2cf04ad2"
     :name "wit"
     :parser-c :yes
+    :repos-dir "./repos/github.com/liamwh/tree-sitter-wit"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/liamwh/tree-sitter-wit"}
@@ -3305,6 +3635,7 @@
     :last-commit-hash "02b01653c8a1c198ae7287d566efa86a135b30d5"
     :name "jsonc"
     :parser-c :yes
+    :repos-dir "./repos/gitlab.com/WhyNotHugo/tree-sitter-jsonc"
     :scanner :no
     :tree-sitter-json :no
     :url "https://gitlab.com/WhyNotHugo/tree-sitter-jsonc"}
@@ -3315,6 +3646,7 @@
     :last-commit-hash "2ca28a9f9d709847bf7a3de0942a84e912f59088"
     :name "wast"
     :parser-c :yes
+    :repos-dir "./repos/github.com/wasm-lsp/tree-sitter-wasm"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/wasm-lsp/tree-sitter-wasm"}
@@ -3325,6 +3657,7 @@
     :last-commit-hash "2ca28a9f9d709847bf7a3de0942a84e912f59088"
     :name "wat"
     :parser-c :yes
+    :repos-dir "./repos/github.com/wasm-lsp/tree-sitter-wasm"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/wasm-lsp/tree-sitter-wasm"}
@@ -3335,6 +3668,7 @@
     :last-commit-hash "56455f4245baf4ea4e0881c5169de69d7edd5ae7"
     :name "cpp"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-cpp"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-cpp"}
@@ -3345,6 +3679,7 @@
     :last-commit-hash "cf20fb1e68401d1c18825b82802101b3ad1d3f3b"
     :name "modelica"
     :parser-c :yes
+    :repos-dir "./repos/github.com/modelicahub/tree-sitter-modelica"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/modelicahub/tree-sitter-modelica"}
@@ -3355,6 +3690,7 @@
     :last-commit-hash "5e66e961eee421786bdda8495ed1db045e06b5fe"
     :name "graphql"
     :parser-c :yes
+    :repos-dir "./repos/github.com/bkegley/tree-sitter-graphql"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/bkegley/tree-sitter-graphql"}
@@ -3365,6 +3701,7 @@
     :last-commit-hash "fee18d64a51127b32a221a56509f77c942d9923f"
     :name "v"
     :parser-c :yes
+    :repos-dir "./repos/github.com/nedpals/tree-sitter-v"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/nedpals/tree-sitter-v"}
@@ -3375,6 +3712,7 @@
     :last-commit-hash "be062582956165019d3253794b4d712f66dfeaaa"
     :name "pymanifest"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-pymanifest"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-pymanifest"}
@@ -3385,6 +3723,7 @@
     :last-commit-hash "8e635b0b723c620774dfb8abf382a7f531894b40"
     :name "ebnf"
     :parser-c :yes
+    :repos-dir "./repos/github.com/RubixDev/ebnf"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/RubixDev/ebnf"}
@@ -3395,6 +3734,7 @@
     :last-commit-hash "181a81b8f23a2d593e7ab4259981f50122909fda"
     :name "objc"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-objc"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-objc"}
@@ -3405,6 +3745,7 @@
     :last-commit-hash "71244084e61c9bb17b1730caefc232dd981b45c4"
     :name "pod"
     :parser-c :no
+    :repos-dir "./repos/github.com/tree-sitter-perl/tree-sitter-pod"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-perl/tree-sitter-pod"}
@@ -3415,6 +3756,7 @@
     :last-commit-hash "ed50340a0c331b5b2559fa69d8c530b2aca4d309"
     :name "math"
     :parser-c :yes
+    :repos-dir "./repos/github.com/DerekStride/tree-sitter-math"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/DerekStride/tree-sitter-math"}
@@ -3425,6 +3767,7 @@
     :last-commit-hash "40259f3c77ea856841a4e0c4c807705f3e4a2b65"
     :name "wgsl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/szebniok/tree-sitter-wgsl"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/szebniok/tree-sitter-wgsl"}
@@ -3435,6 +3778,7 @@
     :last-commit-hash "8e970cb01c22cf89b8f70231ed4eca8d6fad1d56"
     :name "zig"
     :parser-c :yes
+    :repos-dir "./repos/github.com/GrayJack/tree-sitter-zig"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/GrayJack/tree-sitter-zig"}
@@ -3445,6 +3789,7 @@
     :last-commit-hash "e35b41a183164f4a12e10da3d0c430e837c3d75a"
     :name "scheme"
     :parser-c :yes
+    :repos-dir "./repos/github.com/6cdh/tree-sitter-scheme"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/6cdh/tree-sitter-scheme"}
@@ -3455,6 +3800,7 @@
     :last-commit-hash "274b3ce63f72aa8ffea18e7fc280d3062d28f0ba"
     :name "vrl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/belltoy/tree-sitter-vrl"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/belltoy/tree-sitter-vrl"}
@@ -3465,6 +3811,7 @@
     :last-commit-hash "15597b307b18028b04d288561f9c29794621562b"
     :name "crystal"
     :parser-c :yes
+    :repos-dir "./repos/github.com/will/tree-sitter-crystal"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/will/tree-sitter-crystal"}
@@ -3475,6 +3822,7 @@
     :last-commit-hash "7ee6e0024056ec759769de480890d7f22da926f9"
     :name "context"
     :parser-c :yes
+    :repos-dir "./repos/github.com/pmazaitis/tree-sitter-context_en"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/pmazaitis/tree-sitter-context_en"}
@@ -3485,6 +3833,7 @@
     :last-commit-hash "6e3c6d51f13168f9d7794c8e8add7dfdd07d20b8"
     :name "elm"
     :parser-c :yes
+    :repos-dir "./repos/github.com/elm-tooling/tree-sitter-elm"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/elm-tooling/tree-sitter-elm"}
@@ -3495,6 +3844,7 @@
     :last-commit-hash "18a1d183c4c0cc40438bae2ebf8191aaf2dee8dc"
     :name "udev"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ObserverOfTime/tree-sitter-udev"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/ObserverOfTime/tree-sitter-udev"}
@@ -3505,6 +3855,7 @@
     :last-commit-hash "9d028294a5f34188cd2cfcd290a2ec0ad31107e0"
     :name "x86asm"
     :parser-c :yes
+    :repos-dir "./repos/github.com/bearcove/tree-sitter-x86asm"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/bearcove/tree-sitter-x86asm"}
@@ -3515,6 +3866,7 @@
     :last-commit-hash "86911590a8e46d71301c66468e5620d9faa5b6af"
     :name "groovy"
     :parser-c :yes
+    :repos-dir "./repos/github.com/murtaza64/tree-sitter-groovy"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/murtaza64/tree-sitter-groovy"}
@@ -3525,6 +3877,7 @@
     :last-commit-hash "f4586b35ac8548667a9aaa4eae44456c1f43d032"
     :name "surface"
     :parser-c :yes
+    :repos-dir "./repos/github.com/connorlay/tree-sitter-surface"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/connorlay/tree-sitter-surface"}
@@ -3535,6 +3888,7 @@
     :last-commit-hash "4a00eb4b0e8fbf8f1594efa9b5b15386fbd7d563"
     :name "editorconfig"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ValdezFOmar/tree-sitter-editorconfig"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/ValdezFOmar/tree-sitter-editorconfig"}
@@ -3545,6 +3899,7 @@
     :last-commit-hash "4fb26398032328e7a2335ed6444791e20cc1793e"
     :name "eventrule"
     :parser-c :no
+    :repos-dir "./repos/github.com/3p3r/tree-sitter-eventrule"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/3p3r/tree-sitter-eventrule"}
@@ -3555,6 +3910,7 @@
     :last-commit-hash "0bb6d4fb695b3ce355588dca398edae41b90c44c"
     :name "sql"
     :parser-c :no
+    :repos-dir "./repos/github.com/DerekStride/tree-sitter-sql"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/DerekStride/tree-sitter-sql"}
@@ -3565,6 +3921,7 @@
     :last-commit-hash "b46b9f784b3e31bcbc0632f3294f1af6ba049241"
     :name "sexp"
     :parser-c :yes
+    :repos-dir "./repos/github.com/AbstractMachinesLab/tree-sitter-sexp"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/AbstractMachinesLab/tree-sitter-sexp"}
@@ -3575,6 +3932,7 @@
     :last-commit-hash "bc06955bc1e3c9ff8e9b2b2a55b38b94da923c05"
     :name "gn"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-gn"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-gn"}
@@ -3585,6 +3943,7 @@
     :last-commit-hash "db3ede53e9a29631fbf0835483caecef9b39d1fd"
     :name "helma"
     :parser-c :yes
+    :repos-dir "./repos/github.com/kevinkeckeis/tree-sitter-helma"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/kevinkeckeis/tree-sitter-helma"}
@@ -3595,6 +3954,7 @@
     :last-commit-hash "4b91896648099d3c5a25fdaf80dfd0af8adc7da4"
     :name "kdl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/spaarmann/tree-sitter-kdl"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/spaarmann/tree-sitter-kdl"}
@@ -3605,6 +3965,7 @@
     :last-commit-hash "e2ac513b2240c7ff1069ae33b2df29ce90777c11"
     :name "gosum"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-go-sum"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-go-sum"}
@@ -3615,6 +3976,7 @@
     :last-commit-hash "60ba73739c6083c693d86a1a7cf039c07eb4ed59"
     :name "blueprint"
     :parser-c :yes
+    :repos-dir "./repos/gitlab.com/gabmus/tree-sitter-blueprint.git"
     :scanner :no
     :tree-sitter-json :no
     :url "https://gitlab.com/gabmus/tree-sitter-blueprint.git"}
@@ -3625,6 +3987,7 @@
     :last-commit-hash "3691201b01cacb2f96ffca4c632c4e938bfacd88"
     :name "rust"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-rust"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-rust"}
@@ -3635,6 +3998,7 @@
     :last-commit-hash "da605af8c5999b43e6839b575eae5e6cafabb06f"
     :name "glimmer"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ember-tooling/tree-sitter-glimmer"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/ember-tooling/tree-sitter-glimmer"}
@@ -3645,6 +4009,7 @@
     :last-commit-hash "6a6b1a15b5a18adbcba98b74f84e40bcf4d8728b"
     :name "email_address"
     :parser-c :yes
+    :repos-dir "./repos/gitlab.com/maxnordlund/tree-sitter-email"
     :scanner :no
     :tree-sitter-json :no
     :url "https://gitlab.com/maxnordlund/tree-sitter-email"}
@@ -3655,6 +4020,7 @@
     :last-commit-hash "a67ccf2eaadfc0f9058a941d588998813bf9fabe"
     :name "odin"
     :parser-c :yes
+    :repos-dir "./repos/github.com/lucypero/tree-sitter-odin"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/lucypero/tree-sitter-odin"}
@@ -3665,6 +4031,7 @@
     :last-commit-hash "72e334b2630f5852825ba5ff9dfd872447175eb5"
     :name "smali"
     :parser-c :yes
+    :repos-dir "./repos/git.sr.ht/~yotam/tree-sitter-smali"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://git.sr.ht/~yotam/tree-sitter-smali"}
@@ -3675,6 +4042,7 @@
     :last-commit-hash "ed488aa334d1b4e3235e1efaaf96f00815ebc0e0"
     :name "ocamllex"
     :parser-c :yes
+    :repos-dir "./repos/github.com/atom-ocaml/tree-sitter-ocamllex"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/atom-ocaml/tree-sitter-ocamllex"}
@@ -3685,6 +4053,7 @@
     :last-commit-hash "d5c71a10b4d1b02e38967b05f8de70e847448dd1"
     :name "nu"
     :parser-c :yes
+    :repos-dir "./repos/github.com/fdncred/tree-sitter-nu"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/fdncred/tree-sitter-nu"}
@@ -3695,6 +4064,7 @@
     :last-commit-hash "51ad1411de9414b4600227553bb70953c352a627"
     :name "crystal"
     :parser-c :yes
+    :repos-dir "./repos/github.com/keidax/tree-sitter-crystal"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/keidax/tree-sitter-crystal"}
@@ -3705,6 +4075,7 @@
     :last-commit-hash "4e0875f724d94d0c2ff36f9b8cb0b12f8b20d216"
     :name "usd"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ColinKennedy/tree-sitter-usd"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/ColinKennedy/tree-sitter-usd"}
@@ -3715,6 +4086,7 @@
     :last-commit-hash "70640c0696abde32622afc43291a385681afbd32"
     :name "fish"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ram02z/tree-sitter-fish"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/ram02z/tree-sitter-fish"}
@@ -3725,6 +4097,7 @@
     :last-commit-hash "a52fd004e5977b886b931a54b1bdcbd91101d862"
     :name "cql"
     :parser-c :no
+    :repos-dir "./repos/github.com/ricomariani/tree-sitter-cgsql"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/ricomariani/tree-sitter-cgsql"}
@@ -3735,6 +4108,7 @@
     :last-commit-hash "4af5d82cf9ec39f67cb1db5b7a9269d337406592"
     :name "hare"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-hare"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-hare"}
@@ -3745,6 +4119,7 @@
     :last-commit-hash "12e814cd9b0656b0eaa3e04b0036b3b6625cc0d7"
     :name "haxe"
     :parser-c :yes
+    :repos-dir "./repos/github.com/vantreeseba/tree-sitter-haxe"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/vantreeseba/tree-sitter-haxe"}
@@ -3755,6 +4130,7 @@
     :last-commit-hash "cd6e48b27d8bd7b192a8784b0171a39afa06f13d"
     :name "verilog"
     :parser-c :yes
+    :repos-dir "./repos/github.com/gmlarumbe/tree-sitter-verilog"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/gmlarumbe/tree-sitter-verilog"}
@@ -3765,6 +4141,7 @@
     :last-commit-hash "f99011a3554213b654985a4b0a65b3b032ec4621"
     :name "linkerscript"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-linkerscript"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-linkerscript"}
@@ -3775,6 +4152,7 @@
     :last-commit-hash "bab9111922d53d43668fabb61869bec51bbcb915"
     :name "hlsl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-hlsl"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-hlsl"}
@@ -3785,6 +4163,7 @@
     :last-commit-hash "759751b74ebe5ec2ed90f955deadd44e568bdbde"
     :name "mal"
     :parser-c :yes
+    :repos-dir "./repos/github.com/sogaiu/tree-sitter-mal"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/sogaiu/tree-sitter-mal"}
@@ -3795,6 +4174,7 @@
     :last-commit-hash "7eb7297823605392d2bbcc4c09b1cd18d6fa9529"
     :name "psv"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-csv"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-csv"}
@@ -3805,6 +4185,7 @@
     :last-commit-hash "7eb7297823605392d2bbcc4c09b1cd18d6fa9529"
     :name "tsv"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-csv"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-csv"}
@@ -3815,6 +4196,7 @@
     :last-commit-hash "7eb7297823605392d2bbcc4c09b1cd18d6fa9529"
     :name "csv"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-csv"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-csv"}
@@ -3825,6 +4207,7 @@
     :last-commit-hash "cf9799600b2ba5e6620fdabddec3b2db8306bc46"
     :name "cmake"
     :parser-c :yes
+    :repos-dir "./repos/github.com/uyha/tree-sitter-cmake"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/uyha/tree-sitter-cmake"}
@@ -3835,6 +4218,7 @@
     :last-commit-hash "8495d106154741e6d35d37064f864758ece75de6"
     :name "embedded_template"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-embedded-template"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-embedded-template"}
@@ -3845,6 +4229,7 @@
     :last-commit-hash "02150524228b1e6afef96949f2d6b7cc0aaf999e"
     :name "circom"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Decurity/tree-sitter-circom"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Decurity/tree-sitter-circom"}
@@ -3855,6 +4240,7 @@
     :last-commit-hash "f29605148f24199cf4d9c4a203a5debc0cbcc648"
     :name "fsharp"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ionide/tree-sitter-fsharp"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/ionide/tree-sitter-fsharp"}
@@ -3865,6 +4251,7 @@
     :last-commit-hash "f29605148f24199cf4d9c4a203a5debc0cbcc648"
     :name "fsharp_signature"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ionide/tree-sitter-fsharp"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/ionide/tree-sitter-fsharp"}
@@ -3875,6 +4262,7 @@
     :last-commit-hash "ce4d5439ae986bf4125468ac6023ab81c8bbe1b9"
     :name "tucanir"
     :parser-c :yes
+    :repos-dir "./repos/github.com/mrnugget/tree-sitter-tucanir"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/mrnugget/tree-sitter-tucanir"}
@@ -3885,6 +4273,7 @@
     :last-commit-hash "df6b69967db7d74ab338a86a9ab45c0966c5ee3c"
     :name "printf"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-printf"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-printf"}
@@ -3895,6 +4284,7 @@
     :last-commit-hash "a8914d6c1fc5131f8e1c13f769fa704c9f5eb02f"
     :name "luau"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-luau"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-luau"}
@@ -3905,6 +4295,7 @@
     :last-commit-hash "5e9e8f8ff3387b0edcaa90f46ddf3629f4cfeb1d"
     :name "make"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-make"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-make"}
@@ -3915,6 +4306,7 @@
     :last-commit-hash "0a95cfdc0745b6ae82f60d3a339b37f19b7b9267"
     :name "ninja"
     :parser-c :yes
+    :repos-dir "./repos/github.com/alemuller/tree-sitter-ninja"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/alemuller/tree-sitter-ninja"}
@@ -3925,6 +4317,7 @@
     :last-commit-hash "49da6de661be6a07cb51018880ebe680324e7b82"
     :name "tsq"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-tsq"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter/tree-sitter-tsq"}
@@ -3935,6 +4328,7 @@
     :last-commit-hash "57fb4560ba8641865bc0baa6b3f413b236112c4c"
     :name "kotlin"
     :parser-c :yes
+    :repos-dir "./repos/github.com/fwcd/tree-sitter-kotlin"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/fwcd/tree-sitter-kotlin"}
@@ -3945,6 +4339,7 @@
     :last-commit-hash "0e36bed171768908f331ff7dff9d956bae016efb"
     :name "yaml"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ikatyang/tree-sitter-yaml"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/ikatyang/tree-sitter-yaml"}
@@ -3955,6 +4350,7 @@
     :last-commit-hash "bff4b66b44b020d918d67e2828eada1974a966aa"
     :name "git_rebase"
     :parser-c :yes
+    :repos-dir "./repos/github.com/the-mikedavis/tree-sitter-git-rebase"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/the-mikedavis/tree-sitter-git-rebase"}
@@ -3965,6 +4361,7 @@
     :last-commit-hash "f736d24d89acbd90092d92089e5171e6a449db40"
     :name "latex"
     :parser-c :no
+    :repos-dir "./repos/github.com/latex-lsp/tree-sitter-latex"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/latex-lsp/tree-sitter-latex"}
@@ -3975,6 +4372,7 @@
     :last-commit-hash "ab0ba8229d639ec4f3fa5f674c9133477f4b77bd"
     :name "json5"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Joakker/tree-sitter-json5"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Joakker/tree-sitter-json5"}
@@ -3985,6 +4383,7 @@
     :last-commit-hash "5cc865a2a0a77cbfaf5062c8fcf2a9919bd54f87"
     :name "glimmer_javascript"
     :parser-c :yes
+    :repos-dir "./repos/github.com/NullVoxPopuli/tree-sitter-glimmer-javascript"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/NullVoxPopuli/tree-sitter-glimmer-javascript"}
@@ -3995,6 +4394,7 @@
     :last-commit-hash "067d66937c8eeb6651e349f400c1756c2ea90b2e"
     :name "erlang"
     :parser-c :yes
+    :repos-dir "./repos/github.com/WhatsApp/tree-sitter-erlang"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/WhatsApp/tree-sitter-erlang"}
@@ -4005,6 +4405,7 @@
     :last-commit-hash "fe46ce5ea7d844e53d59bc96f2175d33691c61c5"
     :name "razor"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tris203/tree-sitter-razor"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tris203/tree-sitter-razor"}
@@ -4015,6 +4416,7 @@
     :last-commit-hash "5e73f476efafe5c768eda19bbe877f188ded6144"
     :name "go"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-go"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-go"}
@@ -4025,6 +4427,7 @@
     :last-commit-hash "8d38e9755c05d37df8a24dadb0fc64f6588ac188"
     :name "lalrpop"
     :parser-c :yes
+    :repos-dir "./repos/github.com/traxys/tree-sitter-lalrpop"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/traxys/tree-sitter-lalrpop"}
@@ -4035,6 +4438,7 @@
     :last-commit-hash "f68bb6e3cfcc2a3eebf11f47e27efffb128c001f"
     :name "abnf"
     :parser-c :yes
+    :repos-dir "./repos/github.com/jmitchell/tree-sitter-abnf"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/jmitchell/tree-sitter-abnf"}
@@ -4045,6 +4449,7 @@
     :last-commit-hash "072c969749e66f000dba35a33c387650e203e96e"
     :name "squirrel"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-squirrel"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-squirrel"}
@@ -4055,6 +4460,7 @@
     :last-commit-hash "69086d7627c03e1f4baf766bcef14c60d9e92331"
     :name "gaptst"
     :parser-c :yes
+    :repos-dir "./repos/github.com/gap-system/tree-sitter-gaptst"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/gap-system/tree-sitter-gaptst"}
@@ -4065,6 +4471,7 @@
     :last-commit-hash "fdfa6a1febc43c7467aa7e937b87b607956f2346"
     :name "smali"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-smali"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-smali"}
@@ -4075,6 +4482,7 @@
     :last-commit-hash "ef49a5732b26c1f4bfb1ff6316902041cf26db2d"
     :name "rsx"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tjdevries/tree-sitter-rsx"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/tjdevries/tree-sitter-rsx"}
@@ -4085,6 +4493,7 @@
     :last-commit-hash "d8d415f6a1cf80ca138524bcc395810b176d40fa"
     :name "prolog"
     :parser-c :yes
+    :repos-dir "./repos/codeberg.org/foxy/tree-sitter-prolog"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://codeberg.org/foxy/tree-sitter-prolog"}
@@ -4095,6 +4504,7 @@
     :last-commit-hash "d8d415f6a1cf80ca138524bcc395810b176d40fa"
     :name "problog"
     :parser-c :yes
+    :repos-dir "./repos/codeberg.org/foxy/tree-sitter-prolog"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://codeberg.org/foxy/tree-sitter-prolog"}
@@ -4105,6 +4515,7 @@
     :last-commit-hash "8e3a4205b76236bb6dbebdbee5afc262ce38bb62"
     :name "robots"
     :parser-c :yes
+    :repos-dir "./repos/github.com/opa-oz/tree-sitter-robots-txt"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/opa-oz/tree-sitter-robots-txt"}
@@ -4115,6 +4526,7 @@
     :last-commit-hash "2f6acb0574bf59654336dadc509b0bbaf417d087"
     :name "fluentbit"
     :parser-c :yes
+    :repos-dir "./repos/github.com/sh-cho/tree-sitter-fluentbit"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/sh-cho/tree-sitter-fluentbit"}
@@ -4125,6 +4537,7 @@
     :last-commit-hash "91da8f141c3c4c695eb71018c8a7b2e7ea39c167"
     :name "promela"
     :parser-c :yes
+    :repos-dir "./repos/github.com/siraben/tree-sitter-promela"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/siraben/tree-sitter-promela"}
@@ -4135,6 +4548,7 @@
     :last-commit-hash "32f970b57720010e77a486bc2001ee9e6c7c8250"
     :name "slint"
     :parser-c :yes
+    :repos-dir "./repos/github.com/slint-ui/tree-sitter-slint"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/slint-ui/tree-sitter-slint"}
@@ -4145,6 +4559,7 @@
     :last-commit-hash "b6b6a66a18e98f44cc2f2cdbfd2e1df845b59852"
     :name "typespec"
     :parser-c :yes
+    :repos-dir "./repos/github.com/happenslol/tree-sitter-typespec"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/happenslol/tree-sitter-typespec"}
@@ -4155,6 +4570,7 @@
     :last-commit-hash "4c732d2407dcf2831bbb4e4d4aebb339b7f11183"
     :name "smallbasic"
     :parser-c :yes
+    :repos-dir "./repos/github.com/comom87/tree-sitter-smallbasic"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/comom87/tree-sitter-smallbasic"}
@@ -4165,6 +4581,7 @@
     :last-commit-hash "f67f569270ce8664a065313f1086a3484a3bec77"
     :name "swift"
     :parser-c :no
+    :repos-dir "./repos/github.com/alex-pinkus/tree-sitter-swift"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/alex-pinkus/tree-sitter-swift"}
@@ -4175,6 +4592,7 @@
     :last-commit-hash "9a94e937187c3571595d3d2841a51fd12586bf89"
     :name "carp"
     :parser-c :yes
+    :repos-dir "./repos/github.com/GrayJack/tree-sitter-carp"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/GrayJack/tree-sitter-carp"}
@@ -4185,6 +4603,7 @@
     :last-commit-hash "dffbbd70bc14bfc26e4d9130aefc36133b6ff11a"
     :name "func"
     :parser-c :yes
+    :repos-dir "./repos/github.com/akifoq/tree-sitter-func"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/akifoq/tree-sitter-func"}
@@ -4195,6 +4614,7 @@
     :last-commit-hash "d3abd9ff1f4f449c18381c6d87c5becb7b2b5762"
     :name "cql"
     :parser-c :yes
+    :repos-dir "./repos/github.com/shotover/tree-sitter-cql"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/shotover/tree-sitter-cql"}
@@ -4205,6 +4625,7 @@
     :last-commit-hash "ae6c29b7e74e283043f10aacde886f3e9dd730dc"
     :name "norg"
     :parser-c :yes
+    :repos-dir "./repos/github.com/nvim-neorg/tree-sitter-norg2"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/nvim-neorg/tree-sitter-norg2"}
@@ -4215,6 +4636,7 @@
     :last-commit-hash "c134aaec6acf4fa95fe4aa0dc9aba3eacdbbe55a"
     :name "luap"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-luap"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-luap"}
@@ -4225,6 +4647,7 @@
     :last-commit-hash "e9f6b43f6844bd2189b50a422d4e2094313f6aa3"
     :name "proto"
     :parser-c :yes
+    :repos-dir "./repos/github.com/treywood/tree-sitter-proto"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/treywood/tree-sitter-proto"}
@@ -4235,6 +4658,7 @@
     :last-commit-hash "2ed3ef9e30a7998a98eea4dfbcd308678f93b88f"
     :name "gdscript"
     :parser-c :yes
+    :repos-dir "./repos/github.com/PrestonKnopp/tree-sitter-gdscript"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/PrestonKnopp/tree-sitter-gdscript"}
@@ -4245,6 +4669,7 @@
     :last-commit-hash "3ef7c00b29e41e3a0c1d18e82ea37c64d72b93fc"
     :name "ocaml_interface"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-ocaml"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-ocaml"}
@@ -4255,6 +4680,7 @@
     :last-commit-hash "3ef7c00b29e41e3a0c1d18e82ea37c64d72b93fc"
     :name "ocaml"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-ocaml"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-ocaml"}
@@ -4265,6 +4691,7 @@
     :last-commit-hash "3ef7c00b29e41e3a0c1d18e82ea37c64d72b93fc"
     :name "ocaml_type"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-ocaml"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-ocaml"}
@@ -4275,6 +4702,7 @@
     :last-commit-hash "0975ef72fc3c47b530309ca93937d7d143523628"
     :name "haskell"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-haskell"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-haskell"}
@@ -4285,6 +4713,7 @@
     :last-commit-hash "820566bb4eb3d288822dbfee42417a5a9491aea6"
     :name "angular"
     :parser-c :yes
+    :repos-dir "./repos/github.com/dlvandenberg/tree-sitter-angular"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/dlvandenberg/tree-sitter-angular"}
@@ -4295,6 +4724,7 @@
     :last-commit-hash "1a8ee0da9a4f2df5a8a22f4d637ac863623a78a7"
     :name "supercollider"
     :parser-c :yes
+    :repos-dir "./repos/github.com/madskjeldgaard/tree-sitter-supercollider"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/madskjeldgaard/tree-sitter-supercollider"}
@@ -4305,6 +4735,7 @@
     :last-commit-hash "02fa3b79b3ff9a296066da6277adfc3f26cbc9e0"
     :name "hjson"
     :parser-c :yes
+    :repos-dir "./repos/github.com/winston0410/tree-sitter-hjson"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/winston0410/tree-sitter-hjson"}
@@ -4315,6 +4746,7 @@
     :last-commit-hash "53dfc22f454c18be9f1852b473044346480666be"
     :name "xml"
     :parser-c :yes
+    :repos-dir "./repos/github.com/panicinc/tree-sitter-xml"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/panicinc/tree-sitter-xml"}
@@ -4325,6 +4757,7 @@
     :last-commit-hash "c059967d243487c1c2f567bd56c1d40c9a92dbe4"
     :name "eno"
     :parser-c :yes
+    :repos-dir "./repos/github.com/eno-lang/tree-sitter-eno"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/eno-lang/tree-sitter-eno"}
@@ -4335,6 +4768,7 @@
     :last-commit-hash "bbf1a82cce8b87810a9537bbe63f91eb9957d384"
     :name "liquid"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Shopify/tree-sitter-liquid"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Shopify/tree-sitter-liquid"}
@@ -4345,6 +4779,7 @@
     :last-commit-hash "49c43532689fe1f53e8b9e009d0521cab02c432b"
     :name "goctl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/chaozwn/tree-sitter-goctl"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/chaozwn/tree-sitter-goctl"}
@@ -4355,6 +4790,7 @@
     :last-commit-hash "ee641d15390183d7535777947ce0f2f1fbcee69f"
     :name "bp"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ambroisie/tree-sitter-bp"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/ambroisie/tree-sitter-bp"}
@@ -4365,6 +4801,7 @@
     :last-commit-hash "1d002c23d4e952ce24a2e472d0f81ab0471ceb1b"
     :name "janet"
     :parser-c :yes
+    :repos-dir "./repos/github.com/GrayJack/tree-sitter-janet"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/GrayJack/tree-sitter-janet"}
@@ -4375,6 +4812,7 @@
     :last-commit-hash "085648e01d1422163a1702a44e72303b4e2a0bd1"
     :name "twig"
     :parser-c :yes
+    :repos-dir "./repos/github.com/gbprod/tree-sitter-twig"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/gbprod/tree-sitter-twig"}
@@ -4385,6 +4823,7 @@
     :last-commit-hash "8bd2056818b21860e3d756b5a58c4f6e05fb744e"
     :name "toml"
     :parser-c :yes
+    :repos-dir "./repos/github.com/ikatyang/tree-sitter-toml"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/ikatyang/tree-sitter-toml"}
@@ -4395,6 +4834,7 @@
     :last-commit-hash "be8866a6bcc2b563ab0de895af69daeffa88fe70"
     :name "menhir"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Kerl13/tree-sitter-menhir"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/Kerl13/tree-sitter-menhir"}
@@ -4405,6 +4845,7 @@
     :last-commit-hash "3431ec21da1dde751bab55520963cf3a4f1121f3"
     :name "yaml"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-yaml"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-yaml"}
@@ -4415,6 +4856,7 @@
     :last-commit-hash "3431ec21da1dde751bab55520963cf3a4f1121f3"
     :name "legacy_schema"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-yaml"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-yaml"}
@@ -4425,6 +4867,7 @@
     :last-commit-hash "3431ec21da1dde751bab55520963cf3a4f1121f3"
     :name "json_schema"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-yaml"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-yaml"}
@@ -4435,6 +4878,7 @@
     :last-commit-hash "3431ec21da1dde751bab55520963cf3a4f1121f3"
     :name "core_schema"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-yaml"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-yaml"}
@@ -4445,6 +4889,7 @@
     :last-commit-hash "268be403609e944a45e5620c49cbbd6683b7f676"
     :name "quakec"
     :parser-c :yes
+    :repos-dir "./repos/github.com/vkazanov/tree-sitter-quakec"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/vkazanov/tree-sitter-quakec"}
@@ -4455,6 +4900,7 @@
     :last-commit-hash "47e2caf4ed7e466f51cfbb13a860a192c300506f"
     :name "zsh"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-zsh"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-zsh"}
@@ -4465,6 +4911,7 @@
     :last-commit-hash "2dd7c6f2b2414f7b7381b0840b4631b3f6ad0ea7"
     :name "reason"
     :parser-c :no
+    :repos-dir "./repos/github.com/IwanKaramazow/tree-sitter-reason"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/IwanKaramazow/tree-sitter-reason"}
@@ -4475,6 +4922,7 @@
     :last-commit-hash "c9e650abb04eeee7018884b41f53ce201446201f"
     :name "http"
     :parser-c :yes
+    :repos-dir "./repos/github.com/PasiSalenius/tree-sitter-http"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/PasiSalenius/tree-sitter-http"}
@@ -4485,6 +4933,7 @@
     :last-commit-hash "a7db5227ec40fcfe94489559d8c9bc7c8181e25a"
     :name "java"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-java"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-java"}
@@ -4495,6 +4944,7 @@
     :last-commit-hash "1a74dc0ed731ad07db39f063e2c5a6fe528cae7f"
     :name "rnoweb"
     :parser-c :yes
+    :repos-dir "./repos/github.com/bamonroe/tree-sitter-rnoweb"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/bamonroe/tree-sitter-rnoweb"}
@@ -4505,6 +4955,7 @@
     :last-commit-hash "f780ca55e65e7d7360d0229331763e16c452fc98"
     :name "func"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-func"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tree-sitter-grammars/tree-sitter-func"}
@@ -4515,6 +4966,7 @@
     :last-commit-hash "34bbdc7cce8e803096f47b625979e34c1be38127"
     :name "awk"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Beaglefoot/tree-sitter-awk"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/Beaglefoot/tree-sitter-awk"}
@@ -4525,6 +4977,7 @@
     :last-commit-hash "2e66ef4b798a26f0b82144143711f3f7a9e8ea35"
     :name "typst"
     :parser-c :yes
+    :repos-dir "./repos/github.com/SeniorMars/tree-sitter-typst"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/SeniorMars/tree-sitter-typst"}
@@ -4535,6 +4988,7 @@
     :last-commit-hash "cfc53fd287d23ab7281440a8526c73542984669b"
     :name "nix"
     :parser-c :yes
+    :repos-dir "./repos/github.com/cstrahan/tree-sitter-nix"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/cstrahan/tree-sitter-nix"}
@@ -4545,6 +4999,7 @@
     :last-commit-hash "d02cd94a0437d15552ae788c7fa8f5000e682d8b"
     :name "perl"
     :parser-c :no
+    :repos-dir "./repos/github.com/tree-sitter-perl/tree-sitter-perl"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-perl/tree-sitter-perl"}
@@ -4555,6 +5010,7 @@
     :last-commit-hash "0a66b2b3f3c1915e67ad2ef9f7dbd2a84820d9d7"
     :name "elsa"
     :parser-c :yes
+    :repos-dir "./repos/github.com/glapa-grossklag/tree-sitter-elsa"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/glapa-grossklag/tree-sitter-elsa"}
@@ -4565,6 +5021,7 @@
     :last-commit-hash "cf85bbd5da0c5ad243301d889c7f84d790a4cae4"
     :name "runescript"
     :parser-c :yes
+    :repos-dir "./repos/github.com/2004Scape/tree-sitter-runescript"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/2004Scape/tree-sitter-runescript"}
@@ -4575,6 +5032,7 @@
     :last-commit-hash "227d277b6a1a5e2bf818d6206935722a7503de08"
     :name "verilog"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-verilog"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-verilog"}
@@ -4585,6 +5043,7 @@
     :last-commit-hash "319cdcaa0346ba6db668a222d938e5c3569e2a51"
     :name "styled"
     :parser-c :yes
+    :repos-dir "./repos/github.com/mskelton/tree-sitter-styled"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/mskelton/tree-sitter-styled"}
@@ -4595,6 +5054,7 @@
     :last-commit-hash "c7361a1d481dc1ff6700b14ea1d5efc549b72713"
     :name "plantuml"
     :parser-c :no
+    :repos-dir "./repos/github.com/Decodetalkers/tree_sitter_plantuml"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Decodetalkers/tree_sitter_plantuml"}
@@ -4605,6 +5065,7 @@
     :last-commit-hash "1ac090522cb339a6fd9d3ac915da01cb263d69e1"
     :name "PowerShell"
     :parser-c :no
+    :repos-dir "./repos/github.com/PowerShell/tree-sitter-PowerShell"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/PowerShell/tree-sitter-PowerShell"}
@@ -4615,6 +5076,7 @@
     :last-commit-hash "8f11ac7206a54ed11210491cee1e0657e2962c47"
     :name "tcl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-tcl"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-tcl"}
@@ -4625,6 +5087,7 @@
     :last-commit-hash "331160d1ce5e1ccc5c702c3b298c01eedcf166f1"
     :name "cfengine"
     :parser-c :yes
+    :repos-dir "./repos/github.com/olehermanse/tree-sitter-cfengine"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/olehermanse/tree-sitter-cfengine"}
@@ -4635,6 +5098,7 @@
     :last-commit-hash "e771eb9fb5ccc65af35879487b66751568d10e48"
     :name "php_only"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-php"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-php"}
@@ -4645,6 +5109,7 @@
     :last-commit-hash "e771eb9fb5ccc65af35879487b66751568d10e48"
     :name "php"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-php"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-php"}
@@ -4655,6 +5120,7 @@
     :last-commit-hash "008626a3fad379d17c81d5ed576edd9bd7a4fbf7"
     :name "heex"
     :parser-c :yes
+    :repos-dir "./repos/github.com/connorlay/tree-sitter-heex"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/connorlay/tree-sitter-heex"}
@@ -4665,6 +5131,7 @@
     :last-commit-hash "6d63a202602eb350e726b5e7814127ba22ed25fc"
     :name "racket"
     :parser-c :yes
+    :repos-dir "./repos/github.com/6cdh/tree-sitter-racket"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/6cdh/tree-sitter-racket"}
@@ -4675,6 +5142,7 @@
     :last-commit-hash "3bbc47cb5d991bef4ebab1118459f6c8d5064c54"
     :name "rtf"
     :parser-c :no
+    :repos-dir "./repos/github.com/GoodNotes/tree-sitter-rtf"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/GoodNotes/tree-sitter-rtf"}
@@ -4685,6 +5153,7 @@
     :last-commit-hash "017696bdf47ca2b10948c5a511f9ab387722d0f3"
     :name "arduino"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-arduino"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-arduino"}
@@ -4695,6 +5164,7 @@
     :last-commit-hash "bc5b3a10d6d27e8220a113a9a7fe9bec0a1574b0"
     :name "hack"
     :parser-c :yes
+    :repos-dir "./repos/github.com/slackhq/tree-sitter-hack"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/slackhq/tree-sitter-hack"}
@@ -4705,6 +5175,7 @@
     :last-commit-hash "fbe5f81b54f0f6153961824ce306ffc805134980"
     :name "blade"
     :parser-c :yes
+    :repos-dir "./repos/github.com/EmranMR/tree-sitter-blade"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/EmranMR/tree-sitter-blade"}
@@ -4715,6 +5186,7 @@
     :last-commit-hash "d1b3638d017f2a8585e26dcfc66fe1df94185e30"
     :name "nasm"
     :parser-c :yes
+    :repos-dir "./repos/github.com/naclsn/tree-sitter-nasm"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/naclsn/tree-sitter-nasm"}
@@ -4725,6 +5197,7 @@
     :last-commit-hash "85f15e8f6388981678838407c25f9222a7abe14b"
     :name "xquery"
     :parser-c :yes
+    :repos-dir "./repos/github.com/grantmacken/tree-sitter-xquery"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/grantmacken/tree-sitter-xquery"}
@@ -4735,6 +5208,7 @@
     :last-commit-hash "d819cdd5dbe455bd3c859193633c8d91c0df7c36"
     :name "strace"
     :parser-c :yes
+    :repos-dir "./repos/github.com/sigmaSd/tree-sitter-strace"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/sigmaSd/tree-sitter-strace"}
@@ -4745,6 +5219,7 @@
     :last-commit-hash "4fc94a102c25ea383d70397dac7e677ca3731f1e"
     :name "pkl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/apple/tree-sitter-pkl"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/apple/tree-sitter-pkl"}
@@ -4755,6 +5230,7 @@
     :last-commit-hash "0b1afe88161cbd81f5ddea1bb4fa786314ed49a7"
     :name "roc"
     :parser-c :yes
+    :repos-dir "./repos/github.com/faldor20/tree-sitter-roc"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/faldor20/tree-sitter-roc"}
@@ -4765,6 +5241,7 @@
     :last-commit-hash "d2ca8efb4487e156a60d5bd6db2598b872629403"
     :name "odin"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter-grammars/tree-sitter-odin"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter-grammars/tree-sitter-odin"}
@@ -4775,6 +5252,7 @@
     :last-commit-hash "4cc223f677d72db319f1c8331b65a9564805c7bf"
     :name "noir"
     :parser-c :yes
+    :repos-dir "./repos/github.com/hhamud/tree-sitter-noir"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/hhamud/tree-sitter-noir"}
@@ -4785,6 +5263,7 @@
     :last-commit-hash "46aa487b3ade14b7b05ef92507fdaa3915a662a3"
     :name "json"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tree-sitter/tree-sitter-json"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tree-sitter/tree-sitter-json"}
@@ -4795,6 +5274,7 @@
     :last-commit-hash "3bfda9271e3adb08d35f47a2102fe957009e1c55"
     :name "hlsplaylist"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Freed-Wu/tree-sitter-hlsplaylist"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Freed-Wu/tree-sitter-hlsplaylist"}
@@ -4805,6 +5285,7 @@
     :last-commit-hash "3e9c4822ab5cdcccf4f8aa9dcd42117f736d51d9"
     :name "tablegen"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Flakebi/tree-sitter-tablegen"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/Flakebi/tree-sitter-tablegen"}
@@ -4815,6 +5296,7 @@
     :last-commit-hash "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
     :name "apex"
     :parser-c :yes
+    :repos-dir "./repos/github.com/aheber/tree-sitter-sfapex"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/aheber/tree-sitter-sfapex"}
@@ -4825,6 +5307,7 @@
     :last-commit-hash "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
     :name "sosl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/aheber/tree-sitter-sfapex"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/aheber/tree-sitter-sfapex"}
@@ -4835,6 +5318,7 @@
     :last-commit-hash "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
     :name "sflog"
     :parser-c :yes
+    :repos-dir "./repos/github.com/aheber/tree-sitter-sfapex"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/aheber/tree-sitter-sfapex"}
@@ -4845,6 +5329,7 @@
     :last-commit-hash "3597575a429766dd7ecce9f5bb97f6fec4419d5d"
     :name "soql"
     :parser-c :yes
+    :repos-dir "./repos/github.com/aheber/tree-sitter-sfapex"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/aheber/tree-sitter-sfapex"}
@@ -4855,6 +5340,7 @@
     :last-commit-hash "a6267c2091ed432c248780cec9f8d42c8766d9ad"
     :name "tact"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tact-lang/tree-sitter-tact"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/tact-lang/tree-sitter-tact"}
@@ -4865,6 +5351,7 @@
     :last-commit-hash "de35706f89beed5087670a9c4421b7794ef02411"
     :name "templ"
     :parser-c :yes
+    :repos-dir "./repos/github.com/vrischmann/tree-sitter-templ"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/vrischmann/tree-sitter-templ"}
@@ -4875,6 +5362,7 @@
     :last-commit-hash "0252ecd080016e45e6305ef1a943388f5ae2f4b4"
     :name "tmux"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Freed-Wu/tree-sitter-tmux"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Freed-Wu/tree-sitter-tmux"}
@@ -4885,6 +5373,7 @@
     :last-commit-hash "0554b4a5d313244b7fc000cbb41c04afae4f4e31"
     :name "zathurarc"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Freed-Wu/tree-sitter-zathurarc"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/Freed-Wu/tree-sitter-zathurarc"}
@@ -4895,6 +5384,7 @@
     :last-commit-hash "0a8910f293268e27ff554357c229ba172b0eaed2"
     :name "fidl"
     :parser-c :yes
+    :repos-dir "./repos/github.com/google/tree-sitter-fidl"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/google/tree-sitter-fidl"}
@@ -4905,6 +5395,7 @@
     :last-commit-hash "4b935442f19cfdee7fd74800ed55a0f457f281a2"
     :name "typst"
     :parser-c :yes
+    :repos-dir "./repos/github.com/frozolotl/tree-sitter-typst"
     :scanner "cc"
     :tree-sitter-json :no
     :url "https://github.com/frozolotl/tree-sitter-typst"}
@@ -4915,6 +5406,7 @@
     :last-commit-hash "46cf4ded12ee974a70bf8457263b67ad7ee0379d"
     :name "typst"
     :parser-c :yes
+    :repos-dir "./repos/github.com/uben0/tree-sitter-typst"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/uben0/tree-sitter-typst"}
@@ -4925,6 +5417,7 @@
     :last-commit-hash "3e44adeb6a9a118cebf4f1351b92c0dcc4d237a0"
     :name "xml"
     :parser-c :yes
+    :repos-dir "./repos/github.com/unhammer/tree-sitter-xml"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/unhammer/tree-sitter-xml"}
@@ -4935,6 +5428,7 @@
     :last-commit-hash "ddf03959c0152bb61ed567f301ad6ecdab72f6ab"
     :name "javadoc"
     :parser-c :yes
+    :repos-dir "./repos/github.com/rmuir/tree-sitter-javadoc"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/rmuir/tree-sitter-javadoc"}
@@ -4945,6 +5439,7 @@
     :last-commit-hash "2f3709e7656fa2c443f92041c91a9f843f8cd625"
     :name "scfg"
     :parser-c :no
+    :repos-dir "./repos/github.com/rockorager/tree-sitter-scfg"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/rockorager/tree-sitter-scfg"}
@@ -4955,6 +5450,7 @@
     :last-commit-hash "689be73775bd2dd57b938b8e12bf50fec35a6ca3"
     :name "comment"
     :parser-c :yes
+    :repos-dir "./repos/github.com/stsewd/tree-sitter-comment"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/stsewd/tree-sitter-comment"}
@@ -4965,6 +5461,7 @@
     :last-commit-hash "83d68b835a99fe424da3cf613670523be36be1f7"
     :name "sdml"
     :parser-c :yes
+    :repos-dir "./repos/github.com/sdm-lang/tree-sitter-sdml"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/sdm-lang/tree-sitter-sdml"}
@@ -4975,6 +5472,7 @@
     :last-commit-hash "53bd9a3cd6e40a64f59d13dc73754c5473a1e2df"
     :name "diff"
     :parser-c :yes
+    :repos-dir "./repos/github.com/vigoux/tree-sitter-diff"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/vigoux/tree-sitter-diff"}
@@ -4985,6 +5483,7 @@
     :last-commit-hash "f58a87ac4dc6a7955c64c9e4408fbd693e804686"
     :name "inko"
     :parser-c :yes
+    :repos-dir "./repos/github.com/inko-lang/tree-sitter-inko"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/inko-lang/tree-sitter-inko"}
@@ -4995,6 +5494,7 @@
     :last-commit-hash "33c333f7ff4cac4138c0786198481b33d2880656"
     :name "koka"
     :parser-c :yes
+    :repos-dir "./repos/github.com/mtoohey31/tree-sitter-koka"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/mtoohey31/tree-sitter-koka"}
@@ -5005,6 +5505,7 @@
     :last-commit-hash "9a05ab045c000cf37f02cff5c4de32b081444244"
     :name "nickel"
     :parser-c :yes
+    :repos-dir "./repos/github.com/nickel-lang/tree-sitter-nickel"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/nickel-lang/tree-sitter-nickel"}
@@ -5015,6 +5516,7 @@
     :last-commit-hash "43ec45981cbb3f08b19d882e86f068e7eebc6c66"
     :name "wing"
     :parser-c :no
+    :repos-dir "./repos/github.com/winglang/wing"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/winglang/wing"}
@@ -5025,6 +5527,7 @@
     :last-commit-hash "8d04ed27b3bc7929f14b7df9236797dab9f3fa66"
     :name "bibtex"
     :parser-c :yes
+    :repos-dir "./repos/github.com/latex-lsp/tree-sitter-bibtex"
     :scanner :no
     :tree-sitter-json :yes
     :url "https://github.com/latex-lsp/tree-sitter-bibtex"}
@@ -5035,6 +5538,7 @@
     :last-commit-hash "8861b02a3dde407d6755cb19f400d101936ce3fd"
     :name "apex"
     :parser-c :yes
+    :repos-dir "./repos/github.com/jsuarez-chipiron/tree-sitter-apex"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/jsuarez-chipiron/tree-sitter-apex"}
@@ -5045,6 +5549,7 @@
     :last-commit-hash "971acdd908568b4531b0ba28a445bf0bb720aba5"
     :name "dockerfile"
     :parser-c :yes
+    :repos-dir "./repos/github.com/camdencheek/tree-sitter-dockerfile"
     :scanner "c"
     :tree-sitter-json :yes
     :url "https://github.com/camdencheek/tree-sitter-dockerfile"}
@@ -5055,6 +5560,7 @@
     :last-commit-hash "b691bcacaf970a81c8a758b96b7e55b3d3c31a9f"
     :name "sourcepawn"
     :parser-c :yes
+    :repos-dir "./repos/github.com/Sarrus1/tree-sitter-sourcepawn"
     :scanner "c"
     :tree-sitter-json :no
     :url "https://github.com/Sarrus1/tree-sitter-sourcepawn"}
@@ -5065,6 +5571,7 @@
     :last-commit-hash "69a9c9dae0f7c7165fdc703002dddb141cde0329"
     :name "dhall"
     :parser-c :yes
+    :repos-dir "./repos/github.com/jmitchell/tree-sitter-dhall"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/jmitchell/tree-sitter-dhall"}
@@ -5075,6 +5582,7 @@
     :last-commit-hash "faebb5993c75053df690544b3e3abf9a358b7703"
     :name "lilypond"
     :parser-c :yes
+    :repos-dir "./repos/github.com/tristanperalta/tree-sitter-lilypond"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/tristanperalta/tree-sitter-lilypond"}
@@ -5085,6 +5593,7 @@
     :last-commit-hash "21284b6f1ea0ee84f10fd80d11a2b765578eafbe"
     :name "jpp"
     :parser-c :yes
+    :repos-dir "./repos/github.com/nitreojs/tree-sitter-jpp"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/nitreojs/tree-sitter-jpp"}
@@ -5095,6 +5604,7 @@
     :last-commit-hash "caeb8d91c3ce46699bbb85dc08ce3790d7cea46f"
     :name "papyrus"
     :parser-c :yes
+    :repos-dir "./repos/github.com/open-papyrus/tree-sitter-papyrus"
     :scanner :no
     :tree-sitter-json :no
     :url "https://github.com/open-papyrus/tree-sitter-papyrus"}]
