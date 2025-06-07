@@ -1,32 +1,45 @@
 # XXX: execute from ts-questions root directory
 
-(import ./walk-dir :as wd)
 (import ./common :as c)
-(import ./utils :as u)
 
 ########################################################################
 
-(def results @{})
+(defn main
+  [& args]
 
-(wd/visit-files
-  c/all-repos-root
-  (fn [path]
-    (when (string/has-suffix? "src/parser.c" path)
-      (def abi (u/find-abi-level path))
-      (assertf abi "did not determine abi from %s")
-      (put results abi
-           (array/push (get results abi @[]) path)))))
+  (def parser-rows-path
+    (if (> (length args) 1)
+      (get args 1)
+      c/parser-rows-path))
 
-(print "ABI: Count")
-(print)
+  (assertf (= :file (os/stat parser-rows-path :mode))
+           "parsers-rows-path is not a file: %s" parser-rows-path)
 
-(var hits 0)
+  (def rows (parse (slurp parser-rows-path)))
 
-(each level (sort (keys results))
-  (def n-results (length (get results level)))
-  (printf "%d: %d" level n-results)
-  (+= hits n-results))
+  (assertf (indexed? rows)
+           "rows was not an indexed type: %n" (type rows))
 
-(print)
-(printf "Total found: %d" hits)
+  (def results
+    (reduce (fn [acc {:abi abi}]
+              (update acc abi
+                      |(if (nil? $) 1 (inc $))))
+            @{}
+            rows))
+
+  (var n-known 0)
+
+  (each level (sort (keys results))
+    (def n-results (get results level))
+    (when (not= 0 level)
+      (printf "%d: %d" level n-results)
+      (+= n-known n-results)))
+
+  (def n-unknown (get results 0))
+
+  (print)
+  (printf "Known: %d" n-known)
+  (printf "Unknown: %d" n-unknown)
+  (print)
+  (printf "Total: %d" (+ n-known n-unknown)))
 
