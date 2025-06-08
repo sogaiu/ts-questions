@@ -1,3 +1,5 @@
+#! /usr/bin/env janet
+
 # XXX: execute from ts-questions root directory
 
 # produce gfm table of info collected from cloned grammar repos

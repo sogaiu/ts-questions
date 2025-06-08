@@ -1,3 +1,5 @@
+#! /usr/bin/env janet
+
 # XXX: execute from ts-questions root directory
 
 # visit cloned grammar repos, collect info, save to c/parser-rows-path
