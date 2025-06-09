@@ -9,6 +9,12 @@
 (import ./common :as c)
 (import ./utils :as u)
 
+# input
+c/parser-rows-path
+
+# output
+c/gfm-table-fname
+
 ########################################################################
 
 # tuple of triples (one for each field to put in table output)

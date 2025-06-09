@@ -2,6 +2,12 @@
 
 (import ./common :as c)
 
+# input
+c/parser-rows-path
+
+# output
+stdout
+
 ########################################################################
 
 (defn main

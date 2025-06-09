@@ -5,6 +5,8 @@
 (def parsers-tsv-fname "parsers.tsv")
 (def gfm-table-fname "ts-parsers-gfm-table.md")
 
+(def repos-skip-list-fname "repos-skip-list.txt")
+
 ########################################################################
 
 (def ts-lop-url

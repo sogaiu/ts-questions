@@ -5,6 +5,12 @@
 (import ./common :as c)
 (import ./utils :as u)
 
+# input
+c/ts-lop-url
+
+# output
+c/ts-lop-fname
+
 ########################################################################
 
 (def content (u/fetch-url c/ts-lop-url))

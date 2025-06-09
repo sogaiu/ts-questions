@@ -9,10 +9,17 @@
 (import ./common :as c)
 (import ./utils :as u)
 
+# inputs
+c/repos-skip-list-fname
+c/all-repos-root # via u/find-repos-roots
+
+# output
+c/parser-rows-path
+
 ########################################################################
 
 (def skip-table
-  (->> (slurp "./repos-skip-list.txt")
+  (->> (slurp c/repos-skip-list-fname)
        (string/split "\n")
        (filter |(and (not (empty? $))
                      (string/has-prefix? "https://" $)))

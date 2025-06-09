@@ -3,6 +3,14 @@
 (import ./common :as c)
 (import ./utils :as u)
 
+# input
+c/all-repos-root # what to update determined via filesystem content
+
+# output
+c/all-repos-root # files and directories created under here
+
+########################################################################
+
 (def repos-roots
   (u/find-repos-roots c/all-repos-root))
 

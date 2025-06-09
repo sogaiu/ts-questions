@@ -5,6 +5,12 @@
 (import ./common :as c)
 (import ./utils :as u)
 
+# input
+c/nts-url
+
+# output
+c/nt-lop-fname
+
 ########################################################################
 
 (def content (u/fetch-url c/nts-url))

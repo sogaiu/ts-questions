@@ -4,6 +4,12 @@
 
 (import ./common :as c)
 
+# input
+c/tsgr-fname
+
+# output
+c/all-repos-root # files and directories created under here
+
 ########################################################################
 
 (def os-sep
