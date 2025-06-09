@@ -1,5 +1,4 @@
 https://codeberg.org/foxy/tree-sitter-prolog
-https://codeberg.org/foxy/tree-sitter-prolog
 https://codeberg.org/xasc/tree-sitter-t32
 https://git.sr.ht/~nbsp/tree-sitter-gemini
 https://git.sr.ht/~rockorager/tree-sitter-scfg
@@ -57,7 +56,6 @@ https://github.com/MaeBrooks/tree-sitter-gren
 https://github.com/MatthewFluet/tree-sitter-sml
 https://github.com/MercuryTechnologies/tree-sitter-haskell-persistent
 https://github.com/MichaHoffmann/tree-sitter-hcl
-https://github.com/MichaHoffmann/tree-sitter-hcl
 https://github.com/MichaHoffmann/tree-sitter-promql
 https://github.com/MineBill/tree-sitter-odin
 https://github.com/MunifTanjim/tree-sitter-lua
@@ -76,6 +74,7 @@ https://github.com/PrestonKnopp/tree-sitter-gdscript
 https://github.com/PrestonKnopp/tree-sitter-godot-resource
 https://github.com/RaafatTurki/tree-sitter-sxhkdrc
 https://github.com/RubixDev/ebnf
+https://github.com/RubixDev/tree-sitter-asm
 https://github.com/Rukiza/tree-sitter-prolog
 https://github.com/Sarrus1/tree-sitter-sourcepawn
 https://github.com/SeniorMars/tree-sitter-typst
@@ -98,9 +97,6 @@ https://github.com/aMOPel/tree-sitter-nim-format-string
 https://github.com/ace-design/tree-sitter-p4
 https://github.com/acristoffers/tree-sitter-matlab
 https://github.com/addcninblue/tree-sitter-cooklang
-https://github.com/aheber/tree-sitter-sfapex
-https://github.com/aheber/tree-sitter-sfapex
-https://github.com/aheber/tree-sitter-sfapex
 https://github.com/aheber/tree-sitter-sfapex
 https://github.com/airbus-cert/tree-sitter-powershell
 https://github.com/ajdelcimmuto/tree-sitter-brightscript
@@ -137,8 +133,8 @@ https://github.com/c3lang/tree-sitter-c3
 https://github.com/camdencheek/tree-sitter-dockerfile
 https://github.com/camdencheek/tree-sitter-go-mod
 https://github.com/cathaysia/tree-sitter-asciidoc
-https://github.com/cathaysia/tree-sitter-asciidoc
 https://github.com/cathaysia/tree-sitter-idl
+https://github.com/cathaysia/tree-sitter-jinja
 https://github.com/cbarrete/tree-sitter-ledger
 https://github.com/chaozwn/tree-sitter-goctl
 https://github.com/charmbracelet/tree-sitter-vhs
@@ -152,6 +148,7 @@ https://github.com/cstrahan/tree-sitter-nix
 https://github.com/dannylongeuay/tree-sitter-go-template
 https://github.com/dbt-labs/tree-sitter-jinja2
 https://github.com/demizer/tree-sitter-jakt
+https://github.com/derekstride/tree-sitter-sql
 https://github.com/dhcmrlchtdj/tree-sitter-sqlite
 https://github.com/dlvandenberg/tree-sitter-angular
 https://github.com/dorgnarg/tree-sitter-xml
@@ -167,6 +164,7 @@ https://github.com/euclidianAce/tree-sitter-teal
 https://github.com/faldor20/tree-sitter-roc
 https://github.com/fdncred/tree-sitter-nu
 https://github.com/flurie/tree-sitter-jq
+https://github.com/foxyseta/tree-sitter-prolog
 https://github.com/fwcd/tree-sitter-kotlin
 https://github.com/ganezdragon/tree-sitter-perl
 https://github.com/gap-system/tree-sitter-gap
@@ -192,7 +190,6 @@ https://github.com/indoorvivants/tree-sitter-smithy
 https://github.com/inko-lang/tree-sitter-inko
 https://github.com/interdependence/tree-sitter-htmldjango
 https://github.com/ionide/tree-sitter-fsharp
-https://github.com/ionide/tree-sitter-fsharp
 https://github.com/jakestanger/tree-sitter-corn
 https://github.com/jamestrew/tree-sitter-monkey
 https://github.com/janus-llm/tree-sitter-ibmhlasm
@@ -211,7 +208,6 @@ https://github.com/kevinkeckeis/tree-sitter-helma
 https://github.com/khiner/tree-sitter-faust
 https://github.com/koto-lang/tree-sitter-koto
 https://github.com/kristoff-it/superhtml
-https://github.com/kristoff-it/ziggy
 https://github.com/kristoff-it/ziggy
 https://github.com/krn-robin/tree-sitter-magik
 https://github.com/kylegoetz/tree-sitter-unison
@@ -243,7 +239,6 @@ https://github.com/naclsn/tree-sitter-nasm
 https://github.com/nedpals/tree-sitter-v
 https://github.com/neomutt/tree-sitter-muttrc
 https://github.com/neovim/tree-sitter-vimdoc
-https://github.com/ngalaiko/tree-sitter-go-template
 https://github.com/ngalaiko/tree-sitter-go-template
 https://github.com/nickel-lang/tree-sitter-nickel
 https://github.com/nicolas-graves/tree-sitter-scilab
@@ -303,7 +298,6 @@ https://github.com/sogaiu/tree-sitter-janet-simple
 https://github.com/sogaiu/tree-sitter-mal
 https://github.com/sourcegraph/tree-sitter-jsonnet
 https://github.com/spaarmann/tree-sitter-kdl
-https://github.com/srghma/tree-sitter-ipkg
 https://github.com/stadelmanma/tree-sitter-fortran
 https://github.com/staysail/tree-sitter-meson
 https://github.com/stevenxxiu/tree-sitter-mail
@@ -336,11 +330,10 @@ https://github.com/tree-sitter-grammars/tree-sitter-bitbake
 https://github.com/tree-sitter-grammars/tree-sitter-cairo
 https://github.com/tree-sitter-grammars/tree-sitter-capnp
 https://github.com/tree-sitter-grammars/tree-sitter-chatito
-https://github.com/tree-sitter-grammars/tree-sitter-chatito
+https://github.com/tree-sitter-grammars/tree-sitter-commonlisp
 https://github.com/tree-sitter-grammars/tree-sitter-cpon
 https://github.com/tree-sitter-grammars/tree-sitter-csv
-https://github.com/tree-sitter-grammars/tree-sitter-csv
-https://github.com/tree-sitter-grammars/tree-sitter-csv
+https://github.com/tree-sitter-grammars/tree-sitter-cuda
 https://github.com/tree-sitter-grammars/tree-sitter-doxygen
 https://github.com/tree-sitter-grammars/tree-sitter-firrtl
 https://github.com/tree-sitter-grammars/tree-sitter-func
@@ -348,7 +341,10 @@ https://github.com/tree-sitter-grammars/tree-sitter-gitattributes
 https://github.com/tree-sitter-grammars/tree-sitter-glsl
 https://github.com/tree-sitter-grammars/tree-sitter-gn
 https://github.com/tree-sitter-grammars/tree-sitter-go-sum
+https://github.com/tree-sitter-grammars/tree-sitter-gpg-config
+https://github.com/tree-sitter-grammars/tree-sitter-gstlaunch
 https://github.com/tree-sitter-grammars/tree-sitter-hare
+https://github.com/tree-sitter-grammars/tree-sitter-hcl
 https://github.com/tree-sitter-grammars/tree-sitter-hlsl
 https://github.com/tree-sitter-grammars/tree-sitter-hyprlang
 https://github.com/tree-sitter-grammars/tree-sitter-ispc
@@ -361,7 +357,7 @@ https://github.com/tree-sitter-grammars/tree-sitter-luap
 https://github.com/tree-sitter-grammars/tree-sitter-luau
 https://github.com/tree-sitter-grammars/tree-sitter-make
 https://github.com/tree-sitter-grammars/tree-sitter-markdown
-https://github.com/tree-sitter-grammars/tree-sitter-markdown
+https://github.com/tree-sitter-grammars/tree-sitter-meson
 https://github.com/tree-sitter-grammars/tree-sitter-move
 https://github.com/tree-sitter-grammars/tree-sitter-nqc
 https://github.com/tree-sitter-grammars/tree-sitter-objc
@@ -374,9 +370,13 @@ https://github.com/tree-sitter-grammars/tree-sitter-printf
 https://github.com/tree-sitter-grammars/tree-sitter-properties
 https://github.com/tree-sitter-grammars/tree-sitter-puppet
 https://github.com/tree-sitter-grammars/tree-sitter-pymanifest
+https://github.com/tree-sitter-grammars/tree-sitter-qmldir
 https://github.com/tree-sitter-grammars/tree-sitter-query
 https://github.com/tree-sitter-grammars/tree-sitter-re2c
+https://github.com/tree-sitter-grammars/tree-sitter-readline
+https://github.com/tree-sitter-grammars/tree-sitter-requirements
 https://github.com/tree-sitter-grammars/tree-sitter-ron
+https://github.com/tree-sitter-grammars/tree-sitter-slang
 https://github.com/tree-sitter-grammars/tree-sitter-smali
 https://github.com/tree-sitter-grammars/tree-sitter-squirrel
 https://github.com/tree-sitter-grammars/tree-sitter-ssh-config
@@ -386,16 +386,16 @@ https://github.com/tree-sitter-grammars/tree-sitter-tablegen
 https://github.com/tree-sitter-grammars/tree-sitter-tcl
 https://github.com/tree-sitter-grammars/tree-sitter-thrift
 https://github.com/tree-sitter-grammars/tree-sitter-toml
+https://github.com/tree-sitter-grammars/tree-sitter-udev
+https://github.com/tree-sitter-grammars/tree-sitter-ungrammar
 https://github.com/tree-sitter-grammars/tree-sitter-uxntal
 https://github.com/tree-sitter-grammars/tree-sitter-vim
 https://github.com/tree-sitter-grammars/tree-sitter-vue
+https://github.com/tree-sitter-grammars/tree-sitter-wgsl-bevy
 https://github.com/tree-sitter-grammars/tree-sitter-xcompose
 https://github.com/tree-sitter-grammars/tree-sitter-xml
-https://github.com/tree-sitter-grammars/tree-sitter-xml
 https://github.com/tree-sitter-grammars/tree-sitter-yaml
-https://github.com/tree-sitter-grammars/tree-sitter-yaml
-https://github.com/tree-sitter-grammars/tree-sitter-yaml
-https://github.com/tree-sitter-grammars/tree-sitter-yaml
+https://github.com/tree-sitter-grammars/tree-sitter-yuck
 https://github.com/tree-sitter-grammars/tree-sitter-zig
 https://github.com/tree-sitter-grammars/tree-sitter-zsh
 https://github.com/tree-sitter-perl/tree-sitter-perl
@@ -416,9 +416,6 @@ https://github.com/tree-sitter/tree-sitter-jsdoc
 https://github.com/tree-sitter/tree-sitter-json
 https://github.com/tree-sitter/tree-sitter-julia
 https://github.com/tree-sitter/tree-sitter-ocaml
-https://github.com/tree-sitter/tree-sitter-ocaml
-https://github.com/tree-sitter/tree-sitter-ocaml
-https://github.com/tree-sitter/tree-sitter-php
 https://github.com/tree-sitter/tree-sitter-php
 https://github.com/tree-sitter/tree-sitter-python
 https://github.com/tree-sitter/tree-sitter-ql
@@ -427,7 +424,6 @@ https://github.com/tree-sitter/tree-sitter-ruby
 https://github.com/tree-sitter/tree-sitter-rust
 https://github.com/tree-sitter/tree-sitter-scala
 https://github.com/tree-sitter/tree-sitter-tsq
-https://github.com/tree-sitter/tree-sitter-typescript
 https://github.com/tree-sitter/tree-sitter-typescript
 https://github.com/tree-sitter/tree-sitter-verilog
 https://github.com/treeman/tree-sitter-djot
@@ -452,7 +448,6 @@ https://github.com/vlang/v-analyzer
 https://github.com/vlang/vls
 https://github.com/vrischmann/tree-sitter-templ
 https://github.com/wasm-lsp/tree-sitter-wasm
-https://github.com/wasm-lsp/tree-sitter-wasm
 https://github.com/will/tree-sitter-crystal
 https://github.com/winglang/tree-sitter-wing
 https://github.com/winglang/wing
@@ -468,5 +463,6 @@ https://github.com/zweimach/tree-sitter-c3
 https://github.com/zwpaper/tree-sitter-beancount
 https://gitlab.com/WhyNotHugo/tree-sitter-jsonc
 https://gitlab.com/btuin2/tree-sitter-bison
-https://gitlab.com/gabmus/tree-sitter-blueprint.git
-https://gitlab.com/jirgn/tree-sitter-fusion.git
+https://gitlab.com/gabmus/tree-sitter-blueprint
+https://gitlab.com/jirgn/tree-sitter-fusion
+https://gitlab.com/xasc/tree-sitter-t32
