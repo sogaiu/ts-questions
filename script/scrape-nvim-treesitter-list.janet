@@ -51,7 +51,7 @@ c/ntgr-fname
 (assert repo-urls "failed to parse list of parsers")
 
 (with [of (file/open c/ntgr-fname :w)]
-  (each url repo-urls
+  (each url (sort repo-urls)
     (file/write of url)
     (file/write of "\n")))
 
