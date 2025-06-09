@@ -406,3 +406,18 @@
       (eprintf "%n" row)
       (errorf "problem printing row: %s" e))))
 
+########################################################################
+
+(defn fetch-url
+  [url]
+    (with [of (file/temp)]
+      (os/execute ["curl" url] :px {:out of})
+      (file/seek of :set 0)
+      (file/read of :all)))
+
+(comment
+
+  (fetch-url "https://janet-lang.org/")
+
+  )
+

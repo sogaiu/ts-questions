@@ -2,18 +2,10 @@
 
 # XXX: execute this script from ts-questions root directory
 
-# source list:
-#
-# https://raw.githubusercontent.com/nvim-treesitter/nvim-treesitter/refs/heads/main/SUPPORTED_LANGUAGES.md
-#
-# saved as:
-#
-# nvim-treesitter.SUPPORTED_LANGUAGES.md
-
 (import ./common :as c)
 
 # input
-(def lop-fname "nvim-treesitter.SUPPORTED_LANGUAGES.md")
+c/nt-lop-fname
 
 # output
 c/ntgr-fname
@@ -24,7 +16,7 @@ c/ntgr-fname
   (eprint "please execute from ts-questions root directory")
   (os/exit 1))
 
-(try (os/stat lop-fname)
+(try (os/stat c/nt-lop-fname)
   ([e] (eprint e) (os/exit 1)))
 
 (def lop-peg
@@ -46,7 +38,7 @@ c/ntgr-fname
 (def lop-content
   (do
     (def content
-      (try (slurp lop-fname)
+      (try (slurp c/nt-lop-fname)
         ([e] (eprint e) (os/exit 1))))
     (string content
             # wiki page lacked newline at eof (at some point)

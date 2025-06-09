@@ -1,12 +1,11 @@
 #! /usr/bin/env janet
 
-# XXX: clone tree-sitter.wiki as a subdirectory
 # XXX: execute this script from ts-questions root directory
 
 (import ./common :as c)
 
 # input
-(def lop-fname "tree-sitter.wiki/List-of-parsers.md")
+c/ts-lop-fname
 
 # output
 c/tsgr-fname
@@ -17,7 +16,7 @@ c/tsgr-fname
   (eprint "please execute from ts-questions root directory")
   (os/exit 1))
 
-(try (os/stat lop-fname)
+(try (os/stat c/ts-lop-fname)
   ([e] (eprint e) (os/exit 1)))
 
 (def lop-peg
@@ -39,7 +38,7 @@ c/tsgr-fname
 (def lop-content
   (do
     (def content
-      (try (slurp lop-fname)
+      (try (slurp c/ts-lop-fname)
         ([e] (eprint e) (os/exit 1))))
     (string content
             # wiki page lacked newline at eof (at some point)
