@@ -39,6 +39,7 @@ c/all-repos-root # files and directories created under here
   (os/cd orig-dir))
 
 (when (pos? (length problems))
-  (print "The following paths had some issue with updating:")
+  (eprint "The following paths had some issue with updating:")
   (each issue problems
-    (print issue)))
+    (eprint issue)))
+
