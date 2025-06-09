@@ -1,3 +1,5 @@
+#! /usr/bin/env janet
+
 # XXX: execute from ts-questions root directory
 
 (import ./common :as c)
