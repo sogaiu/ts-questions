@@ -2,27 +2,27 @@
 
 (def t-g-fname "ts-grammar-repositories.txt")
 
-(def parser-rows-path "./parser-rows.jdn")
+(def parser-rows-path "./data/parser-rows.jdn")
 
-(def parsers-tsv-fname "parsers.tsv")
-(def gfm-table-fname "ts-parsers-gfm-table.md")
+(def parsers-tsv-fname "./data/parsers.tsv")
+(def gfm-table-fname "./data/ts-parsers-gfm-table.md")
 
-(def repos-skip-list-fname "repos-skip-list.txt")
+(def repos-skip-list-fname "./data/repos-skip-list.txt")
 
 ########################################################################
 
 (def ts-lop-url
   (string "https://raw.githubusercontent.com/wiki/tree-sitter/"
           "tree-sitter/List-of-parsers.md"))
-(def ts-lop-fname "tree-sitter.List-of-parsers.md")
-(def ts-g-fname "tree-sitter-grammar-urls.txt")
+(def ts-lop-fname "./data/tree-sitter.List-of-parsers.md")
+(def ts-g-fname "./data/tree-sitter-grammar-urls.txt")
 
 (def nt-url
   (string "https://raw.githubusercontent.com/nvim-treesitter/"
           "nvim-treesitter/refs/heads/main/"
           "SUPPORTED_LANGUAGES.md"))
-(def nt-lop-fname "nvim-treesitter.SUPPORTED_LANGUAGES.md")
-(def nt-g-fname "nvim-treesitter-grammar-urls.txt")
+(def nt-lop-fname "./data/nvim-treesitter.SUPPORTED_LANGUAGES.md")
+(def nt-g-fname "./data/nvim-treesitter-grammar-urls.txt")
 
 ########################################################################
 

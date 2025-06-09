@@ -77,8 +77,6 @@ https://github.com/c3lang/tree-sitter-c3
 https://github.com/camdencheek/tree-sitter-dockerfile
 https://github.com/camdencheek/tree-sitter-go-mod
 https://github.com/cathaysia/tree-sitter-idl
-https://github.com/cathaysia/tree-sitter-jinja
-https://github.com/cathaysia/tree-sitter-jinja
 https://github.com/cbarrete/tree-sitter-ledger
 https://github.com/chaozwn/tree-sitter-goctl
 https://github.com/charmbracelet/tree-sitter-vhs
