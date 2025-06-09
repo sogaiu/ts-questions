@@ -5,7 +5,7 @@
 (import ./common :as c)
 
 # input
-c/tsgr-fname
+c/t-g-fname
 
 # output
 c/all-repos-root # files and directories created under here
@@ -43,7 +43,7 @@ c/all-repos-root # files and directories created under here
     (eprint "please execute from ts-questions root directory")
     (os/exit 1))
 
-  (try (os/stat c/tsgr-fname)
+  (try (os/stat c/t-g-fname)
     ([e] (eprint e) (os/exit 1)))
 
   (def tsgr-peg
@@ -61,7 +61,7 @@ c/all-repos-root # files and directories created under here
       :eol (choice "\r\n" "\n" "\r")})
 
   (def tsgr-content
-    (try (slurp c/tsgr-fname)
+    (try (slurp c/t-g-fname)
       ([e] (eprint e) (os/exit 1))))
 
   (def repo-info

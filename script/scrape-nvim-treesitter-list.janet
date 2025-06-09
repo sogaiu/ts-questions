@@ -8,7 +8,7 @@
 c/nt-lop-fname
 
 # output
-c/ntgr-fname
+c/nt-g-fname
 
 ########################################################################
 
@@ -52,7 +52,7 @@ c/ntgr-fname
 
   (assert repo-urls "failed to parse list of parsers")
 
-  (with [of (file/open c/ntgr-fname :w)]
+  (with [of (file/open c/nt-g-fname :w)]
     (each url (sort repo-urls)
       (file/write of url)
       (file/write of "\n")))

@@ -8,7 +8,7 @@
 c/ts-lop-fname
 
 # output
-c/tsgr-fname
+c/ts-g-fname
 
 ########################################################################
 
@@ -52,7 +52,7 @@ c/tsgr-fname
 
   (assert repo-urls "failed to parse list of parsers")
 
-  (with [of (file/open c/tsgr-fname :w)]
+  (with [of (file/open c/ts-g-fname :w)]
     (each url (sort repo-urls)
       (file/write of url)
       (file/write of "\n"))))
