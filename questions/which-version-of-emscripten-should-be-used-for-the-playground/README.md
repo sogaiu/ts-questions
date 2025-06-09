@@ -86,18 +86,19 @@ tree-sitter  Emscripten
    0.25.6      4.0.4
 ```
 
-The following file histories may be of interest:
+The following links may be of interest:
 
-* https://github.com/tree-sitter/tree-sitter/blob/master/cli/loader/emscripten-version
+* https://github.com/tree-sitter/tree-sitter/blob/master/crates/loader/emscripten-version
+* https://github.com/tree-sitter/tree-sitter/commits/master/cli/loader/emscripten-version
 * https://github.com/tree-sitter/tree-sitter/commits/master/cli/emscripten-version
 * https://github.com/tree-sitter/tree-sitter/commits/master/emscripten-version
 
 The first one is for what is currently used to track the version of
 Emscripten that's supposed to work.
 
-The second and third ones are for where the same information used to
-live so if you happen to need to test an old enough version of
-tree-sitter, they might be useful.
+The rest are for where the same information used to live so if you
+happen to need to test an old enough version of tree-sitter, they
+might be useful.
 
 The information is not always correct but can provide a helpful
 starting point in trying out various versions.
