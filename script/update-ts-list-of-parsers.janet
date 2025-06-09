@@ -13,7 +13,9 @@ c/ts-lop-fname
 
 ########################################################################
 
-(def content (u/fetch-url c/ts-lop-url))
+(defn main
+  [& args]
+  (def content (u/fetch-url c/ts-lop-url))
 
-(spit c/ts-lop-fname content)
+  (spit c/ts-lop-fname content))
 
