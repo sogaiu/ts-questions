@@ -112,29 +112,29 @@ However, the instructions specifically mention using `latest` for the
 `install` and `activate` invocations, but for our purposes, it's
 likely preferrable to use a specific version string.
 
-For example, if the `tree-sitter` cli in use is version `0.23.0`, then
-specify `3.1.64` (according to the table above) instead of `latest` in
+For example, if the `tree-sitter` cli in use is version `0.25.4`, then
+specify `4.0.4` (according to the table above) instead of `latest` in
 both of the install and activate invocations.
 
 For UNIXy environments:
 
 ```
-./emsdk install 3.1.64
-./emsdk activate 3.1.64
+./emsdk install 4.0.4
+./emsdk activate 4.0.4
 ```
 
 For Windows environments, for `cmd.exe`:
 
 ```
-.\emsdk.bat install 3.1.64
-.\emsdk.bat activate 3.1.64
+.\emsdk.bat install 4.0.4
+.\emsdk.bat activate 4.0.4
 ```
 
 ... and for `powershell.exe`:
 
 ```
-.\emsdk.ps1 install 3.1.64
-.\emsdk.ps1 activate 3.1.64
+.\emsdk.ps1 install 4.0.4
+.\emsdk.ps1 activate 4.0.4
 ```
 
 To get an emsdk environment to be usable in the currently executing
