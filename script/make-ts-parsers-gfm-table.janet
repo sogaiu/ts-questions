@@ -35,7 +35,7 @@
 ########################################################################
 
 (defn report
-  [rows field-info]
+  [of rows field-info]
   (def names
     (map (fn [[_ label _]] label)
          field-info))
@@ -44,16 +44,16 @@
     (string/format "| %s | %s | %s | %s | %s | %s |"
                    ;names))
 
-  (print header-row)
+  (xprint of header-row)
 
   (def separator-row "| --- | --- | --- | --- | --- | --- |")
 
-  (print separator-row)
+  (xprint of separator-row)
 
   (def format-str "| %s | %s | %s | %s | %s | %s |")
 
   (each r rows
-    (u/print-row r field-info format-str)))
+    (u/print-row of r field-info format-str)))
 
 ########################################################################
 
@@ -100,5 +100,6 @@
                    (>= year 2020)))
             sorted-rows))
 
-  (report filtered field-info))
+  (with [of (file/open c/gfm-table-fname :w)]
+    (report of filtered field-info)))
 

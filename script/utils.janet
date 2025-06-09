@@ -395,13 +395,13 @@
 ########################################################################
 
 (defn print-row
-  [row field-info format-str]
+  [of row field-info format-str]
   # massage field values for output
   (def vals
     (map (fn [[id _ xform]] (xform (get row id)))
          field-info))
   (try
-    (printf format-str ;vals)
+    (xprintf of format-str ;vals)
     ([e]
       (eprintf "%n" row)
       (errorf "problem printing row: %s" e))))

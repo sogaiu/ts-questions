@@ -2,6 +2,11 @@
 
 (def parser-rows-path "./parser-rows.jdn")
 
+(def parsers-tsv-fname "parsers.tsv")
+(def gfm-table-fname "ts-parsers-gfm-table.md")
+
+########################################################################
+
 (def ts-lop-url
   (string "https://raw.githubusercontent.com/wiki/tree-sitter/"
           "tree-sitter/List-of-parsers.md"))
@@ -14,6 +19,8 @@
           "SUPPORTED_LANGUAGES.md"))
 (def nt-lop-fname "nvim-treesitter.SUPPORTED_LANGUAGES.md")
 (def ntgr-fname "nvim-treesitter-grammar-repositories.txt")
+
+########################################################################
 
 # potential column names
 (def col-info

@@ -36,21 +36,21 @@
 ########################################################################
 
 (defn report
-  [rows field-info]
+  [of rows field-info]
   (def names
     (map (fn [[_ label _]] label)
          field-info))
 
   (def header-row (string/join names "\t"))
 
-  (print header-row)
+  (xprint of header-row)
 
   (def format-str
     (string/join (map (fn [_] "%s") field-info)
                  "\t"))
 
   (each r rows
-    (u/print-row r field-info format-str)))
+    (u/print-row of r field-info format-str)))
 
 ########################################################################
 
@@ -82,5 +82,6 @@
                         (get $ :last-commit-date))
                rows))
 
-  (report sorted-rows field-info))
+  (with [of (file/open c/parsers-tsv-fname :w)]
+    (report of sorted-rows field-info)))
 
