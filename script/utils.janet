@@ -410,10 +410,10 @@
 
 (defn fetch-url
   [url]
-    (with [of (file/temp)]
-      (os/execute ["curl" url] :px {:out of})
-      (file/seek of :set 0)
-      (file/read of :all)))
+  (with [of (file/temp)]
+    (os/execute ["curl" url] :px {:out of})
+    (file/seek of :set 0)
+    (file/read of :all)))
 
 (comment
 
