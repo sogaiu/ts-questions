@@ -26,6 +26,38 @@ c/parser-rows-path
        (map |[$ 0])
        from-pairs))
 
+(defn study-grammar-dir
+  [repos-root grammar-dir]
+  (def g-tbl @{:grammar-dir (u/relativize repos-root grammar-dir)})
+  #
+  (def name (u/find-name grammar-dir))
+  (assertf name "did not determine name for: %s" grammar-dir)
+  (put g-tbl :name name)
+  #
+  (def parser-c-path (string grammar-dir "/src/parser.c"))
+  (when (os/stat parser-c-path :mode)
+    (put g-tbl :parser-c :yes)
+    #
+    (def abi (u/find-abi-level parser-c-path))
+    (assertf abi "did not determine abi from %s" parser-c-path)
+    (put g-tbl :abi abi))
+  #
+  (def grammar-json-path (string grammar-dir "/src/grammar.json"))
+  (when (os/stat grammar-json-path :mode)
+    (put g-tbl :grammar-json :yes))
+  #
+  (def scanners (u/find-scanner-likes grammar-dir))
+  (when (not (empty? scanners))
+    (def non-o (filter |(not= "o" $) scanners))
+    (when (> (length non-o) 1)
+      (eprintf "grammar-dir: %s" grammar-dir)
+      (eprintf "> 1 filenames start with 'scanner.' for %s: %n"
+               grammar-dir non-o))
+    # XXX: just report first one
+    (put g-tbl :scanner (first non-o)))
+  #
+  g-tbl)
+
 ########################################################################
 
 (defn collect
@@ -63,44 +95,17 @@ c/parser-rows-path
         (put rr-tbl :tree-sitter-json :yes))
       #
       (def grammar-js-paths (u/find-grammar-js rr))
+      (when (> (length grammar-js-paths) 1)
+        (eprintf "multiple grammar.js files found for %s" rr))
       (when (empty? grammar-js-paths)
         (eprintf "no grammars found for %s" rr))
       #
       (def gs-array @[])
       (each p grammar-js-paths
-        (def g-tbl @{})
-        #
         (def grammar-dir
           (string/slice p 0 (- (inc (length "/grammar.js")))))
-        (put g-tbl :grammar-dir (u/relativize rr grammar-dir))
         #
-        (def name (u/find-name grammar-dir))
-        (assertf name "did not determine name for: %s" grammar-dir)
-        (put g-tbl :name name)
-        #
-        (def parser-c-path (string grammar-dir "/src/parser.c"))
-        (when (os/stat parser-c-path :mode)
-          (put g-tbl :parser-c :yes)
-          #
-          (def abi (u/find-abi-level parser-c-path))
-          (assertf abi "did not determine abi from %s" parser-c-path)
-          (put g-tbl :abi abi))
-        #
-        (def grammar-json-path (string grammar-dir "/src/grammar.json"))
-        (when (os/stat grammar-json-path :mode)
-          (put g-tbl :grammar-json :yes))
-        #
-        (def scanners (u/find-scanner-likes grammar-dir))
-        (when (not (empty? scanners))
-          (def non-o (filter |(not= "o" $) scanners))
-          (when (> (length non-o) 1)
-            (eprintf "grammar-dir: %s" grammar-dir)
-            (eprintf "> 1 filenames start with 'scanner.' for %s: %n"
-                     grammar-dir non-o))
-          # XXX: just report first one
-          (put g-tbl :scanner (first non-o)))
-        #
-        (array/push gs-array g-tbl))
+        (array/push gs-array (study-grammar-dir rr grammar-dir)))
       #
       (put rr-tbl :grammars gs-array)))
   #
@@ -162,7 +167,7 @@ c/parser-rows-path
   (def repos-roots (collect root-path))
 
   (def rows (make-rows repos-roots))
-  
+
   (with [of (file/open c/parser-rows-path :w)]
     (xprintf of "%m" rows))
 
