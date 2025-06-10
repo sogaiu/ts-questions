@@ -8,7 +8,7 @@
 
 ########################################################################
 
-(print "Collecting info from repositories...")
+(print "Collecting info from local clones...")
 (c/main [])
 (u/pause)
 
