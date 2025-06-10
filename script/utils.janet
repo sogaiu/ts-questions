@@ -421,3 +421,23 @@
 
   )
 
+########################################################################
+
+(defn pause
+  [&opt query?]
+  (default query? true)
+  (print "Consider reviewing differences via git.")
+  (when query?
+    (def resp @"")
+    (var done false)
+    (while (not done)
+      (getline "Continue? [Y/n] " resp)
+      (def lower (string/ascii-lower (string/trim resp)))
+      (cond
+        (or (empty? lower)
+            (string/has-prefix? "y" lower))
+        (set done true)
+        #
+        (string/has-prefix? "n" lower)
+        (os/exit 0)))))
+
