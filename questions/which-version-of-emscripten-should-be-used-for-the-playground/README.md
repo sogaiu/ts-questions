@@ -17,6 +17,23 @@ compatibility issues with Emscripten:
 * [#1829](https://github.com/tree-sitter/tree-sitter/issues/1829)
 * [#2005](https://github.com/tree-sitter/tree-sitter/discussions/2005)
 
+Note that in future versions of the `tree-sitter` cli (may be starting
+in the 0.26.x series?), Emscripten may no longer be necessary for
+building individual parser `.wasm` files:
+
+> Emscripten is still needed for generating the Tree-sitter web
+> binding. It generates the JavaScript->WASM glue that lets us package
+> Tree-sitter as a JavaScript library. What it's not needed for is
+> compiling Tree-sitter parsers to WASM. That can now be done with
+> clang itself, which I think is nice. In particular, now that the
+> native Tree-sitter library can consume WASM binaries, a lot of users
+> might want to use that feature without needing to deal with
+> Emscripten.
+
+See [cli: Compile parsers to wasm using wasi-sdk, not emscripten
+#4393](https://github.com/tree-sitter/tree-sitter/pull/4393) for a bit
+more detail.
+
 ## Discussion
 
 When the stars are aligned appropriately [1], this can be made to
