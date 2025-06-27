@@ -17,29 +17,26 @@ How common is this need?
 ## Discussion
 
 As far as how common it is to have an external scanner, based on
-searching locally fetched repositories, we found around 43% had
-`src/scanner.c` or `src/scanner.cc`.
+searching locally fetched repositories, we found around 40% had
+`src/scanner.c`.
 
 If it's any consolation, if it turns out you need to implement an
 external scanner, there are a fair number of examples to study :)
 
 Note that a number of external scanners have been written using C++,
-but [this practice is now
-discouraged](https://github.com/tree-sitter/tree-sitter/pull/2897#issuecomment-1928112073):
+but [support was removed in
+0.24.0](https://github.com/tree-sitter/tree-sitter/releases/tag/v0.24.0):
 
-> C++ scanners are now deprecated and will be removed in the near
-> future. While it is currently possible to write an external scanner
-> in C++, it can be difficult to get working cross-platform and
-> introduces extra requirements; therefore it is greatly preferred to
-> use C.
+> Remove C++ support for external scanners ([#3602](https://github.com/tree-sitter/tree-sitter/pull/3602))
 
 ## References
 
 * [External scanner official
-  docs](https://tree-sitter.github.io/tree-sitter/creating-parsers#external-scanners)
+  docs](https://tree-sitter.github.io/tree-sitter/creating-parsers/4-external-scanners.html)
 * [comment@#53 (old tree-sitter-cli
   repository)](https://github.com/tree-sitter/tree-sitter-cli/issues/53#issuecomment-452462914) -
   early info about external scanners
+* [External Scanner Building & Debugging](https://github.com/tree-sitter/tree-sitter/wiki/Tips-and-Tricks-for-a-grammar-author#external-scanner-building--debugging)
 * [#219 Builtin support for white space sensitive
   languages](https://github.com/tree-sitter/tree-sitter/issues/219)
 * [#281 Document external
@@ -51,3 +48,4 @@ discouraged](https://github.com/tree-sitter/tree-sitter/pull/2897#issuecomment-1
 * [#1627 External scanner in
   test](https://github.com/tree-sitter/tree-sitter/issues/1627)
 * [comment@#2897](https://github.com/tree-sitter/tree-sitter/pull/2897#issuecomment-1928112073)
+
