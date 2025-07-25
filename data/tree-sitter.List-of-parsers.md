@@ -196,7 +196,6 @@ Column names and values are:
 | iex | [github.com/elixir-lang/tree-sitter-iex](https://github.com/elixir-lang/tree-sitter-iex) | 2022-01-08 | 13 | yes | no |
 | ini | [github.com/justinmk/tree-sitter-ini](https://github.com/justinmk/tree-sitter-ini) | 2025-06-03 | 14 | yes | no |
 | inko | [github.com/inko-lang/tree-sitter-inko](https://github.com/inko-lang/tree-sitter-inko) | 2025-02-21 | 14 | yes | no |
-| ipkg | [github.com/srghma/tree-sitter-ipkg](https://github.com/srghma/tree-sitter-ipkg) | 2024-11-11 | 14 | yes | yes |
 | ispc | [github.com/tree-sitter-grammars/tree-sitter-ispc](https://github.com/tree-sitter-grammars/tree-sitter-ispc) | 2023-08-14 | 14 | yes | no |
 | jack | [github.com/nverno/tree-sitter-jack](https://github.com/nverno/tree-sitter-jack) | 2024-10-03 | 14 | yes | no |
 | jakt | [github.com/demizer/tree-sitter-jakt](https://github.com/demizer/tree-sitter-jakt) | 2025-03-04 | 14 | yes | yes |
@@ -274,7 +273,7 @@ Column names and values are:
 | nim | [github.com/alaviss/tree-sitter-nim](https://github.com/alaviss/tree-sitter-nim) | 2024-07-11 | 14 | yes | yes |
 | nim_format_string | [github.com/aMOPel/tree-sitter-nim-format-string](https://github.com/aMOPel/tree-sitter-nim-format-string) | 2023-10-21 | 14 | yes | no |
 | ninja | [github.com/alemuller/tree-sitter-ninja](https://github.com/alemuller/tree-sitter-ninja) | 2022-01-07 | 13 | yes | no |
-| nix | [github.com/cstrahan/tree-sitter-nix](https://github.com/cstrahan/tree-sitter-nix) | 2025-03-10 | 13 | yes | yes |
+| nix | [github.com/nix-community/tree-sitter-nix](https://github.com/nix-community/tree-sitter-nix) | 2025-07-18 | 13 | yes | yes |
 | noir | [github.com/hhamud/tree-sitter-noir](https://github.com/hhamud/tree-sitter-noir) | 2023-10-22 | 14 | yes | yes |
 | nois | [github.com/nois-lang/tree-sitter-nois](https://github.com/nois-lang/tree-sitter-nois) | 2024-04-20 | 14 | yes | no |
 | norg_meta | [github.com/nvim-neorg/tree-sitter-norg-meta](https://github.com/nvim-neorg/tree-sitter-norg-meta) | 2024-04-13 | 14 | yes | no |
@@ -454,6 +453,7 @@ Column names and values are:
 | v | [github.com/vlang/vls](https://github.com/vlang/vls) | 2024-02-04 | 14 | yes | yes |
 | v | [github.com/vlang/v-analyzer](https://github.com/vlang/v-analyzer) | 2025-05-23 | 14 | yes | no |
 | vala | [github.com/vala-lang/tree-sitter-vala](https://github.com/vala-lang/tree-sitter-vala) | 2024-10-30 | 13 | yes | no |
+| vbnet | [github.com/CodeAnt-AI/tree-sitter-vb-dotnet](https://github.com/CodeAnt-AI/tree-sitter-vb-dotnet) | 2025-07-25 | 15 | yes | no |
 | vento | [github.com/ventojs/tree-sitter-vento](https://github.com/ventojs/tree-sitter-vento) | 2024-12-29 | 14 | yes | yes |
 | verilog | [github.com/gmlarumbe/tree-sitter-verilog](https://github.com/gmlarumbe/tree-sitter-verilog) | 2023-01-20 | 13 | yes | no |
 | verilog | [github.com/tree-sitter/tree-sitter-verilog](https://github.com/tree-sitter/tree-sitter-verilog) | 2024-11-11 | 14 | yes | no |
@@ -474,7 +474,7 @@ Column names and values are:
 | wing | [github.com/winglang/tree-sitter-wing](https://github.com/winglang/tree-sitter-wing) | 2024-09-03 | 14 | yes | yes |
 | wing | [github.com/winglang/wing](https://github.com/winglang/wing) | 2025-02-03 | - | yes | yes |
 | wit | [github.com/hh9527/tree-sitter-wit](https://github.com/hh9527/tree-sitter-wit) | 2022-10-31 | 14 | no | no |
-| wit | [github.com/liamwh/tree-sitter-wit](https://github.com/liamwh/tree-sitter-wit) | 2025-03-26 | 15 | yes | no |
+| wit | [github.com/bytecodealliance/tree-sitter-wit](https://github.com/bytecodealliance/tree-sitter-wit) | 2025-03-26 | 15 | yes | no |
 | x86asm | [github.com/bearcove/tree-sitter-x86asm](https://github.com/bearcove/tree-sitter-x86asm) | 2023-10-08 | 13 | yes | no |
 | xcompose | [github.com/tree-sitter-grammars/tree-sitter-xcompose](https://github.com/tree-sitter-grammars/tree-sitter-xcompose) | 2024-06-27 | 14 | yes | no |
 | xml | [github.com/dorgnarg/tree-sitter-xml](https://github.com/dorgnarg/tree-sitter-xml) | 2021-02-14 | 12 | yes | no |

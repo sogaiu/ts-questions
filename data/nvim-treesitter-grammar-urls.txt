@@ -55,6 +55,7 @@ https://github.com/aheber/tree-sitter-sfapex
 https://github.com/aheber/tree-sitter-sfapex
 https://github.com/airbus-cert/tree-sitter-powershell
 https://github.com/ajdelcimmuto/tree-sitter-brightscript
+https://github.com/ajrussellaudio/tree-sitter-groq
 https://github.com/alaviss/tree-sitter-nim
 https://github.com/alemuller/tree-sitter-make
 https://github.com/alemuller/tree-sitter-ninja
@@ -64,6 +65,7 @@ https://github.com/alexmozaidze/tree-sitter-fennel
 https://github.com/ambroisie/tree-sitter-bp
 https://github.com/ambroisie/tree-sitter-tiger
 https://github.com/antosha417/tree-sitter-hocon
+https://github.com/apple/tree-sitter-pkl
 https://github.com/arnarg/tree-sitter-todotxt
 https://github.com/artagnon/tree-sitter-mlir
 https://github.com/ath3/tree-sitter-passwd
@@ -73,6 +75,7 @@ https://github.com/belltoy/tree-sitter-vrl
 https://github.com/benwilliamgraham/tree-sitter-llvm
 https://github.com/bkegley/tree-sitter-graphql
 https://github.com/briot/tree-sitter-ada
+https://github.com/bytecodealliance/tree-sitter-wit
 https://github.com/c3lang/tree-sitter-c3
 https://github.com/camdencheek/tree-sitter-dockerfile
 https://github.com/camdencheek/tree-sitter-go-mod
@@ -84,7 +87,6 @@ https://github.com/claytonrcarter/tree-sitter-phpdoc
 https://github.com/connorlay/tree-sitter-eex
 https://github.com/connorlay/tree-sitter-heex
 https://github.com/connorlay/tree-sitter-surface
-https://github.com/cstrahan/tree-sitter-nix
 https://github.com/derekstride/tree-sitter-sql
 https://github.com/dlvandenberg/tree-sitter-angular
 https://github.com/dpezto/tree-sitter-gnuplot
@@ -134,7 +136,6 @@ https://github.com/kylegoetz/tree-sitter-unison
 https://github.com/latex-lsp/tree-sitter-bibtex
 https://github.com/latex-lsp/tree-sitter-latex
 https://github.com/leo60228/tree-sitter-pioasm
-https://github.com/liamwh/tree-sitter-wit
 https://github.com/madskjeldgaard/tree-sitter-supercollider
 https://github.com/mgramigna/tree-sitter-fsh
 https://github.com/mleonidas/tree-sitter-authzed
@@ -148,6 +149,7 @@ https://github.com/ngalaiko/tree-sitter-go-template
 https://github.com/ngalaiko/tree-sitter-go-template
 https://github.com/nickel-lang/tree-sitter-nickel
 https://github.com/nilshelmig/tree-sitter-sourcepawn
+https://github.com/nix-community/tree-sitter-nix
 https://github.com/nushell/tree-sitter-nu
 https://github.com/ok-ryoko/tree-sitter-systemtap
 https://github.com/omertuc/tree-sitter-go-work

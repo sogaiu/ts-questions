@@ -12,6 +12,7 @@ https://github.com/AbstractMachinesLab/tree-sitter-sexp
 https://github.com/AlexanderBrevig/tree-sitter-forth
 https://github.com/Azganoth/tree-sitter-lua
 https://github.com/Beaglefoot/tree-sitter-awk
+https://github.com/CodeAnt-AI/tree-sitter-vb-dotnet
 https://github.com/ColinKennedy/tree-sitter-disassembly
 https://github.com/ColinKennedy/tree-sitter-objdump
 https://github.com/ColinKennedy/tree-sitter-usd
@@ -133,6 +134,7 @@ https://github.com/bkegley/tree-sitter-graphql
 https://github.com/bollian/tree-sitter-openscad
 https://github.com/briot/tree-sitter-ada
 https://github.com/bufbuild/tree-sitter-cel
+https://github.com/bytecodealliance/tree-sitter-wit
 https://github.com/c3lang/tree-sitter-c3
 https://github.com/camdencheek/tree-sitter-dockerfile
 https://github.com/camdencheek/tree-sitter-go-mod
@@ -148,7 +150,6 @@ https://github.com/comom87/tree-sitter-smallbasic
 https://github.com/connorlay/tree-sitter-eex
 https://github.com/connorlay/tree-sitter-heex
 https://github.com/connorlay/tree-sitter-surface
-https://github.com/cstrahan/tree-sitter-nix
 https://github.com/dannylongeuay/tree-sitter-go-template
 https://github.com/dbt-labs/tree-sitter-jinja2
 https://github.com/demizer/tree-sitter-jakt
@@ -219,7 +220,6 @@ https://github.com/langston-barrett/tree-sitter-souffle
 https://github.com/latex-lsp/tree-sitter-bibtex
 https://github.com/latex-lsp/tree-sitter-latex
 https://github.com/leo60228/tree-sitter-pioasm
-https://github.com/liamwh/tree-sitter-wit
 https://github.com/lyndsysimon/tree-sitter-plantuml
 https://github.com/madskjeldgaard/tree-sitter-supercollider
 https://github.com/maxxnino/tree-sitter-zig
@@ -249,6 +249,7 @@ https://github.com/nickel-lang/tree-sitter-nickel
 https://github.com/nicolas-graves/tree-sitter-scilab
 https://github.com/nilshelmig/tree-sitter-sourcepawn
 https://github.com/nitreojs/tree-sitter-jpp
+https://github.com/nix-community/tree-sitter-nix
 https://github.com/nois-lang/tree-sitter-nois
 https://github.com/noorwachid/tree-sitter-gularen
 https://github.com/novusnota/tree-sitter-ohm
@@ -303,7 +304,6 @@ https://github.com/sogaiu/tree-sitter-janet-simple
 https://github.com/sogaiu/tree-sitter-mal
 https://github.com/sourcegraph/tree-sitter-jsonnet
 https://github.com/spaarmann/tree-sitter-kdl
-https://github.com/srghma/tree-sitter-ipkg
 https://github.com/stadelmanma/tree-sitter-fortran
 https://github.com/staysail/tree-sitter-meson
 https://github.com/stevenxxiu/tree-sitter-mail
