@@ -91,22 +91,12 @@ ABI: Count
 10: 2
 11: 5
 12: 4
-13: 75
-14: 314
-15: 39
+13: 73
+14: 319
+15: 71
 
-Total found: 448
+Total found: 483
 ```
-
-By percentage of collected parsers, this translates to:
-
-* 9 (2.0%)
-* 10 (2.2%)
-* 11 (1.1%)
-* 12 (0.9%)
-* 13 (16.7%)
-* 14 (70.1%)
-* 15 (8.7%)
 
 For ABI 9-12, perhaps mostly updates are no longer being made.
 
