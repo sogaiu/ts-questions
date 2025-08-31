@@ -101,6 +101,11 @@ tree-sitter  Emscripten
    0.25.4      4.0.4
    0.25.5      4.0.4
    0.25.6      4.0.4
+   0.25.7      4.0.4
+   0.25.8      4.0.4
+  37a9ecd5     4.0.5
+  a1211d3f     4.0.6
+  0c5cdcb1     4.0.8
 ```
 
 The following links may be of interest:
