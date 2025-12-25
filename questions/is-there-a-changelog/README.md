@@ -14,6 +14,7 @@ measure, some of the info may get duplicated here.
 
 ## Release Info (Post 0.20.7)
 
+* [0.26.3](release-notes/0.26.3.md) - 2025-12-13
 * [0.26.2](release-notes/0.26.2.md) - 2025-12-10
 * [0.26.1](release-notes/0.26.1.md) - 2025-12-09
 * [0.25.10](release-notes/0.25.10.md) - 2025-09-23
